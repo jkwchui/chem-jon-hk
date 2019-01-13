@@ -1,19 +1,28 @@
 {
-  "name": "vuepress",
+  "name": "yarn-press",
   "version": "1.0.0",
-  "repository": "https://github.com/capriosa/vuepress-deploy",
-  "description": "Starter template for a VuePress site",
-  "author": "Meinolf Droste <mdwp.post@gmail.com>",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^0.6.0"
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.0",
+    "@vuepress/plugin-register-components": "^1.0.0-alpha.0",
+    "node-sass": "^4.11.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0"
   },
   "dependencies": {
-    "eslint": "^4.19.1",
-    "npm": "^5.8.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.12",
+    "@fortawesome/free-solid-svg-icons": "^5.6.3",
+    "@fortawesome/vue-fontawesome": "^0.1.4",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "chart.js": "^2.7.3",
+    "path": "^0.12.7",
+    "vue-chartjs": "^3.4.0",
+    "vuepress": "^0.8.4"
   }
 }

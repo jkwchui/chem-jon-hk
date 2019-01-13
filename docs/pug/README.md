@@ -1,0 +1,2 @@
+# Pug pages
+<Pug/>
