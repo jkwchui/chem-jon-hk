@@ -1,13 +1,6 @@
 module.exports = {
     title: 'VuePress',
     description: 'Vuepress',
-    locales: {
-        '/': {
-            lang: 'en-EN',
-            title: 'VuePress Deploy',
-            description: 'Vuepress with Netlify Deploy Button'
-        }
-    },
     head: [
         ['link',
             {
@@ -20,7 +13,7 @@ module.exports = {
         docsDir: 'docs',
         nav: [{
                 text: 'Home',
-                link: '/'
+                link: '/docs/'
             },
             {
                 text: 'Guide',
