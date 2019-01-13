@@ -1,8 +1,13 @@
 module.exports = {
     title: 'VuePress',
     description: 'Vuepress',
-    port: 8000,
-    base: '/',
+    locales: {
+        '/': {
+            lang: 'en-EN',
+            title: 'VuePress Deploy',
+            description: 'Vuepress with Netlify Deploy Button'
+        }
+    },
     head: [
         ['link',
             {
