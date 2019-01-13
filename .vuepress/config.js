@@ -12,20 +12,33 @@ module.exports = {
         ],
     ],
     themeConfig: {
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
-            { text: 'External', link: 'https://google.com' },
+        docsDir: 'docs',
+        nav: [{
+                text: 'Home',
+                link: '/'
+            },
+            {
+                text: 'Guide',
+                link: '/guide/'
+            },
+            {
+                text: 'External',
+                link: 'https://google.com'
+            },
             {
                 text: 'Languages',
-                items: [
-                    { text: 'Chinese', link: '/language/chinese/' },
-                    { text: 'Japanese', link: '/language/japanese/' }
+                items: [{
+                        text: 'Chinese',
+                        link: '/language/chinese/'
+                    },
+                    {
+                        text: 'Japanese',
+                        link: '/language/japanese/'
+                    }
                 ]
             }
         ],
-        sidebar: [
-            {
+        sidebar: [{
                 title: 'Home',
                 collapsable: false,
                 children: [
@@ -71,5 +84,5 @@ module.exports = {
         ],
         displayAllHeaders: true,
     },
-    plugins: ['@vuepress/last-updated','@vuepress/register-components','@vuepress/active-header-links']
+    plugins: ['@vuepress/last-updated', '@vuepress/register-components', '@vuepress/active-header-links']
 };
