@@ -1,13 +1,5 @@
 <template>
-    <div>
-        $$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
-        $$ \ce{H2O\gas{}} $$
-        <div>
-        <textarea v-model="formula" cols="30" rows="10"></textarea>
-            <vue-mathjax :formula="formula"></vue-mathjax>
-            <vue-mathjax :formula="formula2"></vue-mathjax>
-        </div>
-    </div>
+    <vue-mathjax :formula="formula"></vue-mathjax>
 </template>
 
 <script>
@@ -29,9 +21,7 @@ import { VueMathjax } from 'vue-mathjax'
         },
         data () {
             return {
-            formula: '$$\\ce{H2SO4 <=> H+ + HSO4^-} = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}$$',
-            formula2: '$$\\sum_{i=0}^n \\cancel{i^2} = \\dfrac{(n^2+n)(2n+1)}{6}$$',
-            msg: 'Welcome to Your Vue.js App'
+            formula: '$$\\ce{H2SO4\\aq{} <=> H+ + HSO4^-} = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}$$'
             }
         }
     }

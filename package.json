@@ -8,13 +8,15 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.0",
-    "@vuepress/plugin-register-components": "^1.0.0-alpha.0",
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.32",
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.0",
+    "@vuepress/plugin-register-components": "^1.0.0-alpha.32",
     "node-sass": "^4.11.0",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.1.0",
-    "vuepress": "^0.8.4"
+    "vuepress": "^1.0.0-alpha.32"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
@@ -22,6 +24,13 @@
     "@fortawesome/vue-fontawesome": "^0.1.4",
     "bootstrap-vue": "^2.0.0-rc.11",
     "chart.js": "^2.7.3",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-attrs": "^2.3.2",
+    "markdown-it-checkbox": "^1.1.0",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-it-video": "^0.6.3",
     "mathjax": "^2.7.5",
     "mathjax-mhchem": "^3.3.0",
     "npm": "^6.5.0",
