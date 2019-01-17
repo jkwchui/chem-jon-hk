@@ -43,41 +43,47 @@ module.exports = {
                     '/'
                 ]
             },
+            // {
+            //     title: 'Guide',
+            //     children: [
+            //         '/guide/',
+            //     ],
+            // },
             {
-                title: 'Guide',
+                title: 'Topics',
                 children: [
-                    '/guide/',
-                ],
+                    ['./topic/1/', '1 - Stoichiometry'],
+                    ['./topic/11A/', '11A - Measurements'],
+                    ['./topic/2/', '2/12 - Atomic structure'],
+                    ['./topic/3/', '3/13 - Periodicity'],
+                    ['./topic/4/', '4/14 - Structure & Bonding'],
+                    ['./topic/5/', '5/15 - Energetics'],
+                    ['./topic/6/', '6/16 - Kinetics'],
+                    ['./topic/7/', '7/17 - Equilibrium'],
+                    ['./topic/8/', '8/18 - Acids & Bases'],
+                    ['./topic/9/', '9/19 - Redox'],
+                    ['./topic/10/', '10/20 - Organic Chemistry'],
+                    ['./topic/11B/', '11B/21 - Spectroscopy'],
+                    ['./topic/D/', 'D - Drugs & Medicine'],
+                    // ['./topic/', ''],
+
+                ]
             },
             {
-                title: 'Pug example',
+                title: 'IA',
                 children: [
-                    '/pug/',
-                ],
+                    ['./IA/', 'Internal Assessment'],
+                ]
             },
             {
-                title: 'MathJax example',
+                title: 'Sandbox',
                 children: [
-                    '/math/',
-                ],
-            },
-            {
-                title: 'Fa-Awesome',
-                children: [
-                    '/fa/',
-                ],
-            },
-            {
-                title: 'Bootstrap',
-                children: [
-                    '/bootstrap/',
-                ],
-            },
-            {
-                title: 'ChartJs',
-                children: [
-                    '/chart/',
-                ],
+                    './sandbox/fa/',
+                    './sandbox/bootstrap/',
+                    './sandbox/chart/',
+                    './sandbox/math/',
+                    './sandbox/pug/'
+                ]
             },
         ],
         displayAllHeaders: true,
