@@ -4,7 +4,6 @@
     h1 h1
     h2 h2
     h3 h3
-    p $$ x^2 = x \times{} x $$
     <Math />
 </template>
 
