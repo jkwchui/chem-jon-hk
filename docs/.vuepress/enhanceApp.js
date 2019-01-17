@@ -27,10 +27,13 @@ window.MathJax = {
         },
         extensions: ["mhchem.js", "cancel.js", "color.js"],
         Macros: {
-            gas: ["{\\color{red}\\mathrm{_{(g)}}}"],
-            liquid: ["{\\color{orange}\\mathrm{_{(l)}}}"],
-            solid: ["{\\color{gray}\\mathrm{_{(s)}}}"],
-            aq: ["{\\color{lightblue}\\mathrm{_{(aq)}}}"],
+            gas: ["{\\color{Red}\\mathrm{_{(g)}}}"],
+            liquid: ["{\\color{SandyBrown}\\mathrm{_{(l)}}}"],
+            solid: ["{\\color{DarkSlateGrey}\\mathrm{_{(s)}}}"],
+            aq: ["{\\color{SteelBlue}\\mathrm{_{(aq)}}}"],
+            cmc: ["{\\mathrm{cm^{3}}}"],
+            dmc: ["{\\mathrm{dm^{3}}}"],
+
         }
     },
     tex2jax: {
@@ -44,6 +47,12 @@ window.MathJax = {
         ],
         processEscapes: true
     },
+    mhchem: {
+        legacy: false
+    },
+    AuthorInit: function () {
+        // MathJax.Ajax.config.path["siunitx"] = "../siunitx.js";
+    }
 };
 
 export default ({
