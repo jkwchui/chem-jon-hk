@@ -1,5 +1,5 @@
 <template>
-    <vue-mathjax :formula="parsed"></vue-mathjax>
+    <vue-mathjax :formula="parsed" />
 </template>
 
 <script>
