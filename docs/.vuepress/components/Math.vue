@@ -17,7 +17,7 @@ import { VueMathjax } from 'vue-mathjax'
             var body = document.getElementsByTagName("body")[0], script;
             script = document.createElement("script");
             script.type = "text/x-mathjax-config";
-            script.src="/js/mathJaxConfig.js";
+            script.src="../mathJaxConfig.js";
             body.appendChild(script);
             script = document.createElement("script");
             script.type = "text/javascript";

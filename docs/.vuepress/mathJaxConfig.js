@@ -1,4 +1,4 @@
-MathJax.Hub.Config({
+window.MathJax = {
     extensions: ["tex2jax.js"],
     TeX: {
         equationNumbers: {
@@ -23,4 +23,4 @@ MathJax.Hub.Config({
         ],
         processEscapes: true
     },
-});
+};

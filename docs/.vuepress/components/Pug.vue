@@ -1,12 +1,13 @@
 <template lang="pug">
- 	.content
- 		p Hi, this Pug
-  	h1 h1
-  	h2 h2
-  	h3 h3
-		<Math/>
-		p $$ x^2 = x \times{} x $$
+.content
+    p Hi, this Pug
+    h1 h1
+    h2 h2
+    h3 h3
+    p $$ x^2 = x \times{} x $$
+    <Math />
 </template>
+
 <script>
     export default {
 
