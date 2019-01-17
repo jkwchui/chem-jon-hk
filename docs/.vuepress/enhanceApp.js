@@ -19,7 +19,6 @@ import '../../node_modules/bootstrap-vue/dist/bootstrap-vue.css'
 //     VueMathjax
 // } from 'vue-mathjax'
 
-
 export default ({
     Vue,
     options,

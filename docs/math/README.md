@@ -1,2 +1,3 @@
 # Math pages
-<Math/>
+
+Math
