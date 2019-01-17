@@ -22,9 +22,13 @@ Here is an inline note.^[Inlines notes are easier to write, since you don't have
 
 $$ x^2= 3+4 $$
 
-<Math />
+<LaTeX formula="x^2 - 2x\aq" />
 
-# header {.style-me}
+The equation <LaTeX formula="\ce{H2O\liquid{} <=> H+\aq{} + OH^{-}\aq{}}" inline /> shows the autoionization of water.
+
+The equation <LaTeX formula="\ce{H2O\liquid{} <=> H+\aq{} + OH^{-}\aq{}}" /> shows the autoionization of water.
+
+## header {.style-me}
 
 paragraph {data-toggle=modal}
 

@@ -24,10 +24,16 @@ import { VueMathjax } from 'vue-mathjax'
             // formula: '$$\\ce{H2SO4\\aq{} <=> H+ + HSO4^-} = {-b \\pm \\sqrt{b^2-4ac} \\over 2a}$$'
             }
         },
-        props: ['formula'],
+        props: {
+            formula: String,
+            inline: Boolean
+        },
         computed: {
             parsed: function () {
-                return '$$' + this.formula + '$$'
+                if (this.inline === true)
+                    return '$' + this.formula + '$'
+                else
+                    return '$$' + this.formula + '$$'
             }
         }
     }
