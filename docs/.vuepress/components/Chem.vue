@@ -71,9 +71,9 @@ import { VueMathjax } from 'vue-mathjax'
         computed: {
             parsed: function () {
                 if (this.inline === true)
-                    return '$\ce{' + this.formula + '}$'
+                    return '$\\ce{' + this.formula + '}$'
                 else
-                    return '$$\ce{' + this.formula + '}$$'
+                    return '$$\\ce{' + this.formula + '}$$'
             }
         }
     }
