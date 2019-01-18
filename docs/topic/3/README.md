@@ -1,2 +1,2 @@
  Inline-style: 
-![ionization enegy](../../../.vuepress/public/3ionizationenergies.png)
+![ionization enegy](3ionizationenergies.png)
