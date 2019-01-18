@@ -11,8 +11,9 @@ H~2~O
 
 29^th^
 
-<b-img src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image" />
-</div>
+<b-img src="../../3ionizationenergies.png" fluid alt="Responsive image"/>
+
+<!-- ![ionization energy](../../3ionizationenergies.png) -->
 
 <b-alert show>Default Alert</b-alert>
 
