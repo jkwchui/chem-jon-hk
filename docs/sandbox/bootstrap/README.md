@@ -2,6 +2,8 @@
 
 Some works.
 
+<Chem formula="H2O2\aq" />
+
 [ ] What about
 [x] What about this
 
