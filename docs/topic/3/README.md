@@ -1,20 +1,16 @@
-Inline-style:
-
-<!-- ![ionization energy](../../3ionizationenergies.png) -->
-
 <b-img src="../../3ionizationenergies.png" fluid alt="Responsive image"/>
 
-Inline-style:
-
-<!-- ![hero](hero.png) -->
+<Molecule pdb="1bna" renderstyle="stick"/>
 
 <div>
 
 1. All
-1. Fixed
-1. Up
+2. Fixed
+3. Up
 
 </div>
+
+<Chem formula="\pu{mm2} \angstrom \celsius" />
 
 <div class="container">
 <div class="row">
@@ -32,7 +28,7 @@ One of three columns H~2~O
 
 <div class="col-sm">
 
-One of three columns
+<Molecule pdb="1bna" renderstyle="stick"/>
 
 </div>
 </div>

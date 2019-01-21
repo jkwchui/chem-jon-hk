@@ -16,7 +16,7 @@ import { VueMathjax } from 'vue-mathjax'
                     equationNumbers: {
                         autoNumber: "AMS"
                     },
-                    extensions: ["mhchem.js", "cancel.js", "color.js"],
+                    extensions: ["[mhchem]/mhchem.js", "cancel.js", "color.js"],
                     Macros: {
                         gas: ["{\\color{Red}\\mathrm{_{(g)}}}"],
                         liquid: ["{\\color{SandyBrown}\\mathrm{_{(l)}}}"],
@@ -24,7 +24,18 @@ import { VueMathjax } from 'vue-mathjax'
                         aq: ["{\\color{SteelBlue}\\mathrm{_{(aq)}}}"],
                         cmc: ["{\\mathrm{cm^{3}}}"],
                         dmc: ["{\\mathrm{dm^{3}}}"],
-
+                        molar: ["{\\mathrm{mol \\cdot{} dm^{-3}}}"],
+                        kilo: ["{\\mathrm{k}}"],
+                        milli: ["{\\mathrm{m}}"],
+                        micro: ["{\\mu}"],
+                        nano: ["{\\mathrm{n}}"],
+                        angstrom: ["{\\unicode{x212B}}"],
+                        joule: ["{\\mathrm{J}}"],
+                        kelvin: ["{\\mathrm{K}}"],
+                        pascal: ["{\\mathrm{Pa}}"],
+                        meter: ["{\\mathrm{m}}"],
+                        cubed: ["{\\mathrm{^{3}}}"],
+                        celsius: ["{\\mathrm{^{\\circ}C}}"],
                     }
                 },
                 tex2jax: {
@@ -42,7 +53,7 @@ import { VueMathjax } from 'vue-mathjax'
                     legacy: false
                 },
                 AuthorInit: function () {
-                    // MathJax.Ajax.config.path["siunitx"] = "../siunitx.js";
+                    MathJax.Ajax.config.path["mhchem"] = "https://cdnjs.cloudflare.com/ajax/libs/mathjax-mhchem/3.3.0";
                 }
             };
 

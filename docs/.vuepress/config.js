@@ -1,6 +1,6 @@
 module.exports = {
-    title: 'VuePress',
-    description: 'Vuepress',
+    title: 'jon.hk',
+    description: 'Jon Chui',
     head: [
         ['link',
             {
@@ -13,28 +13,28 @@ module.exports = {
         docsDir: 'docs',
         nav: [{
                 text: 'Home',
-                link: '/docs/'
+                link: '/'
             },
             {
-                text: 'Guide',
-                link: '/guide/'
+                text: 'Chem',
+                link: '/chem/'
             },
             {
-                text: 'External',
-                link: 'https://google.com'
+                text: 'Jon',
+                link: '/jon/'
             },
-            {
-                text: 'Languages',
-                items: [{
-                        text: 'Chinese',
-                        link: '/language/chinese/'
-                    },
-                    {
-                        text: 'Japanese',
-                        link: '/language/japanese/'
-                    }
-                ]
-            }
+            // {
+            //     text: 'Languages',
+            //     items: [{
+            //             text: 'Chinese',
+            //             link: '/language/chinese/'
+            //         },
+            //         {
+            //             text: 'Japanese',
+            //             link: '/language/japanese/'
+            //         }
+            //     ]
+            // }
         ],
         sidebar: [{
                 title: 'Home',
