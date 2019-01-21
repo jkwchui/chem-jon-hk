@@ -9,7 +9,7 @@ export default {
   mounted() {
     var body = document.getElementsByTagName("body")[0], script;
     script = document.createElement("script");
-    script.src="http://3Dmol.csb.pitt.edu/build/3Dmol-min.js";
+    script.src="https://3Dmol.csb.pitt.edu/build/3Dmol-min.js";
     body.appendChild(script);
   },
   data () {
