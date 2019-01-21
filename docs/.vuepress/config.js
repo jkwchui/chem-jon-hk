@@ -13,10 +13,11 @@ module.exports = {
     ],
     themeConfig: {
         docsDir: 'docs',
-        nav: [{
-                text: 'Home',
-                link: '/'
-            },
+        nav: [
+            // {
+            //     text: 'Home',
+            //     link: '/'
+            // },
             {
                 text: 'Chem',
                 link: '/chem/'
@@ -38,13 +39,14 @@ module.exports = {
             //     ]
             // }
         ],
-        sidebar: [{
-                title: 'Home',
-                collapsable: false,
-                children: [
-                    '/'
-                ]
-            },
+        sidebar: [
+            // {
+            //         title: 'Home',
+            //         collapsable: false,
+            //         children: [
+            //             '/'
+            //         ]
+            //     },
             // {
             //     title: 'Guide',
             //     children: [
