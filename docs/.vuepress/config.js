@@ -1,3 +1,5 @@
+const moment = require('moment');
+
 module.exports = {
     title: 'jon.hk',
     description: 'Jon Chui',
@@ -52,19 +54,19 @@ module.exports = {
             {
                 title: 'Topics',
                 children: [
-                    ['./topic/1/', '1 - Stoichiometry'],
-                    ['./topic/11A/', '11A - Measurements'],
-                    ['./topic/2/', '2/12 - Atomic structure'],
-                    ['./topic/3/', '3/13 - Periodicity'],
-                    ['./topic/4/', '4/14 - Structure & Bonding'],
-                    ['./topic/5/', '5/15 - Energetics'],
-                    ['./topic/6/', '6/16 - Kinetics'],
-                    ['./topic/7/', '7/17 - Equilibrium'],
-                    ['./topic/8/', '8/18 - Acids & Bases'],
-                    ['./topic/9/', '9/19 - Redox'],
-                    ['./topic/10/', '10/20 - Organic Chemistry'],
-                    ['./topic/11B/', '11B/21 - Spectroscopy'],
-                    ['./topic/D/', 'D - Drugs & Medicine'],
+                    ['./chem/topic/1/', '1 - Stoichiometry'],
+                    ['./chem/topic/11A/', '11A - Measurements'],
+                    ['./chem/topic/2/', '2/12 - Atomic structure'],
+                    ['./chem/topic/3/', '3/13 - Periodicity'],
+                    ['./chem/topic/4/', '4/14 - Structure & Bonding'],
+                    ['./chem/topic/5/', '5/15 - Energetics'],
+                    ['./chem/topic/6/', '6/16 - Kinetics'],
+                    ['./chem/topic/7/', '7/17 - Equilibrium'],
+                    ['./chem/topic/8/', '8/18 - Acids & Bases'],
+                    ['./chem/topic/9/', '9/19 - Redox'],
+                    ['./chem/topic/10/', '10/20 - Organic Chemistry'],
+                    ['./chem/topic/11B/', '11B/21 - Spectroscopy'],
+                    ['./chem/topic/D/', 'D - Drugs & Medicine'],
                     // ['./topic/', ''],
 
                 ]
@@ -72,7 +74,7 @@ module.exports = {
             {
                 title: 'IA',
                 children: [
-                    ['./IA/', 'Internal Assessment'],
+                    ['./chem/IA/', 'Internal Assessment'],
                 ]
             },
             {
@@ -88,7 +90,20 @@ module.exports = {
         ],
         displayAllHeaders: true,
     },
-    plugins: ['@vuepress/last-updated', '@vuepress/register-components', '@vuepress/active-header-links', '@vuepress/medium-zoom', '@vuepress/back-to-top', '@vuepress/register-components', {}],
+    plugins: [
+        [
+            '@vuepress/last-updated',
+            {
+                transformer: (timestamp, lang) => {
+                    // Don't forget to install moment yourself
+                    // const moment = require('moment')
+                    moment.locale(lang)
+                    return moment(timestamp).fromNow()
+                }
+            }
+        ],
+        '@vuepress/register-components', '@vuepress/active-header-links', '@vuepress/medium-zoom', '@vuepress/back-to-top', '@vuepress/register-components'
+    ],
     markdown: {
         // options for markdown-it-anchor
         anchor: {

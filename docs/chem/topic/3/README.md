@@ -1,6 +1,8 @@
-<b-img src="../../3ionizationenergies.png" fluid alt="Responsive image"/>
+# Periodicity
 
-<Molecule pdb="1bna" renderstyle="stick"/>
+<b-img src="../../../3ionizationenergies.png" fluid alt="Responsive image"/>
+
+<Molecule cid="2244" />
 
 <div>
 
@@ -22,13 +24,9 @@ One of three columns H~2~O
 
 <div class="col-sm">
 
-<b-img src="../../3ionizationenergies.png" fluid alt="Responsive image"/>
-
 </div>
 
 <div class="col-sm">
-
-<Molecule pdb="1bna" renderstyle="stick"/>
 
 </div>
 </div>
