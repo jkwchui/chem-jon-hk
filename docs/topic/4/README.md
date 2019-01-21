@@ -1,1 +1,1 @@
-<Molecule pdb="1bna" style="sphere" />
+<Molecule url="./6c6p.pdb" />

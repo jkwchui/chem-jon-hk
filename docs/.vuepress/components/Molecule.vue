@@ -1,6 +1,6 @@
 <template>
     <div class="content">
-        <div style="height: 600px; width: 600px; position: relative;" class='viewer_3Dmoljs' v-bind:data-pdb="pdb" data-backgroundcolor='0xffffff' v-bind:data-style="renderstyle" data-surface1='opacity:.4;color:yellow'></div>
+        <div style="height: 600px; width: 600px; position: relative;" class='viewer_3Dmoljs' v-bind:data-cid="cid" v-bind:data-pdb="pdb" v-bind:data-href="url" v-bind:data-type="type" :data-backgroundcolor="bkg" v-bind:data-style="render" :data-surface="surface"></div>
     </div>
 </template>
 
@@ -19,7 +19,21 @@ export default {
   },
   props: {
     pdb: String,
-    renderstyle: String
+    cid: String,
+    url: String,
+    type: String,
+    render: {
+      type: String,
+      default: 'stick'
+    },
+    surface: {
+      type: String,
+      default: 'opacity:.4;color:white'
+    },
+    bkg: {
+      type: String,
+      default: '0x111133'
+    }
   }
 }
 
