@@ -47,15 +47,19 @@ module.exports = {
             //             '/'
             //         ]
             //     },
-            // {
-            //     title: 'Guide',
-            //     children: [
-            //         '/guide/',
-            //     ],
-            // },
+            {
+                title: 'Course',
+                collapsable: false,
+                children: [
+                    ['./chem/course/', 'Info'],
+                    ['./chem/course/paper', 'Paperwork'],
+                    ['./chem/course/study', 'How to study'],
+                ],
+            },
             {
                 title: 'Topics',
                 children: [
+                    ['./chem/topic/0/', '0 - Foundations'],
                     ['./chem/topic/1/', '1 - Stoichiometry'],
                     ['./chem/topic/11A/', '11A - Measurements'],
                     ['./chem/topic/2/', '2/12 - Atomic structure'],
@@ -78,6 +82,22 @@ module.exports = {
                 children: [
                     ['./chem/IA/', 'Internal Assessment'],
                 ]
+            },
+            {
+                title: 'Skills',
+                children: [
+                    ['./chem/skills/spreadsheet', 'Spreadsheet'],
+                    ['./chem/skills/modeling', 'Molecular modeling'],
+                    ['./chem/skills/writing', 'Science writing'],
+                    ['./chem/skills/lab', 'Lab'],
+                ],
+            },
+            {
+                title: 'Resources',
+                children: [
+                    ['./chem/resources/tools', 'Tools'],
+                    ['./chem/resources/glossary', 'Glossary'],
+                ],
             },
             {
                 title: 'Sandbox',

@@ -32,7 +32,7 @@ export default {
     },
     bkg: {
       type: String,
-      default: '0x111133'
+      default: '0x003466'
     }
   }
 }
