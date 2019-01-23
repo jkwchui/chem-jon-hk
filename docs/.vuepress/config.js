@@ -133,6 +133,12 @@ module.exports = {
                         ['./anki/', 'Anki'],
                     ],
                 },
+								{
+										title: 'Teaching',
+										children: [
+											['./teaching/', 'Teaching'],
+										],
+								}
             ],
 
             '/': [
