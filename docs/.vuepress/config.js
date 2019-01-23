@@ -39,77 +39,105 @@ module.exports = {
             //     ]
             // }
         ],
-        sidebar: [
-            // {
-            //         title: 'Home',
-            //         collapsable: false,
-            //         children: [
-            //             '/'
-            //         ]
-            //     },
-            {
-                title: 'Course',
-                collapsable: false,
-                children: [
-                    ['./chem/course/', 'Info'],
-                    ['./chem/course/paper', 'Paperwork'],
-                    ['./chem/course/study', 'How to study'],
-                ],
-            },
-            {
-                title: 'Topics',
-                children: [
-                    ['./chem/topic/0/', '0 - Foundations'],
-                    ['./chem/topic/1/', '1 - Stoichiometry'],
-                    ['./chem/topic/11A/', '11A - Measurements'],
-                    ['./chem/topic/2/', '2/12 - Atomic structure'],
-                    ['./chem/topic/3/', '3/13 - Periodicity'],
-                    ['./chem/topic/4/', '4/14 - Structure & Bonding'],
-                    ['./chem/topic/5/', '5/15 - Energetics'],
-                    ['./chem/topic/6/', '6/16 - Kinetics'],
-                    ['./chem/topic/7/', '7/17 - Equilibrium'],
-                    ['./chem/topic/8/', '8/18 - Acids & Bases'],
-                    ['./chem/topic/9/', '9/19 - Redox'],
-                    ['./chem/topic/10/', '10/20 - Organic Chemistry'],
-                    ['./chem/topic/11B/', '11B/21 - Spectroscopy'],
-                    ['./chem/topic/D/', 'D - Drugs & Medicine'],
-                    // ['./topic/', ''],
+        sidebar: {
+            '/chem/': [
+                // {
+                //         title: 'Home',
+                //         collapsable: false,
+                //         children: [
+                //             '/'
+                //         ]
+                //     },
+                {
+                    title: 'Course',
+                    collapsable: false,
+                    children: [
+                        ['./course/', 'Info'],
+                        ['./course/paper', 'Paperwork'],
+                        ['./course/study', 'How to study'],
+                    ],
+                },
+                {
+                    title: 'Topics',
+                    children: [
+                        ['./topic/0/', '0 - Foundations'],
+                        ['./topic/1/', '1 - Stoichiometry'],
+                        ['./topic/11A/', '11A - Measurements'],
+                        ['./topic/2/', '2/12 - Atomic structure'],
+                        ['./topic/3/', '3/13 - Periodicity'],
+                        ['./topic/4/', '4/14 - Structure & Bonding'],
+                        ['./topic/5/', '5/15 - Energetics'],
+                        ['./topic/6/', '6/16 - Kinetics'],
+                        ['./topic/7/', '7/17 - Equilibrium'],
+                        ['./topic/8/', '8/18 - Acids & Bases'],
+                        ['./topic/9/', '9/19 - Redox'],
+                        ['./topic/10/', '10/20 - Organic Chemistry'],
+                        ['./topic/11B/', '11B/21 - Spectroscopy'],
+                        ['./topic/D/', 'D - Drugs & Medicine'],
+                        // ['./topic/', ''],
 
-                ]
-            },
-            {
-                title: 'IA',
-                children: [
-                    ['./chem/IA/', 'Internal Assessment'],
-                ]
-            },
-            {
-                title: 'Skills',
-                children: [
-                    ['./chem/skills/spreadsheet', 'Spreadsheet'],
-                    ['./chem/skills/modeling', 'Molecular modeling'],
-                    ['./chem/skills/writing', 'Science writing'],
-                    ['./chem/skills/lab', 'Lab'],
-                ],
-            },
-            {
-                title: 'Resources',
-                children: [
-                    ['./chem/resources/tools', 'Tools'],
-                    ['./chem/resources/glossary', 'Glossary'],
-                ],
-            },
-            {
-                title: 'Sandbox',
-                children: [
-                    './sandbox/fa/',
-                    './sandbox/bootstrap/',
-                    './sandbox/chart/',
-                    './sandbox/math/',
-                    './sandbox/pug/'
-                ]
-            },
-        ],
+                    ]
+                },
+                {
+                    title: 'IA',
+                    children: [
+                        ['./IA/', 'Internal Assessment'],
+                    ]
+                },
+                {
+                    title: 'Skills',
+                    children: [
+                        ['./skills/spreadsheet', 'Spreadsheet'],
+                        ['./skills/modeling', 'Molecular modeling'],
+                        ['./skills/writing', 'Science writing'],
+                        ['./skills/lab', 'Lab'],
+                    ],
+                },
+                {
+                    title: 'Resources',
+                    children: [
+                        ['./resources/tools', 'Tools'],
+                        ['./resources/glossary', 'Glossary'],
+                    ],
+                },
+                // {
+                //     title: 'Sandbox',
+                //     children: [
+                //         './sandbox/fa/',
+                //         './sandbox/bootstrap/',
+                //         './sandbox/chart/',
+                //         './sandbox/math/',
+                //         './sandbox/pug/'
+                //     ]
+                // },
+            ],
+
+            '/jon/': [{
+                    title: 'About',
+                    collapsable: false,
+                    children: [
+                        ['./', 'Bio'],
+                        ['./registry', 'Registry of interests'],
+                    ],
+                },
+                {
+                    title: 'Guides',
+                    children: [
+                        ['./guides/', 'Guides'],
+                    ],
+                },
+                {
+                    title: 'Anki',
+                    children: [
+                        ['./anki/', 'Anki'],
+                    ],
+                },
+            ],
+
+            '/': [
+
+            ]
+        },
         displayAllHeaders: true,
     },
     plugins: [
@@ -124,7 +152,7 @@ module.exports = {
                 }
             }
         ],
-        '@vuepress/register-components', '@vuepress/active-header-links', '@vuepress/medium-zoom', '@vuepress/back-to-top', '@vuepress/register-components'
+        '@vuepress/register-components', '@vuepress/active-header-links', '@vuepress/medium-zoom', '@vuepress/back-to-top', '@vuepress/register-components', 'flowchart'
     ],
     markdown: {
         // options for markdown-it-anchor
