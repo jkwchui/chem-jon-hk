@@ -117,6 +117,7 @@ module.exports = {
                     collapsable: false,
                     children: [
                         ['./', 'Bio'],
+                        ['./colophon', 'Colophon'],
                         ['./registry', 'Registry of interests'],
                     ],
                 },
