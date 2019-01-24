@@ -13,6 +13,7 @@ module.exports = {
     ],
     themeConfig: {
         docsDir: 'docs',
+        repo: 'jkwchui/chem-jon-hk',
         nav: [
             // {
             //     text: 'Home',
@@ -86,6 +87,7 @@ module.exports = {
                     title: 'IA',
                     children: [
                         ['./IA/', 'Internal Assessment'],
+                        ['./IA/RQ', 'Developing a Topic'],
                     ]
                 },
                 {
@@ -186,7 +188,8 @@ module.exports = {
         },
         // options for markdown-it-toc
         toc: {
-            includeLevel: [1, 2]
+            includeLevel: [3, 4],
+            forceFullToC: true
         },
         extendMarkdown: md => {
             // use more markdown-it plugins!
