@@ -166,7 +166,18 @@ module.exports = {
                 }
             }
         ],
-        '@vuepress/register-components', '@vuepress/active-header-links', '@vuepress/medium-zoom', '@vuepress/back-to-top', '@vuepress/register-components', 'flowchart'
+        [
+            '@vuepress/blog',
+            {
+                postsDir: '../jon/_posts'
+            }
+        ],
+        '@vuepress/register-components',
+        '@vuepress/active-header-links',
+        '@vuepress/medium-zoom',
+        '@vuepress/back-to-top',
+        '@vuepress/register-components',
+        'flowchart',
     ],
     markdown: {
         // options for markdown-it-anchor

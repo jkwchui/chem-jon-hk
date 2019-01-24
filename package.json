@@ -10,6 +10,7 @@
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.0.0-alpha.32",
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
+    "@vuepress/plugin-blog": "^1.0.0-alpha.0",
     "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.0",
     "@vuepress/plugin-register-components": "^1.0.0-alpha.32",
     "node-sass": "^4.11.0",
@@ -40,6 +41,7 @@
     "path": "^0.12.7",
     "vue-chartjs": "^3.4.0",
     "vue-mathjax": "0.0.6",
-    "vue-script2": "^2.0.3"
+    "vue-script2": "^2.0.3",
+    "vue-timers": "^1.10.0"
   }
 }
