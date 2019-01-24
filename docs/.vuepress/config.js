@@ -26,6 +26,10 @@ module.exports = {
                 text: 'Jon',
                 link: '/jon/'
             },
+            {
+                text: 'Sandbox',
+                link: '/sandbox/'
+            },
             // {
             //     text: 'Languages',
             //     items: [{
@@ -133,17 +137,20 @@ module.exports = {
                         ['./anki/', 'Anki'],
                     ],
                 },
-								{
-										title: 'Teaching',
-										children: [
-											['./teaching/', 'Teaching'],
-										],
-								}
+                {
+                    title: 'Teaching',
+                    children: [
+                        ['./teaching/', 'Teaching'],
+                    ],
+                },
             ],
 
-            '/': [
-
-            ]
+            '/sandbox/': [{
+                title: 'Sandbox',
+                children: [
+                    ['./airtable/', 'Airtable pull'],
+                ],
+            }, ]
         },
         displayAllHeaders: true,
     },

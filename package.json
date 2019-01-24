@@ -36,7 +36,7 @@
     "mathjax": "^2.7.5",
     "mathjax-mhchem": "^3.3.0",
     "moment": "^2.23.0",
-    "npm": "^6.6.0",
+    "npm": "^6.7.0",
     "path": "^0.12.7",
     "vue-chartjs": "^3.4.0",
     "vue-mathjax": "0.0.6",
