@@ -5,6 +5,7 @@
 Accumulate 200 hours of meaningful practice.
 
 :::
+@[vimeo](288282144)
 
 What does this mean? This video of Audrey and Stephanie will give you a sense of the magnitude and attitude that the above phrase means.
 

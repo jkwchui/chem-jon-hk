@@ -1,6 +1,6 @@
 # Internal Assessment
 
-[[toc]]
+<!-- [[toc]] -->
 
 ## What is the IA?
 
