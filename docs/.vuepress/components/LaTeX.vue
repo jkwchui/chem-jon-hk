@@ -14,12 +14,12 @@ import { VueMathjax } from 'vue-mathjax'
                     equationNumbers: {
                         autoNumber: "AMS"
                     },
-                    extensions: ["[mhchem]/mhchem.js", "cancel.js", "color.js"],
+                    extensions: ["[mhchem]/mhchem.js", "cancel.js"],
                     Macros: {
-                        gas: ["{\\color{Red}\\mathrm{_{(g)}}}"],
-                        liquid: ["{\\color{SandyBrown}\\mathrm{_{(l)}}}"],
-                        solid: ["{\\color{DarkSlateGrey}\\mathrm{_{(s)}}}"],
-                        aq: ["{\\color{SteelBlue}\\mathrm{_{(aq)}}}"],
+                        gas: ["{\\color{#B22222}\\mathrm{_{(g)}}}"],
+                        liquid: ["{\\color{#F4A460}\\mathrm{_{(l)}}}"],
+                        solid: ["{\\color{#2F4F4F}\\mathrm{_{(s)}}}"],
+                        aq: ["{\\color{#4682B4}\\mathrm{_{(aq)}}}"],
                         cmc: ["{\\mathrm{cm^{3}}}"],
                         dmc: ["{\\mathrm{dm^{3}}}"],
                         molar: ["{\\mathrm{mol \\cdot{} dm^{-3}}}"],
@@ -62,7 +62,7 @@ import { VueMathjax } from 'vue-mathjax'
             body.appendChild(script);
             script = document.createElement("script");
             script.type = "text/javascript";
-            script.src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_SVG";
+            script.src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML";
             body.appendChild(script);
         },
         components: {

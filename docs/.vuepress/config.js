@@ -150,6 +150,7 @@ module.exports = {
             '/sandbox/': [{
                 title: 'Sandbox',
                 children: [
+                    ['./', 'All features'],
                     ['./airtable/', 'Airtable pull'],
                 ],
             }, ]
@@ -188,7 +189,7 @@ module.exports = {
         },
         // options for markdown-it-toc
         toc: {
-            includeLevel: [3, 4],
+            includeLevel: [1, 2, 3, 4],
             forceFullToC: true
         },
         extendMarkdown: md => {
