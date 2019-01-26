@@ -87,7 +87,7 @@ module.exports = {
                     title: 'IA',
                     children: [
                         ['./IA/', 'Internal Assessment'],
-                        ['./IA/RQ', 'Developing a Topic'],
+                        ['./IA/plan', '1. Planning'],
                     ]
                 },
                 {
