@@ -79,3 +79,12 @@ From local URL.
 ???
 
 ## Airtable pull
+
+## Mermaid.js
+
+### Flowcharts
+
+<mermaid>
+graph LR
+    Start --> Stop
+</mermaid>

@@ -36,6 +36,7 @@
     "markdown-it-video": "^0.6.3",
     "mathjax": "^2.7.5",
     "mathjax-mhchem": "^3.3.0",
+    "mermaid": "^8.0.0",
     "moment": "^2.23.0",
     "npm": "^6.7.0",
     "path": "^0.12.7",

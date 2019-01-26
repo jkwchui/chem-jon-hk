@@ -2,7 +2,7 @@
 
 ## Choosing a Topic
 
-Choosing an appropriate IA topic is of critical importance, but it is also the hardest part to get right. You should give significant thoughts (and perhaps explore preliminarily) before commiting to a topic, because the topic is not only directly responsible for the _Exploration_ criteria, but **also sets a ceiling for what you can attain in _Analysis_ and _Conclusion / Evaluation_ **.
+Choosing an appropriate IA topic is of critical importance, but it is also the hardest part to get right. You should give significant thoughts (and perhaps explore preliminarily) before commiting to a topic, because the topic is not only directly responsible for the _Exploration_ criteria, but **also sets a ceiling for what you can attain in Analysis and Conclusion / Evaluation **.
 
 The development of an IA topic has three parts:
 
