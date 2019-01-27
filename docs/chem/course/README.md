@@ -44,10 +44,59 @@ graph TB
     11B --> D
     8 --> D
     end
+    subgraph Practical
+    L0["Lab treasure hunt"] --> L1["Water measurement"]
+    11A --> L1
+    L1 --> L2["Gravimetric analysis"]
+    1 --> L2
+    L2 --> L3["Acid-Base Titration"]
+    1 --> L3
+    L3 --> L4["Determining Molar Mass of Lithium"]
+    3 --> L4
+    L4 --> L5["Enthalpy of Reaction in Aq Solution"]
+    5A --> L5
+    L5 --> L6["Hess' Law"]
+    5B --> L6
+    L6 --> L7["Kinetics Circuit"]
+    6 --> L7
+    L7 --> L8["Titration Curve"]
+    18 --> L8
+    L8 --> L9["Determining an Activity Series"]
+    9A --> L9
+    L9 --> L10["Electrolytic cell"]
+    9B --> L10
+    L10 --> L11["Reactions of hydrocarbon"]
+    10C --> L11
+    L11 --> L12["Distillation"]
+    10C --> L11
+    L12 --> L13["Synthesis of Aspirin"]
+    D --> L13
+    end
+    subgraph ICT
+    ICT1["Spreadsheet 101"] --> ICT2["Spreadsheet 102"]
+    ICT2 --> L1
+    ICT2 --> ICT3["Visualizing Chemistry with Atomsmith"]
+    1 --> ICT3
+    ICT3 --> ICT4["Simulating reactions with Yenka Chemistry"]
+    ICT4 --> L4
+    ICT4 --> ICT5["Morse Curve from Ab Initio Molecular Modeling"]
+    5A --> ICT5
+    4 --> ICT5
+    ICT5 --> ICT6["VSEPR from Ab Initio Methods"]
+    4 --> ICT6
+    ICT6 --> ICT7["Trends in Lattice Enthalpy"]
+    5B --> ICT7
+    ICT7 --> ICT8["Kinetics simulation with p5.js"]
+    6 --> ICT8
+    ICT8 --> ICT9["Equilibrium simulation with p5.js"]
+    7 --> ICT9
+    end
 </mermaid>
 
 ::: tip For teachers
 
-Why I sequence the course this way is discussed [here](../../jon/teaching/)
+Reasons for course sequencing is described [here](../../jon/teaching/).
+
+Description of activities can be found under the [IA](../IA/) and [skills](../skills/) tabs.
 
 :::

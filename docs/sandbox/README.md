@@ -50,6 +50,21 @@ H~2~O is water.
 
 ## Bootstrap-vue components
 
+## Element UI components
+
+From Element UI.[^EUI]
+
+[^EUI]: [Element UI documentation](http://element.eleme.io/?ref=madewithvuejs.com#/en-US/component/installation)
+
+<el-steps :active="2" align-center>
+  <el-step title="Step 1" description="Some description"></el-step>
+  <el-step title="Step 2" description="Some description"></el-step>
+  <el-step title="Step 3" description="Some description"></el-step>
+  <el-step title="Step 4" description="Some description"></el-step>
+</el-steps>
+
+<i class="el-icon-edit"></i>
+
 ## LaTeX / Chem
 
 <LaTeX formula="x^2 + y^2 + \cancel{pxy} = z^2 + \cancel{pxy}" />
@@ -79,6 +94,8 @@ From local URL.
 ???
 
 ## Airtable pull
+
+<AirtableTopic />
 
 ## Mermaid.js
 

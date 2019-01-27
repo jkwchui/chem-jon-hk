@@ -27,6 +27,7 @@
     "airtable": "^0.5.8",
     "bootstrap-vue": "^2.0.0-rc.11",
     "chart.js": "^2.7.3",
+    "element-ui": "^2.5.1",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-attrs": "^2.3.2",
     "markdown-it-checkbox": "^1.1.0",
