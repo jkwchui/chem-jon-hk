@@ -112,6 +112,19 @@ From local URL.
 
 <AirtableTopic />
 
+## Teacher toggle
+
+<Teacher>
+
+Teacher-only component, set on global $teacher
+
+</Teacher>
+
+<el-switch v-model="$teacher" active-text="Teacher" inactive-text="Student">
+</el-switch>
+
+Bug: switch does not seem to toggle
+
 ## Mermaid.js
 
 ### Flowcharts

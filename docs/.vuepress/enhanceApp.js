@@ -36,6 +36,6 @@ export default ({
     // library.add(fas);
     // Vue.use(BootstrapVue);
     Vue.use(ElementUI);
-    Vue.prototype.$teacher = false; //global variable identifying teacher or not
+    Vue.prototype.$teacher = true; //global variable identifying teacher or not
     // Vue.use(VueMathjax);
 }
