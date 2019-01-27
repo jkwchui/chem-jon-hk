@@ -16,10 +16,10 @@ import { VueMathjax } from 'vue-mathjax'
                     },
                     extensions: ["[mhchem]/mhchem.js", "cancel.js"],
                     Macros: {
-                        gas: ["{\\color{#B22222}\\mathrm{_{(g)}}}"],
-                        liquid: ["{\\color{#F4A460}\\mathrm{_{(l)}}}"],
+                        gas: ["{\\color{#ad1644}\\mathrm{_{(g)}}}"],
+                        liquid: ["{\\color{#e6a23c}\\mathrm{_{(l)}}}"],
                         solid: ["{\\color{#2F4F4F}\\mathrm{_{(s)}}}"],
-                        aq: ["{\\color{#4682B4}\\mathrm{_{(aq)}}}"],
+                        aq: ["{\\color{#0064a6}\\mathrm{_{(aq)}}}"],
                         cmc: ["{\\mathrm{cm^{3}}}"],
                         dmc: ["{\\mathrm{dm^{3}}}"],
                         molar: ["{\\mathrm{mol \\cdot{} dm^{-3}}}"],

@@ -1,6 +1,10 @@
 /* theme color */
 $--color-primary: #0064a6;
 $--color-success: #009b90 !default;
+$--color-warning: #e6a23c !default;
+$--color-danger: #ad1644 !default;
+$--color-info: #909399 !default;
+
 
 /* icon font path, required */
 $--font-path: '~element-ui/lib/theme-chalk/fonts';

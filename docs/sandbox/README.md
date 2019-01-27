@@ -56,6 +56,8 @@ From Element UI.[^EUI]
 
 [^EUI]: [Element UI documentation](http://element.eleme.io/?ref=madewithvuejs.com#/en-US/component/installation)
 
+### Stepped slider
+
 <el-steps :active="2" align-center>
   <el-step title="Step 1" description="Some description"></el-step>
   <el-step title="Step 2" description="Some description"></el-step>
@@ -63,7 +65,20 @@ From Element UI.[^EUI]
   <el-step title="Step 4" description="Some description"></el-step>
 </el-steps>
 
+### Icons
+
 <i class="el-icon-edit"></i>
+
+### Buttons
+
+<el-row>
+  <el-button round>Round</el-button>
+  <el-button type="primary" round>Primary</el-button>
+  <el-button type="success" round>Success</el-button>
+  <el-button type="info" round>Info</el-button>
+  <el-button type="warning" round>Warning</el-button>
+  <el-button type="danger" round>Danger</el-button>
+</el-row>
 
 ## LaTeX / Chem
 
