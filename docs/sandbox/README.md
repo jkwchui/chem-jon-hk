@@ -48,13 +48,26 @@ Vimeo
 
 H~2~O is water.
 
-## Bootstrap-vue components
+<!-- ## Bootstrap-vue components -->
 
 ## Element UI components
 
 From Element UI.[^EUI]
 
 [^EUI]: [Element UI documentation](http://element.eleme.io/?ref=madewithvuejs.com#/en-US/component/installation)
+
+### Cards with headers
+
+<el-card class="box-card">
+  <div slot="header" class="clearfix">
+    <span>Card name</span>
+    <el-button style="float: right; padding: 3px 0" type="text">Operation button</el-button>
+  </div>
+  <div v-for="o in 4" :key="o" class="text item">
+    {{'List item ' + o }}
+  </div>
+</el-card>
+
 
 ### Stepped slider
 
@@ -79,6 +92,14 @@ From Element UI.[^EUI]
   <el-button type="warning" round>Warning</el-button>
   <el-button type="danger" round>Danger</el-button>
 </el-row>
+
+### Tags
+
+<el-tag>Tag One</el-tag>
+<el-tag type="success">Tag Two</el-tag>
+<el-tag type="info">Tag Three</el-tag>
+<el-tag type="warning">Tag Four</el-tag>
+<el-tag type="danger">Tag Five</el-tag>
 
 ## LaTeX / Chem
 
