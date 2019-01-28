@@ -33,7 +33,7 @@ module.exports = {
             },
             {
                 text: 'Admin',
-                link: '/admin/#/',
+                link: '/admin/index.html#/',
             }
             // {
             //     text: 'Languages',
