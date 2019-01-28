@@ -6,9 +6,41 @@ backend:
 media_folder: "docs/.vuepress/public/images"
 public_folder: "docs/.vuepress/dist/"
 collections:
-  - name: "doc" # Used in routes, e.g., /admin/collections/blog
-    label: "Doc" # Used in the UI
+  - name: "docs" # Used in routes, e.g., /admin/collections/blog
+    label: "Docs" # Used in the UI
     folder: "docs" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "/doc/chem/IA" # Used in routes, e.g., /admin/collections/blog
+    label: "Chem -> IA" # Used in the UI
+    folder: "docs/chem/IA" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "/doc/chem/course" # Used in routes, e.g., /admin/collections/blog
+    label: "Chem -> Course" # Used in the UI
+    folder: "docs/chem/course" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "/doc/chem/topic" # Used in routes, e.g., /admin/collections/blog
+    label: "Topics" # Used in the UI
+    folder: "docs/chem/topic" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "/doc/jon/teaching" # Used in routes, e.g., /admin/collections/blog
+    label: "Jon -> Teaching" # Used in the UI
+    folder: "docs/jon/teaching" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
