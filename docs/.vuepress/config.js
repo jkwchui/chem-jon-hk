@@ -13,7 +13,7 @@ module.exports = {
     ],
     themeConfig: {
         docsDir: 'docs',
-        repo: 'jkwchui/chem-jon-hk',
+        // repo: 'jkwchui/chem-jon-hk',
         nav: [
             // {
             //     text: 'Home',
@@ -31,10 +31,10 @@ module.exports = {
                 text: 'Sandbox',
                 link: '/sandbox/'
             },
-            {
-                text: 'Admin',
-                link: '/admin/#/',
-            }
+            // {
+            //     text: 'Admin',
+            //     link: '/admin/#/',
+            // }
             // {
             //     text: 'Languages',
             //     items: [{
