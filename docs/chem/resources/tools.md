@@ -28,7 +28,7 @@ Science
 
 ### Molecular modeling
 
-In-house GAMESS-WebMO installation
+[In-house GAMESS-WebMO installation](http://172.17.0.100/~jkwchui/cgi-bin/webmo/login.cgi)
 * _Ab initio_ and molecular dynamics calculations
   * Physically accurate
 * Log-in from campus with Student::lpcuwc
