@@ -2,7 +2,7 @@
 
 ## Choosing a Topic
 
-Choosing an appropriate IA topic is of critical importance, but it is also the hardest part to get right. You should give significant thoughts (and perhaps explore preliminarily) before commiting to a topic, because the topic is not only directly responsible for the _Exploration_ criteria, but **also sets a ceiling for what you can attain in Analysis and Conclusion / Evaluation **.
+Choosing an appropriate IA topic is of critical importance, but it is also the hardest part to get right. You should give significant thoughts (and perhaps explore preliminarily) before commiting to a topic, because the topic is not only directly responsible for the _Exploration_ criteria, but **also sets a ceiling for what you can attain in Analysis and Conclusion / Evaluation**.
 
 The development of an IA topic has three parts:
 
@@ -163,9 +163,51 @@ Note that making this constraint can liberate you to many possibilities. You may
 
 We thus arrive at:
 
-Why/How does [macroscopic, rational/interval] depend on [dialable, microscopic, rational/interval] in [clearly determined context]?
+**Why/How does [macroscopic, rational/interval] depend on [dialable, microscopic, rational/interval] in [clearly determined context]?**
 
 Do not rush into the research question, and do not leave it until the last moment. Start early. Read some exemplars to know what to expect for an IA. Look through the equipment list to see what is available. Choose an area you find interesting, do your preliminary research, give it some time to age, and speak with your teacher. Expect to adjust course and iterate. Having a good research question is half the battle won.
+
+::: danger Recurring poor topics
+
+* **Product measurements**: 10 hr later you found what was written on the box.  Why didn't you just read the box? In any case - where is the *science* - the search for cause and effect?  Examples:
+  * How much vitamin C is in Mr Juicy orange juice
+  * How much iron is in an iron tablet?
+
+* **Value measurements**: why are you measuring <LaTeX formula="\Delta{}H_{c}" inline /> of ethanol... when you can read it off a data booklet?
+
+* **Melting point**: melting points depends on how molecules / ions pack.  *No one* knows how to accurately predict melting points.  You are probably going to get stuck too.
+
+* **Experimentally problematic**.  Some experiments are very hard to do right with common highschool lab equipment.  The errors and uncertainties are often unacceptably large.
+  * enthalpy of combustion using simple calorimeter - the heat loss is sometimes > 60%.
+  * an alternative synthesis of vitamin B12.  This took 99 PhDs at two continents 10 years to do.  You may not finish your IA on time.
+
+* **Comparison between nominal variables**.  Nominal variables usually conceal too much difference, and make it impossible to attribute a cause even if the experiment is done right.
+
+  * **brand comparison**: what is a more effective brand of soap?  Because there is limited chemistry that can be talked about, the discussion tends to focus on experimental errors.
+
+* **Theoretically fully known, or too trivial**.  If the phenomena is fully known, why are you investigating it?  (The most common reason is that the student hasn't done any reading, and didn't know that it is fully known.  Reading is an essential part of your scholarship.)  Examples:
+  * colligative properties (freezing point depression, boiling point elevation), 
+  * whether weak acids incompletely dissociate,
+  * "is larger amount of HCl needed to neutralize more concentrated NaOH"
+  
+* **Human-senses is the measurement**: odor, taste... these are tough to get reproducible, objective results.  To do this kind of research you need a large number of volunteers (>50) under highly controlled environment.
+
+* **Too many research questions.** If your research question is subdivided into several separatable (or even unrelated!) parts, it needs focus.  You only have 10 hours.
+  * "How does the rate of [...] reaction depend on the concentrations of [X], [Y], and [Z]?  Does it change when the temperature is raised? What happens when [C~1~] is added as a catalyst instead of [C~2~]?"
+
+It is hard to anticipate all the problems, especially when you are doing chemistry for the first time.  It is **essential** to approach and seek guidance from your teacher.
+
+:::
+
+## The Hypothesis
+
+Now that you have a research question — an unknown that you can investigate — you should formulate a hypothesis. A hypothesis is a specific, testable statement that your experiments could refute (show to be false). Formulate it in quantitative terms, and be as mathematically specific as possible. For example, “the surface tension of water increases with concentration of methanol” seems specific, but it is not refuted whether it increases in either one of the following cases:
+
+[insert graph]
+
+It would be better if the hypothesis is modified to be “the surface tension of water increases linearly with concentration of methanol”.
+
+Earlier on you have taken pains to ensure the relationship between the variables is plausible; you should use this to articulate why your hypothesis is reasonable. By crafting a specific hypothesis here, you will be able to argue that your data supports or refute the hypothesis. It does not matter whether your hypothesis is proven wrong; what matters is its existence which allows for a very high ceiling of discussion.
 
 ## The Method
 
