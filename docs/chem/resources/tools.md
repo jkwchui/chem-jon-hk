@@ -57,7 +57,7 @@
 [In-house GAMESS-WebMO installation](http://172.17.0.100/~jkwchui/cgi-bin/webmo/login.cgi)
 * _Ab initio_ and molecular dynamics calculations
   * Physically accurate
-* Log-in from campus with 
+* Log-in from campus network with 
   * Username: Student
   * Password: lpcuwc
 
