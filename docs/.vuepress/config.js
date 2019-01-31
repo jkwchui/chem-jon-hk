@@ -55,6 +55,7 @@ module.exports = {
             //     ]
             // }
         ],
+        sidebarDepth: 2,
         sidebar: {
             '/chem/': [
                 // {
@@ -66,7 +67,7 @@ module.exports = {
                 //     },
                 {
                     title: 'Course',
-                    collapsable: false,
+                    collapsable: true,
                     children: [
                         ['./course/', 'Info'],
                         ['./course/paper', 'Paperwork'],

@@ -115,7 +115,7 @@ At triple point, <Chem formula="H2O\solid{} <=> H2O\liquid{} <=> H2O\gas{}" inli
 
 JSmol from iframe in public/jsmol/jsmol.html
 
-<iframe src="https://modest-booth-7d9598.netlify.com/jsmol/jsmol.html" height=600 width=600 frameborder=0></iframe>
+<iframe src="https://modest-booth-7d9598.netlify.com/jsmol/jsmol.html" height=600 width=600 frameborder=0 scrolling="no"></iframe>
 
 ### Through 3dmol.js
 
