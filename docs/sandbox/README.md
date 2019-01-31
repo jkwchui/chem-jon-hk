@@ -135,6 +135,49 @@ From "local" file placed in /public/pdb/.
 
 <AirtableTopic />
 
+## Local JSON pull
+
+JSON path relative to component
+
+<LocalJSON />
+
+<!-- <div v-for="i in items">
+    <h2>{{i.first_name}} {{i.last_name}}</h2>
+    <img :src="i.avatar"/>
+</div>
+
+<script>
+import data from './users.json'
+export default {
+  data () {
+      return {
+          items: data.data
+      }
+  }
+}
+</script> -->
+
+<!-- <script>
+const axios = require('axios')
+export default {
+  data () {
+      return {
+          items: []
+      }
+  },
+  async beforeMount() {
+    axios.get('https://reqres.in/api/users')
+    .then(response => {
+       this.$data.items = response.data.data
+    })
+    .catch(error => {
+        console.log(error);
+    })
+  }
+}
+</script> -->
+
+
 ## Teacher toggle
 
 <Teacher>
