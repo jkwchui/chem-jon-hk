@@ -127,7 +127,7 @@ From PubChem.
 
 From local URL.
 
-???
+<Molecule url="https://modest-booth-7d9598.netlify.com/6c6p.pdb" />
 
 ## Airtable pull
 

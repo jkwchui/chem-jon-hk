@@ -11,6 +11,13 @@ module.exports = {
             }
         ],
     ],
+    configureWebpack: {
+        resolve: {
+            alias: {
+            '@alias': './'
+            }
+        }
+    },
     themeConfig: {
         docsDir: 'docs',
         // repo: 'jkwchui/chem-jon-hk',

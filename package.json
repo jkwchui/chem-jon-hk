@@ -42,6 +42,7 @@
     "npm": "^6.7.0",
     "path": "^0.12.7",
     "vue-chartjs": "^3.4.0",
+    "vue-csv-import": "^2.3.3",
     "vue-mathjax": "0.0.6",
     "vue-script2": "^2.0.3",
     "vue-timers": "^1.10.0"
