@@ -125,9 +125,9 @@ From PubChem.
 
 <Molecule cid="2349" />
 
-From local URL.
+From "local" file placed in /public/pdb/.
 
-<Molecule url="https://modest-booth-7d9598.netlify.com/6c6p.pdb" />
+<Molecule url="https://modest-booth-7d9598.netlify.com/pdb/6c6p.pdb" />
 
 ## Airtable pull
 
