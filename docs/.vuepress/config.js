@@ -181,18 +181,24 @@ module.exports = {
                 }
             }
         ],
-        [
-            '@vuepress/blog',
-            {
-                postsDir: '../jon/_posts'
-            }
-        ],
-        '@vuepress/register-components',
+        // [
+        //     '@vuepress/blog',
+        //     {
+        //         postsDir: '../jon/_posts'
+        //     }
+        // ],
+        // ['@vuepress/register-components',
+        //     {
+        //         componentsDir: [
+        //             '.'
+        //         ]
+        //     }
+        // ],
         '@vuepress/active-header-links',
         '@vuepress/medium-zoom',
         '@vuepress/back-to-top',
-        '@vuepress/register-components',
-        'flowchart',
+        // '@vuepress/register-components',
+        // 'flowchart',
     ],
     markdown: {
         // options for markdown-it-anchor

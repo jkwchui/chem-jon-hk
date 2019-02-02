@@ -109,11 +109,19 @@ From Element UI.[^EUI]
 
 At triple point, <Chem formula="H2O\solid{} <=> H2O\liquid{} <=> H2O\gas{}" inline />.
 
-## Animation with Lottie
+## Animation with Haiku
+
+<anim-snap />
+
+<!-- ## Animation with Lottie --- FORGET ABOUT IT
+
+vue-lottie broken: TypeError. -->
 
 <!-- <Anim /> -->
 
-<iframe src="https://modest-booth-7d9598.netlify.com/anim/lottietest.html" height=600 width=600 frameborder=0 scrolling="no"></iframe>
+<!-- <iframe src="https://modest-booth-7d9598.netlify.com/anim/lottietest.html" height=600 width=600 frameborder=0 scrolling="no"></iframe>
+
+No control from an iframe. -->
 
 ## 3D molecules
 
