@@ -133,17 +133,17 @@ JSmol from iframe in public/jsmol/jsmol.html
 
 ### Through 3dmol.js
 
-From PDB.
+<!-- From PDB.
 
-<Molecule pdb="1bl8" />
+<Molecule pdb="1bl8" /> -->
 
 From PubChem.
 
 <Molecule cid="2349" />
-
+<!-- 
 From "local" file placed in /public/pdb/.
 
-<Molecule url="https://modest-booth-7d9598.netlify.com/pdb/6c6p.pdb" />
+<Molecule url="https://modest-booth-7d9598.netlify.com/pdb/6c6p.pdb" /> -->
 
 ## Airtable pull
 
@@ -199,11 +199,11 @@ export default {
 Teacher-only component, set on global $teacher
 
 </Teacher>
-
+<!-- 
 <el-switch v-model="$teacher" active-text="Teacher" inactive-text="Student">
 </el-switch>
 
-Bug: switch does not seem to toggle
+Bug: switch does not seem to toggle -->
 
 ## Mermaid.js
 
