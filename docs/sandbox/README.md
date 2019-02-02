@@ -111,7 +111,7 @@ At triple point, <Chem formula="H2O\solid{} <=> H2O\liquid{} <=> H2O\gas{}" inli
 
 ## Animation with Lottie
 
-<Anim />
+<!-- <Anim /> -->
 
 <iframe src="https://modest-booth-7d9598.netlify.com/anim/lottietest.html" height=600 width=600 frameborder=0 scrolling="no"></iframe>
 
