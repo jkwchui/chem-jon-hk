@@ -17,8 +17,7 @@
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.1.0",
-    "vuepress": "^1.0.0-alpha.32",
-    "vuepress-plugin-flowchart": "^1.4.3"
+    "vuepress": "^1.0.0-alpha.32"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
@@ -44,6 +43,7 @@
     "path": "^0.12.7",
     "vue-chartjs": "^3.4.0",
     "vue-csv-import": "^2.3.3",
+    "vue-lottie": "^0.2.1",
     "vue-mathjax": "0.0.6",
     "vue-script2": "^2.0.3",
     "vue-timers": "^1.10.0"
