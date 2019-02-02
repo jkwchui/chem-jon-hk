@@ -1,23 +1,23 @@
 <template>
     <div id="app">
         <lottie :options="defaultOptions" :height="400" :width="400" v-on:animCreated="handleAnimation"/>
-        <!-- <div> -->
-            <!-- <p>Speed: x{{animationSpeed}}</p>
+        <div>
+            <p>Speed: x{{animationSpeed}}</p>
             <input type="range" value="1" min="0" max="3" step="0.5"
                    v-on:change="onSpeedChange" v-model="animationSpeed">
         </div>
         <button v-on:click="stop">stop</button>
         <button v-on:click="pause">pause</button>
-        <button v-on:click="play">play</button> -->
+        <button v-on:click="play">play</button>
     </div>
 </template>
 
 <script>
   import lottie from 'vue-lottie';
-  import * as animationData from '../public/anim/pinjump.json';
+  import * as animationData from '../public/anim/29-motorcycle.json';
 
   export default {
-    // name: 'app',
+    name: 'app',
     components: {
       lottie
     },
@@ -27,8 +27,8 @@
           animationData: animationData
         },
         animationSpeed: 1,
-        anim: {}
-        // animationSpeed: 1
+        anim: {},
+        animationSpeed: 1
       }
     },
     methods: {
@@ -36,21 +36,21 @@
         this.anim = anim;
       },
 
-      // stop: function () {
-      //   this.anim.stop();
-      // },
+      stop: function () {
+        this.anim.stop();
+      },
 
-      // play: function () {
-      //   this.anim.play();
-      // },
+      play: function () {
+        this.anim.play();
+      },
 
-      // pause: function () {
-      //   this.anim.pause();
-      // },
+      pause: function () {
+        this.anim.pause();
+      },
 
-      // onSpeedChange: function () {
-      //   this.anim.setSpeed(this.animationSpeed);
-      // }
+      onSpeedChange: function () {
+        this.anim.setSpeed(this.animationSpeed);
+      }
     }
   }
 </script>
