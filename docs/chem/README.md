@@ -11,6 +11,15 @@ This is my attempt to complement their work with:
 
 * **visual** overviews, and
 * **animations** that try to capture *transitions*, the exact moments where the interesting things are happen*ing*
+* **interactions**, exploring phenomena by watching it change in real time, connecting different levels of abstract representations (graphs, pictures, symbols)
+
+[INSERT EXAMPLES & COUNTERFACTUALS: electrons]
+
+[INSERT WARDLEY MAP OF NICHE: vert: Visibility, hor: evolution]
+
+GPS map with milestone encountered vs GPS map vs map vs direction
+
+This is what I wish I had when I learnt chemistry.
 
 The primary audience are my students and I specify the timeline and logistics for them.
 
