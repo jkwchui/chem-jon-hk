@@ -10,6 +10,8 @@ tags: []
 
 {{ $page.frontmatter.date | moment("from", "now") }}
 
+<Duration time='60 min' />
+
 You can find here [a folder of material](https://drive.google.com/drive/folders/1Jht-cX9MR_zSDMRWnSn796n8fM1k8yRm?usp=sharing) I use to introduce IR spectra interpretation in a 60-70 min mixed SL/HL class.  It is tactically hyper-efficient but structurally sub-optimal: splitting this into two or three sessions of shorter duration could possibly be better.[^defense]
 
 [^defense]: In my defense, I sometimes need to teach a 240 hr syllabus in 150 hours; I can have my kids for an extra _year_ and we would still not make 240!

@@ -218,3 +218,8 @@ Bug: switch does not seem to toggle -->
 graph LR
     Start --> Stop
 </mermaid>
+
+## Custom components
+
+<Duration time='60 min' />
+<CompletionStatus v-bind:percentage=100 />
