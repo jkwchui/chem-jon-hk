@@ -28,7 +28,7 @@ graph LR
 
 Sequence-wise, I teach 10 (organic chem) -> Index of Hydrogen Deficiency -> **IR** -> 20 -> NMR.  I find IHD a generally useful tool that complements structure determination.  The spectra <=> structure relationship is simpler in IR and is thus a useful lead-in to ^1^H NMR.
 
-::: danger Syllabus changes
+::: tip Syllabus changes
 
 The previous (2008-2015) syllabus have IR spectroscopy in an Option (A - Analytic Chem).  
 
@@ -39,7 +39,7 @@ were part of the syllabus.  The current syllabus do not require either of these.
 
 :::
 
-## Class overview
+## Lesson overview
 
 <mermaid>
 graph LR
@@ -86,9 +86,17 @@ Before moving on, I activate their prior knowledge with a brief review of functi
 
 I then hand out the 3-hydroxyproprionitrile spectra, and point out how difficult it is to actually use the table to make sense of the spectra.  IR tables are misleading because students don't expect there to be false positives, and Type I errors are there all the time --- especially in the low wavenumber / top-of-table area.  
 
+![Hydroxyproprionitrile spectra](./hydroxyproprionitrile.png)
+
 They also don't actually show the shapes: it is not enough to know that secondary amines and alcohols are both "strong" in 3200-3400 cm^-1^, but you need to pick up the _shape_ of the bands. 
 
 To counter the seriously unhappy looks, I hand out the comics. (With thanks to Vitor Ribeiro (Brazil), Robert Herzog (Germany), and Henry Hughes (Argentina), in the folder you have _four_ languages to choose from.)   I give the students three minutes to read through it.  Most students only need 2:00 - 2:15, and they would themselves try to use the comic to interpret the proprionitrile spectra. 
+
+<center>
+
+![IR interpretation comic](./IR-illustrated.png =300x)
+
+</center>
 
 When the timer's up, we meet as a class, and use the comic to work through the proprionitrile spectra (15 min, pairs / triplets):
 
@@ -102,10 +110,12 @@ I facilitate; most of the time students do most of the work.  (In a 60 min clas
 
 In this segment, I just stand holding a print, and point and ask about the implication of applying each row.  (Pro-tip: there are four rows of interpretations, _each associated with a color_.  To refer to the > 3000 cm^-1^ stretches, I look at the _back_ of the print, tracing my finger horizontally from the red until it rests in a box, then ask what the "red" row says about their proprionitrile spectra.) 
 
-Phew.  Time to remind them of prior promise kept: they _did_ went "from squiggles to molecule".  It's super satisfying: **all of them** _know_ they can now do something that looked impossible 20 minutes ago.  For this moment IR is one of my favorite classes to teach. 
+Phew.  Time to remind them of prior promise kept: they _did_ went "from squiggles to molecule".  It's super satisfying: **all of them** _know_ they can now do something that looked impossible 20 minutes ago.  For this reason IR is one of my favorite classes to teach. 
 
 ## Practice
 
-For practice, the students work in groups of 3-4, each with a copy of the "IR shuffling" stack and a pair of scissors. The students are asked to cut the molecules out, spread out all the spectra, and match them with each spectra, talking out loud their reasoning.  (Emphasize spreading out the spectra and the molecules: it's _essential_ in this activity to be able to compare and contrast.)  I work the room giving hints as needed.  Students can usually get to all-but-4 molecules in 25 minutes, or all-but-6 in 20 minutes. (Solutions are provided in the folder for your use as well.)  
+For practice, the students work in groups of 3 (4 if necessary), each with a copy of the "IR shuffling" stack and a pair of scissors.[^color] The students are asked to cut the molecules out, spread out all the spectra, and match them with each spectra, talking out loud their reasoning.  (Emphasize spreading out the spectra and the molecules: it's _essential_ in this activity to be able to compare and contrast.)  I work the room giving hints as needed.  Students can usually get to all-but-4 molecules in 25 minutes, or all-but-6 in 20 minutes. (Solutions are provided in the folder for your use as well.)  
 
-Somewhere along the line I let them know that the comic is in fact_too_advanced for them; that they do not need to memorize the exact location of the C=O bands, nor the final row of details. Interpreting IR is then reinforced in subsequent classes, but I find that most of the kids can pick up most of it in one session.  The tongue, vampires, and beard just can't be unseen.
+[^color]: Tip: print the molecule page on colored paper.
+
+Somewhere along the line I let them know that the comic is in fact _too_ advanced for them; that they do not need to memorize the exact location of the C=O bands, nor the final row of details. Interpreting IR is then reinforced in subsequent classes, but I find that most of the kids can pick up most of it in one session.  The tongue, vampires, and beard just can't be unseen.
