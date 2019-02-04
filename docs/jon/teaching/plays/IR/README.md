@@ -17,11 +17,11 @@ You can find here [a folder of material](https://drive.google.com/drive/folders/
 <mermaid>
 graph LR
   subgraph 10. Organic
-    O0["Functional group identification"] --> Sp1["Index of Hydrogen Deficiency"]
+    O0("Functional group identification") --> Sp1("Index of Hydrogen Deficiency")
   end
   subgraph 11B. Spectroscopy
-    Sp1 --> IR["Infrared Spectra Interpretation"]
-    O0 --> NMR["NMR"]
+    Sp1 --> IR("Infrared Spectra Interpretation")
+    O0 --> NMR("NMR")
     IR --> NMR
   end
 </mermaid>
@@ -44,15 +44,15 @@ were part of the syllabus.  The current syllabus do not require either of these.
 <mermaid>
 graph LR
  subgraph Activation
-    CL1["Spectroscopy (5 min)"] --> CL2["FG review (10 min)"]
-    CL2 --> CL3["First pass at spectra (7 min)"]
+    CL1("Spectroscopy (5 min)") --> CL2("FG review (10 min)")
+    CL2 --> CL3("First pass at spectra (7 min)")
   end
   subgraph Learning
-    CL3 --> CL4["Comics (3 min)"]
-    CL4 --> CL5["Informed pass (2/3 ppl, 15 min)"]
+    CL3 --> CL4("Comics (3 min)")
+    CL4 --> CL5("Informed pass (2/3 ppl, 15 min)")
   end
   subgraph Practice
-    CL5 --> CL6["13x13 matching (25 min)"]
+    CL5 --> CL6("13x13 matching (25 min)")
   end
 </mermaid>
 
@@ -86,7 +86,7 @@ Before moving on, I activate their prior knowledge with a brief review of functi
 
 I then hand out the 3-hydroxyproprionitrile spectra, and point out how difficult it is to actually use the table to make sense of the spectra.  IR tables are misleading because students don't expect there to be false positives, and Type I errors are there all the time --- especially in the low wavenumber / top-of-table area.  
 
-![Hydroxyproprionitrile spectra](./hydroxyproprionitrile.png)
+![3-hydroxyproprionitrile spectra](./hydroxyproprionitrile.png)
 
 They also don't actually show the shapes: it is not enough to know that secondary amines and alcohols are both "strong" in 3200-3400 cm^-1^, but you need to pick up the _shape_ of the bands. 
 
