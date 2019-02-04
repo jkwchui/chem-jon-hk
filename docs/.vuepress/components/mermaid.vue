@@ -9,7 +9,8 @@ export default {
   beforeMount() {
     import("mermaid/dist/mermaid").then(m => {
       m.initialize({
-        startOnLoad: true
+        startOnLoad: true,
+        theme: "neutral"
       });
       m.init();
     });
