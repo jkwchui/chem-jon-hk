@@ -155,6 +155,10 @@ module.exports = {
                     title: 'Teaching',
                     children: [
                         ['./teaching/', 'Teaching'],
+                        ['./teaching/principles', '1. Principles'],
+                        ['./teaching/doctrine', '2A. Doctrine'],
+                        ['./teaching/techniques', '2B. Techniques'],
+                        ['./teaching/plays', '3. Plays'],
                     ],
                 },
             ],
