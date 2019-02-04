@@ -192,22 +192,27 @@ export default {
 </script> -->
 
 
-## Teacher toggle
+<!-- ## Teacher toggle
 
 <Teacher>
 
 Teacher-only component, set on global $teacher
 
-</Teacher>
+</Teacher> -->
 <!-- 
 <el-switch v-model="$teacher" active-text="Teacher" inactive-text="Student">
 </el-switch>
 
 Bug: switch does not seem to toggle -->
 
-## Mermaid.js
+## Flowcharts / Gantt charts
 
-### Flowcharts
+### via Vis.js
+
+<vis-timeline />
+<vis-network />
+
+### via Mermaid.js
 
 <mermaid>
 graph LR

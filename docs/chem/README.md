@@ -37,11 +37,11 @@ What I wish to try is to push up the dimensionality, and blend some reader-direc
 
 For example, instead of *describing* that
 
-  electron, with the same charge, repels each other
+>  electron, with the same charge, repels each other
 
 Or images that *suggests* motion:
 
-![Electron repulsion](./electronRepulsion.svg)
+> ![Electron repulsion](./electronRepulsion.svg =300x)
 
 We will present two electrons trapped together:
 
@@ -51,7 +51,7 @@ Clicking on the walls let the electrons free.  Try!
 
 [INSERT number question]
 
-This is what I wish I had when I learnt chemistry.  In the 90's I made these same repelling <Chem formula="e^{-}" inline /> in Flash; the attempt quickly crumbled under its own weight.  I have a better workflow now.
+This is what I wish I had when I learnt chemistry.  In the 90's I made these same repelling e^-^ in Flash; the attempt quickly crumbled under its own weight.  I have a better workflow now.
 
 [INSERT WARDLEY MAP OF NICHE: vert: Visibility, hor: evolution]
 

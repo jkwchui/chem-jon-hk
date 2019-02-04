@@ -241,6 +241,8 @@ module.exports = {
             })
             md.use(require('markdown-it-sup'))
             md.use(require('markdown-it-sub'))
+            md.use(require('markdown-it-imsize'), { autofill: true })
+            // md.use(require('markdown-it-center-text'))
         }
     }
 };

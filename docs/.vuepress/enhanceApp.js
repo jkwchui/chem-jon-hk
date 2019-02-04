@@ -16,8 +16,6 @@ import ElementUI from 'element-ui'
 // import 'element-ui/lib/theme-chalk/index.css'
 import './element-variables.scss'
 
-// import Airtable from 'airtable'
-
 // import './mathJaxConfig.js'
 // import '../../node_modules/mathjax/MathJax.js'
 
@@ -37,5 +35,5 @@ export default ({
     // Vue.use(BootstrapVue);
     Vue.use(ElementUI);
     Vue.prototype.$teacher = true; //global variable identifying teacher or not
-    // Vue.use(VueMathjax);
+    
 }
