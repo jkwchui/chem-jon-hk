@@ -16,6 +16,8 @@ import ElementUI from 'element-ui'
 // import 'element-ui/lib/theme-chalk/index.css'
 import './element-variables.scss'
 
+// import Moment from 'moment'
+
 // import './mathJaxConfig.js'
 // import '../../node_modules/mathjax/MathJax.js'
 
@@ -34,6 +36,7 @@ export default ({
     // library.add(fas);
     // Vue.use(BootstrapVue);
     Vue.use(ElementUI);
+    Vue.use(require('vue-moment'))
     Vue.prototype.$teacher = true; //global variable identifying teacher or not
     
 }
