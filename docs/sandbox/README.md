@@ -109,6 +109,8 @@ From Element UI.[^EUI]
 
 At triple point, <Chem formula="H2O\solid{} <=> H2O\liquid{} <=> H2O\gas{}" inline />.
 
+Physical units available with **pu** command.
+
 ## Animation with Haiku
 
 <anim-snap />

@@ -1,18 +1,21 @@
 # Periodicity
 
-<b-img src="../../../3ionizationenergies.png" fluid alt="Responsive image"/>
+<mermaid>
+    Atom("Atomic structure") --> P0("Terminologies")
+    ElecConf("Electron config") --> P0
+    G("General representations") --> PTr1("Atomic radii")
+    P0 --> PTr1
+</mermaid>
 
-<Molecule cid="2244" />
+## Terminologies
 
-<div>
-
-1. All
-2. Fixed
-3. Up
-
-</div>
-
-<Chem formula="\pu{mm2} \angstrom \celsius" />
+Arrangement by Z
+Groups vs period
+Numbering
+Group names
+Blocks & electronic configuration
+Valence electrons
+Need to know first 20 elements + halogens
 
 <div class="container">
 <div class="row">

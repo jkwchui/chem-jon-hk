@@ -10,4 +10,4 @@
 
 | Play | Duration | Comments | Status<img width=150/>  |
 |:-----|:--------:|:---------|:----------------:|
-| [Lesson 1 Kahoot!](./plays/lesson1kahoot/) | <Duration time='15 min' /> | Include link to public _Kahoot!_ | <CompletionStatus :percentage='60' /> |
+| [Lesson 1 Kahoot!](./plays/lesson1kahoot/) | <Duration time='15 min' /> | Include link to public _Kahoot!_ | <CompletionStatus :percentage='70' /> |
