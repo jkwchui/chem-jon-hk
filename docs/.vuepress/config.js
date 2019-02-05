@@ -114,8 +114,11 @@ module.exports = {
                 {
                     title: 'Resources',
                     children: [
-                        ['./resources/tools', 'Tools'],
-                        ['./resources/glossary', 'Glossary'],
+                        ['./resources/resources/../', 'Resources'],
+                        ['./resources/notes/', 'Notes'],
+                        ['./resources/tools/', 'Tools'],
+                        ['./resources/glossary/', 'Glossary'],
+                        ['./resources/bestiary/', 'Bestiary'],
                     ],
                 },
                 // {

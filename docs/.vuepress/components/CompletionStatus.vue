@@ -26,7 +26,7 @@ export default {
         return "success"
       } else if (this.percentage >= 60) {
         this.color = "#e6a23c"
-        return "none"
+        return
       } else {
         return "exception"
       }
