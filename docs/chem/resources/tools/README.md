@@ -13,6 +13,6 @@ See [mhchem manual](https://mhchem.github.io/MathJax-mhchem/) for additional syn
 
 <equation-typer />
 
-<!-- ## Retrieve 3D structure
+## Retrieve 3D structure
 
-<mol-retriever /> -->
+<mol-retriever />

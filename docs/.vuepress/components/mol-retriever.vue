@@ -7,7 +7,7 @@
         <!-- <el-button @click="show_svg" slot="append" icon="el-icon-download"></el-button> -->
       </el-input>
 
-      <Molecule v-bind:cid="input" />
+      <Molecule v-bind:cid="input" :key="input" />
 
       <!-- <img :src="render"> </img> -->
 <!--       
