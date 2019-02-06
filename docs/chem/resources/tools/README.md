@@ -1,3 +1,7 @@
+# Tools
+
+This page presents some fun toys for getting chemical equations rendered properly, 3D structures, and so on.
+
 ## Typeset chemical equations
 
 Type your chemical equation in the box to have it rendered.  Use `\solid{}`, `\aq{}`, `\gas{}`, and `\liquid{}` for state symbols, and `^` / `_` to force super/subscripts.
