@@ -12,6 +12,23 @@
 * "star" research articles have a "for layman" blurb that explains the context and significance
 * Need password from library
 
+## Databases
+
+[PubChem](https://pubchem.ncbi.nlm.nih.gov/)
+* a comprehensive chemistry database containing
+  * experimental properties
+  * calculated properties
+* Supports structure searches
+* Includes biological assay results
+* Can be queried *en masse*
+  * by scripts (python, javascript)
+  * from Google Sheets (through `IMPORTDATA(url)` / `IMPORTXML(url)` and the PUG-REST API)
+* Read about its overview in [this article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4702940/)
+
+[SDBS](https://sdbs.db.aist.go.jp/sdbs/cgi-bin/cre_index.cgi)
+* Spectral Database for Organic Compounds
+* Experimental spectra of 35000 compounds
+
 ## Software
 
 ### Study skills
@@ -20,7 +37,7 @@
 
 * state-of-the-art Spaced Repetition System
 * available also on android and iOS devices, and through web browser.  Progress can be synced.
-* Decks available:
+* Decks I prepared:
   * IB chemistry vocabulary (1500+ notes)
   * IB chemistry specialty decks (600+ cards) for 
     * common chemical names, 
@@ -61,8 +78,28 @@
   * Username: Student
   * Password: lpcuwc
 
-### Lab equipment
+[AutoDock Vina](http://vina.scripps.edu/)
+* Calculates protein-ligand interactions (drug-receptor)
+* Predicts: 
+  * binding enthalpy
+  * binding conformation
 
-Logger Pro
+### Practical
+
+[Logger Pro by Vernier](https://www.vernier.com/products/software/lp/)
 * Interfaces with a variety of digital equipment
+* Vernier website includes instructional screencasts
 * Download from school network
+  * `Academic:/Science/Software/`
+
+[ImageJ](https://fiji.sc/)
+* an open platform for scientific image analysis
+* automatically quantify color intensity, count particles (e.g., cells), annotate image
+* works with videos as well
+* link points to FIJI, an installation of ImageJ that has many plugins included
+
+### Data analysis
+
+[Tableau](https://www.tableau.com/)
+* Visualize and graph data interactively
+* Useful for complex dataset and visualizations that spreadsheets can't do
