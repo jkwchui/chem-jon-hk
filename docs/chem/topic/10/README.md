@@ -3,6 +3,7 @@
 ## Sequence
 
 <mermaid>
+graph TB
 	F0("Structural formula") --> F1("Simplified / Condensed Structural Formula")
 	subgraph Introductions
 		SB4A("Lewis str (sans excp)") --> O1
