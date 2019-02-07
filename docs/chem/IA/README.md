@@ -52,6 +52,44 @@ In general you should expect the following stages:
 1. Teacher feedback,
 1. Submit final draft
 
+<mermaid>
+gantt
+    axisformat %b-%d
+    title IA Timelines
+    dateFormat  YYYY-MM-DD
+    section Student (Practical)
+       3 Seed RQs: RQEx, 2019-02-01, 50d
+       Develop one topic / method:after RQEx, 20d
+       Submit Exploration: crit, Ex, 2019-04-15, 1d
+       Submit material request: crit, MR, 2019-06-01, 1d
+       IA days: IAdays, 2019-08-22, 3d
+       Additional expt: done, addExpt, after IAdays, 30d
+       Write-up 1st draft: after IAdays, 80d
+       First draft due: crit, 1stD, 2019-11-08, 1d
+       Review draft: after 1stDFB, 30d
+       Final submission: crit, fsub, 2020-01-25, 1d
+    section Technicians
+       Fulfillment: after MR, 80d
+       Clean up: after addExpt, 15d
+    section Teacher
+       Exploration feedback   : FB, after Ex, 30d
+       First draft feedback : 1stDFB, after 1stD, 40d
+       Marking: after fsub, 40d
+    section Student (ICT)
+       3 Seed RQs: RQExICT, 2019-02-01, 50d
+       Complete Mol Model worksheet: crit, 2019-03-15, 1d
+       Complete Database worksheet: crit, 2019-03-25, 1d
+       Develop one topic / method: after RQExICT, 20d
+       Submit Exploration c/ prelim data: crit, ExICT, 2019-04-15, 1d
+       Submit proof-of-concept analysis: crit, POCAn, 2019-06-01, 1d
+       Complete acq/analysis: IAdaysICT, after POCAn, 70d
+       Submit analysis: crit, analICT, after IAdaysICT, 3d
+       Write-up 1st draft: after analICT, 70d
+       First draft due: crit, 1stDICT, 2019-11-08, 1d
+       Review draft: after 1stDFB, 30d
+       Final submission: crit, fsubICT, 2020-01-25, 1d
+</mermaid>
+
 At LPCUWC we begin the process in February of Y1, with the topic/exploration expected in May. The first draft is due in November of Y2, and final submission in January of Y2. Term 3 (Y2) is a busy season, and I recommend completing the IA before or during summer; this is very much possible with ICT-based IAs.
 
 ## Assessment criteria

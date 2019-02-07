@@ -149,7 +149,7 @@ From "local" file placed in /public/pdb/.
 
 ## Airtable pull
 
-<AirtableTopic />
+<!-- <AirtableTopic /> -->
 
 ## Local JSON pull
 
@@ -225,3 +225,20 @@ graph LR
 
 <Duration time='60 min' />
 <CompletionStatus v-bind:percentage=100 />
+<PublishDate date="2019-03-20T03:54:07Z" />
+
+<!-- <TwoColumns sizeL="16">
+
+<template v-slot:left>
+
+Left hand side
+
+</template>
+
+<template v-slot:right>
+
+RIGHT HAND SIDE
+
+</template>
+
+</TwoColumns> -->
