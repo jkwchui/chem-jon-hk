@@ -1,4 +1,4 @@
-# On This Website (2019)
+# About This Website (2019)
 
 After a decade with Wordpress, I pulled the plug.  The idea had been in gestation for about three years.  Learning by me and developments by others have finally made possible this attempt.
 
@@ -80,7 +80,7 @@ Instead of *describing* that
 
 Or showing:
 
-> ![DNA Double Helix, Francis & Crick](https://www.nature.com/scitable/content/4453/watsoncrick_1953_FULL.jpg =300x)
+> ![DNA Double Helix, Francis & Crick](https://www.nature.com/scitable/content/4453/watsoncrick_1953_FULL.jpg =x150)
 
 We present this:
 
