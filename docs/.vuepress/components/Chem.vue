@@ -64,7 +64,7 @@ import { VueMathjax } from 'vue-mathjax'
             body.appendChild(script);
             script = document.createElement("script");
             script.type = "text/javascript";
-            script.src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_CHTML";
+            script.src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_SVG";
             body.appendChild(script);
         },
         components: {

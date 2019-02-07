@@ -55,7 +55,7 @@ module.exports = {
             //     ]
             // }
         ],
-        sidebarDepth: 2,
+        sidebarDepth: 1,
         sidebar: {
             '/chem/': [
                 // {
@@ -135,11 +135,18 @@ module.exports = {
 
             '/jon/': [{
                     title: 'About',
-                    collapsable: false,
+                    collapsable: true,
                     children: [
                         ['./', 'Bio'],
+                        ['./website', 'Website'],
                         ['./colophon', 'Colophon'],
                         ['./registry', 'Registry of interests'],
+                    ],
+                },
+                {
+                    title: 'Essays',
+                    children: [
+                        // ['./essays/about-website/', 'About website'],
                     ],
                 },
                 {
@@ -156,6 +163,7 @@ module.exports = {
                 },
                 {
                     title: 'Teaching',
+                    sidebarDepth: 1,
                     children: [
                         ['./teaching/', 'Teaching'],
                         ['./teaching/principles', '1. Principles'],
