@@ -1,4 +1,5 @@
 const moment = require('moment');
+const path = require("path");
 
 module.exports = {
     title: 'jon.hk',
@@ -11,13 +12,13 @@ module.exports = {
             }
         ],
     ],
-    // configureWebpack: {
-    //     resolve: {
-    //         alias: {
-    //         '@alias': './'
-    //         }
-    //     }
-    // },
+    configureWebpack: {
+        resolve: {
+            alias: {
+                'image': '../image/'
+            }
+        }
+    },
     themeConfig: {
         docsDir: 'docs',
         // repo: 'jkwchui/chem-jon-hk',

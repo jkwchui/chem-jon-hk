@@ -64,6 +64,7 @@ As always, to fully resolve the quantitative problems you will need to know your
   * Properties of different bonding/structure
     * excl. properties from IMF
   * Lewis structures (incl. exceptions)
+  * Shapes of molecules (2, 3, 4-domains only)
 * **5** - Energetics
   * enthalpy (diagram, def, endo/exo, eqn)
   * heat changes calc
