@@ -12,13 +12,13 @@ module.exports = {
             }
         ],
     ],
-    configureWebpack: {
-        resolve: {
-            alias: {
-                image: './docs/image'
-            }
-        }
-    },
+    // configureWebpack: {
+    //     resolve: {
+    //         alias: {
+    //             image: './docs/image'
+    //         }
+    //     }
+    // },
     themeConfig: {
         docsDir: 'docs',
         // repo: 'jkwchui/chem-jon-hk',
