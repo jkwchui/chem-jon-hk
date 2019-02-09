@@ -227,18 +227,4 @@ graph LR
 <CompletionStatus v-bind:percentage=100 />
 <PublishDate date="2019-03-20T03:54:07Z" />
 
-<!-- <TwoColumns sizeL="16">
-
-<template v-slot:left>
-
-Left hand side
-
-</template>
-
-<template v-slot:right>
-
-RIGHT HAND SIDE
-
-</template>
-
-</TwoColumns> -->
+![Typesetting chemical equations; GIF test](./typeset_chem_eqn_ammonia.gif)
