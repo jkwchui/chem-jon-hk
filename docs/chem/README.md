@@ -2,6 +2,12 @@
 
 These pages support the learning and teaching of chemistry at a Year 11-13 / first-year university level.  Specifically this caters to the International Baccalaureate diploma which I have taught and examined for a number of years.
 
+## Feature attractions
+
+1. [Complete notes](./resources/notes/)
+2. [Searchable / filterable syllabus](./resources/syllabus/)
+3. [IA Guide](./IA/)
+
 ### For students
 
 The primary audience are my students.  You can find notes, links to resources, and a guide to the IA.  I specify the timeline and logistics for my students, and presumed some common experiences in class.

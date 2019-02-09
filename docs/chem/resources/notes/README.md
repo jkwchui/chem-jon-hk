@@ -27,7 +27,7 @@ Click on image to zoom in, right-click to save.  All these are also present in y
 |          |            topics             |                              note                              |
 |:--------:|:-----------------------------:|:--------------------------------------------------------------:|
 |    0     |   Structure of IB Chemistry   |    ![Struct of IB Chem](./image/0-structofIBchem.png =x300)    |
-|    0     |       Common chemicals        |       ![common chemicals](./image/0-commonChemicals.png)       |
+|    0     |       Common chemicals        |       ![Common chemicals](./image/0-commonChemicals.png)       |
 |    0     | Prerequisites and conventions |              ![](./image/0-prereqConvention.png)               |
 
 ## 1 - Stoichiometry

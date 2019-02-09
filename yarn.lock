@@ -627,6 +627,10 @@
   dependencies:
     "@haiku/core" "^4.3.10"
 
+"@limdongjin/vuepress-plugin-sidebar-on-off@^1.0.0-alpha.32":
+  version "1.0.0-alpha.32"
+  resolved "https://registry.yarnpkg.com/@limdongjin/vuepress-plugin-sidebar-on-off/-/vuepress-plugin-sidebar-on-off-1.0.0-alpha.32.tgz#9051422ba8ad4601c2de7a7b703394de652bcaed"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"

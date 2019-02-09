@@ -70,9 +70,9 @@ module.exports = {
                     title: 'Course',
                     collapsable: true,
                     children: [
-                        ['./course/', 'Info'],
-                        ['./course/paper', 'Paperwork'],
-                        ['./course/study', 'How to study'],
+                        ['./course/', 'Info 📂'],
+                        ['./course/paper', 'Paperwork 💯'],
+                        ['./course/study', 'How to study ✏️'],
                     ],
                 },
                 {
@@ -91,7 +91,7 @@ module.exports = {
                         ['./topic/9/', '9/19 - Redox'],
                         ['./topic/10/', '10/20 - Organic Chemistry'],
                         ['./topic/11B/', '11B/21 - Spectroscopy'],
-                        ['./topic/D/', 'D - Drugs & Medicine'],
+                        ['./topic/D/', 'D - Drugs & Medicine 💊'],
                         // ['./topic/', ''],
 
                     ]
@@ -114,11 +114,20 @@ module.exports = {
                 },
                 {
                     title: 'Resources',
+                    sidebarDepth: 0,
                     children: [
                         ['./resources/resources/../', 'Resources'],
-                        ['./resources/notes/', 'Notes'],
-                        ['./resources/tools/', 'Tools'],
+                        ['./resources/notes/', '📘 Notes'],
+                        ['./resources/tools/', '🔧 Tools'],
                         ['./resources/glossary/', 'Glossary'],
+                        {
+                            title: 'Syllabus',
+                            sidebarDepth: 0,
+                            children: [
+                                ['./resources/syllabus/', 'En 🇬🇧 🇺🇸 🇨🇦'],
+                                ['./resources/syllabus/es', 'Es 🇲🇽 🇪🇸 🇦🇷']
+                            ]
+                        },
                         ['./resources/bestiary/', 'Bestiary'],
                     ],
                 },
@@ -212,7 +221,7 @@ module.exports = {
         // ],
         '@vuepress/active-header-links',
         '@vuepress/medium-zoom',
-        '@vuepress/back-to-top',
+        '@vuepress/back-to-top'
         // '@vuepress/register-components',
         // 'flowchart',
     ],
