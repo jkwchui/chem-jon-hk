@@ -10,11 +10,7 @@ Portions missing usually indicate things you do in class on slates, and were the
 
 Click on image to zoom in, right-click to save.  All these are also present in your Google Folder under `notes`.
 
-<!-- ::: tip
-
-At some point 
-
-::: -->
+<el-button type="info" icon="el-icon-download" round onclick="window.location.href='https://www.jon.hk/ChemNotesArchive2018.zip'">Zip (85 Mb)</el-button>
 
 </el-col>
 
