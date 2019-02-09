@@ -1,12 +1,30 @@
 # Notes
 
-These are the completed "big template" notes.  Some "solves" are mixed in here.
+<el-row>
+
+<el-col :span="12">
+
+These are the class "big template" notes.  Some "solves" are mixed in here.
 
 Portions missing usually indicate things you do in class on slates, and were then advised to transfer to your notes.
 
 Click on image to zoom in, right-click to save.  All these are also present in your Google Folder under `notes`.
 
+<!-- ::: tip
+
+At some point 
+
+::: -->
+
+</el-col>
+
+<el-col :span="12">
+
 [[toc]]
+
+</el-col>
+
+</el-row>
 
 ## 0 - Prerequisites and Foundations
 
