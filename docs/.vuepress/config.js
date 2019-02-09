@@ -73,6 +73,14 @@ module.exports = {
                         ['./course/', '📂 Info'],
                         ['./course/paper', '💯 Paperwork'],
                         ['./course/study', '✏️ How to study'],
+                        {
+                            title: 'Syllabus',
+                            sidebarDepth: 0,
+                            children: [
+                                ['./course/syllabus/', 'En 🇬🇧 🇺🇸 🇨🇦'],
+                                ['./course/syllabus/es', 'Es 🇲🇽 🇪🇸 🇦🇷']
+                            ]
+                        },
                     ],
                 },
                 {
@@ -120,14 +128,6 @@ module.exports = {
                         ['./resources/notes/', '📘 Notes'],
                         ['./resources/tools/', '🔧 Tools'],
                         ['./resources/glossary/', 'Glossary'],
-                        {
-                            title: 'Syllabus',
-                            sidebarDepth: 0,
-                            children: [
-                                ['./resources/syllabus/', 'En 🇬🇧 🇺🇸 🇨🇦'],
-                                ['./resources/syllabus/es', 'Es 🇲🇽 🇪🇸 🇦🇷']
-                            ]
-                        },
                         ['./resources/bestiary/', 'Bestiary'],
                     ],
                 },

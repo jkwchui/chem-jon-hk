@@ -5,7 +5,7 @@ These pages support the learning and teaching of chemistry at a Year 11-13 / fir
 ## Feature attractions
 
 1. [Complete notes](./resources/notes/)
-2. [Searchable / filterable syllabus](./resources/syllabus/)
+2. [Searchable / filterable syllabus](./course/syllabus/)
 3. [IA Guide](./IA/)
 
 ### For students
