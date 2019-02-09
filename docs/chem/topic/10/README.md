@@ -64,3 +64,13 @@ graph TB
 </mermaid>
 
 Teaching simplified / condensed structural formula months ago --- takes a long time to mature.
+
+## Naming organic compounds
+
+Overview
+
+@[vimeo](240626450)
+
+Step-by-step nomenclature
+
+@[vimeo](240692544)

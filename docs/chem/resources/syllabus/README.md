@@ -4,7 +4,7 @@ You can use the *Filter* and *Sort* functions to isolate what you are interested
 
 ### Subtopics
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrFi7evwtyD7Gbfe?backgroundColor=blue&layout=card&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrFi7evwtyD7Gbfe?backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
 ### Subsubtopics
 
