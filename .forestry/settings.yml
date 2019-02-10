@@ -5,13 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: jon
-  label: Jon
-  create: all
-  match: "**/*"
-- type: directory
-  path: docs/jon
-  label: DocsJon
+  path: docs/jon/teaching
+  label: Jon - teaching
   create: all
   match: "**/*"
 upload_dir: uploads
