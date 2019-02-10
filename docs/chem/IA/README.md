@@ -44,13 +44,42 @@ Even though **I** am trained as a physical organic chemist and believes in the v
 
 In general you should expect the following stages:
 
-1. Propose a research topic,
-1. Await reagents / equipment,
-1. Conduct experiment,
-1. Analyse data,
-1. Write-up 1st draft,
-1. Teacher feedback,
-1. Submit final draft
+<mermaid>
+   graph TB
+   0("Collecting resources") --> 1("Reading/Thinking")
+   1 --> 2("Come up with some prelim topics")
+   2 --> 2B("Consult teacher")
+   2B --> 1
+   2B --> 3("Select most viable topic")
+   3 --> ICT1("Develop method")
+   subgraph ICT
+      ICT1 --> ICT2("Preliminary expt/analysis")
+      ICT2 --> ICT1
+      ICT2 --> ICT3("Data acquisition")
+      ICT3 --> ICT4("Analysis")
+      ICT4 --> ICT3
+      ICT4 --> W1("Writing 1st draft")
+   end
+   3 --> 4("Develop experiment")
+   5 --> 2B
+   subgraph Wet lab
+      4 -.-> 4B("Prelim expt")
+      4B -.-> 4
+      4 --> 5("Submit Material Requests")
+      5 --> 6("Experiments")
+      6 --> 7("Analysis")
+      7 -.-> 6
+      7 --> W1
+   end
+   W1 --> W2("Review teacher feedback")
+   W2 --> W3["Submit final draft"]
+</mermaid>
+
+Preliminary experiments depends on whether the needed reagents are available, and may not be possible for experimental projects.  It is also possible that, over summer, we discovered that it is not possible to source the reagents you need (e.g., hazardous material that cannot be shipped / too expensive); in these cases you would need to modify or come up with a new topic.
+
+## Timeline
+
+At LPCUWC we begin the process in February of Y1, with the topic/exploration expected in May. The first draft is due in November of Y2, and final submission in January of Y2. Term 3 (Y2) is a busy season, and I recommend completing the IA before or during summer; this is very much possible with ICT-based IAs.
 
 <mermaid>
 gantt
@@ -90,17 +119,18 @@ gantt
        Final submission: crit, fsubICT, 2020-01-25, 1d
 </mermaid>
 
-At LPCUWC we begin the process in February of Y1, with the topic/exploration expected in May. The first draft is due in November of Y2, and final submission in January of Y2. Term 3 (Y2) is a busy season, and I recommend completing the IA before or during summer; this is very much possible with ICT-based IAs.
 
 ## Assessment criteria
 
-The criteria are as follows:
+Your IA is assessed on **five** criteria:
 
-1. Personal Engagement (PE) / 2
-2. Exploration (Ex) / 6
-3. Analysis (An) / 6
-4. Conclusion \& Evaluation (CE) / 6
-5. Communication (C) / 4
+<IA-CriteriaPie />
+
+<!-- 1. Personal Engagement (PE) / 2
+1. Exploration (Ex) / 6
+2. Analysis (An) / 6
+3. Conclusion \& Evaluation (CE) / 6
+4. Communication (C) / 4 -->
 
 The total score, then, is 24.
 

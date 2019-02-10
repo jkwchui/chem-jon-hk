@@ -101,7 +101,7 @@ From Element UI.[^EUI]
 <el-tag type="warning">Tag Four</el-tag>
 <el-tag type="danger">Tag Five</el-tag>
 
-## LaTeX / Chem
+<!-- ## LaTeX / Chem
 
 <LaTeX formula="x^2 + y^2 + \cancel{pxy} = z^2 + \cancel{pxy}" />
 
@@ -109,7 +109,7 @@ From Element UI.[^EUI]
 
 At triple point, <Chem formula="H2O\solid{} <=> H2O\liquid{} <=> H2O\gas{}" inline />.
 
-Physical units available with **pu** command.
+Physical units available with **pu** command. -->
 
 ## Animation with Haiku
 
@@ -139,9 +139,9 @@ JSmol from iframe in public/jsmol/jsmol.html
 
 <Molecule pdb="1bl8" /> -->
 
-From PubChem.
+<!-- From PubChem.
 
-<Molecule cid="2349" />
+<Molecule cid="2349" /> -->
 <!-- 
 From "local" file placed in /public/pdb/.
 
@@ -227,4 +227,10 @@ graph LR
 <CompletionStatus v-bind:percentage=100 />
 <PublishDate date="2019-03-20T03:54:07Z" />
 
-![Typesetting chemical equations; GIF test](./typeset_chem_eqn_ammonia.gif)
+## E-charts
+
+<IA-CriteriaPie />
+<!-- 
+## GIF
+
+![Typesetting chemical equations; GIF test](./typeset_chem_eqn_ammonia.gif) -->

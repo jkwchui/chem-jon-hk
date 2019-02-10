@@ -37,6 +37,7 @@
     "bootstrap-vue": "^2.0.0-rc.11",
     "chart.js": "^2.7.3",
     "d3": "^5.8.2",
+    "echarts": "^4.1.0",
     "element-ui": "^2.5.4",
     "jquery": "^3.3.1",
     "markdown-it-abbr": "^1.0.4",
@@ -58,10 +59,12 @@
     "react": "^16.7.0",
     "vue-chartjs": "^3.4.0",
     "vue-csv-import": "^2.3.3",
+    "vue-echarts": "^4.0.1",
     "vue-mathjax": "0.0.6",
     "vue-moment": "^4.0.0",
     "vue-script2": "^2.0.3",
     "vue-timers": "^1.10.0",
+    "vue-vega": "^1.0.0-alpha.13",
     "vue2vis": "0.0.16"
   }
 }

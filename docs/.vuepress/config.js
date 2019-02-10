@@ -244,6 +244,7 @@ module.exports = {
             forceFullToC: true
         },
         extendMarkdown: md => {
+            md.set({ typographer: true }),
             // use more markdown-it plugins!
             md.use(require('markdown-it-checkbox'), {
                 divWrap: true,
