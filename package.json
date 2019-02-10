@@ -36,7 +36,6 @@
     "axios": "^0.18.0",
     "bootstrap-vue": "^2.0.0-rc.11",
     "chart.js": "^2.7.3",
-    "d3": "^5.8.2",
     "echarts": "^4.1.0",
     "element-ui": "^2.5.4",
     "jquery": "^3.3.1",
@@ -62,10 +61,8 @@
     "vue-echarts": "^4.0.1",
     "vue-mathjax": "0.0.6",
     "vue-moment": "^4.0.0",
-    "vue-pdf": "^4.0.6",
     "vue-script2": "^2.0.3",
     "vue-timers": "^1.10.0",
-    "vue-vega": "^1.0.0-alpha.13",
     "vue2vis": "0.0.16"
   }
 }

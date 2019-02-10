@@ -4,10 +4,10 @@ const path = require("path");
 module.exports = {
     title: 'jon.hk',
     description: 'Jon Chui',
-    transpileDependencies: [
-        'vue-echarts',
-        'resize-detector'
-      ],
+    // transpileDependencies: [
+    //     'vue-echarts',
+    //     'resize-detector'
+    //   ],
     head: [
         ['link',
             {
@@ -248,10 +248,6 @@ module.exports = {
             forceFullToC: true
         },
         extendMarkdown: md => {
-<<<<<<< HEAD
-            // md.set({ typographer: true }),
-=======
->>>>>>> removed typographer
             // use more markdown-it plugins!
             md.use(require('markdown-it-checkbox'), {
                 divWrap: true,
