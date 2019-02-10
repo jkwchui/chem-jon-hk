@@ -248,7 +248,10 @@ module.exports = {
             forceFullToC: true
         },
         extendMarkdown: md => {
+<<<<<<< HEAD
             // md.set({ typographer: true }),
+=======
+>>>>>>> removed typographer
             // use more markdown-it plugins!
             md.use(require('markdown-it-checkbox'), {
                 divWrap: true,
