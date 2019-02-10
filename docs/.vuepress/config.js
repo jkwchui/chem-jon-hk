@@ -127,7 +127,15 @@ module.exports = {
                         ['./resources/resources/../', 'Resources'],
                         ['./resources/notes/', '📘 Notes'],
                         ['./resources/tools/', '🔧 Tools'],
-                        ['./resources/glossary/', 'Glossary'],
+                        {
+                            title: 'Glossary',
+                            children: [
+                                ['./resources/glossary/', 'En 🇬🇧 🇺🇸 🇨🇦'],
+                                ['./resources/glossary/es', 'Es 🇲🇽 🇪🇸 🇦🇷'],
+                                ['./resources/glossary/fr', 'Fr 🇫🇷 🇨🇩 🇨🇦'],
+                                ['./resources/glossary/ja', 'Jp 🇯🇵'],
+                            ]
+                        },
                         ['./resources/bestiary/', 'Bestiary'],
                     ],
                 },
