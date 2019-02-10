@@ -5,6 +5,16 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: docs/chem/topic
+  label: Chem - Topic
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/chem/IA
+  label: Chem - IA
+  create: all
+  match: "**/*"
+- type: directory
   path: docs/jon/essays
   label: Jon - essays
   create: all
