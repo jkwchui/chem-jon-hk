@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: doc/jon
+  path: docs/jon
   label: Jon
   create: all
   match: "**/*"
