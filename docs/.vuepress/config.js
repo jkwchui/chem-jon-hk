@@ -38,7 +38,7 @@ module.exports = {
             {
                 text: 'Sandbox',
                 link: '/sandbox/'
-            },
+            }
             // {
             //     text: 'Admin',
             //     link: '/admin/#/',
