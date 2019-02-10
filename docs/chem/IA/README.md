@@ -124,13 +124,13 @@ gantt
 
 Your IA is assessed on **five** criteria:
 
-<IA-CriteriaPie />
+<!-- <IA-CriteriaPie /> -->
 
-<!-- 1. Personal Engagement (PE) / 2
+1. Personal Engagement (PE) / 2
 1. Exploration (Ex) / 6
 2. Analysis (An) / 6
 3. Conclusion \& Evaluation (CE) / 6
-4. Communication (C) / 4 -->
+4. Communication (C) / 4
 
 The total score, then, is 24.
 
