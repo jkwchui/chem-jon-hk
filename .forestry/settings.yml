@@ -5,13 +5,28 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: docs/chem/topic
-  label: Chem - Topic
+  path: docs/chem/course
+  label: Chem - course
   create: all
   match: "**/*"
 - type: directory
   path: docs/chem/IA
   label: Chem - IA
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/chem/topic
+  label: Chem - Topic
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/chem/skills
+  label: Chem - skills
+  create: all
+  match: "**/*"
+- type: directory
+  path: docs/jon
+  label: Jon
   create: all
   match: "**/*"
 - type: directory
