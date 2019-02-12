@@ -7,3 +7,5 @@ I endorse different persons, institutions, and services in these publicly access
 I teach at the [Li Po Chun United World College](http://www.lpcuwc.edu.hk/) in Hong Kong. I also work for the [IBO](http://www.ibo.org/).
 
 I co-lead the Coral Monitoring programme, which was partly sponsored by [WWF-HK](https://www.wwf.org.hk/) from 2012--2014. We have a long term service exchange with [Splash diving company](https://www.splashhk.com/).
+
+<!-- ![Image from alias](@alias/gradegraph.png) -->

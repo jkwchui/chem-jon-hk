@@ -1,3 +1,4 @@
+
 const moment = require('moment');
 const path = require("path");
 
@@ -16,13 +17,16 @@ module.exports = {
             }
         ],
     ],
-    // configureWebpack: {
-    //     resolve: {
-    //         alias: {
-    //             image: './docs/image'
-    //         }
-    //     }
-    // },
+     configureWebpack: {
+         resolve: {
+             alias: {
+                 '@alias': '../../../docs/image'
+             }
+             /*alias: {
+                 demo: path.resolve(__dirname, '../docs/image/')
+             }*/
+         }
+     },
     themeConfig: {
         docsDir: 'docs',
         // repo: 'jkwchui/chem-jon-hk',
@@ -156,21 +160,21 @@ module.exports = {
             ],
 
             '/jon/': [{
-                    title: 'About',
-                    collapsable: true,
-                    children: [
-                        ['./', 'Bio'],
-                        ['./website', 'Website'],
-                        ['./colophon', 'Colophon'],
-                        ['./registry', 'Registry of interests'],
-                    ],
-                },
-                {
+                title: 'About',
+                collapsable: true,
+                children: [
+                    ['./', 'Bio'],
+                    ['./website', 'Website'],
+                    ['./colophon', 'Colophon'],
+                    ['./registry', 'Registry of interests'],
+                ],
+            },
+               /* {
                     title: 'Essays',
                     children: [
-                        // ['./essays/about-website/', 'About website'],
+                        ['./essays/about-website/', 'About website'],
                     ],
-                },
+                },*/
                 {
                     title: 'Guides',
                     children: [
@@ -280,12 +284,12 @@ module.exports = {
             md.use(require('markdown-it-sub'))
             md.use(require('markdown-it-imsize'), { autofill: true })
             // md.use(require('markdown-it-center-text'))
-            md.use(require('markdown-it-implicit-figures'), { 
+            md.use(require('markdown-it-implicit-figures'), {
                 dataType: true,  // <figure data-type="image">, default: false
                 figcaption: true,  // <figcaption>alternative text</figcaption>, default: false
                 tabindex: true, // <figure tabindex="1+n">..., default: false
                 link: true
-             })
+            })
         }
     }
 };

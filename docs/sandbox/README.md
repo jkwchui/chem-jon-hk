@@ -229,7 +229,7 @@ graph LR
 
 ## E-charts
 
-<IA-CriteriaPie />
+<IA-Criteria />
 <!-- 
 ## GIF
 

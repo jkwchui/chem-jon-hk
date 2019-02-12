@@ -1,5 +1,7 @@
 <template>
-  <v-chart :options="pie"/>
+  <div>
+    <v-chart :options="pie" />
+  </div>
 </template>
 
 <style>

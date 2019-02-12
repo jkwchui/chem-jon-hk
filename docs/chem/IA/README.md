@@ -124,7 +124,7 @@ gantt
 
 Your IA is assessed on **five** criteria:
 
-<IA-CriteriaPie />
+<IA-Criteria />
 
 1. Personal Engagement (PE) / 2
 1. Exploration (Ex) / 6
