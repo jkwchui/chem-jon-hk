@@ -8,4 +8,4 @@ I teach at the [Li Po Chun United World College](http://www.lpcuwc.edu.hk/) in H
 
 I co-lead the Coral Monitoring programme, which was partly sponsored by [WWF-HK](https://www.wwf.org.hk/) from 2012--2014. We have a long term service exchange with [Splash diving company](https://www.splashhk.com/).
 
-<!-- ![Image from alias](@alias/gradegraph.png) -->
+![Image from alias](/image/sisi.jpg =200x)
