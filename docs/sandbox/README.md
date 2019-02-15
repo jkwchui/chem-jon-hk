@@ -113,7 +113,7 @@ Physical units available with **pu** command. -->
 
 ## Animation with Haiku
 
-<anim-snap />
+<!-- <anim-snap /> -->
 
 <!-- ## Animation with Lottie --- FORGET ABOUT IT
 
@@ -229,7 +229,7 @@ graph LR
 
 ## E-charts
 
-<IA-Criteria />
+<!-- <IA-Criteria /> -->
 <!-- 
 ## GIF
 

@@ -1,7 +1,5 @@
 <template>
-  <div>
     <v-chart :options="pie" />
-  </div>
 </template>
 
 <style>
@@ -17,11 +15,11 @@
 </style>
 
 <script>
-import ECharts from 'vue-echarts'
-import 'echarts/lib/chart/line'
-import 'echarts/lib/component/tooltip'
-import 'echarts/lib/component/legend'
-import 'echarts/lib/chart/pie'
+import ECharts from '../../../../node_modules/vue-echarts'
+import '../../../../node_modules/echarts/lib/chart/line'
+import '../../../../node_modules/echarts/lib/component/tooltip'
+import '../../../../node_modules/echarts/lib/component/legend'
+import '../../../../node_modules/echarts/lib/chart/pie'
 
 export default {
   components: {

@@ -1,13 +1,13 @@
 <template>
-  <electronsRepulsionSimple :loop="true"></electronsRepulsionSimple>
+  <!-- <electronsRepulsionSimple :loop="true"></electronsRepulsionSimple> -->
 </template>
 
 <script>
-import electronsRepulsionSimple from '@haiku/jkwchui-electronsrepulsionsimple/vue';
+// import electronsRepulsionSimple from '@haiku/jkwchui-electronsrepulsionsimple/vue';
 
 export default {
   components: {
-    electronsRepulsionSimple
+    // electronsRepulsionSimple
   }
 }
 </script>

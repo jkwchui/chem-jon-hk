@@ -5,10 +5,10 @@ const path = require("path");
 module.exports = {
     title: 'jon.hk',
     description: 'Jon Chui',
-    // transpileDependencies: [
-    //     'vue-echarts',
-    //     'resize-detector'
-    //   ],
+    transpileDependencies: [
+        'vue-echarts',
+        'resize-detector'
+      ],
     head: [
         ['link',
             {

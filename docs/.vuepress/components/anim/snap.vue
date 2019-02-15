@@ -1,13 +1,13 @@
 <template>
-  <haikudos :loop="true"></haikudos>
+  <!-- <haikudos :loop="true"></haikudos> -->
 </template>
 
 <script>
-import haikudos from '@haiku/jkwchui-haikudos/vue';
+// import haikudos from '@haiku/jkwchui-haikudos/vue';
 
 export default {
   components: {
-    haikudos
+    // haikudos
   }
 }
 </script>

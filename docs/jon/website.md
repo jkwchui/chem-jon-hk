@@ -66,7 +66,7 @@ We will present two electrons trapped together:
 
 <center>
 
-<anim-electronRepulsionSimple />
+<!-- <anim-electronRepulsionSimple /> -->
 
 </center>
 
