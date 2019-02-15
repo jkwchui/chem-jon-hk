@@ -122,15 +122,30 @@ gantt
 
 ## Assessment criteria
 
-Your IA is assessed on **five** criteria:
+Your IA is assessed on **five** criteria, each of which are subdivided into *aspects*.  The proportion of these criteria and aspects are shown in the following diagram.[^subdiv]
 
-<IA-Criteria />
+[^subdiv]: IBO describes the aspects but not their relative proportions within a criteria.  These are *my* proportions.
+
+<el-row>
+
+<el-col :span="16">
+
+<!-- <IA-Criteria /> -->
+<IA-CriteriaTreemap />
+
+</el-col>
+
+<el-col :span="8">
 
 1. Personal Engagement (PE) / 2
 2. Exploration (Ex) / 6
 3. Analysis (An) / 6
 4. Conclusion \& Evaluation (CE) / 6
 5. Communication (C) / 4
+
+</el-col>
+
+</el-row>
 
 The total score, then, is 24.
 
