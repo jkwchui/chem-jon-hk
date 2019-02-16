@@ -16,13 +16,13 @@ Since I am in touch with students throughout the development of their IA, academ
 
 ## 2. Setup rubric / form
 
-<Criteria />
-
 The IBO mandates the five criteria, each of which are formed from several aspects.  Without an explicit rubric, I tend to either weigh the aspects inconsistently, or missed some aspects completely.
+
+<IA-Criteria />
 
 The syllabus does not specify the weighing of the aspects, and I find that some ought to be more important than others.  So *I* do the splitting, in 0.25 increments, as follows:
 
-<CriteriaTreemap />
+<IA-CriteriaTreemap />
 
 For ICT IAs, *safety / ethics* () is not evaluated and those marks are re-assigned into Methodology ().
 
@@ -32,9 +32,11 @@ I developed a form for entering these scores and associated comments.  I change 
 
 As I subscribe to [AirTable](https://www.airtable.com), I use an Airtable form.  I bridge this to the Page-Designer block.  A Google Sheet linked Form would work just fine.
 
+Note that the form goes Comm -> Ex -> An -> CE -> PE.
+
 ## 3. Marking
 
-Let's start with the technology involved in marking.  As far as I know what the moderators can see in RMAssessor is **limited to what is visible with no interactions**.  In other words,
+Let's start with the nitty-gritty involved in marking.  As far as I know what the moderators can see in RMAssessor is **limited to what is visible with no interactions**.  In other words,
 
 * visible: handwriting -> scan
 * visible: review points on Word -> PDF
@@ -53,4 +55,7 @@ Painfully.  In 2018 my score was moderated and I could finally ask for moderator
 I am still a little angry.  Because I *didn't* know whether my comments are visible, I attach a preamble where I explicit put in screenshots of what *should* be seen, and ask that if these *cannot* be seen, the examiner to escalate the issue and request for info from the school.
 
 :::
+
+First pass reading
+Comments + Comm
 
