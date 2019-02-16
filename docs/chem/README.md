@@ -13,13 +13,25 @@ These pages support the learning and teaching of chemistry at a Year 11-13 / fir
 3. [Complete notes](./resources/notes/)
 4. [IA Guide](./IA/)
 
+::: warning In-Progress
+
+This is a one-man band.  One guy moonlights the writing, drawing, designing, coding, shoots videos and edits them.  Many sections look like drafts because they *are* drafts.
+
+:::
+
 ### For students
 
-The primary audience are my students.  You can find notes, links to resources, and a guide to the IA.  I specify the timeline and logistics for my students, and presumed some common experiences in class.
+The primary audience are my students, and this section is written as me talking to them.  There are notes, links to resources, and an in-progress guide to the IA.  If you have questions and comments, website or otherwise, talk to me.
+
+If you are visiting from elsewhere, I specify the timeline and logistics for my students, and presumed some common experiences in class.  For example, the notes are more anchors to memories of what my students have experienced, rather than an exhaustive walkthrough of the syllabus.  (For that I recommend your textbook.)
 
 ### For teachers
 
-The secondary audience are teachers.  The IB diploma is seeing rapid adoption, and many colleagues are new to the curriculum.  It is, for example, not clear how the various topics hang together, and one of the most frequent questions on teacher forums is the order of teaching.  Several years later I have my preference and you may find these --- expressed as maps --- useful as a starting point.  For example, Measurements could be dissected into the following interdependent chunks:
+My secondary audience are teachers.  The IB diploma is seeing rapid adoption, and many colleagues are new to the curriculum.  It is, for example, not clear how the various topics hang together, and one of the most frequent questions on teacher forums is the order of teaching.  The IB DP program has a steep learning curve and I remember what it was like.
+
+Over years I grew into the program.  I sequence and divide topics based on what flopped, and you may find the fruits of my failures --- expressed as maps --- useful as a starting point.
+
+As an example, *I* think that 11A, Measurements, could be dissected into the following interdependent chunks:
 
 <mermaid>
 graph LR
@@ -55,10 +67,10 @@ graph LR
   end
 </mermaid>
 
-This is implicit in experienced teacher's heads but I haven't seen it expressed on paper.
+This is implicit in experienced teacher's heads but I haven't seen it expressed on paper.  It is not necessary optimal but I think you'd become clearer about the dependencies when you take it apart.
 
-Under the "Jon" tab there is a separate section on how I teach.  This includes [musings on pedagogy](../jon/teaching/principles.html), [activities](../jon/teaching/plays.html), and [technical guides](../jon/teaching/techniques.html).
+Under the *Jon* tab there is a separate section on how I teach.  This includes [musings on pedagogy](../jon/teaching/principles.html), [activities](../jon/teaching/plays.html), and [technical guides](../jon/teaching/techniques.html).
 
 <!-- Thinking behind explanation, and caveats are hidden on the page and can be viewed by toggling on the Teacher switch under Settings. -->
 
-For more resources I suggest you to subscribe to our Teacher Resource Exchange.  Instructions for access can be found on the myIB forums.
+For more resources I suggest you to subscribe to our Teacher Resource Exchange.  Instructions for access can be found on the [myIB forums](https://internationalbaccalaureate.force.com/IBProgramme/s/question/0D50O00004pjt0YSAQ/teacher-resource-exchange).  You can also contact me through there.

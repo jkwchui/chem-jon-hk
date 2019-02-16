@@ -11,3 +11,4 @@
 | Play | Duration | Comments | Status<img width=150/>  |
 |:-----|:--------:|:---------|:----------------:|
 | [Lesson 1 Kahoot!](./plays/lesson1kahoot/) | <Duration time='15 min' /> | Include link to public _Kahoot!_ | <CompletionStatus :percentage='70' /> |
+| [Marking IAs](./plays/marking-IA/) | <Duration time='days' /> | How I mark chem IAs.  Include an interactive rubric. | <CompletionStatus :percentage='40' /> |

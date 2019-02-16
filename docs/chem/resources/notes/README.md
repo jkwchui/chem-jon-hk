@@ -8,7 +8,7 @@ These are the class "big template" notes.  Some "solves" are mixed in here.
 
 Portions missing usually indicate things you do in class on slates, and were then advised to transfer to your notes.
 
-Click on image to zoom in, right-click to save.  All these are also present in your Google Folder under `notes`.
+Click on image to zoom in, right-click to save.  (If you cannot interact with the image, try reloading.)  All these are also present in your Google Folder under `notes`.
 
 <el-button type="info" icon="el-icon-download" round onclick="window.location.href='https://www.jon.hk/ChemNotesArchive2018.zip'">Zip (85 Mb)</el-button>
 
@@ -171,12 +171,3 @@ Click on image to zoom in, right-click to save.  All these are also present in y
 | D9 (HL) |            Drug purification             | ![](./image/D9AHL-DrugPurification.png) |
 | D9 (HL) |              Drug analysis               |    ![](./image/D9B-DrugAnalysis.png)    |
 
-
-<!-- |   |  | ![](./image/.png) |
-|   |  | ![](./image/.png) |
-|   |  | ![](./image/.png) |
-|   |  | ![](./image/.png) |
-|   |  | ![](./image/.png) |
-|   |  | ![](./image/.png) |
-|   |  | ![](./image/.png) |
-|   |  | ![](./image/.png) | -->

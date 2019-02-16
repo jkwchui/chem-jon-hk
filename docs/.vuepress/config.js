@@ -132,7 +132,7 @@ module.exports = {
                     title: 'Resources',
                     sidebarDepth: 0,
                     children: [
-                        ['./resources/resources/../', 'Resources'],
+                        ['./resources/resources/', 'Resources'],
                         ['./resources/notes/', '📘 Notes'],
                         ['./resources/tools/', '🔧 Tools'],
                         {
