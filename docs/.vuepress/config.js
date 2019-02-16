@@ -192,8 +192,8 @@ module.exports = {
                     sidebarDepth: 1,
                     children: [
                         ['./teaching/', 'Teaching'],
-                        ['./teaching/principles', '1. Principles'],
-                        ['./teaching/doctrine', '2A. Doctrine'],
+                        ['./teaching/priorities', '1. Priorities'],
+                        ['./teaching/habits', '2A. Habits'],
                         ['./teaching/techniques', '2B. Techniques'],
                         ['./teaching/plays', '3. Plays'],
                     ],

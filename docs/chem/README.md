@@ -13,9 +13,9 @@ These pages support the learning and teaching of chemistry at a Year 11-13 / fir
 3. [Complete notes](./resources/notes/)
 4. [IA Guide](./IA/)
 
-::: warning In-Progress
+::: tip Everything is in-progress
 
-This is a one-man band.  One guy moonlights the writing, drawing, designing, coding, shoots videos and edits them.  Many sections look like drafts because they *are* drafts.
+I design and write and draw and code and translate and produce videos in my own time.  Development is, in the best days, maddeningly slow and, in the best months, halting.
 
 :::
 

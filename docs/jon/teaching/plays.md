@@ -1,3 +1,13 @@
+# Plays
+
+I use the word *play* for actions that are self-contained and specific for one situation.  It includes class lessons and activities, as well as things I do as a teacher on irregular basis (*e.g.*, grading IAs).
+
+::: danger For students
+
+Spoilers ahead.
+
+:::
+
 ## Topics
 
 | Play                                           |  Topic  |          Duration          | Comments                                                    |         Status<img width=150/>         |
