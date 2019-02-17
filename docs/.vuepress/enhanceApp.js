@@ -19,6 +19,10 @@ import './element-variables.scss'
 // import './mathJaxConfig.js'
 // import '../../node_modules/mathjax/MathJax.js'
 
+<<<<<<< HEAD
+=======
+// See https://beg-in.github.io/vue-babylonjs/#/installation
+>>>>>>> Added partial comp, resources for Babylon/PDF
 // import { plugin } from 'vue-babylonjs'
 
 // import {
