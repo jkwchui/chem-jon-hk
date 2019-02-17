@@ -19,7 +19,7 @@ import './element-variables.scss'
 // import './mathJaxConfig.js'
 // import '../../node_modules/mathjax/MathJax.js'
 
-import { plugin } from 'vue-babylonjs'
+// import { plugin } from 'vue-babylonjs'
 
 // import {
 //     VueMathjax
@@ -37,7 +37,7 @@ export default ({
     // Vue.use(BootstrapVue);
     Vue.use(ElementUI);
     Vue.use(require('vue-moment'))
-    Vue.use(plugin)
+    // Vue.use(plugin)
     Vue.prototype.$teacher = true; //global variable identifying teacher or not
     
 }
