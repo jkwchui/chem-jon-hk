@@ -25,27 +25,25 @@ graph LR
 ## Terminologies
 
 Arrangement by Z
+
 Groups vs period
+
 Numbering
+
 Group names
+
 Blocks & electronic configuration
+
 Valence electrons
+
 Need to know first 20 elements + halogens
 
-<div class="container">
-<div class="row">
-<div class="col-sm">
+## Ionization energy
 
-One of three columns H~2~O
+<Chem formula="X\gas{} -> X+\gas{} + e-" inline />
 
-</div>
+## Successive ionization energies
 
-<div class="col-sm">
+<ElementGraph scale="value" />
 
-</div>
-
-<div class="col-sm">
-
-</div>
-</div>
-</div>
+<ElementGraph />
