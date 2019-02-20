@@ -6,6 +6,6 @@ How and why and what about using molecular modelling.
 
 ## Tutorials
 
-|                 Tutorial                 |                     Notes                     | Duration |       Ppl        | Difficulty |
+|                 Tutorial                 |                     Notes                     | Duration |       Group        | Difficulty |
 |:----------------------------------------:|:---------------------------------------------:|:--------:|:----------------:|:----------:|
-| [Explore H-H bond with WebMO-GAMESS](./HHenergy) | Energy calculations with *ab initio* methods. |  60 min  | 12-16 (in pairs) |    Easy    |
+| [Explore H-H bond with WebMO-GAMESS](./HHenergy.html) | Energy calculations with *ab initio* methods. |  60 min  | 12-20 (in pairs) |    Easy    |
