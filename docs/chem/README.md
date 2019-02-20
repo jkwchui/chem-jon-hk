@@ -15,7 +15,7 @@ These pages support the learning and teaching of chemistry at a Year 11-13 / fir
 
 ::: tip Everything is in-progress
 
-I design and write and draw and code and translate and produce videos in my own time.  Development is, in the best days, maddeningly slow and, in the best months, halting.
+I design and write and draw and code and translate and produce videos.  Development is, in the best days, maddeningly slow and, in the best months, halting.
 
 :::
 
@@ -73,4 +73,4 @@ Under the *Jon* tab there is a separate section on how I teach.  This includes [
 
 <!-- Thinking behind explanation, and caveats are hidden on the page and can be viewed by toggling on the Teacher switch under Settings. -->
 
-For more resources I suggest you to subscribe to our Teacher Resource Exchange.  Instructions for access can be found on the [myIB forums](https://internationalbaccalaureate.force.com/IBProgramme/s/question/0D50O00004pjt0YSAQ/teacher-resource-exchange).  You can also contact me through there.
+For more resources I suggest you to subscribe to our Teacher Resource Exchange.  Instructions for access can be found on the [myIB forums](https://internationalbaccalaureate.force.com/IBProgramme/s/question/0D50O00004pjt0YSAQ/teacher-resource-exchange).
