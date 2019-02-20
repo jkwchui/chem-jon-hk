@@ -2,7 +2,7 @@
 
 In this tutorial, I will show you how to do an *ab initio* quantum mechanical calculation using GAMESS.  After finishing this tutorial you will be able to determine:
 
-* Energy of molecules at arbitrary conformations, and
+* Energy (stability) of molecules at arbitrary conformations, and
 * Optimal geometry of molecules
 
 During this process you will learn to navigate the interface, create molecules, making measurements, modifying bond lengths, and submitting a job.
@@ -106,7 +106,7 @@ Click on the blue arrow on the right to advance.
 
 ::: tip Theory of molecular modeling
 
-If you are using molecular modeling for your IA, you will need a much more in-depth understanding to choose an appropriate method / basis set.
+If you are using molecular modeling for your IA, you will need a much more in-depth understanding to choose an appropriate method / basis set.  You will probably also need to change parameters under the `Advanced` tab.
 
 :::
 
@@ -127,7 +127,8 @@ Examine the graph and try to explain:
 5. How good was your calculation?
    * Does the bond length fit with experimental observations?
    * Does the bond energy fits with experimental measurements?
-6. How could this energy-distance curve be modelled mathematically?
+6. Could this energy-distance curve be modelled mathematically?
+   * How?
    * Has this been done before?
 
 And then,
