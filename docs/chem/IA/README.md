@@ -14,7 +14,7 @@ IA for Sciences had been revamped in 2016. The format, requirements, and assessm
 
 :::
 
-I wrote this guide to help cut through the anxiety and confusion. It will not replace the thoughtful and creative work --- that still needs to come from _you_ --- but it provide you with step-by-step guidance to channel your attention systematically.
+I wrote this guide to help cut through the anxiety and confusion. It will not replace the thoughtful and creative work --- that still needs to come from _you_ --- but the goal is to provide you with step-by-step guidance so you can channel your attention systematically.
 
 ::: tip About me
 
@@ -126,14 +126,14 @@ Your IA is assessed on **five** criteria, each of which are subdivided into *asp
 
 [^subdiv]: IBO describes the aspects but not their relative proportions within a criteria.  These are *my* proportions.
 
-<el-row>
+<!-- <el-row>
 
-<el-col :span="16">
+<el-col :span="16"> -->
 
 <!-- <IA-Criteria /> -->
-<IA-CriteriaTreemap />
+<IA-Criteria />
 
-</el-col>
+<!-- </el-col>
 
 <el-col :span="8">
 
@@ -145,7 +145,7 @@ Your IA is assessed on **five** criteria, each of which are subdivided into *asp
 
 </el-col>
 
-</el-row>
+</el-row> -->
 
 The total score, then, is 24.
 

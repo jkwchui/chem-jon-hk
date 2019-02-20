@@ -119,10 +119,28 @@ module.exports = {
                 {
                     title: 'Skills',
                     children: [
-                        ['./skills/spreadsheet', 'Spreadsheet'],
-                        ['./skills/modeling', 'Molecular modeling'],
-                        ['./skills/writing', 'Science writing'],
-                        ['./skills/lab', 'Lab'],
+                        {
+                            title: 'ICT',
+                            children: [
+                                ['./skills/analysis/spreadsheet/', 'Spreadsheet'],
+                                ['./skills/mol-model/', 'Molecular modeling'],
+                                ['./skills/database/', 'Exploring databases'],
+                            ]
+                        },
+                        {
+                            title: 'Lab',
+                            children: [
+                                ['./skills/lab', 'Wet lab skills'],
+                                ['./skills/image-analysis/', 'Image analysis'],
+                            ]
+                        },
+                        {
+                            title: 'Witing',
+                            children: [
+                                ['./skills/writing', 'On science writing'],
+                                // ['./skills/writing', 'On science writing'],
+                            ]
+                        }
                     ],
                 },
                 {
