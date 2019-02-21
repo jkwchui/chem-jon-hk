@@ -38,13 +38,15 @@ Valence electrons
 
 Need to know first 20 elements + halogens
 
+## Atomic Radii
+
+<Radii atomic />
+
 ## Ionization energy
 
 <Chem formula="X\gas{} -> X+\gas{} + e-" inline />
 
 <EnergyTrends IE />
-
-<Radii atomic />
 
 ## Successive ionization energies
 
