@@ -42,8 +42,10 @@ Need to know first 20 elements + halogens
 
 <Chem formula="X\gas{} -> X+\gas{} + e-" inline />
 
+<FirstIE />
+
 ## Successive ionization energies
 
-<ElementGraph scale="value" />
+<SuccessiveIE scale="value" />
 
-<ElementGraph />
+<SuccessiveIE />
