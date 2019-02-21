@@ -17,7 +17,7 @@ import '../../../node_modules/echarts/lib/chart/bar'
 import '../../../node_modules/echarts/lib/component/tooltip'
 import '../../../node_modules/echarts/lib/component/toolbox'
 import '../../../node_modules/echarts/lib/component/legend'
-import '../../../node_modules/echarts/lib/component/datazoom'
+import '../../../node_modules/echarts/lib/component/dataZoom'
 
 
 export default {
@@ -41,19 +41,33 @@ export default {
     step: function () {
       return {
         title: {
-            text: 'First ionization energies'
+            text: 'Periodic Trends'
         },
         tooltip: {
-            trigger: 'axis'
+            trigger: 'axis',
+            axisPointer: {
+              type: 'cross'
+            }
         },
-        // legend: {
-        //     data:[ this.select1, this.select2]
-        // },
+        legend: {
+            data: [ 
+              'IE', 
+              'electronegativity', 
+              'electron affinity', 
+              // 'atomic radii'
+              ],
+            selected: {
+              'IE': true,
+              'electronegativity': false,
+              'electron affinity': false,
+              // 'atomic radii': false
+            }
+        },
         dataZoom: [{
             type: 'inside',
             start: 0,
             end: 17
-        }, {
+            }, {
             start: 0,
             end: 10,
             handleIcon: 'M10.7,11.9v-1.3H9.3v1.3c-4.9,0.3-8.8,4.4-8.8,9.4c0,5,3.9,9.1,8.8,9.4v1.3h1.3v-1.3c4.9-0.3,8.8-4.4,8.8-9.4C19.5,16.3,15.6,12.2,10.7,11.9z M13.3,24.4H6.7V23h6.6V24.4z M13.3,19.6H6.7v-1.4h6.6V19.6z',
@@ -72,6 +86,7 @@ export default {
             bottom: '3%',
             containLabel: true
         },
+        // color: ['#0064a6', '#009b90', '#e6a23c', '#ad1644', '#909399', '#741669', '#de6328'],
         toolbox: {
             feature: {
                 // myTool2: {
@@ -88,7 +103,7 @@ export default {
                 //   }
                 // },
                 saveAsImage: {
-                  name: 'FirstIonizationEnergy',
+                  name: 'PeriodicTrends',
                   title: 'Save as image'
                 },
 
@@ -101,10 +116,48 @@ export default {
             type: 'category',
             data: this.axisLabels()
         },
-        yAxis: {
-            type: 'value'
-            // type: this.scale
-        },
+        yAxis: [
+            {
+              type: 'value',
+              name: 'E',
+              position: 'left',
+              // axisLine: {
+              //     lineStyle: {
+              //       color: ['#2C3E50']
+              //     }
+              //   },
+              axisLabel: {
+                  formatter: '{value} kJ/mol'
+              }
+            },
+            {
+              type: 'value',
+              name: '𝛘',
+              position: 'right',
+              axisLine: {
+                  lineStyle: {
+                    color: ['#de6328']
+                  }
+                },
+              axisLabel: {
+                formatter: '{value}'
+              }
+            },
+            // {
+            //   type: 'value',
+            //   name: 'radius',
+            //   position: 'right',
+            //   offset: 50,
+            //   axisLine: {
+            //       lineStyle: {
+            //         color: ['#717073']
+            //       }
+            //     },
+            //   axisLabel: {
+            //     formatter: '{value} pm'
+            //   }
+            // }
+        ],
         series: [
             {
                 name: 'IE',
@@ -113,12 +166,29 @@ export default {
                 data: this.loadIE(),
                 color: ['#0064a6'],
             },
+            {
+                name: "electronegativity",
+                type:'line',
+                step: 'middle',
+                data: this.loadElectronegativity(),
+                color: ['#de6328'],
+                yAxisIndex: 1
+            },
+            {
+                name: "electron affinity",
+                type:'line',
+                step: 'middle',
+                data: this.loadElectronAffinity(),
+                color: ['#E6A23C'],
+                yAxisIndex: 0
+            },
             // {
-            //     name: "electronegativity",
+            //     name: "atomic radii",
             //     type:'line',
             //     step: 'middle',
-            //     data: this.loadElectronegativity(),
-            //     color: ['#de6328'],
+            //     data: this.loadAtomicRadii(),
+            //     color: ['#717073'],
+            //     yAxisIndex: 1
             // }
         ]
       }
@@ -162,6 +232,28 @@ export default {
           electronegs.push(this.data[i].electronegativity)
       }
       return electronegs
+    },
+
+    loadElectronAffinity: function () {
+      var electron_affinitys = []
+
+      var arrayLength = this.data.length;
+      for (var i = 0; i < arrayLength; i++) {
+          // console.log(myStringArray[i]);
+          electron_affinitys.push(this.data[i].electron_affinity)
+      }
+      return electron_affinitys
+    },
+
+    loadAtomicRadii: function () {
+      var atomic_radiis = []
+
+      var arrayLength = this.data.length;
+      for (var i = 0; i < arrayLength; i++) {
+          // console.log(myStringArray[i]);
+          atomic_radiis.push(this.data[i].atomic_radii)
+      }
+      return atomic_radiis
     }
   }
 }

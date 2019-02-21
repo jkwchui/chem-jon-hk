@@ -13,10 +13,10 @@
     "simplified electron configuration": "1s1",
     "ionization energy / eV": 13.6,
     "ionization_energy": 1312,
-    "electron affinity kJ/mol": -73,
+    "electron_affinity": -73,
     "electronegativity": 2.2,
-    "Atomic radii / pm": 32,
-    "Ionic radii": null,
+    "atomic_radii": 32,
+    "ionic_radii": null,
     "ion": ""
   },
   {
@@ -33,10 +33,10 @@
     "simplified electron configuration": "1s2",
     "ionization energy / eV": 24.59,
     "ionization_energy": 2373,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": 37,
-    "Ionic radii": null,
+    "atomic_radii": 37,
+    "ionic_radii": null,
     "ion": ""
   },
   {
@@ -53,10 +53,10 @@
     "simplified electron configuration": "[He] 2s1",
     "ionization energy / eV": 5.39,
     "ionization_energy": 520,
-    "electron affinity kJ/mol": -60,
+    "electron_affinity": -60,
     "electronegativity": 1,
-    "Atomic radii / pm": 130,
-    "Ionic radii": 76,
+    "atomic_radii": 130,
+    "ionic_radii": 76,
     "ion": 1
   },
   {
@@ -73,10 +73,10 @@
     "simplified electron configuration": "[He] 2s2",
     "ionization energy / eV": 9.32,
     "ionization_energy": 899,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": 1.6,
-    "Atomic radii / pm": 99,
-    "Ionic radii": 45,
+    "atomic_radii": 99,
+    "ionic_radii": 45,
     "ion": 2
   },
   {
@@ -93,10 +93,10 @@
     "simplified electron configuration": "[He] 2s2 2p1",
     "ionization energy / eV": 8.3,
     "ionization_energy": 801,
-    "electron affinity kJ/mol": -27,
+    "electron_affinity": -27,
     "electronegativity": 2,
-    "Atomic radii / pm": 84,
-    "Ionic radii": 27,
+    "atomic_radii": 84,
+    "ionic_radii": 27,
     "ion": 3
   },
   {
@@ -113,10 +113,10 @@
     "simplified electron configuration": "[He] 2s2 2p2",
     "ionization energy / eV": 11.26,
     "ionization_energy": 1087,
-    "electron affinity kJ/mol": -122,
+    "electron_affinity": -122,
     "electronegativity": 2.6,
-    "Atomic radii / pm": 75,
-    "Ionic radii": 16,
+    "atomic_radii": 75,
+    "ionic_radii": 16,
     "ion": 4
   },
   {
@@ -133,10 +133,10 @@
     "simplified electron configuration": "[He] 2s2 2p3",
     "ionization energy / eV": 14.53,
     "ionization_energy": 1402,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": 3,
-    "Atomic radii / pm": 71,
-    "Ionic radii": 146,
+    "atomic_radii": 71,
+    "ionic_radii": 146,
     "ion": -3
   },
   {
@@ -153,10 +153,10 @@
     "simplified electron configuration": "[He] 2s2 2p4",
     "ionization energy / eV": 13.62,
     "ionization_energy": 1314,
-    "electron affinity kJ/mol": -141,
+    "electron_affinity": -141,
     "electronegativity": 3.4,
-    "Atomic radii / pm": 64,
-    "Ionic radii": 140,
+    "atomic_radii": 64,
+    "ionic_radii": 140,
     "ion": -2
   },
   {
@@ -173,10 +173,10 @@
     "simplified electron configuration": "[He] 2s2 2p5",
     "ionization energy / eV": 17.42,
     "ionization_energy": 1681,
-    "electron affinity kJ/mol": -328,
+    "electron_affinity": -328,
     "electronegativity": 4,
-    "Atomic radii / pm": 60,
-    "Ionic radii": 133,
+    "atomic_radii": 60,
+    "ionic_radii": 133,
     "ion": -1
   },
   {
@@ -193,10 +193,10 @@
     "simplified electron configuration": "[He] 2s2 2p6",
     "ionization energy / eV": 21.56,
     "ionization_energy": 2080,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": 62,
-    "Ionic radii": null,
+    "atomic_radii": 62,
+    "ionic_radii": null,
     "ion": ""
   },
   {
@@ -213,10 +213,10 @@
     "simplified electron configuration": "[Ne] 3s1",
     "ionization energy / eV": 5.14,
     "ionization_energy": 496,
-    "electron affinity kJ/mol": -53,
+    "electron_affinity": -53,
     "electronegativity": 0.9,
-    "Atomic radii / pm": 160,
-    "Ionic radii": 102,
+    "atomic_radii": 160,
+    "ionic_radii": 102,
     "ion": 1
   },
   {
@@ -233,10 +233,10 @@
     "simplified electron configuration": "[Ne] 3s2",
     "ionization energy / eV": 7.65,
     "ionization_energy": 738,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": 1.3,
-    "Atomic radii / pm": 140,
-    "Ionic radii": 72,
+    "atomic_radii": 140,
+    "ionic_radii": 72,
     "ion": 2
   },
   {
@@ -253,10 +253,10 @@
     "simplified electron configuration": "[Ne] 3s2 3p1",
     "ionization energy / eV": 5.99,
     "ionization_energy": 578,
-    "electron affinity kJ/mol": -42,
+    "electron_affinity": -42,
     "electronegativity": 1.6,
-    "Atomic radii / pm": 124,
-    "Ionic radii": 54,
+    "atomic_radii": 124,
+    "ionic_radii": 54,
     "ion": 3
   },
   {
@@ -273,10 +273,10 @@
     "simplified electron configuration": "[Ne] 3s2 3p2",
     "ionization energy / eV": 8.15,
     "ionization_energy": 786,
-    "electron affinity kJ/mol": -134,
+    "electron_affinity": -134,
     "electronegativity": 1.9,
-    "Atomic radii / pm": 114,
-    "Ionic radii": 40,
+    "atomic_radii": 114,
+    "ionic_radii": 40,
     "ion": 4
   },
   {
@@ -293,10 +293,10 @@
     "simplified electron configuration": "[Ne] 3s2 3p3",
     "ionization energy / eV": 10.49,
     "ionization_energy": 1012,
-    "electron affinity kJ/mol": -72,
+    "electron_affinity": -72,
     "electronegativity": 2.2,
-    "Atomic radii / pm": 109,
-    "Ionic radii": 38,
+    "atomic_radii": 109,
+    "ionic_radii": 38,
     "ion": 5
   },
   {
@@ -313,10 +313,10 @@
     "simplified electron configuration": "[Ne] 3s2 3p4",
     "ionization energy / eV": 10.36,
     "ionization_energy": 1000,
-    "electron affinity kJ/mol": -200,
+    "electron_affinity": -200,
     "electronegativity": 2.6,
-    "Atomic radii / pm": 104,
-    "Ionic radii": 184,
+    "atomic_radii": 104,
+    "ionic_radii": 184,
     "ion": -2
   },
   {
@@ -333,10 +333,10 @@
     "simplified electron configuration": "[Ne] 3s2 3p5",
     "ionization energy / eV": 12.97,
     "ionization_energy": 1252,
-    "electron affinity kJ/mol": -349,
+    "electron_affinity": -349,
     "electronegativity": 3.2,
-    "Atomic radii / pm": 100,
-    "Ionic radii": 181,
+    "atomic_radii": 100,
+    "ionic_radii": 181,
     "ion": -1
   },
   {
@@ -353,10 +353,10 @@
     "simplified electron configuration": "[Ne] 3s2 3p6",
     "ionization energy / eV": 15.76,
     "ionization_energy": 1521,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": 101,
-    "Ionic radii": null,
+    "atomic_radii": 101,
+    "ionic_radii": null,
     "ion": ""
   },
   {
@@ -373,10 +373,10 @@
     "simplified electron configuration": "[Ar] 4s1",
     "ionization energy / eV": 4.34,
     "ionization_energy": 419,
-    "electron affinity kJ/mol": -48,
+    "electron_affinity": -48,
     "electronegativity": 0.8,
-    "Atomic radii / pm": 200,
-    "Ionic radii": 138,
+    "atomic_radii": 200,
+    "ionic_radii": 138,
     "ion": 1
   },
   {
@@ -393,10 +393,10 @@
     "simplified electron configuration": "[Ar] 4s2",
     "ionization energy / eV": 6.11,
     "ionization_energy": 590,
-    "electron affinity kJ/mol": -2,
+    "electron_affinity": -2,
     "electronegativity": 1,
-    "Atomic radii / pm": 174,
-    "Ionic radii": 100,
+    "atomic_radii": 174,
+    "ionic_radii": 100,
     "ion": 2
   },
   {
@@ -413,10 +413,10 @@
     "simplified electron configuration": "[Ar] 3d1 4s2",
     "ionization energy / eV": 6.56,
     "ionization_energy": 633,
-    "electron affinity kJ/mol": -18,
+    "electron_affinity": -18,
     "electronegativity": 1.4,
-    "Atomic radii / pm": 159,
-    "Ionic radii": 75,
+    "atomic_radii": 159,
+    "ionic_radii": 75,
     "ion": 3
   },
   {
@@ -433,10 +433,10 @@
     "simplified electron configuration": "[Ar] 3d2 4s2",
     "ionization energy / eV": 6.83,
     "ionization_energy": 659,
-    "electron affinity kJ/mol": -8,
+    "electron_affinity": -8,
     "electronegativity": 1.5,
-    "Atomic radii / pm": 148,
-    "Ionic radii": 86,
+    "atomic_radii": 148,
+    "ionic_radii": 86,
     "ion": 2
   },
   {
@@ -453,10 +453,10 @@
     "simplified electron configuration": "[Ar] 3d3 4s2",
     "ionization energy / eV": 6.75,
     "ionization_energy": 651,
-    "electron affinity kJ/mol": -51,
+    "electron_affinity": -51,
     "electronegativity": 1.6,
-    "Atomic radii / pm": 144,
-    "Ionic radii": 79,
+    "atomic_radii": 144,
+    "ionic_radii": 79,
     "ion": 2
   },
   {
@@ -473,10 +473,10 @@
     "simplified electron configuration": "[Ar] 3d5 4s1",
     "ionization energy / eV": 6.77,
     "ionization_energy": 653,
-    "electron affinity kJ/mol": -64,
+    "electron_affinity": -64,
     "electronegativity": 1.7,
-    "Atomic radii / pm": 130,
-    "Ionic radii": 62,
+    "atomic_radii": 130,
+    "ionic_radii": 62,
     "ion": 3
   },
   {
@@ -493,10 +493,10 @@
     "simplified electron configuration": "[Ar] 3d5 4s2",
     "ionization energy / eV": 7.43,
     "ionization_energy": 717,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": 1.6,
-    "Atomic radii / pm": 129,
-    "Ionic radii": 83,
+    "atomic_radii": 129,
+    "ionic_radii": 83,
     "ion": 2
   },
   {
@@ -513,10 +513,10 @@
     "simplified electron configuration": "[Ar] 3d6 4s2",
     "ionization energy / eV": 7.9,
     "ionization_energy": 762,
-    "electron affinity kJ/mol": -15,
+    "electron_affinity": -15,
     "electronegativity": 1.8,
-    "Atomic radii / pm": 124,
-    "Ionic radii": 61,
+    "atomic_radii": 124,
+    "ionic_radii": 61,
     "ion": 2
   },
   {
@@ -533,10 +533,10 @@
     "simplified electron configuration": "[Ar] 3d7 4s2",
     "ionization energy / eV": 7.88,
     "ionization_energy": 760,
-    "electron affinity kJ/mol": -64,
+    "electron_affinity": -64,
     "electronegativity": 1.9,
-    "Atomic radii / pm": 118,
-    "Ionic radii": 65,
+    "atomic_radii": 118,
+    "ionic_radii": 65,
     "ion": 2
   },
   {
@@ -553,10 +553,10 @@
     "simplified electron configuration": "[Ar] 3d8 4s2",
     "ionization energy / eV": 7.64,
     "ionization_energy": 737,
-    "electron affinity kJ/mol": -112,
+    "electron_affinity": -112,
     "electronegativity": 1.9,
-    "Atomic radii / pm": 117,
-    "Ionic radii": 69,
+    "atomic_radii": 117,
+    "ionic_radii": 69,
     "ion": 2
   },
   {
@@ -573,10 +573,10 @@
     "simplified electron configuration": "[Ar] 3d10 4s1",
     "ionization energy / eV": 7.73,
     "ionization_energy": 746,
-    "electron affinity kJ/mol": -119,
+    "electron_affinity": -119,
     "electronegativity": 1.9,
-    "Atomic radii / pm": 122,
-    "Ionic radii": 73,
+    "atomic_radii": 122,
+    "ionic_radii": 73,
     "ion": 2
   },
   {
@@ -593,10 +593,10 @@
     "simplified electron configuration": "[Ar] 3d10 4s2",
     "ionization energy / eV": 9.39,
     "ionization_energy": 906,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": 1.6,
-    "Atomic radii / pm": 120,
-    "Ionic radii": 74,
+    "atomic_radii": 120,
+    "ionic_radii": 74,
     "ion": 2
   },
   {
@@ -613,10 +613,10 @@
     "simplified electron configuration": "[Ar] 3d10 4s2 4p1",
     "ionization energy / eV": 6,
     "ionization_energy": 579,
-    "electron affinity kJ/mol": -41,
+    "electron_affinity": -41,
     "electronegativity": 1.8,
-    "Atomic radii / pm": 123,
-    "Ionic radii": 62,
+    "atomic_radii": 123,
+    "ionic_radii": 62,
     "ion": 3
   },
   {
@@ -633,10 +633,10 @@
     "simplified electron configuration": "[Ar] 3d10 4s2 4p2",
     "ionization energy / eV": 7.9,
     "ionization_energy": 762,
-    "electron affinity kJ/mol": -119,
+    "electron_affinity": -119,
     "electronegativity": 2,
-    "Atomic radii / pm": 120,
-    "Ionic radii": 53,
+    "atomic_radii": 120,
+    "ionic_radii": 53,
     "ion": 4
   },
   {
@@ -653,10 +653,10 @@
     "simplified electron configuration": "[Ar] 3d10 4s2 4p3",
     "ionization energy / eV": 9.79,
     "ionization_energy": 945,
-    "electron affinity kJ/mol": -78,
+    "electron_affinity": -78,
     "electronegativity": 2.2,
-    "Atomic radii / pm": 120,
-    "Ionic radii": 58,
+    "atomic_radii": 120,
+    "ionic_radii": 58,
     "ion": 3
   },
   {
@@ -673,10 +673,10 @@
     "simplified electron configuration": "[Ar] 3d10 4s2 4p4",
     "ionization energy / eV": 9.75,
     "ionization_energy": 941,
-    "electron affinity kJ/mol": -195,
+    "electron_affinity": -195,
     "electronegativity": 2.6,
-    "Atomic radii / pm": 118,
-    "Ionic radii": 198,
+    "atomic_radii": 118,
+    "ionic_radii": 198,
     "ion": -2
   },
   {
@@ -693,10 +693,10 @@
     "simplified electron configuration": "[Ar] 3d10 4s2 4p5",
     "ionization energy / eV": 11.81,
     "ionization_energy": 1140,
-    "electron affinity kJ/mol": -325,
+    "electron_affinity": -325,
     "electronegativity": 3,
-    "Atomic radii / pm": 117,
-    "Ionic radii": 196,
+    "atomic_radii": 117,
+    "ionic_radii": 196,
     "ion": -1
   },
   {
@@ -713,10 +713,10 @@
     "simplified electron configuration": "[Ar] 3d10 4s2 4p6",
     "ionization energy / eV": 14,
     "ionization_energy": 1351,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": 116,
-    "Ionic radii": null,
+    "atomic_radii": 116,
+    "ionic_radii": null,
     "ion": ""
   },
   {
@@ -733,10 +733,10 @@
     "simplified electron configuration": "[Kr] 5s1",
     "ionization energy / eV": 4.18,
     "ionization_energy": 403,
-    "electron affinity kJ/mol": -47,
+    "electron_affinity": -47,
     "electronegativity": 0.8,
-    "Atomic radii / pm": 215,
-    "Ionic radii": 152,
+    "atomic_radii": 215,
+    "ionic_radii": 152,
     "ion": 1
   },
   {
@@ -753,10 +753,10 @@
     "simplified electron configuration": "[Kr] 5s2",
     "ionization energy / eV": 5.69,
     "ionization_energy": 549,
-    "electron affinity kJ/mol": -5,
+    "electron_affinity": -5,
     "electronegativity": 1,
-    "Atomic radii / pm": 190,
-    "Ionic radii": 118,
+    "atomic_radii": 190,
+    "ionic_radii": 118,
     "ion": 2
   },
   {
@@ -773,10 +773,10 @@
     "simplified electron configuration": "[Kr] 4d1 5s2",
     "ionization energy / eV": 6.22,
     "ionization_energy": 600,
-    "electron affinity kJ/mol": -30,
+    "electron_affinity": -30,
     "electronegativity": 1.2,
-    "Atomic radii / pm": 176,
-    "Ionic radii": 90,
+    "atomic_radii": 176,
+    "ionic_radii": 90,
     "ion": 3
   },
   {
@@ -793,10 +793,10 @@
     "simplified electron configuration": "[Kr] 4d2 5s2",
     "ionization energy / eV": 6.63,
     "ionization_energy": 640,
-    "electron affinity kJ/mol": -41,
+    "electron_affinity": -41,
     "electronegativity": 1.3,
-    "Atomic radii / pm": 164,
-    "Ionic radii": 72,
+    "atomic_radii": 164,
+    "ionic_radii": 72,
     "ion": 4
   },
   {
@@ -813,10 +813,10 @@
     "simplified electron configuration": "[Kr] 4d4 5s1",
     "ionization energy / eV": 6.76,
     "ionization_energy": 652,
-    "electron affinity kJ/mol": -88,
+    "electron_affinity": -88,
     "electronegativity": 1.6,
-    "Atomic radii / pm": 156,
-    "Ionic radii": 72,
+    "atomic_radii": 156,
+    "ionic_radii": 72,
     "ion": 3
   },
   {
@@ -833,10 +833,10 @@
     "simplified electron configuration": "[Kr] 4d5 5s1",
     "ionization energy / eV": 7.09,
     "ionization_energy": 684,
-    "electron affinity kJ/mol": -72,
+    "electron_affinity": -72,
     "electronegativity": 2.2,
-    "Atomic radii / pm": 146,
-    "Ionic radii": 65,
+    "atomic_radii": 146,
+    "ionic_radii": 65,
     "ion": 4
   },
   {
@@ -853,10 +853,10 @@
     "simplified electron configuration": "[Kr] 4d5 5s2",
     "ionization energy / eV": 7.28,
     "ionization_energy": 702,
-    "electron affinity kJ/mol": -53,
+    "electron_affinity": -53,
     "electronegativity": 2.1,
-    "Atomic radii / pm": 138,
-    "Ionic radii": 65,
+    "atomic_radii": 138,
+    "ionic_radii": 65,
     "ion": 4
   },
   {
@@ -873,10 +873,10 @@
     "simplified electron configuration": "[Kr] 4d7 5s1",
     "ionization energy / eV": 7.36,
     "ionization_energy": 710,
-    "electron affinity kJ/mol": -101,
+    "electron_affinity": -101,
     "electronegativity": 2.2,
-    "Atomic radii / pm": 136,
-    "Ionic radii": 68,
+    "atomic_radii": 136,
+    "ionic_radii": 68,
     "ion": 3
   },
   {
@@ -893,10 +893,10 @@
     "simplified electron configuration": "[Kr] 4d8 5s1",
     "ionization energy / eV": 7.46,
     "ionization_energy": 720,
-    "electron affinity kJ/mol": -110,
+    "electron_affinity": -110,
     "electronegativity": 2.3,
-    "Atomic radii / pm": 134,
-    "Ionic radii": 67,
+    "atomic_radii": 134,
+    "ionic_radii": 67,
     "ion": 3
   },
   {
@@ -913,10 +913,10 @@
     "simplified electron configuration": "[Kr] 4d10",
     "ionization energy / eV": 8.34,
     "ionization_energy": 805,
-    "electron affinity kJ/mol": -54,
+    "electron_affinity": -54,
     "electronegativity": 2.2,
-    "Atomic radii / pm": 130,
-    "Ionic radii": 86,
+    "atomic_radii": 130,
+    "ionic_radii": 86,
     "ion": 2
   },
   {
@@ -933,10 +933,10 @@
     "simplified electron configuration": "[Kr] 4d10 5s1",
     "ionization energy / eV": 7.58,
     "ionization_energy": 731,
-    "electron affinity kJ/mol": -126,
+    "electron_affinity": -126,
     "electronegativity": 1.9,
-    "Atomic radii / pm": 136,
-    "Ionic radii": 115,
+    "atomic_radii": 136,
+    "ionic_radii": 115,
     "ion": 1
   },
   {
@@ -953,10 +953,10 @@
     "simplified electron configuration": "[Kr] 4d10 5s2",
     "ionization energy / eV": 8.99,
     "ionization_energy": 868,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": 1.7,
-    "Atomic radii / pm": 140,
-    "Ionic radii": 95,
+    "atomic_radii": 140,
+    "ionic_radii": 95,
     "ion": 2
   },
   {
@@ -973,10 +973,10 @@
     "simplified electron configuration": "[Kr] 4d10 5s2 5p1",
     "ionization energy / eV": 5.79,
     "ionization_energy": 559,
-    "electron affinity kJ/mol": -29,
+    "electron_affinity": -29,
     "electronegativity": 1.8,
-    "Atomic radii / pm": 142,
-    "Ionic radii": 80,
+    "atomic_radii": 142,
+    "ionic_radii": 80,
     "ion": 3
   },
   {
@@ -993,10 +993,10 @@
     "simplified electron configuration": "[Kr] 4d10 5s2 5p2",
     "ionization energy / eV": 7.34,
     "ionization_energy": 708,
-    "electron affinity kJ/mol": -107,
+    "electron_affinity": -107,
     "electronegativity": 2,
-    "Atomic radii / pm": 140,
-    "Ionic radii": 118,
+    "atomic_radii": 140,
+    "ionic_radii": 118,
     "ion": 2
   },
   {
@@ -1013,10 +1013,10 @@
     "simplified electron configuration": "[Kr] 4d10 5s2 5p3",
     "ionization energy / eV": 8.61,
     "ionization_energy": 831,
-    "electron affinity kJ/mol": -101,
+    "electron_affinity": -101,
     "electronegativity": 2,
-    "Atomic radii / pm": 140,
-    "Ionic radii": 76,
+    "atomic_radii": 140,
+    "ionic_radii": 76,
     "ion": 3
   },
   {
@@ -1033,10 +1033,10 @@
     "simplified electron configuration": "[Kr] 4d10 5s2 5p4",
     "ionization energy / eV": 9.01,
     "ionization_energy": 869,
-    "electron affinity kJ/mol": -190,
+    "electron_affinity": -190,
     "electronegativity": 2.1,
-    "Atomic radii / pm": 137,
-    "Ionic radii": 221,
+    "atomic_radii": 137,
+    "ionic_radii": 221,
     "ion": -2
   },
   {
@@ -1053,10 +1053,10 @@
     "simplified electron configuration": "[Kr] 4d10 5s2 5p5",
     "ionization energy / eV": 10.45,
     "ionization_energy": 1008,
-    "electron affinity kJ/mol": -295,
+    "electron_affinity": -295,
     "electronegativity": 2.7,
-    "Atomic radii / pm": 136,
-    "Ionic radii": 220,
+    "atomic_radii": 136,
+    "ionic_radii": 220,
     "ion": -1
   },
   {
@@ -1073,10 +1073,10 @@
     "simplified electron configuration": "[Kr] 4d10 5s2 5p6",
     "ionization energy / eV": 12.13,
     "ionization_energy": 1171,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": 2.6,
-    "Atomic radii / pm": 136,
-    "Ionic radii": null,
+    "atomic_radii": 136,
+    "ionic_radii": null,
     "ion": ""
   },
   {
@@ -1093,10 +1093,10 @@
     "simplified electron configuration": "[Xe] 6s1",
     "ionization energy / eV": 3.89,
     "ionization_energy": 375,
-    "electron affinity kJ/mol": -46,
+    "electron_affinity": -46,
     "electronegativity": 0.8,
-    "Atomic radii / pm": 238,
-    "Ionic radii": 167,
+    "atomic_radii": 238,
+    "ionic_radii": 167,
     "ion": 1
   },
   {
@@ -1113,10 +1113,10 @@
     "simplified electron configuration": "[Xe] 6s2",
     "ionization energy / eV": 5.21,
     "ionization_energy": 503,
-    "electron affinity kJ/mol": -14,
+    "electron_affinity": -14,
     "electronegativity": 0.9,
-    "Atomic radii / pm": 206,
-    "Ionic radii": 135,
+    "atomic_radii": 206,
+    "ionic_radii": 135,
     "ion": 2
   },
   {
@@ -1133,10 +1133,10 @@
     "simplified electron configuration": "[Xe] 5d1 6s2",
     "ionization energy / eV": 5.58,
     "ionization_energy": 538,
-    "electron affinity kJ/mol": -45,
+    "electron_affinity": -45,
     "electronegativity": 1.1,
-    "Atomic radii / pm": 194,
-    "Ionic radii": 103,
+    "atomic_radii": 194,
+    "ionic_radii": 103,
     "ion": 3
   },
   {
@@ -1153,10 +1153,10 @@
     "simplified electron configuration": "[Xe] 4f1 5d1 6s2",
     "ionization energy / eV": 5.54,
     "ionization_energy": 535,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1173,10 +1173,10 @@
     "simplified electron configuration": "[Xe] 4f3 6s2",
     "ionization energy / eV": 5.47,
     "ionization_energy": 528,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1193,10 +1193,10 @@
     "simplified electron configuration": "[Xe] 4f4 6s2",
     "ionization energy / eV": 5.53,
     "ionization_energy": 534,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1213,10 +1213,10 @@
     "simplified electron configuration": "[Xe] 4f5 6s2",
     "ionization energy / eV": 5.58,
     "ionization_energy": 538,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1233,10 +1233,10 @@
     "simplified electron configuration": "[Xe] 4f6 6s2",
     "ionization energy / eV": 5.64,
     "ionization_energy": 544,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1253,10 +1253,10 @@
     "simplified electron configuration": "[Xe] 4f7 6s2",
     "ionization energy / eV": 5.67,
     "ionization_energy": 547,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1273,10 +1273,10 @@
     "simplified electron configuration": "[Xe] 4f7 5d1 6s2",
     "ionization energy / eV": 6.15,
     "ionization_energy": 593,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1293,10 +1293,10 @@
     "simplified electron configuration": "[Xe] 4f9 6s2",
     "ionization energy / eV": 5.86,
     "ionization_energy": 565,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1313,10 +1313,10 @@
     "simplified electron configuration": "[Xe] 4f10 6s2",
     "ionization energy / eV": 5.94,
     "ionization_energy": 573,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1333,10 +1333,10 @@
     "simplified electron configuration": "[Xe] 4f11 6s2",
     "ionization energy / eV": 6.02,
     "ionization_energy": 581,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1353,10 +1353,10 @@
     "simplified electron configuration": "[Xe] 4f12 6s2",
     "ionization energy / eV": 6.11,
     "ionization_energy": 590,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1373,10 +1373,10 @@
     "simplified electron configuration": "[Xe] 4f13 6s2",
     "ionization energy / eV": 6.18,
     "ionization_energy": 596,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1393,10 +1393,10 @@
     "simplified electron configuration": "[Xe] 4f14 6s2",
     "ionization energy / eV": 6.25,
     "ionization_energy": 603,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1413,10 +1413,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d1 6s2",
     "ionization energy / eV": 5.43,
     "ionization_energy": 524,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1433,10 +1433,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d2 6s2",
     "ionization energy / eV": 6.83,
     "ionization_energy": 659,
-    "electron affinity kJ/mol": -1,
+    "electron_affinity": -1,
     "electronegativity": 1.3,
-    "Atomic radii / pm": 164,
-    "Ionic radii": 71,
+    "atomic_radii": 164,
+    "ionic_radii": 71,
     "ion": 4
   },
   {
@@ -1453,10 +1453,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d3 6s2",
     "ionization energy / eV": 7.55,
     "ionization_energy": 729,
-    "electron affinity kJ/mol": -31,
+    "electron_affinity": -31,
     "electronegativity": 1.5,
-    "Atomic radii / pm": 158,
-    "Ionic radii": 64,
+    "atomic_radii": 158,
+    "ionic_radii": 64,
     "ion": 5
   },
   {
@@ -1473,10 +1473,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d4 6s2",
     "ionization energy / eV": 7.86,
     "ionization_energy": 758,
-    "electron affinity kJ/mol": -79,
+    "electron_affinity": -79,
     "electronegativity": 1.7,
-    "Atomic radii / pm": 150,
-    "Ionic radii": 66,
+    "atomic_radii": 150,
+    "ionic_radii": 66,
     "ion": 4
   },
   {
@@ -1493,10 +1493,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d5 6s2",
     "ionization energy / eV": 7.83,
     "ionization_energy": 756,
-    "electron affinity kJ/mol": -14,
+    "electron_affinity": -14,
     "electronegativity": 1.9,
-    "Atomic radii / pm": 141,
-    "Ionic radii": 63,
+    "atomic_radii": 141,
+    "ionic_radii": 63,
     "ion": 4
   },
   {
@@ -1513,10 +1513,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d6 6s2",
     "ionization energy / eV": 8.44,
     "ionization_energy": 814,
-    "electron affinity kJ/mol": -106,
+    "electron_affinity": -106,
     "electronegativity": 2.2,
-    "Atomic radii / pm": 136,
-    "Ionic radii": 63,
+    "atomic_radii": 136,
+    "ionic_radii": 63,
     "ion": 4
   },
   {
@@ -1533,10 +1533,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d7 6s2",
     "ionization energy / eV": 8.97,
     "ionization_energy": 866,
-    "electron affinity kJ/mol": -151,
+    "electron_affinity": -151,
     "electronegativity": 2.2,
-    "Atomic radii / pm": 132,
-    "Ionic radii": 68,
+    "atomic_radii": 132,
+    "ionic_radii": 68,
     "ion": 3
   },
   {
@@ -1553,10 +1553,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d9 6s1",
     "ionization energy / eV": 8.96,
     "ionization_energy": 865,
-    "electron affinity kJ/mol": -205,
+    "electron_affinity": -205,
     "electronegativity": 2.2,
-    "Atomic radii / pm": 130,
-    "Ionic radii": 80,
+    "atomic_radii": 130,
+    "ionic_radii": 80,
     "ion": 2
   },
   {
@@ -1573,10 +1573,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d10 6s1",
     "ionization energy / eV": 9.23,
     "ionization_energy": 891,
-    "electron affinity kJ/mol": -223,
+    "electron_affinity": -223,
     "electronegativity": 2.4,
-    "Atomic radii / pm": 130,
-    "Ionic radii": 137,
+    "atomic_radii": 130,
+    "ionic_radii": 137,
     "ion": 1
   },
   {
@@ -1593,10 +1593,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d10 6s2",
     "ionization energy / eV": 10.44,
     "ionization_energy": 1007,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": 1.9,
-    "Atomic radii / pm": 132,
-    "Ionic radii": 119,
+    "atomic_radii": 132,
+    "ionic_radii": 119,
     "ion": 1
   },
   {
@@ -1613,10 +1613,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d10 6s2 6p1",
     "ionization energy / eV": 6.11,
     "ionization_energy": 590,
-    "electron affinity kJ/mol": -36,
+    "electron_affinity": -36,
     "electronegativity": 1.8,
-    "Atomic radii / pm": 144,
-    "Ionic radii": 150,
+    "atomic_radii": 144,
+    "ionic_radii": 150,
     "ion": 1
   },
   {
@@ -1633,10 +1633,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d10 6s2 6p2",
     "ionization energy / eV": 7.42,
     "ionization_energy": 716,
-    "electron affinity kJ/mol": -35,
+    "electron_affinity": -35,
     "electronegativity": 1.8,
-    "Atomic radii / pm": 145,
-    "Ionic radii": 119,
+    "atomic_radii": 145,
+    "ionic_radii": 119,
     "ion": 2
   },
   {
@@ -1653,10 +1653,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d10 6s2 6p3",
     "ionization energy / eV": 7.29,
     "ionization_energy": 703,
-    "electron affinity kJ/mol": -91,
+    "electron_affinity": -91,
     "electronegativity": 1.9,
-    "Atomic radii / pm": 150,
-    "Ionic radii": 103,
+    "atomic_radii": 150,
+    "ionic_radii": 103,
     "ion": 3
   },
   {
@@ -1673,10 +1673,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d10 6s2 6p4",
     "ionization energy / eV": 8.42,
     "ionization_energy": 813,
-    "electron affinity kJ/mol": -183,
+    "electron_affinity": -183,
     "electronegativity": 2,
-    "Atomic radii / pm": 142,
-    "Ionic radii": 97,
+    "atomic_radii": 142,
+    "ionic_radii": 97,
     "ion": 4
   },
   {
@@ -1693,10 +1693,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d10 6s2 6p5",
     "ionization energy / eV": 9.3,
     "ionization_energy": 897,
-    "electron affinity kJ/mol": -270,
+    "electron_affinity": -270,
     "electronegativity": 2.2,
-    "Atomic radii / pm": 148,
-    "Ionic radii": null,
+    "atomic_radii": 148,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1713,10 +1713,10 @@
     "simplified electron configuration": "[Xe] 4f14 5d10 6s2 6p6",
     "ionization energy / eV": 10.75,
     "ionization_energy": 1037,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": 146,
-    "Ionic radii": null,
+    "atomic_radii": 146,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1733,10 +1733,10 @@
     "simplified electron configuration": "[Rn] 7s1",
     "ionization energy / eV": 4.07,
     "ionization_energy": 393,
-    "electron affinity kJ/mol": -47,
+    "electron_affinity": -47,
     "electronegativity": 0.7,
-    "Atomic radii / pm": 242,
-    "Ionic radii": null,
+    "atomic_radii": 242,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1753,10 +1753,10 @@
     "simplified electron configuration": "[Rn] 7s2",
     "ionization energy / eV": 5.28,
     "ionization_energy": 510,
-    "electron affinity kJ/mol": -10,
+    "electron_affinity": -10,
     "electronegativity": 0.9,
-    "Atomic radii / pm": 211,
-    "Ionic radii": null,
+    "atomic_radii": 211,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1773,10 +1773,10 @@
     "simplified electron configuration": "[Rn] 6d1 7s2",
     "ionization energy / eV": 5.17,
     "ionization_energy": 499,
-    "electron affinity kJ/mol": -34,
+    "electron_affinity": -34,
     "electronegativity": 1.1,
-    "Atomic radii / pm": 201,
-    "Ionic radii": null,
+    "atomic_radii": 201,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1793,10 +1793,10 @@
     "simplified electron configuration": "[Rn] 6d2 7s2",
     "ionization energy / eV": 6.31,
     "ionization_energy": 609,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1813,10 +1813,10 @@
     "simplified electron configuration": "[Rn] 5f2 6d1 7s2",
     "ionization energy / eV": 5.89,
     "ionization_energy": 568,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1833,10 +1833,10 @@
     "simplified electron configuration": "[Rn] 5f3 6d1 7s2",
     "ionization energy / eV": 6.19,
     "ionization_energy": 597,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1853,10 +1853,10 @@
     "simplified electron configuration": "[Rn] 5f4 6d1 7s2",
     "ionization energy / eV": 6.27,
     "ionization_energy": 605,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1873,10 +1873,10 @@
     "simplified electron configuration": "[Rn] 5f6 7s2",
     "ionization energy / eV": 6.03,
     "ionization_energy": 582,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1893,10 +1893,10 @@
     "simplified electron configuration": "[Rn] 5f7 7s2",
     "ionization energy / eV": 5.97,
     "ionization_energy": 576,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1913,10 +1913,10 @@
     "simplified electron configuration": "",
     "ionization energy / eV": 5.99,
     "ionization_energy": 578,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1933,10 +1933,10 @@
     "simplified electron configuration": "",
     "ionization energy / eV": 6.2,
     "ionization_energy": 598,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1953,10 +1953,10 @@
     "simplified electron configuration": "",
     "ionization energy / eV": 6.28,
     "ionization_energy": 606,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1973,10 +1973,10 @@
     "simplified electron configuration": "",
     "ionization energy / eV": 6.42,
     "ionization_energy": 620,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -1993,10 +1993,10 @@
     "simplified electron configuration": "",
     "ionization energy / eV": 6.5,
     "ionization_energy": 627,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -2013,10 +2013,10 @@
     "simplified electron configuration": "",
     "ionization energy / eV": 6.58,
     "ionization_energy": 635,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -2033,10 +2033,10 @@
     "simplified electron configuration": "",
     "ionization energy / eV": 6.65,
     "ionization_energy": 642,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -2053,10 +2053,10 @@
     "simplified electron configuration": "",
     "ionization energy / eV": 4.9,
     "ionization_energy": 473,
-    "electron affinity kJ/mol": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -2072,11 +2072,11 @@
     "group": 4,
     "simplified electron configuration": "",
     "ionization energy / eV": 0,
-    "ionization_energy": 0,
-    "electron affinity kJ/mol": null,
+    "ionization_energy": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -2092,11 +2092,11 @@
     "group": 5,
     "simplified electron configuration": "",
     "ionization energy / eV": 0,
-    "ionization_energy": 0,
-    "electron affinity kJ/mol": null,
+    "ionization_energy": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -2112,11 +2112,11 @@
     "group": 6,
     "simplified electron configuration": "",
     "ionization energy / eV": 0,
-    "ionization_energy": 0,
-    "electron affinity kJ/mol": null,
+    "ionization_energy": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -2132,11 +2132,11 @@
     "group": 7,
     "simplified electron configuration": "",
     "ionization energy / eV": 0,
-    "ionization_energy": 0,
-    "electron affinity kJ/mol": null,
+    "ionization_energy": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -2152,11 +2152,11 @@
     "group": 8,
     "simplified electron configuration": "",
     "ionization energy / eV": 0,
-    "ionization_energy": 0,
-    "electron affinity kJ/mol": null,
+    "ionization_energy": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   },
   {
@@ -2172,11 +2172,11 @@
     "group": 9,
     "simplified electron configuration": "",
     "ionization energy / eV": 0,
-    "ionization_energy": 0,
-    "electron affinity kJ/mol": null,
+    "ionization_energy": null,
+    "electron_affinity": null,
     "electronegativity": null,
-    "Atomic radii / pm": null,
-    "Ionic radii": null,
+    "atomic_radii": null,
+    "ionic_radii": null,
     "ion": null
   }
 ]
