@@ -32,9 +32,17 @@ export default {
       }
   },
   props: {
-    scale: {
-      default: 'log',
-      type: String
+    IE: {
+      default: false,
+      type: Boolean
+    },
+    electronegativity: {
+      default: false,
+      type: Boolean
+    },
+    electron_affinity: {
+      default: false,
+      type: Boolean
     }
   },
   computed: {
@@ -57,9 +65,9 @@ export default {
               // 'atomic radii'
               ],
             selected: {
-              'IE': true,
-              'electronegativity': false,
-              'electron affinity': false,
+              'IE': this.IE,
+              'electronegativity': this.electronegativity,
+              'electron affinity': this.electron_affinity,
               // 'atomic radii': false
             }
         },
@@ -83,7 +91,7 @@ export default {
         grid: {
             left: '3%',
             right: '4%',
-            bottom: '3%',
+            bottom: '10%',
             containLabel: true
         },
         // color: ['#0064a6', '#009b90', '#e6a23c', '#ad1644', '#909399', '#741669', '#de6328'],

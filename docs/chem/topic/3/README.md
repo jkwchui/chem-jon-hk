@@ -42,7 +42,9 @@ Need to know first 20 elements + halogens
 
 <Chem formula="X\gas{} -> X+\gas{} + e-" inline />
 
-<FirstIE />
+<EnergyTrends IE />
+
+<Radii atomic />
 
 ## Successive ionization energies
 
