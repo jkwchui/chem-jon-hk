@@ -127,22 +127,22 @@ module.exports = {
                     title: 'Skills',
                     children: [
                         {
-                            title: 'ICT',
+                            title: '💾 ICT',
                             children: [
-                                ['./skills/analysis/spreadsheet/', 'Spreadsheet'],
+                                ['./skills/analysis/spreadsheet/', '📊 Spreadsheet'],
                                 ['./skills/mol-model/', 'Molecular modeling'],
-                                ['./skills/database/', 'Exploring databases'],
+                                ['./skills/database/', '📇 Exploring databases'],
                             ]
                         },
                         {
-                            title: 'Lab',
+                            title: '🥼 Lab',
                             children: [
                                 ['./skills/lab', 'Wet lab skills'],
                                 ['./skills/image-analysis/', 'Image analysis'],
                             ]
                         },
                         {
-                            title: 'Witing',
+                            title: '✍️ Writing',
                             children: [
                                 ['./skills/writing', 'On science writing'],
                                 // ['./skills/writing', 'On science writing'],
@@ -154,11 +154,11 @@ module.exports = {
                     title: 'Resources',
                     sidebarDepth: 0,
                     children: [
-                        ['./resources/resources/', 'Resources'],
+                        ['./resources/resources/', '🧳 Resources'],
                         ['./resources/notes/', '📘 Notes'],
                         ['./resources/tools/', '🔧 Tools'],
                         {
-                            title: 'Glossary',
+                            title: '🔤 Glossary',
                             children: [
                                 ['./resources/glossary/', 'En 🇬🇧 🇺🇸 🇨🇦'],
                                 ['./resources/glossary/es', 'Es 🇲🇽 🇪🇸 🇦🇷'],
@@ -186,9 +186,9 @@ module.exports = {
                 collapsable: true,
                 children: [
                     ['./', 'Bio'],
-                    ['./website', 'Website'],
-                    ['./colophon', 'Colophon'],
-                    ['./registry', 'Registry of interests'],
+                    ['./website', '🗄️ Website'],
+                    ['./colophon', '⌨️ Colophon'],
+                    ['./registry', '💰 Registry of interests'],
                 ],
             },
                /* {
