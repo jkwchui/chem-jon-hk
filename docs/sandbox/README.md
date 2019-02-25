@@ -36,6 +36,10 @@ The HTML specification is maintained by the W3C.
 
 [^2]: [NPM package](https://www.npmjs.com/package/markdown-it-attrs)
 
+### Images
+
+![Image from public](/image/concept.png =x100)
+
 ### Videos
 
 Youtube
@@ -110,6 +114,8 @@ From Element UI.[^EUI]
 At triple point, <Chem formula="H2O\solid{} <=> H2O\liquid{} <=> H2O\gas{}" inline />.
 
 Physical units available with **pu** command. -->
+
+
 
 ## Animation with Haiku
 

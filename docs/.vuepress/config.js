@@ -114,6 +114,13 @@ module.exports = {
                     children: [
                         ['./IA/', 'Internal Assessment'],
                         ['./IA/plan', '1. Planning'],
+                        {
+                            title: 'Inventory',
+                            children: [
+                                ['./IA/equipment', '🔬 Sensors and Equipment'],
+                                ['./IA/reagent', '🔥 Reagents'],
+                            ]
+                        }
                     ]
                 },
                 {
