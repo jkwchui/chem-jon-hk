@@ -21,6 +21,8 @@ gantt
 
 #### Term 2 Test 2
 
+<Foldable>
+
 <el-row>
 
 <el-col :span="8">
@@ -75,6 +77,8 @@ As always, to fully resolve the quantitative problems you will need to know your
 </el-col>
 
 </el-row>
+
+</Foldable>
 
 #### Term 2 Test 3
 
