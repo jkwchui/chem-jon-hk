@@ -137,7 +137,7 @@ Predicted grades admit the following exceptions:
 1. **language / background disadvantage**.  Students who had significant language/academic background deficiency will have their Term 1 grade omitted.[^calc]
 2. **IA**.  IAs that are likely to be significantly better / worse than current performance gets a modifier.  This is usually < ±5%.
 
-[^calc]: Subjective things are me  In practice I just calculate *both* variants for each student, and take the better one.  Too-clever kids believe they can game the system and waltz throughout Term 1.
+[^calc]: In practice I just calculate *both* variants for each student, and take the better one.  Too-clever kids believe they can game the system and waltz throughout Term 1.  Their poor preparations will dig them into a hole.
 
 ![Image from alias](/image/gradegraph.png)
 
@@ -159,3 +159,19 @@ Our internal grade boundaries are based on the IB chemistry grade boundaries.  T
 | 19-34 |   2   |
 
 </center>
+
+### Effort Grades
+
+Each term you are also given an Effort Grade.  For me, Effort Grade defaults to a `D`.  This is then modified up by 
+**evidence of practice / maintenance**.  As a general rule of thumb,
+
+| EG  |      Practice (hr/wk)       | Maintenance (min) |
+|:---:|:---------------------------:|:------------------------------:|
+| `A` |             3.5             |             10; 5 d/wk             |
+| `B` |              2              |             10; 2 d/wk             |
+| `C` |              1              |             10; 1 d/wk             |
+| `D` | cram before quizzes / tests |              n/a               |
+
+I periodically sample the Big Chart for evidence.  If you practice in other ways you need to show me evidence for them.  I do not take *intentions* as substitute for *actions*.
+
+The science department has a set of descriptors posted on the wall.  These include attendance and attitude. For me some are expectataions, and others are quite subjective.  These factor in the consideration in a minor way.
