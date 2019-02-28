@@ -611,6 +611,16 @@
   version "0.1.5"
   resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-0.1.5.tgz#ea70a4d4ad0d6d617048a5b2a2ff33e21fe47d61"
 
+"@haiku/core@^4.4.0":
+  version "4.4.0"
+  resolved "https://reservoir.haiku.ai:8910/@haiku%2fcore/-/core-4.4.0.tgz#11b8f838157f6ba25941e25809bd6fd549926020"
+
+"@haiku/jkwchui-electronsrepulsionsimple@0.0.5":
+  version "0.0.5"
+  resolved "https://reservoir.haiku.ai:8910/@haiku%2fjkwchui-electronsrepulsionsimple/-/jkwchui-electronsrepulsionsimple-0.0.5.tgz#0efe2840b12b102e9dbc745023bccee738040369"
+  dependencies:
+    "@haiku/core" "^4.4.0"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -8566,6 +8576,10 @@ vue-echarts@^4.0.1:
   dependencies:
     lodash "^4.17.11"
     resize-detector "^0.1.9"
+
+vue-foldable@^1.0.0-alpha.1:
+  version "1.0.0-alpha.1"
+  resolved "https://registry.yarnpkg.com/vue-foldable/-/vue-foldable-1.0.0-alpha.1.tgz#b31c9924534c982b78aac55fa222c2f73ec0ed46"
 
 vue-functional-data-merge@^2.0.7:
   version "2.0.7"

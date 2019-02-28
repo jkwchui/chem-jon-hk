@@ -12,7 +12,7 @@ gantt
     dateFormat  YYYY-MM-DD
     section Tests
     Test 1: done, 2018-12-05, 2d
-    Test 2: 2019-02-27, 2d
+    Test 2: done, 2019-02-27, 2d
     Test 3: 2019-04-09, 1d
     Y1 exam: 2019-05-14, 1d
     section Quizzes
