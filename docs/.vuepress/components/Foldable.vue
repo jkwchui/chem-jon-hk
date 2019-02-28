@@ -29,14 +29,14 @@
 </template>
 
 <style lang="stylus">
-  .vue-foldable {
-    &.my { /* override */
-      .vue-foldable-mask {
-        /* tweak the mask's postion according to your view more's height */
-        bottom: 50px
-      }
-    }
-  }
+  // .vue-foldable {
+  //   &.my { /* override */
+  //     .vue-foldable-mask {
+  //       /* tweak the mask's postion according to your view more's height */
+  //       bottom: 50px
+  //     }
+  //   }
+  // }
 
   .vue-foldable-container {
     transition: max-height 0.8s ease-in-out;
@@ -74,30 +74,6 @@
       opacity: 0.6;
       // text-decoration: underline;
     }
-
-    // margin: 10px auto;
-    // width: 80px;
-    // background-color: #fff;
-    // transition: background-color .2s ease-in-out;
-    // color: #0064a6;
-    // // border-color: #0064a6;
-    // // border-width: 1px;
-    // // border-style: solid;
-    // padding: 20 8px;
-    // font-size: 14px;
-    // border-radius: 4px;
-    // text-align: center;
-    // height: 34px;
-    // line-height: 34px;
-    // min-width: 72px;
-    // cursor: pointer;
-    // &:hover {
-    //   // background-color: #50a4f6;
-    //   // opacity: 30%;
-    //   text-decoration: underline;
-    // }
-    // font-style: italic;
-    // font-size: small;
   }
 
 </style>

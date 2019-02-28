@@ -21,14 +21,9 @@ import './element-variables.scss'
 
 // import { plugin } from 'vue-babylonjs'
 
-// import {
-//     VueMathjax
-// } from 'vue-mathjax'
-
 // Object.defineProperty(Vue.prototype, '$airtable', { value: Airtable });
 
 import VueFoldable from '../../node_modules/vue-foldable/src/VueFoldable.vue'
-// import './styles/vue-foldable.css'
 
 export default ({
     Vue,
