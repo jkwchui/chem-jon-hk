@@ -58,7 +58,13 @@
 * chemistry lab simulation
 * predicts volumes/mass loss/temperature change etc for certain reactions
 * **NOT** physically accurate
-* activate with school license code
+
+#### Installation
+
+1. Download installer [here](https://www.yenka.com/en/Download_the_Yenka_installer/)
+  1. If you are using a Mac, choose the right version (probably the El Capitan+ version)
+  2. If you are using a Mac, make sure you have dragged the Yenka.app icon into `/Applications` or the activation will fail.
+2. activate with school license code (search your email for `Yenka activation`)
 
 ### Visualization
 
