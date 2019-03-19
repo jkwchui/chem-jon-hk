@@ -1,3 +1,3 @@
 # Babylon test
 
-<!-- <BabylonTest/> -->
+<BabylonTest/>
