@@ -1,22 +1,13 @@
 <template lang="pug">
-
-Scene
-  Box(:position="[0, 0, 5]")
-
+    Scene
+      Box(:position="[0, 0, 5]")
 </template>
-<script>
 
-import { Entity, Scene, Box } from 'vue-babylonjs';
+<script>
+import { Scene, Box } from 'vue-babylonjs';
+
 export default {
-  mixins: [Entity],
-  components: { Scene, Box },
-  data () {
-      return {
-      }
-  }
+    name: "Babylone",
+    components: { Scene, Box },
 }
 </script>
-
-<style scoped>
-
-</style>

@@ -691,18 +691,6 @@
   resolved "https://registry.yarnpkg.com/@fortawesome/vue-fontawesome/-/vue-fontawesome-0.1.6.tgz#18a0f4263b90f65180fc927325ba01896276ea04"
   integrity sha512-HAGRbrOuGDwwUmCYdpzR0hhNQ3EE30dOS4JiJKcoZ+S4M210CxyU0OXCgzIg3HzK/23rlpHbV8zi9PDDZDnuIw==
 
-"@haiku/core@^4.4.0":
-  version "4.5.2"
-  resolved "https://reservoir.haiku.ai:8910/@haiku%2fcore/-/core-4.5.2.tgz#0c054a1cb8bb26ecfebf7f0adafae194093d3c9a"
-  integrity sha512-C1dFZcv2lBieVgfXM89D/BrKwBvWieYZzEL7BF3Xn9PDwMty1EjihiyZ2M+bORpSZ2ipcweg0gULb9Fz6UQqbQ==
-
-"@haiku/jkwchui-electronsrepulsionsimple@0.0.5":
-  version "0.0.5"
-  resolved "https://reservoir.haiku.ai:8910/@haiku%2fjkwchui-electronsrepulsionsimple/-/jkwchui-electronsrepulsionsimple-0.0.5.tgz#0efe2840b12b102e9dbc745023bccee738040369"
-  integrity sha512-0LU1yCDySl+B4BK386sRTYQ6dMo89i5Eo1AxWi2rTsB9w+NyIshw8kQwu9so2woNm2DUjDWOWI2i+IkHmQX0wQ==
-  dependencies:
-    "@haiku/core" "^4.4.0"
-
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/@mrmlnc/readdir-enhanced/-/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -7260,7 +7248,12 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-pdfjs-dist@2.0.943:
+pdf.js-viewer@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/pdf.js-viewer/-/pdf.js-viewer-0.2.8.tgz#f069dce75bc06afe6252c35f1597f21c05dffefb"
+  integrity sha1-8Gnc51vAav5iUsNfFZfyHAXf/vs=
+
+pdfjs-dist@2.0.943, pdfjs-dist@^2.0.943:
   version "2.0.943"
   resolved "https://registry.yarnpkg.com/pdfjs-dist/-/pdfjs-dist-2.0.943.tgz#32fb9a2d863df5a1d89521a0b3cd900c16e7edde"
   integrity sha512-iLhNcm4XceTHRaSU5o22ZGCm4YpuW5+rf4+BJFH/feBhMQLbCGBry+Jet8Q419QDI4qgARaIQzXuiNrsNWS8Yw==
@@ -9896,7 +9889,7 @@ vue-echarts@^4.0.1:
     lodash "^4.17.11"
     resize-detector "^0.1.9"
 
-vue-foldable@^1.0.0-alpha.1:
+vue-foldable@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/vue-foldable/-/vue-foldable-1.0.0.tgz#08443c142861f16c54c3ea7a7571b3ba31447d78"
   integrity sha512-fkuVs/SKMqn84wKV4nr11OzUm1CtL49r1BJJD9is2hBaRPy4H3i8JiuIQomMDKHk+PBOT3qAhah8fAMmOcC5xg==

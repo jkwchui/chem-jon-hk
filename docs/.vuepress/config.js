@@ -43,6 +43,22 @@ module.exports = {
             {
                 text: 'Sandbox',
                 link: '/sandbox/'
+            },
+            {
+                text: 'Babylonjs',
+                link: '/babylonjs/'
+            },
+            {
+                text: 'pdf',
+                link: '/pdf/'
+            },
+            {
+                text: 'Syllabus',
+                link: '/Syllabus/'
+            },
+            {
+                text: 'Table',
+                link: '/Table/'
             }
             // {
             //     text: 'Admin',
@@ -260,12 +276,12 @@ module.exports = {
         '@vuepress/active-header-links',
         '@vuepress/medium-zoom',
         '@vuepress/back-to-top',
-        // [ 
-        //     '@vuepress/google-analytics',
-        //     {
-        //       'ga': 'UA-134636637-1' // UA-00000000-0
-        //     }
-        //   ]  
+        [ 
+            '@vuepress/google-analytics',
+            {
+              'ga': 'UA-134636637-1' // UA-00000000-0
+            }
+        ]  
         // '@vuepress/register-components',
         // 'flowchart',
     ],
