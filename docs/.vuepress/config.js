@@ -45,21 +45,21 @@ module.exports = {
                 link: '/sandbox/'
             },
             {
-                text: 'Babylonjs',
+                text: 'BabylonJS',
                 link: '/babylonjs/'
             },
-            {
-                text: 'pdf',
-                link: '/pdf/'
-            },
-            {
-                text: 'Syllabus',
-                link: '/Syllabus/'
-            },
-            {
-                text: 'Table',
-                link: '/Table/'
-            }
+            // {
+            //     text: 'pdf',
+            //     link: '/pdf/'
+            // },
+            // {
+            //     text: 'Syllabus',
+            //     link: '/Syllabus/'
+            // },
+            // {
+            //     text: 'Table',
+            //     link: '/Table/'
+            // }
             // {
             //     text: 'Admin',
             //     link: '/admin/#/',
