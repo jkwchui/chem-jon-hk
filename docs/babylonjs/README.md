@@ -1,3 +1,7 @@
 # Babylon test
 
-<BabylonTest/>
+<ClientOnly>
+
+  <BabylonTest/>
+
+</ClientOnly>

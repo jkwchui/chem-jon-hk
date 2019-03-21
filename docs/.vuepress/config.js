@@ -274,14 +274,14 @@ module.exports = {
         //     }
         // ],
         '@vuepress/active-header-links',
-        '@vuepress/medium-zoom',
+        // '@vuepress/medium-zoom',
         '@vuepress/back-to-top',
-        [ 
-            '@vuepress/google-analytics',
-            {
-              'ga': 'UA-134636637-1' // UA-00000000-0
-            }
-        ]  
+        // [ 
+        //     '@vuepress/google-analytics',
+        //     {
+        //       'ga': 'UA-134636637-1' // UA-00000000-0
+        //     }
+        // ]  
         // '@vuepress/register-components',
         // 'flowchart',
     ],
