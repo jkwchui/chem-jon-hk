@@ -326,7 +326,7 @@ module.exports = {
             })
             md.use(require('markdown-it-sup'))
             md.use(require('markdown-it-sub'))
-            md.use(require('markdown-it-imsize'), { autofill: true })
+            // md.use(require('markdown-it-imsize'), { autofill: true })
             // md.use(require('markdown-it-center-text'))
             // md.use(require('markdown-it-implicit-figures'), {
             //     dataType: true,  // <figure data-type="image">, default: false
