@@ -44,10 +44,10 @@ module.exports = {
                 text: 'Sandbox',
                 link: '/sandbox/'
             },
-            {
-                text: 'BabylonJS',
-                link: '/babylonjs/'
-            },
+            // {
+            //     text: 'BabylonJS',
+            //     link: '/babylonjs/'
+            // },
             // {
             //     text: 'pdf',
             //     link: '/pdf/'
@@ -274,7 +274,7 @@ module.exports = {
         //     }
         // ],
         '@vuepress/active-header-links',
-        // '@vuepress/medium-zoom',
+        '@vuepress/medium-zoom',
         '@vuepress/back-to-top',
         // [ 
         //     '@vuepress/google-analytics',
@@ -328,12 +328,12 @@ module.exports = {
             md.use(require('markdown-it-sub'))
             md.use(require('markdown-it-imsize'), { autofill: true })
             // md.use(require('markdown-it-center-text'))
-            md.use(require('markdown-it-implicit-figures'), {
-                dataType: true,  // <figure data-type="image">, default: false
-                figcaption: true,  // <figcaption>alternative text</figcaption>, default: false
-                tabindex: true, // <figure tabindex="1+n">..., default: false
-                link: true
-            })
+            // md.use(require('markdown-it-implicit-figures'), {
+            //     dataType: true,  // <figure data-type="image">, default: false
+            //     figcaption: true,  // <figcaption>alternative text</figcaption>, default: false
+            //     tabindex: true, // <figure tabindex="1+n">..., default: false
+            //     link: true
+            // })
         }
     }
 };
