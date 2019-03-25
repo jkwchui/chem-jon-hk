@@ -15,9 +15,9 @@
   "devDependencies": {
     "@vuepress/plugin-active-header-links": "^1.0.0-alpha.36",
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
-    "@vuepress/plugin-blog": "^1.0.0-alpha.0",
-    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
-    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.0",
+    "@vuepress/plugin-blog": "^1.0.0-alpha.44",
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.44",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.44",
     "@vuepress/plugin-register-components": "^1.0.0-alpha.36",
     "acorn": "^6.0.7",
     "node-sass": "^4.11.0",

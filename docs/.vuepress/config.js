@@ -276,12 +276,12 @@ module.exports = {
         '@vuepress/active-header-links',
         '@vuepress/medium-zoom',
         '@vuepress/back-to-top',
-        // [ 
-        //     '@vuepress/google-analytics',
-        //     {
-        //       'ga': 'UA-134636637-1' // UA-00000000-0
-        //     }
-        // ]  
+        [ 
+            '@vuepress/google-analytics',
+            {
+              'ga': 'UA-134636637-1' // UA-00000000-0
+            }
+        ]  
         // '@vuepress/register-components',
         // 'flowchart',
     ],
@@ -326,14 +326,14 @@ module.exports = {
             })
             md.use(require('markdown-it-sup'))
             md.use(require('markdown-it-sub'))
-            // md.use(require('markdown-it-imsize'), { autofill: true })
+            md.use(require('markdown-it-imsize'), { autofill: true })
             // md.use(require('markdown-it-center-text'))
-            // md.use(require('markdown-it-implicit-figures'), {
-            //     dataType: true,  // <figure data-type="image">, default: false
-            //     figcaption: true,  // <figcaption>alternative text</figcaption>, default: false
-            //     tabindex: true, // <figure tabindex="1+n">..., default: false
-            //     link: true
-            // })
+            md.use(require('markdown-it-implicit-figures'), {
+                dataType: true,  // <figure data-type="image">, default: false
+                figcaption: true,  // <figcaption>alternative text</figcaption>, default: false
+                tabindex: true, // <figure tabindex="1+n">..., default: false
+                link: true
+            })
         }
     }
 };
