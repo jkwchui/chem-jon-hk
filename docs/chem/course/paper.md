@@ -19,9 +19,24 @@ gantt
     section Reports
 </mermaid>
 
-#### Term 2 Test 2
+#### Term 2 Test 3
 
-<Foldable>
+<el-row>
+
+<el-col :span="8">
+
+| Block | Date  |
+|:-----:|:-----:|
+|   B   | 9 Apr |
+|   D   | 9 Apr |
+|   E   | 9 Apr |
+|   G   | 9 Apr |
+
+</el-col>
+
+<el-col :span="8">
+
+#### Term 2 Test 2
 
 <el-row>
 
@@ -78,25 +93,6 @@ As always, to fully resolve the quantitative problems you will need to know your
 
 </el-row>
 
-</Foldable>
-
-#### Term 2 Test 3
-
-<el-row>
-
-<el-col :span="8">
-
-| Block | Date  |
-|:-----:|:-----:|
-|   B   | 9 Apr |
-|   D   | 9 Apr |
-|   E   | 9 Apr |
-|   G   | 9 Apr |
-
-</el-col>
-
-<el-col :span="8">
-
 ##### Topics
 
 TBD
@@ -109,13 +105,9 @@ TBD
 
 The trial exam uses a complete set of IB papers I (60 min) and II (2 h 15 min) from 2018.  Please refrain from these in your practices.
 
-</Foldable>
-
 ## Grade calculations
 
 Term grades calculations are tabulated as follows:
-
-
 
 <center>
 
@@ -170,8 +162,6 @@ Our internal grade boundaries are based on the IB chemistry grade boundaries.  T
 
 ### Effort Grades
 
-<Foldable>
-
 Each term you are also given an Effort Grade.  For me, Effort Grade defaults to a `D`.  This is then modified up by 
 **evidence of practice / maintenance**.  As a general rule of thumb,
 
@@ -185,29 +175,3 @@ Each term you are also given an Effort Grade.  For me, Effort Grade defaults to 
 I periodically sample the Big Chart for evidence.  If you practice in other ways you need to show me evidence for them.  I do not take *intentions* as substitute for *actions*.
 
 The science department has a set of descriptors posted on the wall.  These include attendance and attitude. For me some are expectataions, and others are quite subjective.  These factor in the consideration in a minor way.
-
-</Foldable>
-
-## Foldable tech test
-
-As `fold`
-
-<fold>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</fold>
-
-<Foldable>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</Foldable>
