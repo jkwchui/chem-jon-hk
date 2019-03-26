@@ -74,3 +74,9 @@ Overview
 Step-by-step nomenclature
 
 @[vimeo](240692544)
+
+Practice
+
+| Q | A |
+|:-:|:-:|
+|![Simple](/image/practice/10-nomenclature_practice_1_Q.png)|![Simple-Solution](/image/practice/10-nomenclature_practice_1_A.png) |

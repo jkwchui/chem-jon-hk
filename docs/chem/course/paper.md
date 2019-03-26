@@ -147,7 +147,7 @@ Predicted grades admit the following exceptions:
 
 [^calc]: In practice I just calculate *both* variants for each student, and take the better one.  Too-clever kids believe they can game the system and waltz throughout Term 1.  Their poor preparations will dig them into a hole.
 
-![Image from alias](/image/gradegraph.png)
+![Grade graph](/image/gradegraph.png)
 
 Once a term I email each of you a graph with all assessments plotted as a time-series.  This is to help you help me make sure my numbers are legit, and for you to get a sense of your progression.
 
