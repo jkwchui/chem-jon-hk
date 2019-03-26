@@ -23,7 +23,7 @@ import './element-variables.scss'
 
 // Object.defineProperty(Vue.prototype, '$airtable', { value: Airtable });
 
-import VueFoldable from '../../node_modules/vue-foldable/src/VueFoldable.vue'
+import VueFoldable from '../../node_modules/vue-foldable/dist/vue-foldable.js'
 import '../../node_modules/vue-foldable/dist/vue-foldable.css'
 
 export default ({
