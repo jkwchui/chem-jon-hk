@@ -23,8 +23,8 @@ import './element-variables.scss'
 
 // Object.defineProperty(Vue.prototype, '$airtable', { value: Airtable });
 
-import VueFoldable from '../../node_modules/vue-foldable/dist/vue-foldable'
-import '../../node_modules/vue-foldable/dist/vue-foldable.css'
+// import VueFoldable from '../../node_modules/vue-foldable/dist/vue-foldable'
+// import '../../node_modules/vue-foldable/dist/vue-foldable.css'
 
 export default ({
     Vue,
@@ -38,6 +38,6 @@ export default ({
     Vue.use(require('vue-moment'))
     // Vue.use(plugin)
     Vue.prototype.$teacher = true; //global variable identifying teacher or not
-    Vue.component('fold', VueFoldable)
+    // Vue.component('fold', VueFoldable)
     
 }

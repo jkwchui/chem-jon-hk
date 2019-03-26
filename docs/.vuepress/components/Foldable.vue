@@ -24,83 +24,73 @@
         </svg>
         <span class="baidu-view-more-text">{{ collapsed ? 'see more' : 'close' }}</span>
       </div>
-</template>
+    </template>
   </fold>
 </template>
 
+<script>
+// import VueFoldable from '../../node_modules/vue-foldable/dist/vue-foldable'
+// import '../../node_modules/vue-foldable/dist/vue-foldable.css'
+
+import VueFoldable from '../../../node_modules/vue-foldable/dist/vue-foldable'
+
+export default {
+  components: {
+    'fold': VueFoldable
+  },
+}
+</script>
+
+
 <style lang="stylus">
 
-// @import url();
-  .vue-foldable {
-    &.my { /* override */
-      .vue-foldable-mask {
-        /* tweak the mask's postion according to your view more's height */
-        bottom: 50px
-          &.collapsed {
-            opacity: 1
-            background: linear-gradient(to bottom, rgba(55, 55, 55, 0), white)
-            transition: opacity 3s;
-          }
-          &:not(.collapsed) {
-            opacity: 0
-            transition: opacity 3s;
-          }
-      }
+@import '../../../node_modules/vue-foldable/dist/vue-foldable.css';
+
+.vue-foldable {
+  &.my { /* override */
+    .vue-foldable-mask {
+      /* tweak the mask's postion according to your view more's height */
+      bottom: 50px
     }
   }
+}
 
-  // .vue-foldable-mask {
-  //   position: absolute
-  //   bottom: 50px /* view-more's height */
-  //   height: 80px
-  //   width: 100%
-  //   background: transparent
-  //   pointer-events: none
-  //   &.collapsed
-  //     opacity: 1
-  //     background: linear-gradient(to bottom, rgba(55, 55, 55, 0), white)
-  //     transition: opacity 3s;
-  //   &:not(.collapsed)
-  //     opacity: 0
-  //     transition: opacity 3s;
-  // }
+.vue-foldable-container {
+  transition: max-height 0.8s ease-in-out;
+}
 
-  .vue-foldable-container {
-    transition: max-height 0.8s ease-in-out;
+// .vue-foldable-mask {
+//   transition: opacity 3s;
+// }
+
+.my-foldable-button {
+  background-color: #fff;
+  transition: background-color .1s ease-in-out;
+  color: #0064a6;
+  padding: 0 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  text-align: center;
+  height: 34px;
+  line-height: 32px;
+  min-width: 72px;
+  cursor: pointer;
+  .baidu-view-more-icon {
+    vertical-align: middle;
   }
-
-  // .vue-foldable-mask {
-  //   transition: opacity 3s;
-  // }
-
-  .my-foldable-button {
-    background-color: #fff;
-    transition: background-color .1s ease-in-out;
-    color: #0064a6;
-    padding: 0 8px;
-    font-size: 14px;
-    border-radius: 4px;
-    text-align: center;
-    height: 34px;
-    line-height: 32px;
-    min-width: 72px;
-    cursor: pointer;
+  .baidu-view-more-text {
+    vertical-align: middle;
+  }
+  &:not(.collapsed) {
     .baidu-view-more-icon {
-      vertical-align: middle;
-    }
-    .baidu-view-more-text {
-      vertical-align: middle;
-    }
-    &:not(.collapsed) {
-      .baidu-view-more-icon {
-        transform: scaleY(-1);
-      }
-    }
-    &:hover {
-      // background-color: #50a4f6;
-      opacity: 0.6;
-      // text-decoration: underline;
+      transform: scaleY(-1);
     }
   }
+  &:hover {
+    // background-color: #50a4f6;
+    opacity: 0.6;
+    // text-decoration: underline;
+  }
+}
 
 </style>
