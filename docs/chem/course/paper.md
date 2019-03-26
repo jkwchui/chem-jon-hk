@@ -36,7 +36,18 @@ gantt
 
 <el-col :span="8">
 
+##### Topics
+
+TBD
+
+</el-col>
+
+</el-row>
+
+
 #### Term 2 Test 2
+
+<Foldable>
 
 <el-row>
 
@@ -93,19 +104,15 @@ As always, to fully resolve the quantitative problems you will need to know your
 
 </el-row>
 
-##### Topics
-
-TBD
-
-</el-col>
-
-</el-row>
+</Foldable>
 
 ### Y2
 
 The trial exam uses a complete set of IB papers I (60 min) and II (2 h 15 min) from 2018.  Please refrain from these in your practices.
 
 ## Grade calculations
+
+<Foldable>
 
 Term grades calculations are tabulated as follows:
 
@@ -143,6 +150,8 @@ Predicted grades admit the following exceptions:
 
 Once a term I email each of you a graph with all assessments plotted as a time-series.  This is to help you help me make sure my numbers are legit, and for you to get a sense of your progression.
 
+</Foldable>
+
 ### Grade boundaries
 
 Our internal grade boundaries are based on the IB chemistry grade boundaries.  The distribution is as follows:
@@ -162,6 +171,8 @@ Our internal grade boundaries are based on the IB chemistry grade boundaries.  T
 
 ### Effort Grades
 
+<Foldable>
+
 Each term you are also given an Effort Grade.  For me, Effort Grade defaults to a `D`.  This is then modified up by 
 **evidence of practice / maintenance**.  As a general rule of thumb,
 
@@ -175,3 +186,5 @@ Each term you are also given an Effort Grade.  For me, Effort Grade defaults to 
 I periodically sample the Big Chart for evidence.  If you practice in other ways you need to show me evidence for them.  I do not take *intentions* as substitute for *actions*.
 
 The science department has a set of descriptors posted on the wall.  These include attendance and attitude. For me some are expectataions, and others are quite subjective.  These factor in the consideration in a minor way.
+
+</Foldable>
