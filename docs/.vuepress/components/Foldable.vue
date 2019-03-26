@@ -29,22 +29,49 @@
 </template>
 
 <style lang="stylus">
+
+// @import url();
   .vue-foldable {
     &.my { /* override */
       .vue-foldable-mask {
         /* tweak the mask's postion according to your view more's height */
         bottom: 50px
+          &.collapsed {
+            opacity: 1
+            background: linear-gradient(to bottom, rgba(55, 55, 55, 0), white)
+            transition: opacity 3s;
+          }
+          &:not(.collapsed) {
+            opacity: 0
+            transition: opacity 3s;
+          }
       }
     }
   }
+
+  // .vue-foldable-mask {
+  //   position: absolute
+  //   bottom: 50px /* view-more's height */
+  //   height: 80px
+  //   width: 100%
+  //   background: transparent
+  //   pointer-events: none
+  //   &.collapsed
+  //     opacity: 1
+  //     background: linear-gradient(to bottom, rgba(55, 55, 55, 0), white)
+  //     transition: opacity 3s;
+  //   &:not(.collapsed)
+  //     opacity: 0
+  //     transition: opacity 3s;
+  // }
 
   .vue-foldable-container {
     transition: max-height 0.8s ease-in-out;
   }
 
-  .vue-foldable-mask {
-    transition: opacity 3s;
-  }
+  // .vue-foldable-mask {
+  //   transition: opacity 3s;
+  // }
 
   .my-foldable-button {
     background-color: #fff;
