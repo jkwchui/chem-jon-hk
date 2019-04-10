@@ -285,7 +285,8 @@ module.exports = {
         [
             'vuepress-plugin-smooth-scroll',
             { 'vuepress-plugin-smooth-scroll': true }
-        ]
+        ],
+        'tabs'
         // 'flowchart',
     ],
     markdown: {
