@@ -69,6 +69,7 @@
     "vue-script2": "^2.0.3",
     "vue-template-compiler": "^2.6.6",
     "vue-timers": "^1.10.0",
-    "vue2vis": "0.0.16"
+    "vue2vis": "0.0.16",
+    "vuepress-plugin-smooth-scroll": "^0.0.3"
   }
 }

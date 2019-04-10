@@ -281,8 +281,11 @@ module.exports = {
             {
               'ga': 'UA-134636637-1' // UA-00000000-0
             }
-        ]  
-        // '@vuepress/register-components',
+        ],
+        [
+            'vuepress-plugin-smooth-scroll',
+            { 'vuepress-plugin-smooth-scroll': true }
+        ]
         // 'flowchart',
     ],
     markdown: {
