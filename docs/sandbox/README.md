@@ -58,17 +58,17 @@ H~2~O is water.
 
 :::: tabs cache-lifetime="10" :options="{ useUrlFragment: false }"
 
-::: tab "Tab Title" id="first-tab"
-__markdown content__
+::: tab "Question" id="first-tab"
+Question content here
 :::
 
 
-::: tab javascript id="second-tab"
-``` javascript
-() => {
-  console.log('JavaScript code example')
-}
-```
+::: tab Hint id="second-tab"
+Hint content here
+:::
+
+::: tab Solution
+Solution content here
 :::
 
 ::::
@@ -104,6 +104,11 @@ From Element UI.[^EUI]
 ### Icons
 
 <i class="el-icon-edit"></i>
+
+SVG icons
+
+<vp-icon name="electron" />
+
 
 ### Buttons
 

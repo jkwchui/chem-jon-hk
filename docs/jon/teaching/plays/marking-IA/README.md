@@ -24,7 +24,7 @@ The syllabus does not specify the weighing of the aspects, and I find that some 
 
 <IA-CriteriaTreemap />
 
-For ICT IAs, *safety / ethics* () is not evaluated and those marks are re-assigned into Methodology ().
+For ICT IAs, *safety / ethics* (0.75) is not evaluated and those marks are re-assigned into Methodology (0.50) and Background (0.25).
 
 I developed a form for entering these scores and associated comments.  I change it after each year's grading session; I won't remember what needs to be modified the year after.  When I mark, I keep the form open on one half of my screen and comment on the other half.
 

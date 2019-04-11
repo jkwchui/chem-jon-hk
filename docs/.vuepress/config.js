@@ -286,6 +286,14 @@ module.exports = {
             'vuepress-plugin-smooth-scroll',
             { 'vuepress-plugin-smooth-scroll': true }
         ],
+        [
+            '@goy/svg-icons',
+            {
+                // Specific the folder with absolute path
+                // where your gonna put svg icons in
+                svgsDir: `${__dirname}/svgs`
+            }
+        ],
         'tabs'
         // 'flowchart',
     ],
