@@ -13,13 +13,38 @@ gantt
     section Tests
     Test 1: done, 2018-12-05, 2d
     Test 2: done, 2019-02-27, 2d
-    Test 3: 2019-04-09, 1d
+    Test 3: done, 2019-04-09, 1d
     Y1 exam: 2019-05-14, 1d
     section Quizzes
     section Reports
 </mermaid>
 
-#### Term 2 Test 3
+#### Y1 Exam
+
+##### Info
+
+* **When?** 3 May (Fri) afternoon session
+* **How?** 
+  * 1 hour of Paper 1.  This consists of 40 multiple choice questions.  Answer on the bubble sheet.  No calculators or Data Booklets are permitted, but a Periodic Table is supplied at the end of the questions.  You can tear off this periodic table for reference.
+  * 1 hour of Paper 2.  This consists of 40 points of short answers.  Data Booklets are provided, and calculators are permitted.
+* **What?** See "topics" section below for a listing of what content is included.  Use the *Filter* and *Sort* functions to identify what is in HL/core syllabus.  **Questions from previous tests reappears in both papers.  Please do not make the same mistakes again.**
+* **How do I do well?**
+  * If you have been doing 3.5 hr / wk of practice every week, and Anki decks for maintenance, then in this week just do some of the past Y1 exams (printed for you).  Review your past mistakes in previous tests.
+  * If you have had some weeks on, some weeks off, and irregular Anki decks, then in this order (as time allows):
+    1. Practice with end-of-textbook questions,
+    2. Review your previous tests,
+    3. Practice with past papers by topics,
+    4. Practice with past tests (printed)
+
+<Foldable>
+
+##### Topics
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrf29KeeCUnNKckD?backgroundColor=blue&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+</Foldable>
+
+<!-- #### Term 2 Test 3
 
 <el-row>
 
@@ -108,7 +133,7 @@ As always, to fully resolve the quantitative problems you will need to know your
 
 ### Y2
 
-The trial exam uses a complete set of IB papers I (60 min) and II (2 h 15 min) from 2018.  Please refrain from these in your practices.
+The trial exam uses a complete set of IB papers I (60 min) and II (2 h 15 min) from 2018.  Please refrain from these in your practices. -->
 
 ## Grade calculations
 
