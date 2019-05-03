@@ -21,6 +21,7 @@
     "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.44",
     "@vuepress/plugin-register-components": "^1.0.0-alpha.36",
     "acorn": "^6.0.7",
+    "ajv": "^5.0.0",
     "node-sass": "^4.11.0",
     "npm": "^6.7.0",
     "pug": "^2.0.3",
