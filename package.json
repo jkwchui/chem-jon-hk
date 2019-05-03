@@ -14,12 +14,12 @@
   },
   "devDependencies": {
     "@goy/vuepress-plugin-svg-icons": "^0.1.1",
-    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.36",
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
-    "@vuepress/plugin-blog": "^1.0.0-alpha.44",
-    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.44",
-    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.44",
-    "@vuepress/plugin-register-components": "^1.0.0-alpha.36",
+    "@vuepress/plugin-active-header-links": "^1.0.0-alpha.47",
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.47",
+    "@vuepress/plugin-blog": "^1.0.0-alpha.47",
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.47",
+    "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.47",
+    "@vuepress/plugin-register-components": "^1.0.0-alpha.47",
     "acorn": "^6.0.7",
     "ajv": "^5.0.0",
     "node-sass": "^4.11.0",
@@ -27,7 +27,7 @@
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.1.0",
-    "vuepress": "^1.0.0-alpha.36",
+    "vuepress": "^1.0.0-alpha.47",
     "webpack": "^4.0.0"
   },
   "dependencies": {

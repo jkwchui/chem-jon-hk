@@ -14,7 +14,7 @@
 
 import ElementUI from 'element-ui'
 // import 'element-ui/lib/theme-chalk/index.css'
-// import './element-variables.scss'
+import './element-variables.scss'
 
 // import './mathJaxConfig.js'
 // import '../../node_modules/mathjax/MathJax.js'
