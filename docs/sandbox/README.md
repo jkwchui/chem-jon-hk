@@ -2,6 +2,12 @@
 
 [[toc]]
 
+## Map
+
+<Mapbox>
+
+</Mapbox>
+
 ## Markdown features
 
 ### Table of contents
