@@ -13,7 +13,7 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "@goy/vuepress-plugin-svg-icons": "^0.1.0",
+    "@goy/vuepress-plugin-svg-icons": "^0.1.1",
     "@vuepress/plugin-active-header-links": "^1.0.0-alpha.36",
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.0",
     "@vuepress/plugin-blog": "^1.0.0-alpha.44",
@@ -37,7 +37,7 @@
     "bootstrap-vue": "^2.0.0-rc.11",
     "chart.js": "^2.7.3",
     "echarts": "^4.1.0",
-    "element-ui": "^2.5.4",
+    "element-ui": "2.4.11",
     "jquery": "^3.3.1",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-attrs": "^2.3.2",
