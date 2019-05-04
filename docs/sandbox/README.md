@@ -4,9 +4,15 @@
 
 ## Map
 
-<Mapbox>
+<ClientOnly>
 
-</Mapbox>
+<MapTopo v-bind:init_center="[114.248329, 22.431970]" v-bind:init_zoom="12">
+
+<!-- <MglMarker :coordinates="[35.229489, 31.771858]" color='green' /> -->
+
+</MapTopo>
+
+</ClientOnly>
 
 ## Markdown features
 

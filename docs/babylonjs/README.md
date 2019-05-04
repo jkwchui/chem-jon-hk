@@ -1,7 +1,7 @@
 # Babylon test
 
-<ClientOnly>
+<!-- <ClientOnly>
 
   <BabylonTest/>
 
-</ClientOnly>
+</ClientOnly> -->

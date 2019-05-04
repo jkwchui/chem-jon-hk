@@ -2,36 +2,56 @@
     <MglMap 
       :accessToken="accessToken" 
       :mapStyle="mapStyle"
-      :center.sync="center"
-      :zoom.sync="zoom">
-        <MglMarker
-          :coordinates="markerCoordinates"
-          color='brown'
-        />
+      :center.sync="init_center"
+      :zoom.sync="init_zoom"
+      @load="onMapLoaded">
+        <slot>
+          
+        </slot>
     </MglMap>
 </template>
 
 <script>
 import Mapbox from "mapbox-gl";
-import { MglMap, MglMarker, MglPopup, MglGeojsonLayer } from "vue-mapbox";
+import { 
+  MglMap, 
+  // MglMarker, 
+  // MglPopup, 
+  // MglGeojsonLayer 
+  } from "vue-mapbox";
 
 export default {
   components: {
     MglMap,
-    MglMarker,
-    MglPopup,
-    MglGeojsonLayer
+    // MglMarker,
+    // MglPopup,
+    // MglGeojsonLayer
+  },
+  props: {
+    init_center: {
+      type: Array,
+      default: [0, 0]
+    },
+    init_zoom: {
+      type: Number,
+      default: 4
+    }
   },
   data() {
     return {
       accessToken: "pk.eyJ1Ijoiamt3Y2h1aSIsImEiOiJpRU1vbDdnIn0.Pko9FI8omzfymX90V_59dg", // your access token. Needed if you using Mapbox maps
       mapStyle: "mapbox://styles/jkwchui/cjv872vku086d1fo4cp4lstji", // your map style
-      center: [35.217018, 31.771959],
-      zoom: 11.0,
-      markerCoordinates: [35.229489, 31.771858]
+      // center: [35.217018, 31.771959],
+      // zoom: 11.0,
+      // markerCoordinates: [35.229489, 31.771858]
     };
   },
-
+  methods: {
+    onMapLoaded(event) {
+      this.center = this.init_center
+      this.zoom = this.init_zoom
+    }
+  },
   created() {
     // We need to set mapbox-gl library here in order to use it in template
     this.mapbox = Mapbox;
