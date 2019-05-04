@@ -1,73 +1,266 @@
 <template>
-    <MglMap 
-      :accessToken="accessToken" 
-      :mapStyle="mapStyle"
-      :center.sync="center"
-      :zoom.sync="zoom"
-      @load="onMapLoaded">
-        <slot>
-          
-        </slot>
-    </MglMap>
+  <div>
+    <MglMarker :coordinates="coord" :color="color">
+      <MglPopup>
+        {{desc}}
+      </MglPopup>
+    </MglMarker>
+  </div>
 </template>
 
 <script>
 import Mapbox from "mapbox-gl";
 import { 
-  MglMap, 
-  // MglMarker, 
-  // MglPopup, 
+  // MglMap, 
+  MglMarker, 
+  MglPopup,
   // MglGeojsonLayer 
   } from "vue-mapbox";
 
 export default {
   components: {
-    MglMap,
-    // MglMarker,
-    // MglPopup,
+    // MglMap,
+    MglMarker,
+    MglPopup,
     // MglGeojsonLayer
   },
   props: {
-    init_center: {
-      type: Object,
-      default: {lng:20, lat:20}
+    coord: {
+      type: Array,
+      default: [35.229489, 31.771858]
     },
-    init_zoom: {
-      type: Number,
-      default: 4
+    color: {
+      type: String,
+      default: 'brown'
+    },
+    desc: {
+      type: String,
+      default: ''
     }
   },
   data() {
     return {
       accessToken: "pk.eyJ1Ijoiamt3Y2h1aSIsImEiOiJpRU1vbDdnIn0.Pko9FI8omzfymX90V_59dg", // your access token. Needed if you using Mapbox maps
       mapStyle: "mapbox://styles/jkwchui/cjv872vku086d1fo4cp4lstji", // your map style
-      center: {},
-      zoom: 10.0,
+      // center: [35.217018, 31.771959],
+      // zoom: 11.0,
       // markerCoordinates: [35.229489, 31.771858]
     };
   },
   methods: {
-    onMapLoaded(event) {
-    }
   },
   created() {
-    // We need to set mapbox-gl library here in order to use it in template
-    this.mapbox = Mapbox;
-
-    this.center = Object.assign({}, this.init_center)
-    this.zoom = this.init_zoom
   }
 };
 </script>
 
 <style lang="stylus">
-// @import url("https://api.tiles.mapbox.com/mapbox-gl-js/v0.54.0/mapbox-gl.css");
-// @import "../../../node_modules/mapbox-gl/dist/mapbox-gl.css";
-.mapboxgl-map {
-    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    // overflow: hidden;
+
+.mapboxgl-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-flex;
+    display: flex;
+    will-change: transform;
+    pointer-events: none;
+}
+
+.mapboxgl-popup-anchor-top,
+.mapboxgl-popup-anchor-top-left,
+.mapboxgl-popup-anchor-top-right {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.mapboxgl-popup-anchor-bottom,
+.mapboxgl-popup-anchor-bottom-left,
+.mapboxgl-popup-anchor-bottom-right {
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+}
+
+.mapboxgl-popup-anchor-left {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.mapboxgl-popup-anchor-right {
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.mapboxgl-popup-tip {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    z-index: 1;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+    -webkit-align-self: center;
+    align-self: center;
+    border-top: none;
+    border-bottom-color: #fff;
+}
+
+.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip {
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+    border-top: none;
+    border-left: none;
+    border-bottom-color: #fff;
+}
+
+.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip {
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    border-top: none;
+    border-right: none;
+    border-bottom-color: #fff;
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+    -webkit-align-self: center;
+    align-self: center;
+    border-bottom: none;
+    border-top-color: #fff;
+}
+
+.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip {
+    -webkit-align-self: flex-start;
+    align-self: flex-start;
+    border-bottom: none;
+    border-left: none;
+    border-top-color: #fff;
+}
+
+.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip {
+    -webkit-align-self: flex-end;
+    align-self: flex-end;
+    border-bottom: none;
+    border-right: none;
+    border-top-color: #fff;
+}
+
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+    -webkit-align-self: center;
+    align-self: center;
+    border-left: none;
+    border-right-color: #fff;
+}
+
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+    -webkit-align-self: center;
+    align-self: center;
+    border-right: none;
+    border-left-color: #fff;
+}
+
+.mapboxgl-popup-close-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0;
+    border-radius: 0 3px 0 0;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.mapboxgl-popup-close-button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.mapboxgl-popup-content {
     position: relative;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px 15px;
+    pointer-events: auto;
+}
+
+.mapboxgl-popup-anchor-top-left .mapboxgl-popup-content {
+    border-top-left-radius: 0;
+}
+
+.mapboxgl-popup-anchor-top-right .mapboxgl-popup-content {
+    border-top-right-radius: 0;
+}
+
+.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-content {
+    border-bottom-left-radius: 0;
+}
+
+.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-content {
+    border-bottom-right-radius: 0;
+}
+
+.mapboxgl-marker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    will-change: transform;
+    // overflow: hidden
+}
+
+.mapboxgl-user-location-dot {
+    background-color: #1da1f2;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+.mapboxgl-user-location-dot::before {
+    background-color: #1da1f2;
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-animation: mapboxgl-user-location-dot-pulse 2s infinite;
+    -moz-animation: mapboxgl-user-location-dot-pulse 2s infinite;
+    -ms-animation: mapboxgl-user-location-dot-pulse 2s infinite;
+    animation: mapboxgl-user-location-dot-pulse 2s infinite;
+}
+
+.mapboxgl-user-location-dot::after {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    content: '';
+    height: 19px;
+    left: -2px;
+    position: absolute;
+    top: -2px;
+    width: 19px;
+    box-sizing: border-box;
+}
+
+@-webkit-keyframes mapboxgl-user-location-dot-pulse {
+    0%   { -webkit-transform: scale(1); opacity: 1; }
+    70%  { -webkit-transform: scale(3); opacity: 0; }
+    100% { -webkit-transform: scale(1); opacity: 0; }
+}
+
+@-ms-keyframes mapboxgl-user-location-dot-pulse {
+    0%   { -ms-transform: scale(1); opacity: 1; }
+    70%  { -ms-transform: scale(3); opacity: 0; }
+    100% { -ms-transform: scale(1); opacity: 0; }
+}
+
+@keyframes mapboxgl-user-location-dot-pulse {
+    0%   { transform: scale(1); opacity: 1; }
+    70%  { transform: scale(3); opacity: 0; }
+    100% { transform: scale(1); opacity: 0; }
+}
+
+.mapboxgl-user-location-dot-stale {
+    background-color: #aaa;
+}
+
+.mapboxgl-user-location-dot-stale::after {
+    display: none;
 }
 
 .mapboxgl-map:-webkit-full-screen {
