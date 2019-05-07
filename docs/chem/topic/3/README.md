@@ -54,10 +54,10 @@ Need to know first 20 elements + halogens
 
 <SuccessiveIE />
 
-## Overall trends
+<!-- ## Overall trends
 
 Matthew E. Lopper from University of Dayton.[^Lopper]
 
  <iframe src="https://www.jon.hk/periodic-table/"></iframe> 
 
-[^Lopper]: Lopper, M.E., [*A Digital Periodic Table That Instructors Can Use in the Classroom To Highlight Elements and Illustrate Periodic Trends*](https://pubs.acs.org/doi/10.1021/acs.jchemed.8b00616), J. Chem. Educ., 2019, 96 (2), pp 387–389.
+[^Lopper]: Lopper, M.E., [*A Digital Periodic Table That Instructors Can Use in the Classroom To Highlight Elements and Illustrate Periodic Trends*](https://pubs.acs.org/doi/10.1021/acs.jchemed.8b00616), J. Chem. Educ., 2019, 96 (2), pp 387–389. -->
