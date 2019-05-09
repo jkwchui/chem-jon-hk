@@ -6,7 +6,7 @@
 
 <ClientOnly>
 
-<MapTopo v-bind:init_center="{lng:35.355660, lat:31.316457}" v-bind:init_zoom="12">
+<MapTopo v-bind:init_center="{lng:35.355660, lat:31.316457}" v-bind:init_zoom="10" >
 
 <MapMarker :coord="[35.354400, 31.318961]" color='green' desc="Northern Palace built in 232 AD" />
 
