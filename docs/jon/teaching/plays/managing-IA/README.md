@@ -146,7 +146,7 @@ A key feature of my revised procedure is setting up a spreadsheet where students
 
 <iframe width=100% height=400px src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQcHrLY3-NPPQdFkMuOkW4GV90EvnbVOVxQhpnAY7BPZCBBlvmQ9yes4W6AAwBFBkR4vozuNUeLLEkE/pubhtml?widget=true&amp;headers=false"></iframe>
 
-(This is a fairly big spreadsheet so you may want to view it [in a new window here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQcHrLY3-NPPQdFkMuOkW4GV90EvnbVOVxQhpnAY7BPZCBBlvmQ9yes4W6AAwBFBkR4vozuNUeLLEkE/pubhtml?gid=0&single=true).)
+(This is a fairly big spreadsheet so you may want to view it [in a new window here](https://docs.google.com/spreadsheets/d/e/2PACX-1vQcHrLY3-NPPQdFkMuOkW4GV90EvnbVOVxQhpnAY7BPZCBBlvmQ9yes4W6AAwBFBkR4vozuNUeLLEkE/pubhtml?gid=0&single=true).  If you wish to build upon this template, you can *Make a Copy* from [this link](https://docs.google.com/spreadsheets/d/1VQwggJW4hp6dHMXliaEef1zXG3bIR--vPj-tGwVM_20/edit?usp=sharing).)
 
 At the beginning I make only one set of columns (for RQ1) available, with instructions that the submission will be close at a particular time.  I don't wait; I comment on the RQ as soon as they enter it.  This both help students get timely feedback, and for me to manage what would otherwise become a stack of 40+ RQ to comment on (thrice!).  
 
