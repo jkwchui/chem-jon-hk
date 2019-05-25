@@ -130,6 +130,7 @@ module.exports = {
                     children: [
                         ['./IA/', 'Internal Assessment'],
                         ['./IA/plan', '1. Planning'],
+                        ['./IA/critique-ex', '1B. Critique an Exploration'],
                         {
                             title: 'Inventory',
                             children: [

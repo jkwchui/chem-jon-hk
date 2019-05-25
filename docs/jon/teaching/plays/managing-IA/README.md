@@ -217,7 +217,7 @@ In addition to the specific suggestions, I help the students refine their work b
 
 1. providing them with a check-list for the Exploration section,
 2. giving them a copy of a good Exploration,[^permission]
-3. doing a critique of a dramatized exploration, and
+3. [doing a critique of a dramatized exploration](../../../../chem/IA/critique-ex), and
 4. teaching them how to locate, read, organize, and cite the literature.
 
 [^permission]: Ask permission first!
@@ -228,7 +228,7 @@ I also make myself available for a few hours of face-to-face consultation.
 
 ### One-on-One meetings
 
-In one-on-one meetings I try to role-model effective thinking, and take a Socratic approach.  Most of the time I listen with a sheet of A3 paper, and sketch out what they describe.  The sketches often inform what questions to ask.
+In one-on-one meetings I try to role-model effective thinking, and take a Socratic approach.  Most of the time I listen with a sheet of A3 paper, and sketch out what they describe.  The sketches often inform what questions to ask and exposes hidden contraditions.
 
 I feel that my meetings with students are generally effective because of three key skills.  The first is my ability to *see* the experiments / would-be data, and represent them in diagrams; the second is the ability to read very fast.  Students often present me with papers / articles that I have never seen before, and I simply need to read it to know where they are at.[^speed]  
 
