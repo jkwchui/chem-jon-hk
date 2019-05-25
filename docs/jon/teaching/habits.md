@@ -12,6 +12,8 @@ Vs death by powerpoint / bullet points
 
 ### Concepts.app / iPad
 
+Developing legible handwriting by tracing a font.
+
 ### As evolution from whiteboard
 
 Bob Woodward
@@ -22,6 +24,8 @@ Bob Woodward
 
 ### The upside-down writing party trick
 
+Tracing font upside down.
+
 ### The eye-level squat/lean
 
 ## LaTeX
@@ -31,6 +35,8 @@ Bob Woodward
 Yoga teacher
 
 ## Stamps + collection
+
+Printing as essential
 
 ### online variant
 
@@ -54,6 +60,38 @@ Maturation time / asynchronicity
 
 Purpose of quizzes and tests as preparations
 
+## Writing Tests / Quizzes
+
+### Preparing tests
+
+Value of writing my own tests
+* my education
+* fitting needs
+* makes marking easier
+
+Centrepiece + filling in gaps
+Spreadsheet of scope
+
+SOLO method for spread in difficulty
+
+Timing / points (40 pts total, 10 points for quizzes)
+
+Recycling questions
+
+iPad / concepts.app based workflow
+Copy-pasting "key" (CON, BOD, ECF)
+
+"serial number"
+
+Draft key -> marking -> common errors
+
+### Grading tests
+
+Marking with multi-colored pens
+Red: correction
+Green: correct
+Brown/purple: comments
+
 ## Feedback / survey
 
 Two tokens on the table
@@ -61,3 +99,10 @@ Two tokens on the table
 Learning from Linda
 
 Months to digest
+
+## Personal / professional development
+
+Pedagogy reading
+Chemistry reading (J Chem Ed, science)
+General science / technical reading (J Chem Ed)
+Graph (NYT graph)

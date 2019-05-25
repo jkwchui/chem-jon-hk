@@ -59,3 +59,29 @@ I am still a little angry.  Because I *didn't* know whether my comments are visi
 First pass reading
 Comments + Comm
 
+ Sorry, but I'm out of the IA examining circuit and don't have any inside knowledge.  What follows is my shot-in-the-dark.
+
+  When I mark, I just generate (A1) a set of criteria marks, together with (A2) comments for each criteria.  Comments on the PDF/Word doc themselves (B0) are sparse, a few words here-and-there to remind myself what I noticed.
+
+  After the samples were selected, I fill in the criteria marks on IBIS, and copy-paste A2 into the Total Marking Comments box.  Since I mark by 0.25 increments I include also the shades-of-gray for each criteria.  An example of what I paste in the box follows.
+
+    An ambitious project with apparent early initiative.  The candidate did not follow through with any rigor in the actual work or writing.  The science is simply wrong.
+
+    [PE 1.25/2] The candidate should be commended for taking the initiative to learn new techniques which open the doors for the investigation. This interest, however, does not seem to be sustained for the entirety of the project, as evidenced by the shallow analysis and evaluation.
+
+    [Ex 2.5/6] Good RQ but poor execution. Unclear whether there is a systematic error made in the ring sizes. Limited understanding of physiological processes leading up to binding (and thus relevance iRL.) Need discussion of validity of webMO/gamess calcs.; the procedure is almost certainly incorrect (since GAMESS would not be able to handle the 10^5 atoms of the macromolecule). Parameters of the binding constant calculations missing.
+
+    [An 1.5/6] There is almost no data processing that was done, not even conversion to SI units, nor a summary table that should be expected. Missing critical qualitative data that suggests whether the said factors were truly investigated.
+
+    [Ev 1.75/6] Candidate provided generic, vague, simplistic description of results (which I am unable to replicate). Obvious contradictions were unexamined. No comparison with findings of similar studies (e.g., docking with similar substitutions, or experimental measurements with the D2 receptor --- expt affinities *are* available) was made. Improvements were proposed with no specific methods or molecules given.
+
+    [Comm 1.5/4] Stylistic and meaningful errors throughout. Lack of precision in the use of language. Missing key diagrams.
+
+
+I then (B1) go back to each sample, "rehydrate" my notes, and export it as a PDF.  The corresponding sample for the comment above is attached.
+
+With this in place, I stitch (C) moderator notes (<- abbreviated from last year) / (D) check-list) to the sample, and upload (C-D-B) to eCoursework.
+
+This is all rather time-consuming and probably more exigent / obsessed than necessary, but he moderation process, esp. with the random sampling, is rather opaque to me.  I try very hard to make sure the moderators see what I see, so if I get down / up graded it becomes meaningful learning experience (for me).
+
+(This is super-ironic, since apparently the thousands of words I've submitted in previous years could not be seen in RM-Assessor.  Duh.  I also wish there is more authoritative guides.)
