@@ -2,7 +2,7 @@
 
 As a step towards preparing your IA Exploration, you should learn *how* to be critical.  It is considerably easier to be objective to someone else's work than your own, so let's give that a try here.  Spend 15 minutes reading and commenting on Example Elephant's Exploration, then click on the Feedback link to see what I think.  You will need to search and read in order to make intelligent judgment.
 
-A PDF version for print annotation is available [here](./ElephantIACritique.pdf).
+A PDF version for print annotation is available [here](/resources/IA/exploration-critique/ElephantIACritique.pdf).
 
 ----
 
@@ -42,4 +42,4 @@ Plot a graph of Concentration of Aspirin against pH.  Make a best fit line and m
 
 ----
 
-See my comments on Elephant's draft [here](https://docs.google.com/document/d/1le_DWIsYlC3lVMYrKmwgYzQ1lCWy6hrtyn45EnsVBL8/edit?usp=sharing).  A Word version of the Exploration with comments can be downloaded [here](./ElephantIACritique_comments.docx).
+See my comments on Elephant's draft [in a Google Doc here](https://docs.google.com/document/d/1le_DWIsYlC3lVMYrKmwgYzQ1lCWy6hrtyn45EnsVBL8/edit?usp=sharing).  A Word version of the Exploration with comments can be downloaded [here](/resources/IA/exploration-critique/ElephantIACritique_comments.docx).
