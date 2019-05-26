@@ -21,6 +21,7 @@ Spoilers ahead.
 | Play | Duration | Comments | Status<img width=150/>  |
 |:-----|:--------:|:---------|:----------------:|
 | [Lesson 1 Kahoot!](./plays/lesson1kahoot/) | <Duration time='15 min' /> | Include link to public _Kahoot!_ | <CompletionStatus :percentage='70' /> |
+| [IA: critiquing an Exploration](../../../chem/IA/critique-ex) | <Duration time='25 min' /> | An IA example for student to learn to read critically.  Include document with plentiful comments, as PDF, Word, and Google Docs. | <CompletionStatus :percentage='100' /> |
 | [Managing IAs](./plays/managing-IA/) | <Duration time='days' /> | How I manage chem IAs.  Include timeline, procedures, and spreadsheet templates. | <CompletionStatus :percentage='85' /> |
 | [Marking IAs](./plays/marking-IA/) | <Duration time='days' /> | How I mark chem IAs.  Include an interactive rubric. | <CompletionStatus :percentage='40' /> |
 | [Researching and organizing chemistry literature](./plays/literature/) | <Duration time='70 min' /> | How I introduce students to reading / organizing chemistry literature. | <CompletionStatus :percentage='40' /> |
