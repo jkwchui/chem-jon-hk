@@ -26,6 +26,8 @@ Bob Woodward
 
 Tracing font upside down.
 
+## Timing every activity
+
 ### The eye-level squat/lean
 
 ## LaTeX
