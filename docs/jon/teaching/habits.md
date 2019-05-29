@@ -10,11 +10,20 @@ In a "standard lesson", we go back-and-forth between me teaching a new skill/con
 
 At the beginning of class, students collect a color hard-copy of a note template.  I have the same template on my iPad, and explain through filling the template.  The provision of a template means that they can follow along for note-taking in class.
 
-The templates include some questions (usually when the question is long).  We solve these in-class, along with other (shorter) questions I "freestyle",^[freestyle] using mini-whiteboards.
+The templates include some questions (usually when the question is long).  We solve these in-class, along with other (shorter) questions I "freestyle",[^freestyle] using mini-whiteboards.
 
-^[freestyle]: Most of the time I have ad-lib'ed these for dozens of time already!
+[^freestyle]: Most of the time I have ad-lib'ed these for dozens of time already!
 
-I chose this style because I believe in visual representations reveal connections between different parts of the same topic.
+I chose this style because:
+
+1. I believe in visual representations reveal connections between different parts of the same topic, and I know that, despite all the excellent resources available, this is a missing resource.
+2. Chem has a very long syllabus, and it is essential to have an organized binder.  By diploma age we *assume* students know how to take notes, but in practice most do not have the ability/experience of doing that.
+3. Pen-on-paper forces processing that staring at powerpoints don't.
+4. It is easy to copy / watch, and *believe* you can do something without actually being able to.  The short cycles with immediate feedback ensures skill acquisition, and for me to adjust the next stages *given where the students are at*. 
+
+The principle weakness is that students can be lured into copying, often with tremendous effort to replicate my usage of color / precise lines.  Verbatim reproduction is unhelpful, and often spills into the problem-solving time.  Some students are frustrated because they feel they do not have sufficient skill to do a good job in keeping up with the note-taking.
+
+
 
 ### Designing note templates
 
