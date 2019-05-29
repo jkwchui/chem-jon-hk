@@ -1,6 +1,6 @@
 ## Technical guides
 
-Detailed guides for the processes described in [2A. Doctrine](./doctrine).
+Detailed guides for the processes described in [2A. Habits](./habits).
 
 | Technique                                 |                             Purpose                             | Tools                                                        |        Status<img width=150/>         |
 |:------------------------------------------|:----------------------------------------------------------------|:-------------------------------------------------------------|:-------------------------------------:|

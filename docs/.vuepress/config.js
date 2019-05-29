@@ -228,7 +228,7 @@ module.exports = {
                 },
                 {
                     title: 'Teaching',
-                    sidebarDepth: 1,
+                    sidebarDepth: 0,
                     children: [
                         ['./teaching/', 'Teaching'],
                         ['./teaching/priorities', '1. Priorities'],

@@ -1,12 +1,31 @@
-The things we do everyday, the standard way of operating.
+# Habits
 
-Situational awareness.
+I place great emphasis on building standardized components, using a refined workflow.  Standard components enables creations of greater complexity.  This extends to actions that I do in class everyday: not having to think about how to do routine things open up situation awareness for improvising in the teachable moments.
 
-Standardization of components enables creations of greater complexity.
+Many of the workflow are quite complex.  These technicalities, often including step-by-step procedures, are expanded into a companion section.  The page [2B. Techniques](./techniques) is the entry point to this *How To* section.
 
 ## Drawing-based teaching / note template
 
+In a "standard lesson", we go back-and-forth between me teaching a new skill/concept, and students immediately attempting to use it on a mini-whiteboard.  The "standard lesson" occurs in about three-quarter of classes.
+
+At the beginning of class, students collect a color hard-copy of a note template.  I have the same template on my iPad, and explain through filling the template.  The provision of a template means that they can follow along for note-taking in class.
+
+The templates include some questions (usually when the question is long).  We solve these in-class, along with other (shorter) questions I "freestyle",^[freestyle] using mini-whiteboards.
+
+^[freestyle]: Most of the time I have ad-lib'ed these for dozens of time already!
+
+I chose this style because I believe in visual representations reveal connections between different parts of the same topic.
+
+### Designing note templates
+
+I choreograph by topic, with a goal of being able to "hold" a whole concept on the same page.  An example is shown for the following sheet holding "significant figure and uncertainty":
+
+![](../../chem/resources/notes/image/11A-SigFigUncertainty.png)
+
+The design is described in the the [Designing Note Templates](#designing-note-templates) section.  This is 
+
 Vs death by powerpoint / bullet points
+
 
 ### Vector based workflow
 
