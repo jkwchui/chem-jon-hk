@@ -29,7 +29,7 @@ The principle weakness is that students can be lured into copying, often with tr
 
 I choreograph by topic, with a goal of being able to "hold" a whole concept on the same page.  An example is shown for the following sheet holding "significant figure and uncertainty":
 
-![](../../chem/resources/notes/image/11A-SigFigUncertainty.png)
+![](/image/notes/11A-SigFigUncertainty.png)
 
 The design is described in the the [Designing Note Templates](#designing-note-templates) section.  This is 
 
