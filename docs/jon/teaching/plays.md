@@ -13,6 +13,7 @@ Spoilers ahead.
 | Play                                           |  Topic  |          Duration          | Comments                                                    |         Status<img width=150/>         |
 |:-----------------------------------------------|:-------:|:--------------------------:|:------------------------------------------------------------|:--------------------------------------:|
 | [Taxi problem](./plays/taxi/)                  |    5    | <Duration time='70 min' /> | Folder includes slides, spreadsheets, solution.             | <CompletionStatus :percentage='10' />  |
+| [Kinetics and Equilibrium simulation](./plays/kineqmsim/)                  |    6, 7    | <Duration time='40+20 min' /> | Progression of activities that visualizes and develop micro/macro-scopic intuition of kinetics, and develops kinetics as the basis of equilibrium.  Includes link to web apps, and PDF worksheets.  | <CompletionStatus :percentage='60' />  |
 | [Infrared Spectra Interpretation](./plays/IR/) |   11B   | <Duration time='60 min' /> | Folder includes teaching comics, sample spectra, practices. | <CompletionStatus :percentage='100' /> |
 | [^1^H-NMR Interpretation](./plays/NMR/)        | 11B, 21 | <Duration time='80 min' /> | Folder includes teaching comics, sample spectra, practices. | <CompletionStatus :percentage='20' />  |
 
