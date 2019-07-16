@@ -14,7 +14,7 @@ I having been teaching DP Chemistry exclusively since 2012.  The specialization 
 
 I am trained as a physical organic chemist, but over the past few years I have worked in significant amounts of ICT into my teaching.
 * I co-developed, and facilitated, the Cat. 3 workshops (f2f, online) for ICT in Chemistry
-* I developed a set of kinetics and equilibrium simulations, where students can interactively explore the statistical basis for chemical kinetics and its progression to equilibrium.  The application is available at https://www.jon.hk/app/kineqmsim/.  A selection of the supporting activity set is attached.
+* I developed a set of kinetics and equilibrium simulations, where students can interactively explore the statistical basis for chemical kinetics and its progression to equilibrium.  Description, simulations, and accompanying worksheets can be found [here](https://www.jon.hk/jon/teaching/plays/kineqmsim/)
 * I setup a server enabling browser-based molecular modelling, and supports student’s usage in their IAs.  Attached is a a graphical handout describing some of the possibilities in investigating conformation, and a student IA doing such a molecular modelling investigation.  A sample tutorial showing a first exposure to molecular modelling of the Morse curve can be found at https://www.jon.hk/chem/skills/mol-model/HHenergy.html
 * Students routinely perform docking experiments to investigate protein—drug interactions, using a combination of AutoDock and SwissDock
 * I developed series of spreadsheet video tutorials / scaffolded templates that lead up to intermediate spreadsheet skills such as INDEX(MATCH(), MATCH()) usage.  These can be found at https://www.jon.hk/chem/skills/analysis/spreadsheet/
