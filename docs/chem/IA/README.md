@@ -124,7 +124,7 @@ gantt
 
 Your IA is assessed on **five** criteria, each of which are subdivided into *aspects*.  The proportion of these criteria and aspects are shown in the following diagram.[^subdiv]
 
-[^subdiv]: IBO describes the aspects but not their relative proportions within a criteria.  These are *my* proportions.
+[^subdiv]: IBO describes the aspects but not their relative proportions within a criteria.  I have described *my* proportions under the Final Check section.
 
 <!-- <el-row>
 

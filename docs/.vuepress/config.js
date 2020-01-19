@@ -1,4 +1,3 @@
-
 const moment = require('moment');
 const path = require("path");
 
@@ -8,7 +7,7 @@ module.exports = {
     transpileDependencies: [
         'vue-echarts',
         'resize-detector'
-      ],
+    ],
     head: [
         ['link',
             {
@@ -131,6 +130,10 @@ module.exports = {
                         ['./IA/', 'Internal Assessment'],
                         ['./IA/plan', '1. Planning'],
                         ['./IA/critique-ex', '1B. Critique an Exploration'],
+                        ['./IA/experiment', '2. Doing the experiment'],
+                        ['./IA/analysis', '3. Analysis / Interpretation'],
+                        ['./IA/writing', '4. Writing up'],
+                        ['./IA/final-check', '5. Final check'],
                         {
                             title: 'Inventory',
                             children: [
@@ -142,8 +145,7 @@ module.exports = {
                 },
                 {
                     title: 'Skills',
-                    children: [
-                        {
+                    children: [{
                             title: '💾 ICT',
                             children: [
                                 ['./skills/analysis/spreadsheet/', '📊 Spreadsheet'],
@@ -199,21 +201,21 @@ module.exports = {
             ],
 
             '/jon/': [{
-                title: 'About',
-                collapsable: true,
-                children: [
-                    ['./', 'Bio'],
-                    ['./website', '🗄️ Website'],
-                    ['./colophon', '⌨️ Colophon'],
-                    ['./registry', '💰 Registry of interests'],
-                ],
-            },
-               /* {
-                    title: 'Essays',
+                    title: 'About',
+                    collapsable: true,
                     children: [
-                        ['./essays/about-website/', 'About website'],
+                        ['./', 'Bio'],
+                        ['./website', '🗄️ Website'],
+                        ['./colophon', '⌨️ Colophon'],
+                        ['./registry', '💰 Registry of interests'],
                     ],
-                },*/
+                },
+                /* {
+                     title: 'Essays',
+                     children: [
+                         ['./essays/about-website/', 'About website'],
+                     ],
+                 },*/
                 {
                     title: 'Guides',
                     children: [
@@ -278,15 +280,17 @@ module.exports = {
         '@vuepress/medium-zoom',
         '@vuepress/back-to-top',
         '@vuepress/pwa',
-        [ 
+        [
             '@vuepress/google-analytics',
             {
-              'ga': 'UA-134636637-1' // UA-00000000-0
+                'ga': 'UA-134636637-1' // UA-00000000-0
             }
         ],
         [
             'vuepress-plugin-smooth-scroll',
-            { 'vuepress-plugin-smooth-scroll': true }
+            {
+                'vuepress-plugin-smooth-scroll': true
+            }
         ],
         [
             '@goy/svg-icons',
@@ -340,11 +344,13 @@ module.exports = {
             })
             md.use(require('markdown-it-sup'))
             md.use(require('markdown-it-sub'))
-            md.use(require('markdown-it-imsize'), { autofill: true })
+            md.use(require('markdown-it-imsize'), {
+                autofill: true
+            })
             // md.use(require('markdown-it-center-text'))
             md.use(require('markdown-it-implicit-figures'), {
-                dataType: true,  // <figure data-type="image">, default: false
-                figcaption: true,  // <figcaption>alternative text</figcaption>, default: false
+                dataType: true, // <figure data-type="image">, default: false
+                figcaption: true, // <figcaption>alternative text</figcaption>, default: false
                 tabindex: true, // <figure tabindex="1+n">..., default: false
                 link: true
             })
