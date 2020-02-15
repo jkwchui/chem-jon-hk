@@ -112,6 +112,7 @@ module.exports = {
         },
         {
           title: "Topics",
+          sidebarDepth: 0,
           children: [
             ["./topic/0/", "0 - Foundations"],
             ["./topic/1/", "1 - Stoichiometry"],
@@ -125,7 +126,8 @@ module.exports = {
             ["./topic/8/", "8/18 - Acids & Bases"],
             ["./topic/9/", "9/19 - Redox"],
             ["./topic/10/", "10/20 - Organic Chemistry"],
-            ["./topic/11B/", "11B/21 - Spectroscopy"],
+            ["./topic/11B/", "11B/21 - Spectroscopy 🌈"],
+            ["./topic/C/", "C - Energy ⚡"],
             ["./topic/D/", "D - Drugs & Medicine 💊"]
             // ['./topic/', ''],
           ]

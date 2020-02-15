@@ -1,26 +1,58 @@
-
-## Foldable tech test
-
-<!-- As `fold`.  Dev OK.
-
-<fold>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</fold> -->
-
-As `Foldable`.  Dev OK.
-
-<Foldable>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-</Foldable>
+#<Subsubtopic id='2.1.NoS1' type='Nature of Science' content='Evidence and improvements in instrumentation—alpha particles were used in the development of the nuclear model of the atom that was first proposed by Rutherford. (1.8)' />
+<Subsubtopic id='2.1.NoS2' type='Nature of Science' content='Paradigm shifts—the subatomic particle theory of matter represents a paradigm shift in science that occurred in the late 1800s. (2.3)' />
+<Subsubtopic id='2.1.U1' type='Understandings' content='Atoms contain a positively charged dense nucleus composed of protons and neutrons (nucleons).' />
+<Subsubtopic id='2.1.U2' type='Understandings' content='Negatively charged electrons occupy the space outside the nucleus.' />
+<Subsubtopic id='2.1.U3' type='Understandings' content='The mass spectrometer is used to determine the relative atomic mass of an element from its isotopic composition.' />
+<Subsubtopic id='2.1.AS1' type='Applications and skills' content='Use of the nuclear symbol notation ^{A}_{Z}X to deduce the number of protons, neutrons and electrons in atoms and ions.' />
+<Subsubtopic id='2.1.AS2' type='Applications and skills' content='Calculations involving non-integer relative atomic masses and abundance of isotopes from given data, including mass spectra.' />
+<Subsubtopic id='2.1.G1' type='Guidanc e' content='Relative masses and charges of the subatomic particles should be known, actual values are given in section 4 of the data booklet. The mass of the electron can be considered negligible.' />
+<Subsubtopic id='2.1.G2' type='Guidance' content='Specific examples of isotopes need not be learned.' />
+<Subsubtopic id='2.1.G3' type='Guidance' content='The operation of the mass spectrometer is not required.' />
+<Subsubtopic id='2.1.IM1' type='International-mindedness' content='Isotope enrichment uses physical properties to separate isotopes of uranium, and is employed in many countries as part of nuclear energy and weaponry programmes.' />
+<Subsubtopic id='2.1.ToK1' type='Theory of Knowledge' content='Richard Feynman: “If all of scientific knowledge were to be destroyed and only one sentence passed on to the next generation, I believe it is that all things are made of atoms.” Are the models and theories which scientists create accurate descriptions of the natural world, or are they primarily useful interpretations for prediction, explanation and control of the natural world?' />
+<Subsubtopic id='2.1.ToK2' type='Theory of Knowledge' content='No subatomic particles can be (or will be) directly observed. Which ways of knowing do we use to interpret indirect evidence, gained through the use of technology?' />
+<Subsubtopic id='2.1.Uz1' type='Utilization' content='Radioisotopes are used in nuclear medicine for diagnostics, treatment and research, as tracers in biochemical and pharmaceutical research, and as “chemical clocks” in geological and archaeological dating.' />
+<Subsubtopic id='2.1.Uz2' type='Utilization' content='PET (positron emission tomography) scanners give three-dimensional images of tracer concentration in the body, and can be used to detect cancers.' />
+<Subsubtopic id='2.1.Aims1' type='Aims' content='Aim 7: Simulations of Rutherford’s gold foil experiment can be undertaken' />
+<Subsubtopic id='2.1.Aims2' type='Aims' content='Aim 8: Radionuclides carry dangers to health due to their ionizing effects on cells.' />
+<Subsubtopic id='2.2.NoS1' type='Nature of Science' content='Developments in scientific research follow improvements in apparatus—the use of electricity and magnetism in Thomson’s cathode rays.(1.8)' />
+<Subsubtopic id='2.2.NoS2' type='Nature of Science' content='Theories being superseded—quantum mechanics is among the most current models of the atom. (1.9)' />
+<Subsubtopic id='2.2.NoS3' type='Nature of Science' content='Use theories to explain natural phenomena—line spectra explained by the Bohr model of the atom. (2.2)' />
+<Subsubtopic id='2.2.U1' type='Understandings' content='Emission spectra are produced when photons are emitted from atoms as excited electrons return to a lower energy level.' />
+<Subsubtopic id='2.2.U2' type='Understandings' content='The line emission spectrum of hydrogen provides evidence for the existence of electrons in discrete energy levels, which converge at higher energies.' />
+<Subsubtopic id='2.2.U3' type='Understandings' content='The main energy level or shell is given an integer number, n, and can hold a maximum number of electrons, 2n^{2}.' />
+<Subsubtopic id='2.2.U4' type='Understandings' content='A more detailed model of the atom describes the division of the main energy level into s, p, d and f sub-levels of successively higher energies.' />
+<Subsubtopic id='2.2.U5' type='Understandings' content='Sub-levels contain a fixed number of orbitals, regions of space where there is a high probability of finding an electron.' />
+<Subsubtopic id='2.2.U6' type='Understandings' content='Each orbital has a defined energy state for a given electronic configuration and chemical environment and can hold two electrons of opposite spin.' />
+<Subsubtopic id='2.2.AS1' type='Applications and skills' content='Description of the relationship between colour, wavelength, frequency and energy across the electromagnetic spectrum.' />
+<Subsubtopic id='2.2.AS2' type='Applications and skills' content='Distinction between a continuous spectrum and a line spectrum.' />
+<Subsubtopic id='2.2.AS3' type='Applications and skills' content='Description of the emission spectrum of the hydrogen atom, including the relationships between the lines and energy transitions to the first, second and third energy levels.' />
+<Subsubtopic id='2.2.AS4' type='Applications and skills' content='Recognition of the shape of an s atomic orbital and the px, py and pz atomic orbitals.' />
+<Subsubtopic id='2.2.AS5' type='Applications and skills' content='Application of the Aufbau principle, Hund’s rule and the Pauli exclusion principle to write electron configurations for atoms and ions up to Z = 36.' />
+<Subsubtopic id='2.2.G1' type='Guidance' content='Details of the electromagnetic spectrum are given in the data booklet in section 3.' />
+<Subsubtopic id='2.2.G2' type='Guidance' content='The names of the different series in the hydrogen line emission spectrum are not required.' />
+<Subsubtopic id='2.2.G3' type='Guidance' content='Full electron configurations (eg 1s^{2}2s^{2}2p^{6}3s^{2}3p^{4}) and condensed electron configurations (eg [Ne] 3s^{2}3p^{4}) should be covered.' />
+<Subsubtopic id='2.2.G4' type='Guidance' content='Orbital diagrams should be used to represent the character and relative energy of orbitals. Orbital diagrams refer to arrow-in-box diagrams, such as the one given below. (see syllabus)' />
+<Subsubtopic id='2.2.G5' type='Guidance' content='The electron configurations of Cr and Cu as exceptions should be covered.' />
+<Subsubtopic id='2.2.IM1' type='International-mindedness' content='The European Organization for Nuclear Research (CERN) is run by its European member states (20 states in 2013), with involvements from scientists from many other countries. It operates the world’s largest particle physics research centre, including particle accelerators and detectors used to study the fundamental constituents of matter.' />
+<Subsubtopic id='2.2.ToK1' type='Theory of Knowledge' content='Heisenberg’s Uncertainty Principle states that there is a theoretical limit to the precision with which we can know the momentum and the position of a particle. What are the implications of this for the limits of human knowledge?' />
+<Subsubtopic id='2.2.ToK2' type='Theory of Knowledge' content='“One aim of the physical sciences has been to give an exact picture of the material world. One achievement ... has been to prove that this aim is unattainable.” —Jacob Bronowski. What are the implications of this claim for the aspirations of natural sciences in particular and for knowledge in general?' />
+<Subsubtopic id='2.2.Uz1' type='Utilization' content='Absorption and emission spectra are widely used in astronomy to analyse light from stars.' />
+<Subsubtopic id='2.2.Uz2' type='Utilization' content='Atomic absorption spectroscopy is a very sensitive means of determining the presence and concentration of metallic elements.' />
+<Subsubtopic id='2.2.Uz3' type='Utilization' content='Fireworks—emission spectra.' />
+<Subsubtopic id='2.2.Aims1' type='Aims' content='Aim 6: Emission spectra could be observed using discharge tubes of different gases and a spectroscope. Flame tests could be used to study spectra.' />
+<Subsubtopic id='12.1.NoS' type='Nature of Science' content='Experimental evidence to support theories—emission spectra provide evidence for the existence of energy levels. (1.8)' />
+<Subsubtopic id='12.1.U1' type='Understandings' content='In an emission spectrum, the limit of convergence at higher frequency corresponds to the first ionization energy.' />
+<Subsubtopic id='12.1.U2' type='Understandings' content='Trends in first ionization energy across periods account for the existence of main energy levels and sub-levels in atoms.' />
+<Subsubtopic id='12.1.U3' type='Understandings' content='Successive ionization energy data for an element give information that shows relations to electron configurations' />
+<Subsubtopic id='12.1.AS1' type='Applications and skills' content='Solving problems using E = hv' />
+<Subsubtopic id='12.1.AS2' type='Applications and skills' content='Calculation of the value of the first ionization energy from spectral data which gives the wavelength or frequency of the convergence limit.' />
+<Subsubtopic id='12.1.AS3' type='Applications and skills' content='Deduction of the group of an element from its successive ionization energy data' />
+<Subsubtopic id='12.1.AS4' type='Applications and skills' content='Explanation of the trends and discontinuities in first ionization energy across a period.' />
+<Subsubtopic id='12.1.G1' type='Guidance' content='The value of Planck’s constant (h) and 𝐸𝐸 = ℎ𝑣𝑣 are given in the data booklet in sections 1 and 2.' />
+<Subsubtopic id='12.1.G2' type='Guidance' content='Use of the Rydberg formula is not expected in calculations of ionization energy.' />
+<Subsubtopic id='12.1.IM1' type='International-mindedness' content='In 2012 two separate international teams working at the Large Hadron Collider at CERN independently announced that they had discovered a particle with behaviour consistent with the previously predicted “Higgs boson”.' />
+<Subsubtopic id='12.1.ToK1' type='Theory of Knowledge' content='“What we observe is not nature itself, but nature exposed to our method of questioning.”—Werner Heisenberg. An electron can behave as a wave or a particle depending on the experimental conditions. Can sense perception give us objective knowledge about the world?' />
+<Subsubtopic id='12.1.ToK2' type='Theory of Knowledge' content='The de Broglie equation shows that macroscopic particles have too short a wavelength for their wave properties to be observed. Is it meaningful to talk of properties which can never be observed from sense perception?' />
+<Subsubtopic id='12.1.Uz1' type='Utilization' content='Electron microscopy has led to many advances in biology, such as the ultrastructure of cells and viruses. The scanning tunnelling microscope (STM) uses a stylus of a single atom to scan a surface and provide a 3-D image at the atomic level.' />
+<Subsubtopic id='12.1.Aims1' type='Aims' content='Aim 7: Databases could be used for compiling graphs of trends in ionization energies and simulations are available for the Davisson-Germer electron diffraction experiment.' />
