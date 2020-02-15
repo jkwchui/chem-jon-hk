@@ -287,7 +287,7 @@ module.exports = {
     "@vuepress/active-header-links",
     "@vuepress/medium-zoom",
     "@vuepress/back-to-top",
-    "@vuepress/pwa",
+    // "@vuepress/pwa",
     [
       "@vuepress/google-analytics",
       {

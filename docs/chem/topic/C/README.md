@@ -14,7 +14,6 @@
 ### Usefulness and Sustainability
 
 <Subsubtopic id='C.1.U1' type='Understandings' content='A useful energy source releases energy at a reasonable rate and produces minimal pollution.' />
-
 <Subsubtopic id='C.1.U3' type='Understandings' content='Renewable energy sources are naturally replenished. Non-renewable energy sources are finite.' />
 <Subsubtopic id='C.1.AS1' type='Applications and skills' content='Discussion of the use of different sources of renewable and non-renewable energy.' />
 
@@ -33,59 +32,97 @@
 
 ### Activities
 
+#### The Taxi Problem
 
+<Subsubtopic id='C.1.Aims2' type='Aims' content='Aim 6: The energy density of different fuels could be investigated experimentally.' />
 
-<Subsubtopic id='C.1.ToK1' type='Theory of Knowledge' content='“I have no doubt that we will be successful in harnessing the sun’s energy. If sunbeams were weapons of war we would have had solar energy centuries ago.” (Lord George Porter). In what ways might social, political, cultural and religious factors affect the types of research that are financed and undertaken, or rejected?' />
+#### Global Energy Statistics
+<Subsubtopic id='C.1.Aims3' type='Aims' content='Aim 7: Databases of energy statistics on a global and national scale can be explored here.' />
 <Subsubtopic id='C.1.ToK2' type='Theory of Knowledge' content='There are many ethical issues raised by energy generation and its consequent contributions to pollution and climate change.What is the influence of political pressure on different areas of knowledge?' />
 <Subsubtopic id='C.1.Aims1' type='Aims' content='Aim 1: Discussions of the possible energy sources provide opportunities for scientific study and creativity within a global context.' />
-<Subsubtopic id='C.1.Aims2' type='Aims' content='Aim 6: The energy density of different fuels could be investigated experimentally.' />
-<Subsubtopic id='C.1.Aims3' type='Aims' content='Aim 7: Databases of energy statistics on a global and national scale can be explored here.' />
+<Subsubtopic id='C.1.ToK1' type='Theory of Knowledge' content='“I have no doubt that we will be successful in harnessing the sun’s energy. If sunbeams were weapons of war we would have had solar energy centuries ago.” (Lord George Porter). In what ways might social, political, cultural and religious factors affect the types of research that are financed and undertaken, or rejected?' />
 
 ## Fossil Fuels
 
 <Subsubtopic id='C.2.NoS' type='Nature of Science' content='Scientific community and collaboration—the use of fossil fuels has had a key role in the development of science and technology. (4.1)' />
+
+### Where fossil fuels come from
+
 <Subsubtopic id='C.2.U1' type='Understandings' content='Fossil fuels were formed by the reduction of biological compounds that contain carbon, hydrogen, nitrogen, sulfur and oxygen.' />
-<Subsubtopic id='C.2.U2' type='Understandings' content='Petroleum is a complex mixture of hydrocarbons that can be split into different component parts called fractions by fractional distillation.' />
-<Subsubtopic id='C.2.U3' type='Understandings' content='Crude oil needs to be refined before use. The different fractions are separated by a physical process in fractional distillation.' />
-<Subsubtopic id='C.2.U4' type='Understandings' content='The tendency of a fuel to auto-ignite, which leads to “knocking” in a car engine, is related to molecular structure and measured by the octane number.' />
-<Subsubtopic id='C.2.U5' type='Understandings' content='The performance of hydrocarbons as fuels is improved by the cracking and catalytic reforming reactions.' />
-<Subsubtopic id='C.2.U6' type='Understandings' content='Coal gasification and liquefaction are chemical processes that convert coal to gaseous and liquid hydrocarbons.' />
-<Subsubtopic id='C.2.U7' type='Understandings' content='A carbon footprint is the total amount of greenhouse gases produced during human activities. It is generally expressed in equivalent tons of carbon dioxide.' />
-<Subsubtopic id='C.2.AS1' type='Applications and skills' content='Discussion of the effect of chain length and chain branching on the octane number.' />
-<Subsubtopic id='C.2.AS2' type='Applications and skills' content='Discussion of the reforming and cracking reactions of hydrocarbons and explanation how these processes improve the octane number.' />
-<Subsubtopic id='C.2.AS3' type='Applications and skills' content='Deduction of equations for cracking and reforming reactions, coal gasification and liquefaction.' />
+
+### Three kinds of fossil fuel
+
 <Subsubtopic id='C.2.AS4' type='Applications and skills' content='Discussion of the advantages and disadvantages of the different fossil fuels.' />
-<Subsubtopic id='C.2.AS5' type='Applications and skills' content='Identification of the various fractions of petroleum, their relative volatility and their uses.' />
-<Subsubtopic id='C.2.AS6' type='Applications and skills' content='Calculations of the carbon dioxide added to the atmosphere, when different fuels burn and determination of carbon footprints for different activities.' />
 <Subsubtopic id='C.2.G1' type='Guidance' content='The cost of production and availability (reserves) of fossil fuels and their impact on the environment should be considered.' />
+<Subsubtopic id='C.2.U6' type='Understandings' content='Coal gasification and liquefaction are chemical processes that convert coal to gaseous and liquid hydrocarbons.' />
 <Subsubtopic id='C.2.IM1' type='International-mindedness' content='The choice of fossil fuel used by different countries depends on availability, and economic, societal, environmental and technological factors.' />
 <Subsubtopic id='C.2.IM2' type='International-mindedness' content='Different fuel rating systems (RON, MON or PON) are used in different countries.' />
 <Subsubtopic id='C.2.IM3' type='International-mindedness' content='Ocean drilling, oil pipelines and oil spills are issues that demand international cooperation and agreement.' />
-<Subsubtopic id='C.2.Aims1' type='Aims' content='Aim 6: Possible experiments include fractional distillation and catalytic cracking reactions' />
-<Subsubtopic id='C.2.Aims2' type='Aims' content='Aim 7: Databases of energy statistics on a global and national scale can be explored here.' />
-<Subsubtopic id='C.2.Aims3' type='Aims' content='Aim 7: Many online calculators are available to calculate carbon footprints.' />
 <Subsubtopic id='C.2.Aims4' type='Aims' content='Aim 8: Consideration of the advantages and disadvantages of fossil fuels illustrates the economic and environmental implications of using science and technology.' />
+
+#### Activity: Global Statistics on Fossil Fuel Usage
+
+<Subsubtopic id='C.2.Aims2' type='Aims' content='Aim 7: Databases of energy statistics on a global and national scale can be explored here.' />
+
+### Mixture Separation
+
+<Subsubtopic id='C.2.U2' type='Understandings' content='Petroleum is a complex mixture of hydrocarbons that can be split into different component parts called fractions by fractional distillation.' />
+<Subsubtopic id='C.2.AS5' type='Applications and skills' content='Identification of the various fractions of petroleum, their relative volatility and their uses.' />
+<Subsubtopic id='C.2.U3' type='Understandings' content='Crude oil needs to be refined before use. The different fractions are separated by a physical process in fractional distillation.' />
+<Subsubtopic id='C.2.Aims1' type='Aims' content='Aim 6: Possible experiments include fractional distillation and catalytic cracking reactions' />
+
+### Cracking and reforming
+
+<Subsubtopic id='C.2.U4' type='Understandings' content='The tendency of a fuel to auto-ignite, which leads to “knocking” in a car engine, is related to molecular structure and measured by the octane number.' />
+<Subsubtopic id='C.2.U5' type='Understandings' content='The performance of hydrocarbons as fuels is improved by the cracking and catalytic reforming reactions.' />
+<Subsubtopic id='C.2.AS1' type='Applications and skills' content='Discussion of the effect of chain length and chain branching on the octane number.' />
+<Subsubtopic id='C.2.AS2' type='Applications and skills' content='Discussion of the reforming and cracking reactions of hydrocarbons and explanation how these processes improve the octane number.' />
+<Subsubtopic id='C.2.AS3' type='Applications and skills' content='Deduction of equations for cracking and reforming reactions, coal gasification and liquefaction.' />
+
+### Carbon Footprint
+
+<Subsubtopic id='C.2.U7' type='Understandings' content='A carbon footprint is the total amount of greenhouse gases produced during human activities. It is generally expressed in equivalent tons of carbon dioxide.' />
+
+<Subsubtopic id='C.2.AS6' type='Applications and skills' content='Calculations of the carbon dioxide added to the atmosphere, when different fuels burn and determination of carbon footprints for different activities.' />
+
+<Subsubtopic id='C.2.Aims3' type='Aims' content='Aim 7: Many online calculators are available to calculate carbon footprints.' />
+
 
 ## Global Warming
 
 <Subsubtopic id='C.5.NoS1' type='Nature of Science' content='Transdisciplinary—the study of global warming encompasses a broad range of concepts and ideas and is transdisciplinary. (4.1)' />
 <Subsubtopic id='C.5.NoS2' type='Nature of Science' content='Collaboration and significance of science explanations to the public—reports of the Intergovernmental Panel on Climate Change (IPCC). (5.2)' />
-<Subsubtopic id='C.5.NoS3' type='Nature of Science' content='Correlation and cause and understanding of science—CO2 levels and Earth average temperature show clear correlation but wide variations in the surface temperature of the Earth have occurred frequently in the past. (2.8)' />
+<Subsubtopic id='C.5.NoS3' type='Nature of Science' content='Correlation and cause and understanding of science—CO2 levels and Earth average temperature show clear correlation but wide variations in the surface temperature of the Earth have occurred frequently in the past. (2.8' />
+
+### Greenhouse gases
 <Subsubtopic id='C.5.U1' type='Understandings' content='Greenhouse gases allow the passage of incoming solar short wavelength radiation but absorb the longer wavelength radiation from the Earth. Some of the absorbed radiation is re-radiated back to Earth.' />
-<Subsubtopic id='C.5.U2' type='Understandings' content='There is a heterogeneous equilibrium between concentration of atmospheric carbon dioxide and aqueous carbon dioxide in the oceans.' />
-<Subsubtopic id='C.5.U3' type='Understandings' content='Greenhouse gases absorb IR radiation as there is a change in dipole moment as the bonds in the molecule stretch and bend.' />
-<Subsubtopic id='C.5.U4' type='Understandings' content='Particulates such as smoke and dust cause global dimming as they reflect sunlight, as do clouds.' />
-<Subsubtopic id='C.5.AS1' type='Applications and skills' content='Explanation of the molecular mechanisms by which greenhouse gases absorb infrared radiation.' />
 <Subsubtopic id='C.5.AS2' type='Applications and skills' content='Discussion of the evidence for the relationship between the increased concentration of gases and global warming.' />
+
+#### Kinds of greenhouse gases
+
 <Subsubtopic id='C.5.AS3' type='Applications and skills' content='Discussion of the sources, relative abundance and effects of different greenhouse gases.' />
-<Subsubtopic id='C.5.AS4' type='Applications and skills' content='Discussion of the different approaches to the control of carbon dioxide emissions.' />
-<Subsubtopic id='C.5.AS5' type='Applications and skills' content='Discussion of pH changes in the ocean due to increased concentration of carbon dioxide in the atmosphere.' />
 <Subsubtopic id='C.5.G1' type='Guidance' content='Greenhouse gases to be considered are CH4, H2O and CO2.' />
+
+#### How greenhouse gases warm the climate
+
+<Subsubtopic id='C.5.AS1' type='Applications and skills' content='Explanation of the molecular mechanisms by which greenhouse gases absorb infrared radiation.' />
+<Subsubtopic id='C.5.U3' type='Understandings' content='Greenhouse gases absorb IR radiation as there is a change in dipole moment as the bonds in the molecule stretch and bend.' />
+
+#### Other environmental impact of greenhouse gases
+<Subsubtopic id='C.5.U2' type='Understandings' content='There is a heterogeneous equilibrium between concentration of atmospheric carbon dioxide and aqueous carbon dioxide in the oceans.' />
+<Subsubtopic id='C.5.AS5' type='Applications and skills' content='Discussion of pH changes in the ocean due to increased concentration of carbon dioxide in the atmosphere.' />
+<Subsubtopic id='C.5.Aims1' type='Aims' content='Aim 6: The equilibrium between aqueous and gaseous carbon dioxide could be experimentally investigated.' />
+<Subsubtopic id='C.5.U4' type='Understandings' content='Particulates such as smoke and dust cause global dimming as they reflect sunlight, as do clouds.' />
+
+### International Controls
+<Subsubtopic id='C.5.AS4' type='Applications and skills' content='Discussion of the different approaches to the control of carbon dioxide emissions.' />
+
+
 <Subsubtopic id='C.5.IM1' type='International-mindedness' content='This issue involves the international community working together to research and reduce the effects of global warming. Such attempts include the Intergovernmental Panel on Climate Change (IPCC) and the Kyoto Protocol which was extended in Qatar.' />
 <Subsubtopic id='C.5.ToK1' type='Theory of Knowledge' content='Some people question the reality of climate change, and question the motives of scientists who have “exaggerated” the problem. How do we assess the evidence collected and the models used to predict the impact of human activities?' />
-<Subsubtopic id='C.5.Aims1' type='Aims' content='Aim 6: The equilibrium between aqueous and gaseous carbon dioxide could be experimentally investigated.' />
-<Subsubtopic id='C.5.Aims2' type='Aims' content='Aim 7: Computer modelling is a powerful tool by which knowledge can be gained about the greenhouse effect.' />
 <Subsubtopic id='C.5.Aims3' type='Aims' content='Aim 8: Discussions of climate change and green chemistry raise awareness of the ethical, economic and environmental implications of using science and technology.' />
+<Subsubtopic id='C.5.Aims2' type='Aims' content='Aim 7: Computer modelling is a powerful tool by which knowledge can be gained about the greenhouse effect.' />
+
 
 ## Nuclear Fusion and Fission
 
