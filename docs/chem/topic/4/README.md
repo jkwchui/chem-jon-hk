@@ -2,9 +2,14 @@
 
 # 4 / 14 Structure & Bonding
 
-<Subsubtopic id='4.1.NoS' type='Nature of Science' content='Use theories to explain natural phenomena—molten ionic compounds conduct electricity but solid ionic compounds do not. The solubility and melting points of ionic compounds can be used to explain observations. (2.2)' />
-<Subsubtopic id='4.1.U1' type='Understandings' content='Positive ions (cations) form by metals losing valence electrons.' />
-<Subsubtopic id='4.1.U2' type='Understandings' content='Negative ions (anions) form by non-metals gaining electrons.' />
+## Classifying Types of Chemical Bonds
+
+## Ionic Bonds
+
+
+<Subsubtopic id='4.1.NoS' type='Nature of Science' content='Use theories to explain natural phenomena—molten ionic compounds conduct electricity but solid ionic compounds do not. The solubility and melting points of ionic compounds can be used to explain observations. (2.2)'></Subsubtopic>
+<Subsubtopic id='4.1.U1' type='Understandings' content='Positive ions (cations) form by metals losing valence electrons.'></Subsubtopic>
+<Subsubtopic id='4.1.U2' type='Understandings' content='Negative ions (anions) form by non-metals gaining electrons.'></Subsubtopic>
 <Subsubtopic id='4.1.U3' type='Understandings' content='The number of electrons lost or gained is determined by the electron configuration of the atom.' />
 <Subsubtopic id='4.1.U4' type='Understandings' content='The ionic bond is due to electrostatic attraction between oppositely charged ions.' />
 <Subsubtopic id='4.1.U5' type='Understandings' content='Under normal conditions, ionic compounds are usually solids with lattice structures.' />
@@ -17,6 +22,24 @@
 <Subsubtopic id='4.1.Aims1' type='Aims' content='Aim 3: Use naming conventions to name ionic compounds.' />
 <Subsubtopic id='4.1.Aims2' type='Aims' content='Aim 6: Students could investigate compounds based on their bond type and properties or obtain sodium chloride by solar evaporation.' />
 <Subsubtopic id='4.1.Aims3' type='Aims' content='Aim 7: Computer simulation could be used to observe crystal lattice structures.' />
+
+## Metallic Bonds
+
+<Subsubtopic id='4.5.NoS' type='Nature of Science' content='Use theories to explain natural phenomena—the properties of metals are different from covalent and ionic substances and this is due to the formation of non-directional bonds with a “sea” of delocalized electrons. (2.2)' />
+<Subsubtopic id='4.5.U15' type='Understandings' content='A metallic bond is the electrostatic attraction between a lattice of positive ions and delocalized electrons.' />
+<Subsubtopic id='4.5.U2' type='Understandings' content='The strength of a metallic bond depends on the charge of the ions and the radius of the metal ion.' />
+<Subsubtopic id='4.5.U3' type='Understandings' content='Alloys usually contain more than one metal and have enhanced properties.' />
+<Subsubtopic id='4.5.AS1' type='Applications and skills' content='Explanation of electrical conductivity and malleability in metals.' />
+<Subsubtopic id='4.5.AS2' type='Applications and skills' content='Explanation of trends in melting points of metals.' />
+<Subsubtopic id='4.5.AS3' type='Applications and skills' content='Explanation of the properties of alloys in terms of non-directional bonding.' />
+<Subsubtopic id='4.5.G1' type='Guidance' content='Trends should be limited to s- and p-block elements.' />
+<Subsubtopic id='4.5.G2' type='Guidance' content='Examples of various alloys should be covered.' />
+<Subsubtopic id='4.5.IM1' type='International-mindedness' content='The availability of metal resources, and the means to extract them, varies greatly in different countries, and is a factor in determining national wealth. As technologies develop, the demands for different metals change and careful strategies are needed to manage the supply of these finite resources.' />
+<Subsubtopic id='4.5.Aims1' type='Aims' content='Aim 1: Global impact of value of precious metals and their extraction processes and locations' />
+<Subsubtopic id='4.5.Aims2' type='Aims' content='Aim 7: Computer simulations could be used to view examples of metallic bonding.' />
+
+## Covalent Bonds
+
 <Subsubtopic id='4.2.NoS1' type='Nature of Science' content='Looking for trends and discrepancies—compounds containing non-metals have different properties than compounds that contain non-metals and metals. (2.5)' />
 <Subsubtopic id='4.2.NoS2' type='Nature of Science' content='Use theories to explain natural phenomena—Lewis introduced a class of compounds which share electrons. Pauling used the idea of electronegativity to explain unequal sharing of electrons. (2.2)' />
 <Subsubtopic id='4.2.U1' type='Understandings' content='A covalent bond is formed by the electrostatic attraction between a shared pair of electrons and the positively charged nuclei.' />
@@ -28,6 +51,9 @@
 <Subsubtopic id='4.2.G2' type='Guidance' content='Electronegativity values are given in the data booklet in section 8.' />
 <Subsubtopic id='4.2.Uz1' type='Utilization' content='Microwaves—cooking with polar molecules.' />
 <Subsubtopic id='4.2.Aims1' type='Aims' content='Aim 3: Use naming conventions to name covalently bonded compounds.' />
+
+### Covalent Structures
+
 <Subsubtopic id='4.3.NoS' type='Nature of Science' content='Scientists use models as representations of the real world—the development of the model of molecular shape (VSEPR) to explain observable properties. (1.10)' />
 <Subsubtopic id='4.3.U1' type='Understandings' content='Lewis (electron dot) structures show all the valence electrons in a covalently bonded species.' />
 <Subsubtopic id='4.3.U2' type='Understandings' content='The “octet rule” refers to the tendency of atoms to gain a valence shell with a total of 8 electrons.' />
@@ -47,6 +73,9 @@
 <Subsubtopic id='4.3.G4' type='Guidance' content='Coordinate covalent bonds should be covered.' />
 <Subsubtopic id='4.3.ToK1' type='Theory of Knowledge' content='Does the need for resonance structures decrease the value or validity of Lewis (electron dot) theory? What criteria do we use in assessing the validity of a scientific theory?' />
 <Subsubtopic id='4.3.Aims1' type='Aims' content='Aim 7: Computer simulations could be used to model VSEPR structures' />
+
+## Intermolecular Forces
+
 <Subsubtopic id='4.4.NoS' type='Nature of Science' content='Obtain evidence for scientific theories by making and testing predictions based on them—London (dispersion) forces and hydrogen bonding can be used to explain special interactions. For example, molecular covalent compounds can exist in the liquid and solid states. To explain this, there must be attractive forces between their particles which are significantly greater than those that could be attributed to gravity. (2.2)' />
 <Subsubtopic id='4.4.U1' type='Understandings' content='Intermolecular forces include London (dispersion) forces, dipole-dipole forces and hydrogen bonding.' />
 <Subsubtopic id='4.4.U2' type='Understandings' content='The relative strengths of these interactions are London (dispersion) forces < dipole-dipole forces < hydrogen bonds.' />
@@ -55,18 +84,9 @@
 <Subsubtopic id='4.4.G1' type='Guidance' content='The term “London (dispersion) forces” refers to instantaneous induced dipole- induced dipole forces that exist between any atoms or groups of atoms and should be used for non-polar entities. The term “van der Waals” is an inclusive term, which includes dipole–dipole, dipole-induced dipole and London (dispersion) forces.' />
 <Subsubtopic id='4.4.ToK1' type='Theory of Knowledge' content='The nature of the hydrogen bond is the topic of much discussion and the current definition from the IUPAC gives six criteria which should be used as evidence for the occurrence of hydrogen bonding. How does a specialized vocabulary help and hinder the growth of knowledge?' />
 <Subsubtopic id='4.4.Aims1' type='Aims' content='Aim 7: Computer simulations could be used to show intermolecular forces interactions.' />
-<Subsubtopic id='4.5.NoS' type='Nature of Science' content='Use theories to explain natural phenomena—the properties of metals are different from covalent and ionic substances and this is due to the formation of non-directional bonds with a “sea” of delocalized electrons. (2.2)' />
-<Subsubtopic id='4.5.U15' type='Understandings' content='A metallic bond is the electrostatic attraction between a lattice of positive ions and delocalized electrons.' />
-<Subsubtopic id='4.5.U2' type='Understandings' content='The strength of a metallic bond depends on the charge of the ions and the radius of the metal ion.' />
-<Subsubtopic id='4.5.U3' type='Understandings' content='Alloys usually contain more than one metal and have enhanced properties.' />
-<Subsubtopic id='4.5.AS1' type='Applications and skills' content='Explanation of electrical conductivity and malleability in metals.' />
-<Subsubtopic id='4.5.AS2' type='Applications and skills' content='Explanation of trends in melting points of metals.' />
-<Subsubtopic id='4.5.AS3' type='Applications and skills' content='Explanation of the properties of alloys in terms of non-directional bonding.' />
-<Subsubtopic id='4.5.G1' type='Guidance' content='Trends should be limited to s- and p-block elements.' />
-<Subsubtopic id='4.5.G2' type='Guidance' content='Examples of various alloys should be covered.' />
-<Subsubtopic id='4.5.IM1' type='International-mindedness' content='The availability of metal resources, and the means to extract them, varies greatly in different countries, and is a factor in determining national wealth. As technologies develop, the demands for different metals change and careful strategies are needed to manage the supply of these finite resources.' />
-<Subsubtopic id='4.5.Aims1' type='Aims' content='Aim 1: Global impact of value of precious metals and their extraction processes and locations' />
-<Subsubtopic id='4.5.Aims2' type='Aims' content='Aim 7: Computer simulations could be used to view examples of metallic bonding.' />
+
+
+
 <Subsubtopic id='14.1.NoS' type='Nature of Science' content='Principle of Occam’s razor—bonding theories have been modified over time. Newer theories need to remain as simple as possible while maximizing explanatory power, for example the idea of formal charge. (2.7)' />
 <Subsubtopic id='14.1.U1' type='Understandings' content='Covalent bonds result from the overlap of atomic orbitals. A sigma bond (σ) is formed by the direct head-on/end-to-end overlap of atomic orbitals, resulting in electron density concentrated between the nuclei of the bonding atoms. A pi bond (π) is formed by the sideways overlap of atomic orbitals, resulting in electron density above and below the plane of the nuclei of the bonding atoms.' />
 <Subsubtopic id='14.1.U2' type='Understandings' content='Formal charge (FC) can be used to decide which Lewis (electron dot) structure is preferred from several. The FC is the charge an atom would have if all atoms in the molecule had the same electronegativity. FC = (Number of valence electrons)-½(Number of bonding electrons)-(Number of non-bonding electrons). The Lewis (electron dot) structure with the atoms having FC values closest to zero is preferred.' />
