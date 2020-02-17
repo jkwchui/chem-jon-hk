@@ -6,7 +6,6 @@
 
 ## Ionic Bonds
 
-
 <Subsubtopic id='4.1.NoS' type='Nature of Science' content='Use theories to explain natural phenomena—molten ionic compounds conduct electricity but solid ionic compounds do not. The solubility and melting points of ionic compounds can be used to explain observations. (2.2)'></Subsubtopic>
 <Subsubtopic id='4.1.U1' type='Understandings' content='Positive ions (cations) form by metals losing valence electrons.'></Subsubtopic>
 <Subsubtopic id='4.1.U2' type='Understandings' content='Negative ions (anions) form by non-metals gaining electrons.'></Subsubtopic>

@@ -6,18 +6,21 @@
 
 ## Energy Sources
 
-<el-tabs type="border-card">
+<el-tabs type="border-card" tabPosition="left">
   <el-tab-pane label="Syllabus">
-    <div><Subsubtopic id='C.1.AS5' type='Applications and skills' content='Discussion of the advantages and disadvantages of the different energy sources in C.2 through to C.8.'></Subsubtopic>  
+    <Subsubtopic id='C.1.AS5' type='Applications and skills' content='Discussion of the advantages and disadvantages of the different energy sources in C.2 through to C.8.'></Subsubtopic>  
     <Subsubtopic id='C.1.IM1' type='International-mindedness' content='The International Energy Agency is an autonomous organization based in Paris which works to ensure reliable, affordable and clean energy for its 28 member countries and beyond.' />
     <Subsubtopic id='C.1.Aims4' type='Aims' content='Aim 8: Energy production has global economic and environmental dimensions. The choices made in this area have moral and ethical implications.' />
-    <Subsubtopic id='C.1.IM2' type='International-mindedness' content='The International Renewable Energy Agency (IRENA), based in Abu Dhabi, UAE, was founded in 2009 to promote increased adoption and sustainable use of renewable energy sources (bioenergy, geothermal energy, hydropower, ocean, solar and wind energy).' /></div>
+    <Subsubtopic id='C.1.IM2' type='International-mindedness' content='The International Renewable Energy Agency (IRENA), based in Abu Dhabi, UAE, was founded in 2009 to promote increased adoption and sustainable use of renewable energy sources (bioenergy, geothermal energy, hydropower, ocean, solar and wind energy).' /><Subsubtopic>
   </el-tab-pane>
   <el-tab-pane label="Textbook">Page 768-773</el-tab-pane>
   <el-tab-pane label="Notes"></el-tab-pane>
-  <!-- <el-tab-pane label="Post">Task</el-tab-pane> -->
+  <el-tab-pane label="Post">Task</el-tab-pane>
 </el-tabs>
 
+### Test Powerpoint Embed
+
+<iframe src="https://lpcuwcedu-my.sharepoint.com/personal/jonathan_lpcuwc_edu_hk/_layouts/15/Doc.aspx?sourcedoc={c89d8ab5-7908-4883-b2f1-c75d455e481e}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="100%" height="400" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 
 ### Usefulness and Sustainability
 
