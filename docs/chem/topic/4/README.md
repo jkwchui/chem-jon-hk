@@ -4,7 +4,7 @@
 
 ## Classifying Types of Chemical Bonds
 
-<iframe src="/captivate/4_bond_classification/index.html" width="100%" height="400" frameborder="0">This is an embedded Captivate presentation.</iframe>
+<iframe src="/captivate/4_bonding_classification/index.html" width="100%" height="400" frameborder="0">This is an embedded Captivate presentation.</iframe>
 
 ## Ionic Bonds
 
