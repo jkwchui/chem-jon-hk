@@ -18,9 +18,9 @@
   <el-tab-pane label="Post">Task</el-tab-pane>
 </el-tabs>
 
-### Test Powerpoint Embed
+<!-- ### Test Captivate Embed
 
-<iframe src="https://lpcuwcedu-my.sharepoint.com/personal/jonathan_lpcuwc_edu_hk/_layouts/15/Doc.aspx?sourcedoc={c89d8ab5-7908-4883-b2f1-c75d455e481e}&amp;action=embedview&amp;wdAr=1.7777777777777777" width="100%" height="400" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+<iframe src="/captivate/Test2020/index.html" width="100%" height="400" frameborder="0">This is an embedded Captivate presentation.</iframe> -->
 
 ### Usefulness and Sustainability
 

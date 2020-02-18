@@ -4,6 +4,8 @@
 
 ## Classifying Types of Chemical Bonds
 
+<iframe src="/captivate/4_bond_classification/index.html" width="100%" height="400" frameborder="0">This is an embedded Captivate presentation.</iframe> -->
+
 ## Ionic Bonds
 
 <Subsubtopic id='4.1.NoS' type='Nature of Science' content='Use theories to explain natural phenomena—molten ionic compounds conduct electricity but solid ionic compounds do not. The solubility and melting points of ionic compounds can be used to explain observations. (2.2)'></Subsubtopic>
