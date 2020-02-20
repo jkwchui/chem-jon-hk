@@ -119,7 +119,17 @@ module.exports = {
             ["./topic/11A/", "11A - Measurements"],
             ["./topic/2/", "2/12 - Atomic structure"],
             ["./topic/3/", "3/13 - Periodicity"],
-            ["./topic/4/", "4/14 - Structure & Bonding"],
+            {
+              title: "4/14 - Structure & Bonding",
+              collapsable: true,
+              children: [
+                ["./topic/4/", "Classification"],
+                ["./topic/4/4-1", "Ionic Bonds and Structures"],
+                ["./topic/4/4-5", "Metallic Bonds and Structures"],
+                ["./topic/4/4-2", "Covalent Bonds and Structures"],
+                ["./topic/4/4-4", "Intermolecular Forces"],
+              ]
+            },
             ["./topic/5/", "5/15 - Energetics"],
             ["./topic/6/", "6/16 - Kinetics"],
             ["./topic/7/", "7/17 - Equilibrium"],
