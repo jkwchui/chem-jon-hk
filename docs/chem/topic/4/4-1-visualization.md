@@ -4,4 +4,4 @@
 
 @[vimeo](392656771)
 
-For AtomSmith, simply log onto [AtomSmith](www.atomsmith.co) using your school email account.
+For AtomSmith, simply log onto [AtomSmith](https://www.atomsmith.co) using your school Google account.
