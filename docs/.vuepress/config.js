@@ -125,6 +125,7 @@ module.exports = {
               children: [
                 ["./topic/4/", "Classification"],
                 ["./topic/4/4-1", "Ionic Bonds and Structures"],
+                ["./topic/4/4-1-visualization", "Visualizing ionic bonds and structures using AtomSmith"],
                 ["./topic/4/4-5", "Metallic Bonds and Structures"],
                 ["./topic/4/4-2", "Covalent Bonds and Structures"],
                 ["./topic/4/4-4", "Intermolecular Forces"],
