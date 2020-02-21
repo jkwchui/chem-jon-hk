@@ -1,0 +1,5 @@
+# Global Energy Statistics
+<Subsubtopic id='C.1.Aims3' type='Aims' content='Aim 7: Databases of energy statistics on a global and national scale can be explored here.' />
+<Subsubtopic id='C.1.ToK2' type='Theory of Knowledge' content='There are many ethical issues raised by energy generation and its consequent contributions to pollution and climate change.What is the influence of political pressure on different areas of knowledge?' />
+<Subsubtopic id='C.1.Aims1' type='Aims' content='Aim 1: Discussions of the possible energy sources provide opportunities for scientific study and creativity within a global context.' />
+<Subsubtopic id='C.1.ToK1' type='Theory of Knowledge' content='“I have no doubt that we will be successful in harnessing the sun’s energy. If sunbeams were weapons of war we would have had solar energy centuries ago.” (Lord George Porter). In what ways might social, political, cultural and religious factors affect the types of research that are financed and undertaken, or rejected?' />
