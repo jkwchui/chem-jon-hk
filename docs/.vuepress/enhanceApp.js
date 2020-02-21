@@ -16,6 +16,8 @@ import ElementUI from 'element-ui'
 // import 'element-ui/lib/theme-chalk/index.css'
 import './element-variables.scss'
 
+import VueTippy, { TippyComponent } from "vue-tippy";
+
 // import './mathJaxConfig.js'
 // import '../../node_modules/mathjax/MathJax.js'
 
@@ -33,7 +35,8 @@ export default ({
     // library.add(fas);
     // Vue.use(BootstrapVue);
     Vue.use(ElementUI);
-    Vue.use(require('vue-moment'))
+    Vue.use(require('vue-moment'));
+    Vue.use(VueTippy);
     // Vue.use(plugin)
     Vue.prototype.$teacher = true; //global variable identifying teacher or not
     

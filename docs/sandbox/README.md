@@ -141,6 +141,23 @@ SVG icons
 <el-tag type="warning">Tag Four</el-tag>
 <el-tag type="danger">Tag Five</el-tag>
 
+### Tooltip
+
+#### Using Directives
+
+<button content="I'm a Tippy tooltip!" v-tippy>
+  Tooltip using directive  
+</button>
+
+In SVG
+<svg 
+    height="150" 
+    width="150">
+    <line x1="0" y1="0" x2="150" y2="150" style="stroke:red;strokeWidth:5" 
+    content="I'm a Tippy tooltip!" 
+    v-tippy='{followCursor : "initial", animation:"fade", delay:100, arrow : true}'></line>
+</svg>
+
 <!-- ## LaTeX / Chem
 
 <LaTeX formula="x^2 + y^2 + \cancel{pxy} = z^2 + \cancel{pxy}" />
