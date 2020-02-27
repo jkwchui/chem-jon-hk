@@ -10,6 +10,8 @@ However, using LPG requires switching out the engine (which is  expensive) and t
 
 [Questions](/resources/worksheets/5C-taxi_Q.pdf)
 
+[Answers](/resources/worksheets/5C-taxi_A.pdf)
+
 If you are on-campus, physical prints are available outside the chemistry lab.
 
 :::
