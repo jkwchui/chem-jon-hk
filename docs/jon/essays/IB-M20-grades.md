@@ -15,7 +15,7 @@ In the past week, equipped with full data from a large cohort (I teach > 50 Year
 
 * I work with the IBO on various things, but I have no special insider knowledge about grade calculations.  All my findings here are empirical.
 
-* This is my writing, and does not represent the IBO or LPCUWC.
+* This is my writing, and does not represent the IBO or LPCUWC, the school I teach at.
 
 * I'm hearing back from different sources, and the article is getting updated when I wrap my head around the new developments
 
