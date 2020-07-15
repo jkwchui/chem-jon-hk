@@ -5,7 +5,7 @@ With the coronavirus pandemic causing worldwide disruption, the IBO made the dec
 1. Cancel the May 2020 (M20) exams, and
 2. Calculate a grade using "an algorithm"
 
-Since the results were released on 6 July 2020, there had been lively discussions between students, teachers, parents, and schools.  Few of these conversations can go very deep, because "the algorithm" remains unknown.
+Since the results were released on 6 July 2020, there had been lively discussions between students, teachers, parents, and schools.  Despite usually very [thoughtful](https://medium.com/@joelumsden/thoughts-on-the-ib-results-a-dive-into-the-numbers-this-year-75011ae2d1bf) and generally considerate of what is a difficult time for everyone, few of these conversations can go very deep, because "the algorithm" [remains unknown](https://www.ibo.org/news/news-about-the-ib/awarding-may-2020-results-further-information/).
 
 In the past week, equipped with full data from a large cohort (I teach > 50 Year 2 chem students at both levels), I have reverse engineered how the grades were calculated.  The numbers seen here is specific to a school / subject / level combination, but I expect the general model to be broadly holding true.
 
@@ -57,6 +57,30 @@ Before moving on, let me press upon you the fact that the fit is **perfect**, no
 ![](/image/IB_M20/modeling.png)
 
 I've built a calculator for my students (and you!) to play with the possible outcomes [here](https://docs.google.com/spreadsheets/d/1IjzWcFD2Y7hUcHMo1fLquh2jzP3nbanrLpkNkXDLUi8/).
+
+<Foldable>
+
+::: tip The 123 USD question
+
+"I am a chem student disappointed with my grade.  Should I ask for a re-mark?"  There are three factors to consider: the likelihood of success, the practical impact on your future, and principle.
+
+* **Likelihood of success**.  If you are not my student, the specific numbers won't apply to you, *but your IA is probably still 32% of your Scaled Mark*.  Speak with your teacher, and see what your IA is likely to get as a **max**, then see if that is going to change your Scaled Mark.
+  * For example, if your IA is currently 11, and your teacher thinks that it deserves 20, then there is a possibility that your scaled mark can go up by [(20-11)/24]x32% = 12%.  A 12% increase brings your scaled mark across a grade boundary, so it is meaningful to give it a try.
+  * On the other hand, if your IA is currently 17, and your teacher thinks it deserves 20, then your **max** increase would be 4%.  If you are 5% away from a grade boundary, then even if your IA gets maximally marked up, it would still not change your IB grade.  In this case it is not worthwhile to appeal.
+
+* **Practicality**.  If you are short of a university offer because of the chem grade, and you have a good likelihood of success, I'd say yes, go for it.
+
+* **Principle**.  Another word for this is... pride.  If this is the only motivation, then you also need to know that, once you get out of university, no one ever asks you about your IB grade (just like no one ever asks about your primary school grades).  This play for pride is just what it is.
+
+Some of you were worrying about "too suspiciously quick turnaround" on other people's EUR.  I don't think the conspiracy theory is warranted 😉  Imagine the hell that would break loose if the IB just take your 123 USD and send you a form letter saying there is no change!
+
+* *Why might a EUR be more accurate?*  Historically, EURs are handled only by the team leaders, who have done examination of a particular component for at least 4-5 years.  This means that they have a broader context to evaluate student work, and so the score assigned is both more precise and accurate.  (<- still remember these?)  This may play a particularly important role this year, as the IB needed to recruit probably 4--5 times more examiners for the IA, and despite the training, they're still doing it for the first time, and may have limited exposure to, say, ICT IAs. (grrr!) 
+
+* *Why might a EUR NOT be accurate?*  I marked IAs before, but was never a team leader, so this may not be true there.  In other components, team leaders can see the grade and comments from the first round of marking.  What this may mean is that their eyes could get tainted from the first round, however haphazard that was; but by the same measure, they could also be seeing the suggested mark / mark-sheet from your teacher, so they get two diverging opinions.  I don't know.
+
+:::
+
+</Foldable>
 
 In the next sections, we will move through different levels of the grade award process.  We start with the numerical model, then drill down to look at the validity of the components (PG, IA), and finally come back up to view the entire procedure in the context of a grade award.
 
@@ -198,8 +222,8 @@ What do I think?  For the most part, it's the best that can be done for the circ
 
 I think our education system is flawed.  As in, the idea that society should put people in school, Sep-July, until they are 24, then set them off into the world, is bizarre.  As in, the notion of examinations is mostly a credentialing exercise, and would do well to be replaced by more functional activities.  
 
-As in, I love learning, and as a PhD chemist, with 4.xx GPA in multiple majors, > 45 IB points,  "the system" has treated me well, but I still believe that at least 80% of my schooling was a waste of time.  As in, I wish we can re-imagine society around learning, but not in the way that we are doing it.
+As in, I love learning, and as a PhD chemist, with 4.xx GPA in multiple majors, > 45 IB points,  "the system" has treated me well, but I still believe that at least 80% of my schooling was a waste of time.  As in, I wish we can re-imagine society around learning, but not in the way that we are doing it.  I think we can do better.
 
 :::
 
-I have a lot of sympathy for the IBO feeling that they need to pull a rabbit out of the hat, but I have the feeling that they are going to get mired in many, many lawsuits.
+I have a lot of sympathy for the IBO feeling that they need to pull a rabbit out of the hat.  I believe that they have worked with good hearts, and with generous respect, care, and consideration --- in an equally difficult personal times for them --- but I have the feeling that they are going to get mired in many, many lawsuits.
