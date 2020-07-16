@@ -102,7 +102,7 @@ Shout out to D.W..  He applied the formula to his cohort, and discovered that on
 
 This is suggesting that the coefficients (weighing of PG and IA) is constant for a particular subject / level / timezone, with the rest of the "very complex" things compressed into the constant.  The implications is huge, and I'm still wrapping my head around it.  I'll update the other parts of the article later.
 
-In the mean time, if you are a teacher who wish to play with this, there is a discussion thread on myIB.
+In the mean time, if you are a teacher, there is a discussion thread on myIB DP Chemistry, where you can find information about how to contribute to this research.
 
 :::
 
@@ -187,7 +187,7 @@ I have a lot of sympathy for the IBO, having to pull a grade out from incomplete
 
 And then, at the "scaled mark -> IB grade" process, it all falls apart.  The use of grade boundaries is inappropriate --- I think it is appalling --- and likely an oversight.  **The IBO is probably going to get sued over this.**
 
-The fact that the boundaries are identical to the M19 boundaries suggest that it is simply inherited.  However, this skips over the point that the variations in grade boundaries is to adjust for difficulty differences **in the exam papers**, which do not exist in M20. 
+The fact that the boundaries are highly similar to the M19 boundaries suggest that it is simply inherited (with unknown adjustments).  However, this skips over the point that the variations in grade boundaries is to adjust for difficulty differences **in the exam papers**, which do not exist in M20. 
 
 This year, the inputs are restricted to PG and IA, and are agnostic to subject, level, nor timezone.  However, the grade output is determined by the subject, level, and timezone.
 
