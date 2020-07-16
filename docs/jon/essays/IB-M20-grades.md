@@ -7,7 +7,7 @@ With the coronavirus pandemic causing worldwide disruption, the IBO made the dec
 
 Since the results were released on 6 July 2020, there had been lively discussions between students, teachers, parents, and schools.  Despite usually very [thoughtful](https://medium.com/@joelumsden/thoughts-on-the-ib-results-a-dive-into-the-numbers-this-year-75011ae2d1bf) and generally considerate of what is a difficult time for everyone, few of these conversations can go very deep, because "the algorithm" [remains unknown](https://www.ibo.org/news/news-about-the-ib/awarding-may-2020-results-further-information/).
 
-In the past week, equipped with full data from a large cohort (I teach > 50 Year 2 chem students at both levels), I have reverse engineered how the grades were calculated.  The numbers seen here is specific to a school / subject / level combination, but I expect the general model to be broadly holding true.
+In the past week, equipped with full data from a large cohort (I teach > 50 Year 2 chem students at both levels), I have reverse engineered how the grades were calculated.  The numbers seen here is specific to a school / subject / level combination, but I expect the general model to broadly hold true.
 
 ::: warning Caveats
 
@@ -48,6 +48,7 @@ The process makes use of the non-linear fitting Solver Add-in on Excel, and woul
 For chemistry, there is only one IA component, so the reverse engineering is easy. My cohort of IB scaled marks can be perfectly modelled using
 
 HL scaled mark = (0.522 x PG%) + (0.325 x IA%) + 7.2%
+
 SL scaled mark = (0.491 x PG%) + (0.310 x IA%) + 9.3%
  
 The modeling can be perfect only if HL and SL are treated separately (implications discussed below).  The coefficients come out very similar but not the same.
