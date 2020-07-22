@@ -41,121 +41,92 @@ In the past week, DH and I have colloborated to reverse-engineer how the grades 
 
 ## Summary
 
-The M20 IB grades for **ANY** subject that has both coursework and exam component was calculated using a combination of
+The M20 IB grades for **ANY** subject that has both coursework and exam component was calculated in the two steps.
+
+<center>
+
+![](/image/IB_M20/calc-overview.png =300x)
+
+</center>
+
+::: warning Subjects for which this does not apply
+
+To spell out the obvious, this would not apply to EE, ToK, or Group 6 subjects for which it is entirely externally assessed.
+
+It would also not apply to Further Maths, which would be 100% externally assessed with no coursework.
+
+:::
+
+### Step 1: Calculate Scaled Mark
+
+The first step is the computation of the Scaled Mark.  This was done using a combination of
 
 1. PG assigned by the teacher
 2. Coursework grades by the external examiners,
-3. context of the school, which includes the following data from the past
+3. context of the school, which *may* include the following data from the past
    * averaged Scaled Marks
    * averaged PG
    * averaged IA mark
 
-[TODO - INSERT DIAGRAM of generic composition]
-
-### XYABCD Model
-
-Specifically, the Scaled Mark can be calculated using the following formula:
-
-[TODO - INSERT DIAGRAM]
-
-Scaled mark = X(PG) + Y(IA) + [A(M19 SM) + B(M19 PG) + C(M19 IA) + D]
-
-Where:
-
-* X, Y, A, B, C, D were used to weigh the relative contributions for each component.  These are constant across schools, and specific for a particular subject / TZ / level.
-* SM_M20_ is the final Scaled Mark for a student taking this subject
-* PG_M20_ is the Predicted Grade, converted to a percentage, assigned by the teacher for one student.  In Maths and Sciences, this is modulated by X, and is worth about 50% of the final scaled mark.
-* IA_M20_ is the IA mark, as evaluated by the examiner, converted to a percentage.
-* S is a School Factor that represents the context of the school.  This can itself be broken down into:
-  * SM_M19_ is the *averaged* Scaled Mark (after the grade boundaries for M19 were applied) for the school's M19 cohort on this subject / TZ / level,
-  * PG_M19_ is the *averaged* Predicted Grade (after the grade boundaries for M19 were applied) for the school's M19 cohort on this subject / TZ / level,
-  * IA_M19_ is the *averaged* IA Grade (after the grade boundaries for M19 were applied) for the schools' M19 cohort on this subject / TZ / level.
-  * D is a constant
-
-### Grouped modelling
-
-Note that, from the XYABCD model, we could factor out the algebra, and generate other models that can fits.  For example, we could plausibly group the "like terms" of PG and IA to arrive at DH's proposal
-
-[TODO - INSERT INTELLIGENT MODEL DIAGRAM]
-
-Scaled total = Px(Adjusted IA%) + (1–P)x(Adjusted PG%)
-
-(Adjusted IA%) = IA% + M19 average scaled total – M19 average IA%
-
-(Adjusted PG%) = Q*(PG + M19 average grade – M19 average PG) + R
-
-This model would differ from the XYABCD model on the coefficients; effectively this maps XYABCD into PQR.
-
-The constants in the formula P, Q, R are specific to subject-level but may be the same for all schools in a time zone.  As an example, PQR is tested to be (0.325, 10, 15) for Chem HL.
-
-This is a more elegant model, where each coefficient bears a meaning.  For example, P reflects the similarity in nature between the subject’s IA and exams, and can be easily estimated from May 2020 data (find two students at the same school-subject with the same PG but very different IA scores and thus different scaled totals, and calculate the weight of the IA). Q is the average gap between grade boundaries. R aligns the formula’s scaled totals with the actual scaled totals.
-
-### "M19"
-
-"M19" here is a short-hand for "historical".  For large schools with high enrolment in a subject (which is our test cases), only M19 was used.  However, it seems that previous cohorts were also used for other schools.  DH guesses that as much previous data were pulled until there is a sample size of more than 30 students.  This would explain why large schools seem to be affected by 2019 only, whereas small schools seem to be affected by more years. 
-
-## Method
-
-DH and I used different investigative techniques.  I used non-linear fitting using the Solver Add-in of Excel, whereas he used Wolfram Alpha and (I believe) works analytically on cohort averages.
-
-Since analyses were ran on students' data, I cannot publish the actual underlying data, but can give a general description of what was done.  The following video explains, in general, what non-linear fitting does, as well as the procedure for doing one (in the chemistry context); an Excel template for doing your own fitting can be downloaded [here](/resources/M20-fitting/M20_SUBJECT_TZx.xlsx).
-
-@[vimeo](187373491)
-
-Conceptually, non-linear fitting tells Excel that SM_M20_ = f(PG_M20_, IA_M20_, SM_avgM19_, PG_avgM19_), and proposes a specific form of this function but with coefficients unspecified.  For example, we could propose that 
-
-Scaled mark = X(PG) + Y(IA) + [A(M19 SM) + B(M19 PG) + C(M19 IA) + D]
-
-*or*
-
-Scaled mark = X(PG) + Y(IA)
-
-And ask for the "best" coefficients for a particular model.  What Solver does is to iteratively change the coefficients to minimize the deviation.
-
-As the IBO scaled marks were generated analytically with no randomness, when a model fits, Solver generates coefficients which fits the data **PERFECTLY** with no deviations for *any* student (shown in the following for the XYABCD model): 
+Specifically, the Scaled Mark (SM) is calculated as
 
 <center>
 
-![](/image/IB_M20/modeling.png =300x)
+![](/image/IB_M20/calc-simple.png =300x)
 
 </center>
 
-On the contrary, when a model doesn't fit, the fit is imperfect on the individual level even though the macroscopic average may be acceptable.
+Coefficients X and Y are weighing factors, determining how much that component *ought* to contribute to the Scaled Mark.  These are constant for all students taking a subject at the same level in the same timezone.
 
-Note that a perfect fit says that the equation *can* be used to predict the results, but it does not say on whether *other* models or combinations of coefficients can be used to predict the data.  In other words, our empirical models guarantee a match but silent on uniqueness.
+Z is a constant for all students in the same school.
 
-Between a number of collaborators, we have data for
-* Eng B / HL / TZ2
-* Econ / HL / TZ2
-* Bio / HL / TZ2
-* Chem / HL / TZ2 (multiple schools)
-* Chem / SL / TZ2 (two schools)
-* Maths / HL / TZ2
+Values of X and Y can be seen in the following charts.
 
-Which gives us confidence that the models is general across subjects.
+<center>
 
-### A Specific Example
+![](/image/IB_M20/subject-coeff-X.png =400x)
 
-For chemistry, there is only one IA component, so the reverse engineering is easy to understand.  My cohort of IB scaled marks can be perfectly modelled using
+![](/image/IB_M20/subject-coeff-Y.png =400x)
 
-HL scaled mark = (0.522 x PG%) + (0.325 x IA%) + 7.2%
+</center>
 
-SL scaled mark = (0.491 x PG%) + (0.310 x IA%) + 9.3%
- 
-The modeling can be perfect only if HL and SL are treated separately (implications discussed below).  The coefficients come out very similar but not the same.
+PG% is the Predicted Grade assigned by the teacher, converted to a percentage (i.e., PG/7 x 100%)
 
-Before moving on, let me press upon you the fact that the fit is **perfect**, not just "on average", but with **zero** errors for any of the > 50 students.  This is what the comparison spreadsheet looks like:
+IA% is the (combined) IA mark as assessed by the external examiner, converted to a percentage (e.g., in chemistry this is IA/24 x 100%).
 
+### Step 2: Convert from Mark to IB Grade
 
-I've built a calculator for my students (and you!) to play with the possible outcomes [here](https://docs.google.com/spreadsheets/d/1IjzWcFD2Y7hUcHMo1fLquh2jzP3nbanrLpkNkXDLUi8/).
+Once the Scaled Mark is obtained, it is then converted using *subject-specific* grade boundaries into an IB Grade.  These grade boundaries are accessible by school DP coordinators, and a crowd-sourced version [is available here](https://docs.google.com/spreadsheets/u/1/d/15EA0soO7A3WNsZsYg1BySolFASd1qcbB2S85IDVP39o/htmlview#).
 
-![](/image/IB_M20/calculator.png =300x)
+The grade boundaries can be very different, and this means that the same Scaled Mark can result in different IB grades.  As an example, a Scaled Mark of 61% in Chem/HL/TZ2 is a "4" (barely passing), but in Phys/SL/TZ1 is a "7" (excellent).
+
+![](/image/IB_M20/grade_boundaries.png)
+
+These grade boundaries are similar, but not identical, to M19 grade boundaries.
+
+### A specific example
+
+For chemistry, there is only one IA component, so the reverse engineering is easy to understand.  My cohort of Chem HL students can be perfectly modelled using
+
+Scaled Mark = (0.522 x PG%) + (0.325 x IA%) + 7.2%
+
+If Sisi was assigned a PG of 5, and had an IA score of 12 / 24, her Scaled Mark would be calculated as:
+
+SM = (0.522 x 0.71) + (0.325 x 0.5) + 0.072
+
+= 0.61 = 61%
+
+Converting with the grade boundaries would give her a "4".
+
+To help advise re-marks, I've built a calculator for my students (and you!) to play with the possible outcomes [here](https://docs.google.com/spreadsheets/d/1IjzWcFD2Y7hUcHMo1fLquh2jzP3nbanrLpkNkXDLUi8/).  You may want to play with this to get an intuition for how this behaves as well.
 
 <Foldable>
 
-::: tip The 123 USD question
+::: tip Should I re-mark?
 
 "I am a chem student disappointed with my grade.  Should I ask for a re-mark?"  There are three factors to consider: the likelihood of success, the practical impact on your future, and principle.
+
+![](/image/IB_M20/calculator.png =300x)
 
 * **Likelihood of success**.  If you are not my student, the specific numbers won't apply to you, *but your IA is probably still 32% of your Scaled Mark*.  Speak with your teacher, and see what your IA is likely to get as a **max**, then see if that is going to change your Scaled Mark.
   * For example, if your IA is currently 11, and your teacher thinks that it deserves 20, then there is a possibility that your scaled mark can go up by [(20-11)/24]x32% = 12%.  A 12% increase brings your scaled mark across a grade boundary, so it is meaningful to give it a try.
@@ -175,6 +146,86 @@ Some of you were worrying about "too suspiciously quick turnaround" on other peo
 
 </Foldable>
 
+<Foldable>
+
+## How did you discover this?
+
+DH and I used different investigative techniques.  I used non-linear fitting using the Solver Add-in of Excel, whereas he used Wolfram Alpha and (I believe) works analytically on cohort averages.
+
+Since analyses were ran on students' data, I cannot publish the actual underlying data, but can give a general description of what was done.  The following video explains, in general, what non-linear fitting does, as well as the procedure for doing one (in the chemistry context).  Detailed instructions and a template for doing your own fitting is giving in a later section.
+
+@[vimeo](187373491)
+
+Conceptually, non-linear fitting tells Excel that SM = f(PG, IA), and proposes a specific form of this function but with coefficients unspecified.  
+
+* Scaled mark = X(PG) + Y(IA) + Z
+
+*or*
+
+* Scaled mark = X(PG) + Y(IA)
+
+And ask for the "best" coefficients for a particular model.  What Solver does is to iteratively change the coefficients to minimize the deviation.
+
+As the IBO scaled marks were generated analytically with no randomness, when a model fits, Solver generates coefficients which fits the data **PERFECTLY** with no deviations for *any* student: 
+
+<center>
+
+![](/image/IB_M20/modeling.png =300x)
+
+</center>
+
+On the contrary, when a model doesn't fit, the fit is imperfect on the individual level (even though the macroscopic average may be acceptable).  I used perfect fit as the criteria to reject alternative models.
+
+::: tip Valid but not unique
+
+Note that a perfect fit says that the equation *can* be used to predict the results, but it does not say on whether *other* models or combinations of coefficients is valid.  In other words, our empirical models guarantee a match but silent on uniqueness.
+
+:::
+
+Between a number of collaborators, we have data for
+* Eng B / HL / TZ2
+* Econ / HL / TZ2
+* Bio / HL / TZ2
+* Chem / HL / TZ2 (multiple schools)
+* Chem / SL / TZ2 (two schools)
+* Maths / HL / TZ2
+
+Which gives us confidence that the models is general across subjects that has a "missing exam" component.
+
+### Excel Solver instructions
+
+You can download [here](/resources/M20-fitting/M20_SUBJECT_TZx.xlsx) a template for doing your own analysis.  You will need the PG, IA, and SM for several students.
+
+Using my Excel template, you would fill in the pink-cells,
+
+<center>
+
+![](/image/IB_M20/Solver-procedure-3.png)
+
+</center>
+
+...extending calculations in columns GHI as needed.  Start Solver (Data -> Solver); if you don't see Solver in *Data*, then you need to activate it.  It's probably something like *File* -> *Options* -> *Add-in*, but check the internet for your Excel version.
+
+<center>
+
+![](/image/IB_M20/Solver-procedure-2.png)
+
+</center>
+
+When doing the minimization, the target is $K$5, and you're trying to minimize it by varying K2-K4.  The parameters in the Solver window should look like the following:
+
+<center>
+
+![](/image/IB_M20/Solver-procedure-1.png)
+
+</center>
+
+If it goes well, the modelled values in col G would look exactly the same as the actual values in col F, and the diffs would be 0.  You can now look at K2-K4 and extract the coeff x(PG)+y(IA)+z.
+
+</Foldable>
+
+## Evaluation
+
 In the next sections, we will move through different levels of the grade award process.  We start with the numerical model, then drill down to look at the validity of the components (PG, IA), and finally come back up to view the entire procedure in the context of a grade award.
 
 ## Thinking through the numerical model
@@ -189,15 +240,7 @@ In terms of understanding the scaled mark composition process, three mysteries r
   * Where does the 7.2% and 9.3% come from?
   * How can they NOT add to 100%? (mine add up to 92% for HL, and 89% for SL)
 
-::: danger BREAKING DEVELOPMENT
 
-Shout out to D.H..  He applied the formula to his cohort, and discovered that once he modify the trailing constant, the equation fits all his chem students perfectly too.
-
-This is suggesting that the coefficients (weighing of PG and IA) is constant for a particular subject / level / timezone, with the rest of the "very complex" things compressed into the constant.  The implications is huge, and I'm still wrapping my head around it.  I'll update the other parts of the article later.
-
-In the mean time, if you are a teacher, there is a discussion thread on myIB DP Chemistry, where you can find information about how to contribute to this research.
-
-:::
 
 ### Coefficients 
 
@@ -333,3 +376,74 @@ As in, I love learning, and as a PhD chemist, with 4.xx GPA in multiple majors, 
 :::
 
 I have a lot of sympathy for the IBO feeling that they need to pull a rabbit out of the hat.  I believe that they have worked with good hearts, and with generous respect, care, and consideration --- in an equally difficult personal times for them --- but I have the feeling that they are going to get mired in many, many lawsuits.
+
+
+::: tip How the IBO would have generated M20
+
+Knowing what factors were used, I speculate the following procedure on the IBO Statistician's part:
+
+1. Select worldwide M19 Scaled Marks, PG, and IA for each subject / timezone / level
+    * I think this is all internally used as marks (out of 100) and not grades (out of 7), since they have it, but we don't have that in hand. I believe this is true because this would be how they have "grade boundaries", which would otherwise not make sense if they only worked from grades.
+2. Assume the following model: Scaled mark = X(PG) + Y(IA) + [A(M19 SM) + B(M19 PG) + C(M19 IA) + D]
+    * ...define an initial condition (or even boundaries) for X and Y based on the number of coursework submitted. 1 coursework (Grp 4, 5) = 0.25, 2 coursework = 0.4 etc.
+    * ...define a target involving
+        * (calc M19 - avg M19) for each school, for minimization
+            not directly, but probably weighed for the number of students enrolled, and the sum squared to penalize outlying results.
+        * search for X, Y, A, B, C, D for the subject / level / TZ, which minimizes the target
+3. Check
+    * overall (avg calc M19 - avg actual M19) ~ 0
+    * histogram of school deviations is narrow
+4. Apply it for M20 results
+5. Fudge the grade boundaries for each subject / TZ / level so that the proportions of 7/6/5/... is as close to M19 as possible
+
+:::
+
+
+### XYABCD Model
+
+Specifically, the Scaled Mark can be calculated using the following formula:
+
+[TODO - INSERT DIAGRAM]
+
+Scaled mark = X(PG) + Y(IA) + [A(M19 SM) + B(M19 PG) + C(M19 IA) + D]
+
+Where:
+
+* X, Y, A, B, C, D were used to weigh the relative contributions for each component.  These are constant across schools, and specific for a particular subject / TZ / level.
+* SM_M20_ is the final Scaled Mark for a student taking this subject
+* PG_M20_ is the Predicted Grade, converted to a percentage, assigned by the teacher for one student.  In Maths and Sciences, this is modulated by X, and is worth about 50% of the final scaled mark.
+* IA_M20_ is the IA mark, as evaluated by the examiner, converted to a percentage.
+* S is a School Factor that represents the context of the school.  This can itself be broken down into:
+  * SM_M19_ is the *averaged* Scaled Mark (after the grade boundaries for M19 were applied) for the school's M19 cohort on this subject / TZ / level,
+  * PG_M19_ is the *averaged* Predicted Grade (after the grade boundaries for M19 were applied) for the school's M19 cohort on this subject / TZ / level,
+  * IA_M19_ is the *averaged* IA Grade (after the grade boundaries for M19 were applied) for the schools' M19 cohort on this subject / TZ / level.
+  * D is a constant
+
+### Grouped modelling
+
+Note that, from the XYABCD model, we could factor out the algebra, and generate other models that can fits.  For example, we could plausibly group the "like terms" of PG and IA to arrive at DH's proposal
+
+[TODO - INSERT INTELLIGENT MODEL DIAGRAM]
+
+Scaled total = Px(Adjusted IA%) + (1–P)x(Adjusted PG%)
+
+(Adjusted IA%) = IA% + M19 average scaled total – M19 average IA%
+
+(Adjusted PG%) = Q*(PG + M19 average grade – M19 average PG) + R
+
+This model would differ from the XYABCD model on the coefficients; effectively this maps XYABCD into PQR.
+
+The constants in the formula P, Q, R are specific to subject-level but may be the same for all schools in a time zone.  As an example, PQR is tested to be (0.325, 10, 15) for Chem HL.
+
+This is a more elegant model, where each coefficient bears a meaning.  For example, P reflects the similarity in nature between the subject’s IA and exams, and can be easily estimated from May 2020 data (find two students at the same school-subject with the same PG but very different IA scores and thus different scaled totals, and calculate the weight of the IA). Q is the average gap between grade boundaries. R aligns the formula’s scaled totals with the actual scaled totals.
+
+### "M19"
+
+"M19" here is a short-hand for "historical".  For large schools with high enrolment in a subject (which is our test cases), only M19 was used.  However, it seems that previous cohorts were also used for other schools.  DH guesses that as much previous data were pulled until there is a sample size of more than 30 students.  This would explain why large schools seem to be affected by 2019 only, whereas small schools seem to be affected by more years. 
+
+
+Before moving on, let me press upon you the fact that the fit is **perfect**, not just "on average", but with **zero** errors for any of the > 50 students.  The corollary is that no other data, such as M18, was used (in this case), and what data was used was done as a simple linear combination (so M20 and M19 do not interact).
+
+
+
+
