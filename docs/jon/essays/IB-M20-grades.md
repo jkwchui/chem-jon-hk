@@ -242,17 +242,17 @@ In terms of understanding the scaled mark composition process, three mysteries r
 
 ### Coefficients 
 
-![](/image/IB_M20/subject-coeff-summary.png =400x)
+![](/image/IB_M20/subject-coeff-summary.png)
 
 Since X and Y are subject-specific, we will discuss them separately from Z.  I note that these are exact but "not pretty" numbers, and is thus likely emerged from an algorithm rather than designed by an educator.
 
-![](/image/IB_M20/subject-coeff-Y.png =400x)
+![](/image/IB_M20/subject-coeff-Y.png)
 
 The weighing of the IA is similar amongst a subject group.  The Sciences band together between 0.29 and 0.33, and is higher than Maths (0.25) and lower than Econ (0.38) and English B (0.4).  This may be related to the quantity of coursework submitted.
 
 Within a subject group, the coefficients vary slightly across levels.  
 
-![](/image/IB_M20/subject-coeff-X.png =400x)
+![](/image/IB_M20/subject-coeff-X.png)
 
 X is the weighing of the Predicted Grade, and across subjects is *complementary* to the magnitude of Y.  Between subject groups, the ranking of Y is
 
@@ -266,7 +266,7 @@ X varies narrowly within a subject group, but the reason is unknown.
 
 ### Z, the Fudge Factor
 
-![](/image/IB_M20/subject-coeff-Z.png =400x)
+![](/image/IB_M20/subject-coeff-Z.png)
 
 Z is a "modifier" percentage tagged on after the PG/IA had been weighed.  It is the same for every student in the same school, but otherwise unique.  It is generally small (<10%, with the exception of Eng B), and can take on punitive *negative* values.  Z is, clearly, what the IB called the "historical factors". 
 
@@ -278,8 +278,8 @@ At the moment we have *speculations* but not enough data to tease out what Z con
 
 I believe that Z depends not only on the history of the school (hence DH refers to it as the School Factor), but I believe Z is also strongly influenced by the subject.
 
-    * my suggestion that it is influenced by the subject is due to the large disparity between Z for chem (+6.75) and phys (-6.56) at DH's school. As an academically elite school, I assume the M19 averaged SM and PG for his chem and phys are similar.
-    * Z *seems* related to scaled marks in M19
+* my suggestion that it is influenced by the subject is due to the large disparity between Z for chem (+6.75) and phys (-6.56) at DH's school. As an academically elite school, I assume the M19 averaged SM and PG for his chem and phys are similar.
+* Z *seems* related to scaled marks in M19
 
 ::: warning Historical factor
 
@@ -295,6 +295,8 @@ Since there is a unique set of coefficient and constants for each subject, level
 
 This algorithm-generated Algorithm certainly works on the macroscopic level, and would have passed the majority of the spot checks; these evidence would be why the procedure was approved at first place.  But the IB DP is hugely complicated, and I suspect that internally there is no single person that was aware of the myriad of corner cases.  As reports storm in, the "Education Statisticians" might be realizing the scope and impact of the situation, and which is why the IBO is agreeing to handle appeals on a school-by-school basis.
 
+<Foldable>
+
 ::: tip An imaginary conversation
 
 The problem is that the devil is in the details, and ignorance is bliss... until July 6th.
@@ -306,22 +308,40 @@ In fact, I imagine such a conversation:
 == BEFORE JUL 6 ==
 
 Stat guy: Wait, Further Maths doesn't have any coursework.
+
 Admin: I thought you knew that.
+
 Stat: Where was this written?
+
 Admin: That information is public.
+
 Stat: [...]
 
 == NOW ==
 
 Admin: What do you mean you've calculated the FM grades using the other subjects? What does Visual Arts grade got to do with FM?
+
 Stat: You approved it.
+
 Admin: I thought you meant using Maths HL!
+
 Stat: ...some students don't do Maths HL, just FM. That information is public.
+
 Admin: [...]
 
 :::
 
+</Foldable>
+
 One last observation: the equation is supposed to set the scaled mark, which is a value ranging from 1--100.  However, a PG = 7 and IA = 24 gets one of my students to 90% and not 100%; this max percentage is 76% for Physics HL at DH's school.  Even knowing that these are modulated by the grade boundaries, I feel queasy about that.  We discuss the use of Scaled Mark in a later section, when we evaluate the entire procedure holistically, but for now, let us delve into the generation of the PG% and IA% components and discuss whether they are valid representations of student accomplishments.
+
+::: danger On historical averages
+
+I presume the worldwide / regional averages checks out, but I would be curious to see what it looks like on a school level.  Our average for M20 Chem HL is -0.46 relative to M19.
+
+:::
+
+<Foldable>
 
 ::: tip Instill meaning into the models
 
@@ -338,6 +358,8 @@ The constants in the formula (0.325, 10, 15) are specific to subject-level but m
 I thought this hypothesis to be clever, plausible, and elegant. It is, essentially a factored out version of the original proposal, with detailed and still meaningful coefficients. I don't see how we could distinguish between them without a larger data-set that has more historical components.
 
 :::
+
+</Foldable>
 
 ## Thinking through the components
 
@@ -389,77 +411,17 @@ Note that these all work only if we assume all actors act in good faith. If the 
 
 ## Evaluating the overall process
 
-I have a lot of sympathy for the IBO, having to pull a grade out from incomplete knowledge.  And so far, despite my grumbling about the IA examining, I think this is valid.
+I have a lot of sympathy for the IBO, having to pull a grade out from incomplete knowledge.  And so far, despite my grumbling about the IA examining, I think the overall design is conceptually sound.
 
-The fact that the boundaries are [highly similar to the M19 boundaries](https://www.google.com/url?q=https://tinyurl.com/ya5xoyf9&sa=D&ust=1594876502323000&usg=AFQjCNGuReC5XkRurClRCvGXxr3i2e12rg) suggest that it is simply inherited (with unknown adjustments).  However, this skips over the point that the variations in grade boundaries is to adjust for difficulty differences **in the exam papers**, which do not exist in M20. 
+<Foldable>
 
-This year, the inputs are restricted to PG and IA, and are agnostic to subject, level, nor timezone.  However, the grade output is determined by the subject, level, and timezone.
-
-Practically, this means that a student of mine, with PG = 5, and IA = 10 / 24, gets 58%.  For Chem TZ2 HL, this translates into a "4". If she just do chem in the Americas, this 58% would still earn her a "5" (??). How is this legit?
-
-![](/image/IB_M20/grade_boundaries.png)
-
-This graph shows how wild the grade boundaries are, for three sciences that have similar examining structure.  For this to be valid, it requires that teachers assign PGs differently across subjects, across levels, and across timezones; or IAs are marked differently across subjects, across levels, and across timezones.
-
-But if PGs and IAs are changes with subject / levels / timezones, then there could be no meaningful comparison of them, and the entire exercise is invalid.  The use of PG and IA as input for varying grade boundaries is a contradiction.  Let me repeat this: I think it is appalling --- and likely an oversight.  **The IBO is probably going to get sued over this.**
-
-In the most extreme cases (illustrated for 61%), the same face-value % could have gotten a student either a 4 or a 7.
-
-Personally, as someone who teaches mostly Chem HL TZ2, I feel that my students were treated unfairly, and feel quite upset about it.
-
-::: tip Using Scaled Marks
-
-I thought that directly working with IB grades is better, but when I put myself in the shoes of someone who has to write and defend the code, I think I'd use Scaled Marks too. I can think of three reasons why Scaled Marks would be used:
-
-    1. Different components in different subjects have different "full marks" and different contributions. Working with a standard of full = 100 makes it easier to reason about.
-    2. There is a need to preserve a "high resolution" version for comparison with historical data
-    3. Grade boundaries can be shifted after the fitting exercise, so acts as a mechanism for correcting discrepancies at the end.
-
-Actually, putting myself in the IBO's shoes explains a lot of things. One of the greatest criticism is how there had been no communication before and after the grading period. This was interpreted as hubris / poor communication / secrecy etc, when there is more well-meaning interpretations. 
-
-    * **Before**. In the ideal world, we would discuss as a community about how the grades will be generated, and choose "the best method". In the real world, there are cultures where cheating is systemic, done with the condonement & participation of parents, teachers, and board. A thus-corrupted school, knowing the formula, would realize that there is nothing preventing them from giving 7s to every student (since there is no comparison of M19 and M20 PG being done). There would also be more pressure to generate IAs (wink wink) that are excellent (wink wink).
-    * **After**. I've on-off thought about these for years, and after spending two full days on one set of data, I still struggle to fully grasp what this one set of coefficients mean for my students. How could the IBO address the deluge of 10000 of complains, some of which are well-grounded (like the FM teachers here) and others are opportunistic?
-        * I have known many characters in the IBO for a number of years. I respect all of them, and believe they are well meaning with the wellness and fairness of the young people in their hearts. So why don't they fix the wrongs? Well, at this point, the grade mechanism is a rigid, crystallized, interlocked puzzle, where it all would fall apart unpredictably when you substitute another piece. In other words, if you don't even know what it is doing, how could you attempt to fix it?
-
- This opaqueness is obvious to me since the beginning, and which is why elsewhere I wrote that the IBO is probably going to get dragged in a multi-year lawsuit (until someone drops it). It's going to drag on for a long time because (i) no one actually knows what is happening, and (ii) no one even knows how you can judge whether the mechanism is good or not. Should we accept macroscopic metrics, or must we look at individuals? Theoretically we would look at the individuals, but there we have no counterfactuals to compare against, so the case is uncertain.
-
-When this blows over, we'll have some awesome Nature of Science and Theory of Knowledge examples 😃
-
-:::
-
-## Conclusion
-
-The pandemic is not a choice, and the IBO decided that they need to fulfill their duty in assigning grades.  They have developed a model that rolls together *lots of data* to evaluate a grade.  It's a complex process that is tailored for each time-zone, each school, each subject, and each subject level, and one that the IBO is holding secret up to now.
-
-The central finding here is that, hey, the complex model is not actually so complex, and (at least for chemistry) the scaled mark is formed purely from four components:
-
-1. (March) **PG** by the teacher
-2. (externally assessed) IA mark
-3. **historical PG** plays a role in either the weighing of (1) and (2), or as the fudge factor
-4. **historical grades** plays a role in either the weighing of (1) and (2), or as the fudge factor
-
-This scaled mark is then (tragically, inappropriately, unfairly) applied against the M19 grade boundaries to generate an IB grade.
-
-What do I think?  For the most part, it's the best that can be done for the circumstances.  Mind you, my context is one of a large cohort, with lots of past history to go with, and at least one piece of coursework. In the cases of low enrollments, new schools, Further Maths (where there is no coursework), I don't know how the prediction could be valid.  (Maybe there is a different model there, but I don't know.)  
-
-::: tip No, what do you *really* think?
-
-I think our education system is flawed.  As in, the idea that society should put people in school, Sep-July, until they are 24, then set them off into the world, is bizarre.  As in, the notion of examinations is mostly a credentialing exercise, and would do well to be replaced by more functional activities.  
-
-As in, I love learning, and as a PhD chemist, with 4.xx GPA in multiple majors, > 45 IB points,  "the system" has treated me well, but I still believe that at least 80% of my schooling was a waste of time.  As in, I wish we can re-imagine society around learning, but not in the way that we are doing it.  I think we can do better.
-
-:::
-
-I have a lot of sympathy for the IBO feeling that they need to pull a rabbit out of the hat.  I believe that they have worked with good hearts, and with generous respect, care, and consideration --- in an equally difficult personal times for them --- but I have the feeling that they are going to get mired in many, many lawsuits.
-
-
-::: tip How the IBO would have generated M20
+::: tip How the IBO might have generated M20
 
 Knowing what factors were used, I speculate the following procedure on the IBO Statistician's part:
 
 1. Select worldwide M19 Scaled Marks, PG, and IA for each subject / timezone / level
     * I think this is all internally used as marks (out of 100) and not grades (out of 7), since they have it, but we don't have that in hand. I believe this is true because this would be how they have "grade boundaries", which would otherwise not make sense if they only worked from grades.
-2. Assume the following model: Scaled mark = X(PG) + Y(IA) + [A(M19 SM) + B(M19 PG) + C(M19 IA) + D]
+2. Assume something similar to the following model: Scaled mark = X(PG) + Y(IA) + [A(M19 SM) + B(M19 PG) + C(M19 IA) + D]
     * ...define an initial condition (or even boundaries) for X and Y based on the number of coursework submitted. 1 coursework (Grp 4, 5) = 0.25, 2 coursework = 0.4 etc.
     * ...define a target involving
         * (calc M19 - avg M19) for each school, for minimization
@@ -473,51 +435,99 @@ Knowing what factors were used, I speculate the following procedure on the IBO S
 
 :::
 
-
-### XYABCD Model
-
-Specifically, the Scaled Mark can be calculated using the following formula:
-
-[TODO - INSERT DIAGRAM]
-
-Scaled mark = X(PG) + Y(IA) + [A(M19 SM) + B(M19 PG) + C(M19 IA) + D]
-
-Where:
-
-* X, Y, A, B, C, D were used to weigh the relative contributions for each component.  These are constant across schools, and specific for a particular subject / TZ / level.
-* SM_M20_ is the final Scaled Mark for a student taking this subject
-* PG_M20_ is the Predicted Grade, converted to a percentage, assigned by the teacher for one student.  In Maths and Sciences, this is modulated by X, and is worth about 50% of the final scaled mark.
-* IA_M20_ is the IA mark, as evaluated by the examiner, converted to a percentage.
-* S is a School Factor that represents the context of the school.  This can itself be broken down into:
-  * SM_M19_ is the *averaged* Scaled Mark (after the grade boundaries for M19 were applied) for the school's M19 cohort on this subject / TZ / level,
-  * PG_M19_ is the *averaged* Predicted Grade (after the grade boundaries for M19 were applied) for the school's M19 cohort on this subject / TZ / level,
-  * IA_M19_ is the *averaged* IA Grade (after the grade boundaries for M19 were applied) for the schools' M19 cohort on this subject / TZ / level.
-  * D is a constant
-
-### Grouped modelling
-
-Note that, from the XYABCD model, we could factor out the algebra, and generate other models that can fits.  For example, we could plausibly group the "like terms" of PG and IA to arrive at DH's proposal
-
-[TODO - INSERT INTELLIGENT MODEL DIAGRAM]
-
-Scaled total = Px(Adjusted IA%) + (1–P)x(Adjusted PG%)
-
-(Adjusted IA%) = IA% + M19 average scaled total – M19 average IA%
-
-(Adjusted PG%) = Q*(PG + M19 average grade – M19 average PG) + R
-
-This model would differ from the XYABCD model on the coefficients; effectively this maps XYABCD into PQR.
-
-The constants in the formula P, Q, R are specific to subject-level but may be the same for all schools in a time zone.  As an example, PQR is tested to be (0.325, 10, 15) for Chem HL.
-
-This is a more elegant model, where each coefficient bears a meaning.  For example, P reflects the similarity in nature between the subject’s IA and exams, and can be easily estimated from May 2020 data (find two students at the same school-subject with the same PG but very different IA scores and thus different scaled totals, and calculate the weight of the IA). Q is the average gap between grade boundaries. R aligns the formula’s scaled totals with the actual scaled totals.
+</Foldable>
 
 
 
+::: tip Using Scaled Marks
 
+One of the strange decision made was computing Scaled Marks *and then* convert with Grade Boundaries, since this creates two parameters that depend on one another.  I thought that directly working with IB grades is better, but when I put myself in the shoes of someone who has to write and defend the code, I think I'd use Scaled Marks too. I can think of three reasons why Scaled Marks would be used:
 
-::: danger On historical average
-
-Actually, I'm not sure what it is in-line with; our average for M20 is -0.46 relative to M19.
+1. Different components in different subjects have different "full marks" and different contributions. Working with a standard of full = 100 makes it easier to reason about.
+2. There is a need to preserve a "high resolution" version for comparison with historical data
+3. Grade boundaries can be shifted after the fitting exercise, so acts as a mechanism for correcting discrepancies at the end.
 
 :::
+
+::: tip Lack of communications
+
+Actually, putting myself in the IBO's shoes explains a lot of things. One of the greatest criticism is how there had been no communication before and after the grading period. This was interpreted as hubris / poor communication / secrecy etc, when there are more well-meaning interpretations. 
+
+* **Before**. In the ideal world, we would discuss as a community about how the grades will be generated, and choose "the best method". In the real world, there are cultures where cheating is systemic, done with the condonement & participation of parents, teachers, and board. A thus-corrupted school, knowing the formula, would realize that there is nothing preventing them from giving 7s to every student (since there is no comparison of M19 and M20 PG being done). There would also be more pressure to generate IAs (wink wink) that are excellent (wink wink).
+
+* **After**. I've on-off thought about these for years, and after spending two full days on one set of data, I still struggle to fully grasp what this one set of coefficients mean for my students. How could the IBO address the deluge of 10000 of complains, some of which are well-grounded (like the FM teachers here) and others are opportunistic?
+    * I have known many characters in the IBO for a number of years. I respect all of them, and believe they are well meaning with the wellness and fairness of the young people in their hearts. So why don't they fix the wrongs? Well, at this point, the grade mechanism is a rigid, crystallized, interlocked puzzle, where it all would fall apart unpredictably when you substitute another piece. In other words, if you don't even know what it is doing, how could you attempt to fix it?
+  
+:::
+
+The unfortunate thing here is that we have a *description* of what was done, and given any set of student scores, we can find out the specific.  What we **don't** have is any reasoning for why it was done in a particular way, and that is just not very satisfying.
+
+As humans, most of you really read up to this point to find out *whether the grades had been fair*.  This is a complex question, as we are thinking about fairness across many dimensions: subject, level, timezone, school, socio-economic status, race, ...and so on. Many of these we just don't have the data to evaluate.
+
+### Fairness across subjects
+
+One that that I noticed we can evaluate is what I call a "subject path". Since teachers predict PG and examiners assess IAs with neither knowledge of their weighing nor grade boundaries, the same {PG,IA} combination should yield the same IB grade.  This is impossible to assess intuitive because the weighing and grade boundaries are *interdependently* different for the subjects, levels, and timezones. 
+
+However, with knowledge of all the coefficients and grade boundaries, we *can* re-create all the possible combinations.  This was done by:
+
+1. simulating out Scaled Marks for all the possible combinations for chem/bio/phys HL TZ2, using Dan and my coefficients
+2. assigned an IB grade for the SM using the grade boundaries (note - I fudged the boundaries for 1 and 2 from earlier years because I don't have that info. The grade boundaries are also crowd-sourced and may be off by 1% or 2%. Need help from a coordinator.)
+3. graphed it as a heat-map.
+
+![Subject Path for the Sciences](/image/IB_M20/subject-path.png)
+
+The result is complex even when presented in a visual form. What we can see, however, is that the grade boundaries do not completely "neutralize" the effects of very different Z. The result is that there is far fewer paths for physics to achieve a 7 (6 / 168 possibilities) than bio (20!), and explains some anecdotal observations where the IB grade is lower than both the PG and the IA grade. 
+
+So. The answer to "is it fair" between the Sciences subjects is (IMO) a resounding **NO**. (Unless we believe that physics teachers were prone to over-predict.) A student who have, in Sep 2018, chosen Bio HL, is likely to have a higher grade than the counter-factual of her having chosen Phys HL.  This cannot be an intended behaviour, but I suspect it simply emerged out of the interlocked procedures of "the algorithm" and was never even detected until our little exercise here.
+
+There are lots to think about based on this graph. What I want to do next is to evaluate the subject path for same subject / level, *across timezones*. They better be identical...
+
+::: tip Help needed
+
+If you are a coordinator / teacher with access to M20 TZ1 (Americas) science data, please consider reaching out.
+
+:::
+
+### Fairness across schools
+
+A second question that many people would be interested in is, if two students with identical accomplishment took the same subject, but they did so at different schools (in the same TZ), would they get the same mark / grade?  The answer is nuanced.
+
+If we were to be very specific, and drill down to the *mark* level, the answer is No.  This is because, even though their PG and IA are identical, and these are weighed identically, the Fudge Factor Z depends on the history of the school.  Enrolment in a historically higher-achieving school gives a better mark.  I suspect a phrasing this way makes many people uncomfortable, but this is absolutely by design.
+
+If we take a step back, however, the variance due to school is comparatively small; the "school bonus" is probably 2--3%, which is one-fifth of a grade.
+
+"But *any* advantage is an unfair advantage!", you say.  In this case, I'd say to take a step even further back: two students, identical in ability, enrolling in different schools would get two different *experiences*.  They have different peers, different teachers, and different activities.  Even in the same subject, they would have different paths of development and would probably end up with different accomplishments in each subject; some better, some worse.  This is adding to the uncertainty where who-marked-the-IA matters on the order of 15%; holistically the 2--3% is truly minor.
+
+::: danger Data unavailable
+
+What I am very curious is how the IBO statisticians handled cases where there was no past data, or insufficient past data, available to construct Z.  This would be true in the case where there is a new syllabus being examined, or new school.  It's no longer pulling rabbits out of hats; it's pulling rabbits out of hats where there wasn't even a hat.
+
+:::
+
+## Conclusion
+
+The pandemic is not a choice, and the IBO decided that they need to fulfill their duty in assigning grades.  They have developed a model that rolls together *lots of data* to evaluate a grade.  It's a complex process that is tailored for each time-zone, each school, each subject, and each subject level, and one that the IBO is holding secret up to now.
+
+The central finding here is that, hey, the complex model is not actually so complex, and (at least for chemistry) the Scaled Mark is formed from three components:
+
+1. (March 2020) **PG** by the teacher
+2. (externally assessed) IA mark
+3. a fudge factor, that is usually small in magnitude, and encapsulates contextual factors
+ 
+This Scaled Mark is then applied against subject-specific grade boundaries (mostly similar to M19) to generate an IB grade.
+
+What do I think?  For the most part, it's the best that can be done for the circumstances.  It's not perfect but there was no perfect possible here.
+
+::: tip No, what do you *really* think?
+
+I think our education system is flawed.  As in, the idea that society should put people in school, Sep-July, until they are 24, then set them off into the world, is bizarre.  As in, the notion of examinations is mostly a credentialing exercise, and would do well to be replaced by more functional activities.  
+
+As in, I love learning, and as a PhD chemist, with 4.xx GPA in multiple majors, > 45 IB points,  "the system" has treated me well, but I still believe that at least 80% of my schooling was a waste of time.  As in, I wish we can re-imagine society around learning, but not in the way that we are doing it.  I think we can do better.
+
+:::
+
+I have a lot of sympathy for the IBO feeling that they need to pull a rabbit out of the hat.  I believe that they have worked with good hearts, and with generous respect, care, and consideration --- in an equally tough personal times for them --- but I have the feeling that they are going to get mired in many, many lawsuits.  
+
+If they gets sued, it's going to get dragged on for years.  Humans (and their lawsuits) operate in a world of *Why*, but while the numbers are easy to extract, they probably were empirical and does not have a meaning.  And even in the empirical world, no one even knows how you can judge whether the mechanism is good or not: should we accept macroscopic metrics, or must we look at individuals? Theoretically we would look at the individuals, but there we have no counterfactuals to compare against, so the case is uncertain.
+
+What I *am* certain is that, when this blows over, we'll have a new, awesome Nature of Science and Theory of Knowledge example 😃
