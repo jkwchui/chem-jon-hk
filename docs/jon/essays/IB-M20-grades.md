@@ -393,15 +393,17 @@ This year, scores are individually examined, and the discrepancy with my samples
 
 When I grade my own students' samples, the grades form something like an internal ranking, where I compare the IA.  If nothing else, they are internally consistent.  When graphed against the examiner grades, it is... just a scatter, and is a judgment that my internal ranking is completely invalid.  In the above graph, the gray diagonal would be where the points lie if the examiners and I agree; the red line would be the maximum downgrade my students have ever seen historically.  80% of my students were outside the historical boundaries!  
 
-Needless to say, I am looking forward to seeing the comments from the Cat 2A EUR.
+Needless to say, I have requested the examiner comments through a Cat 2A EUR.  Having seen the examiner's comments confirmed some of my suspicions and introduced issues I didn't think about.
 
-Digging deeper into the specific student work, I suspect a pair of examiner errors:
-
-1. there is a systematic error with how ICT projects were assessed. To be blunt, I believe that there are quality database / modeling work my student have done that went over the head of the examiner, and got penalized for that.  
-   * Note the number of red/orange/yellow point (ICT IAs) that are well-off the diagonal.  Were they really quality ICT IAs? As one of the people who developed / led the Cat 3 workshops for "ICT in Chem", and think that the current TSM ICT IA samples are simplistic and over-rated, I think my students' work is very good 😃 (so do some of the examiners)
+1. Examiners vary dramatically in how detailed they have commented on the student work.  This ranges from very constructive detailed comments, to pasting sections of rubrics, to... no comment beyond "seen" stamps.
+   * on the student whose work dropped 50% from my expectation, there was *not even a "seen" tag*.  The whole thing was unannotated and just scores were assigned.
+2. there is a systematic error with how ICT projects were assessed. To be blunt, I believe that there are quality database / modeling work my student have done that went over the head of the examiner, and got penalized for that.  
+   * Statistically, note the number of red/orange/yellow point (ICT IAs) that are well-off the diagonal.  Were they really quality ICT IAs? As one of the people who developed / led the Cat 3 workshops for "ICT in Chem", and think that the current TSM ICT IA samples are simplistic and over-rated, I think my students' work is very good 😃 (so do some of the examiners)
    * very similar ICT IA projects, of which I assigned a similar IA mark, and other teachers find difficult to distinguish which one was better, was assigned marks of a 3 and a 6 respectively (??)
+   * examiner comments included penalties for not having uncertainties for database values, and didn't state the method / equipment for collecting the data.  They just didn't get it.
 
-2. the six criteria were not applied independently of one another.  Incomplete IAs missing the Evaluation section, by the books, should still nonetheless gets its fair treatment for the other five criteria.  However, what I see is that all of these incomplete IAs were massacred and assigned single digits.
+3. the six criteria were not applied independently of one another.  Incomplete IAs missing the Evaluation section, by the books, should still nonetheless gets its fair treatment for the other five criteria.  However, what I see is that all of these incomplete IAs were massacred and assigned single digits.
+4. I think some of the student works were incorrectly rendered by RM assessor **and the students were penalized for it** (!!!).  One examiner repeatedly hammer a piece of student work for broken formatting --- "understanding of the report was further made difficult by the corruption of the document that had diagrams / images and their captions in the wrong place.  This was clearly not proof-read before submission." The document looks just fine and nothing like what the examiner said...
 
 ::: danger Polluted at the source
 
