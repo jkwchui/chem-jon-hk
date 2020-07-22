@@ -212,7 +212,7 @@ Using my Excel template, you would fill in the pink-cells,
 
 </center>
 
-When doing the minimization, the target is $K$5, and you're trying to minimize it by varying K2-K4.  The parameters in the Solver window should look like the following:
+When doing the minimization, the target is `$K$5`, and you're trying to minimize it by varying `K2`-`K4`.  The parameters in the Solver window should look like the following:
 
 <center>
 
@@ -220,7 +220,7 @@ When doing the minimization, the target is $K$5, and you're trying to minimize i
 
 </center>
 
-If it goes well, the modelled values in col G would look exactly the same as the actual values in col F, and the diffs would be 0.  You can now look at K2-K4 and extract the coeff x(PG)+y(IA)+z.
+If it goes well, the modelled values in col `G` would look exactly the same as the actual values in col `F`, and the diffs would be 0.  You can now look at `K2`-`K4` and extract the coeff x(PG)+y(IA)+z.
 
 </Foldable>
 
@@ -238,69 +238,126 @@ In terms of understanding the scaled mark composition process, three mysteries r
 
   * Where do the co-efficients come from?
   * Where does the 7.2% and 9.3% come from?
-  * How can they NOT add to 100%? (mine add up to 92% for HL, and 89% for SL)
-
-
+  * How do they interact with the grade boundaries?
 
 ### Coefficients 
 
-The co-efficients are, clearly, what the IB is calling the "historical factors". What clues do we have about their origin? Exercising Occam's razor, it could plausibly be linearly added:
+![](/image/IB_M20/subject-coeff-summary.png =400x)
 
-The teachers who taught the 2019 / 2018 / 2017 cohorts over-predicted by 0.30, 0.18, and 0.72 on average (for HL), which corresponds to 5.7% (0.4 / 7). One possibility is that this 5.7% is simply chopped off the top; in other words, IF the 2019 predictions were bang on, the calculation would have been
+Since X and Y are subject-specific, we will discuss them separately from Z.  I note that these are exact but "not pretty" numbers, and is thus likely emerged from an algorithm rather than designed by an educator.
 
-HL scaled mark = (**0.579** x PG%) + (0.325 x IA%) + 7.2%
+![](/image/IB_M20/subject-coeff-Y.png =400x)
 
-OR
+The weighing of the IA is similar amongst a subject group.  The Sciences band together between 0.29 and 0.33, and is higher than Maths (0.25) and lower than Econ (0.38) and English B (0.4).  This may be related to the quantity of coursework submitted.
 
-HL scaled mark = (0.522 x PG%) + (0.325 x IA%) + **12.9%**
+Within a subject group, the coefficients vary slightly across levels.  
 
-Within the limits of my data, the case for these is plausible.
+![](/image/IB_M20/subject-coeff-X.png =400x)
 
-Alternatively, the historical effect could be applied as (i) a multiplier upon the coefficient, or (ii) sliding or proportion between PG-IA. I don't have a full set of other subjects' current and historical data to work with, so I cannot evaluate these possibilities.
+X is the weighing of the Predicted Grade, and across subjects is *complementary* to the magnitude of Y.  Between subject groups, the ranking of Y is
 
-### Fudging factor
+Eng B > econ > sciences > maths
 
-Before talking about this, I'd like to impress upon you, once again, that the equations describe the scaled mark formation **perfectly**.  The corollary is that **no other model works**, and this extends to the trailing constant.
+whereas for X it is 
 
-The 7.2% at the end makes the fit absolutely perfect.  Without this adjusting term, simply modifying the coefficients (i.e., a model of (X x PG) + (Y x IA) ) could get the overall result to match, but individual student could be off by 2%.  This term is absolutely in there by design, and this term is specific to the subject level.
+Eng B < econ < sciences < maths
 
-I speculate this is a fudging factor the IB applied at the end, after they have processed the grades, to make sure the average matches the "historical averages". Which, if true, makes the claim of "it matches the historical data" funny --- because that is exactly what the equation is trained to do on a numerical level!
+X varies narrowly within a subject group, but the reason is unknown.
 
-::: danger On historical average
+### Z, the Fudge Factor
 
-Actually, I'm not sure what it is in-line with; our average for M20 is -0.46 relative to M19.
+![](/image/IB_M20/subject-coeff-Z.png =400x)
+
+Z is a "modifier" percentage tagged on after the PG/IA had been weighed.  It is the same for every student in the same school, but otherwise unique.  It is generally small (<10%, with the exception of Eng B), and can take on punitive *negative* values.  Z is, clearly, what the IB called the "historical factors". 
+
+Before talking more about this, I'd like to impress upon you, once again, that the equations describe the scaled mark formation **perfectly**.  The corollary is that **no other model works**, and this extends to the trailing constant.
+
+Z at the end makes the fit absolutely perfect.  Without this adjusting term, simply modifying the coefficients (i.e., a model of (X x PG) + (Y x IA) ) could get the overall result to match, but individual student could be off by 3--5%.  This term is absolutely in there by design, and this term is specific to the school level.
+
+At the moment we have *speculations* but not enough data to tease out what Z contains.
+
+I believe that Z depends not only on the history of the school (hence DH refers to it as the School Factor), but I believe Z is also strongly influenced by the subject.
+
+    * my suggestion that it is influenced by the subject is due to the large disparity between Z for chem (+6.75) and phys (-6.56) at DH's school. As an academically elite school, I assume the M19 averaged SM and PG for his chem and phys are similar.
+    * Z *seems* related to scaled marks in M19
+
+::: warning Historical factor
+
+"M19" here is a short-hand for "historical".  For large schools with high enrolment in a subject (which is our test cases), only M19 was used.  However, it seems that previous cohorts were also used for other schools.  DH guesses that as much previous data were pulled until there is a sample size of more than 30 students.  This would explain why large schools seem to be affected by 2019 only, whereas small schools seem to be affected by more years. 
 
 :::
 
 ### Putting the pieces together
 
-We have established that the arbitrary factor (+7.2%, +9.3%) is subject level specific.  Because our HL and SL students' historical records are similar, I don't have enough data to untangle them.  However, I cannot get a perfect fit unless I separate HL and SL students, so this is a special factor tailored for entire subject-level cohort.
-
-The equation is supposed to set the scaled mark, which is a value ranging from 1--100.  However, a PG = 7 and IA = 24 gets one of my students to 90% and not 100%; I feel queasy about that.  Without knowing *why* the designer of the protocol thinks this is the way to go, I cannot speculate if this is by design or... an unintentional mistake.
-
-::: warning Unintentional mistakes
+We know how the Scaled Mark calculation works, but we don't know *why* it was designed that way.
 
 Since there is a unique set of coefficient and constants for each subject, level, timezone, and school combinations, there would be too many to be built and checked by hand, and "The Algorithm" must itself have been generated by... an algorithm.  
 
-This algorithm-generated Algorithm certainly works on the macroscopic level, and passes the majority of the spot checks; these evidence would be why the procedure was approved at first place.  But the IB DP is hugely complicated, and I suspect that internally there is no single person that was aware of the myriad of corner cases.  As reports storm in, the "Education Statisticians" might be realizing the scope and impact of the situation, and which is why the IBO is agreeing to handle appeals on a school-by-school basis.  Yikes.
+This algorithm-generated Algorithm certainly works on the macroscopic level, and would have passed the majority of the spot checks; these evidence would be why the procedure was approved at first place.  But the IB DP is hugely complicated, and I suspect that internally there is no single person that was aware of the myriad of corner cases.  As reports storm in, the "Education Statisticians" might be realizing the scope and impact of the situation, and which is why the IBO is agreeing to handle appeals on a school-by-school basis.
+
+::: tip An imaginary conversation
+
+The problem is that the devil is in the details, and ignorance is bliss... until July 6th.
+
+The IB DP is so complex that I doubt any single person is fully holding it in their head. Certainly not a contractor statistician; they think it is viable because of their ignorance, and the admin thinks it is viable because of the statistician's assurances. So the discussion of both macro and micro-level probably happened, but the corner cases simply didn't float up.
+
+In fact, I imagine such a conversation:
+
+== BEFORE JUL 6 ==
+
+Stat guy: Wait, Further Maths doesn't have any coursework.
+Admin: I thought you knew that.
+Stat: Where was this written?
+Admin: That information is public.
+Stat: [...]
+
+== NOW ==
+
+Admin: What do you mean you've calculated the FM grades using the other subjects? What does Visual Arts grade got to do with FM?
+Stat: You approved it.
+Admin: I thought you meant using Maths HL!
+Stat: ...some students don't do Maths HL, just FM. That information is public.
+Admin: [...]
+
+:::
+
+One last observation: the equation is supposed to set the scaled mark, which is a value ranging from 1--100.  However, a PG = 7 and IA = 24 gets one of my students to 90% and not 100%; this max percentage is 76% for Physics HL at DH's school.  Even knowing that these are modulated by the grade boundaries, I feel queasy about that.  We discuss the use of Scaled Mark in a later section, when we evaluate the entire procedure holistically, but for now, let us delve into the generation of the PG% and IA% components and discuss whether they are valid representations of student accomplishments.
+
+::: tip Instill meaning into the models
+
+DH proposes a model that would be indistinguishable empirically from what I have been describing:
+
+Scaled Mark = 0.325x(Adjusted IA%) + (1–0.325)x(Adjusted PG%)
+
+(Adjusted IA%) = IA% + Historical average scaled total – Historical average IA%
+
+(Adjusted PG%) = 10*(PG + Historical average grade – Historical average PG) + 15
+ 
+The constants in the formula (0.325, 10, 15) are specific to subject-level but may be the same for all schools in a time zone. 0.325 reflects the similarity in nature between the subject’s IA and exams, and can be easily estimated from May 2020 data (find two students at the same school-subject with the same PG but very different IA scores and thus different scaled totals, and calculate the weight of the IA). 10 is the average gap between grade boundaries. 15 aligns my formula’s scaled totals with the actual scaled totals.
+
+I thought this hypothesis to be clever, plausible, and elegant. It is, essentially a factored out version of the original proposal, with detailed and still meaningful coefficients. I don't see how we could distinguish between them without a larger data-set that has more historical components.
 
 :::
 
 ## Thinking through the components
 
-For the equation to be valid, it requires the input --- PG, and IA --- to be meaningful.  
+For the equation to be valid, it requires the input --- PG% and IA% --- to be meaningful.  
 
 ### PG
 
-The model makes use of both *historical* PG and *current* PG.
+The model makes use of *current* PG, and possibly *historical* PG (in the fudge factor Z).
 
-What we know about PGs, on a global scale, is limited.  I think the IBO stated once in March that in > 50% of cases student's PG deviate from the actual grade by at least one.
+What we know about PGs, on a global scale, is limited.  I think the IBO stated once in March that in > 55% of cases student's PG deviate from the actual grade by at least one.
 
 My anecdotal experience is that the errors and uncertainties of the PG is specific to the *teacher* and not the *institution*.  In other words, different teachers of the same subject at the same school can err in dramatically different way, and treating *current* PG as an extension of *historical* PG is necessary but flawed.
 
+There is a little noticed slip-up in the technical treatment of the PG.  The M20 PG is directly converted into a % by dividing over 7.  What looks like a reasonable conversion is actually very strange, as this implies a linear grade-to-mark conversion, *without the use of grade boundaries*.
+
+There are two possible problems here.  The first is that the grade boundaries were never even for any subject; the second is that the actual grade boundaries are often about 10%, and always narrower than 14% (from a straight division).  Having had a PG of 5 would means a deduction of 28% compared to a student with PG = 7, and this would be a *three* grade difference when back-converted using the grade boundaries.
+
 ### IA
 
-Compared to a normal year where it weighs 20%, IAs are now worth heavier at 32% of the scaled mark.  And this is where I start complaining and it gets personal...
+Compared to a normal year where it weighs 20%, science IAs are now worth heavier at 32% of the scaled mark.  And this is where I start complaining and it gets personal...
 
 I think the IA marking is all over the place, and have lots of internal inconsistency between different examiners.  In other words, it is inaccurate and imprecise.  (This is probably unavoidable since the IBO needed to recruit many more new examiners, and have them work far higher quota, to meet the extra IAs to be marked, but you can't make good tea if the water is polluted at the source!)
 
@@ -312,7 +369,7 @@ This year, scores are individually examined, and the discrepancy with my samples
 
 ![](/image/IB_M20/IA_scatter.png)
 
-When I grade my own students' samples, the grades form something like an internal ranking, where I compare the IA.  If nothing else, they are internally consistent.  When graphed against the examiner grades, it is... just a scatter, and is a judgment that my internal ranking is completely invalid.
+When I grade my own students' samples, the grades form something like an internal ranking, where I compare the IA.  If nothing else, they are internally consistent.  When graphed against the examiner grades, it is... just a scatter, and is a judgment that my internal ranking is completely invalid.  In the above graph, the gray diagonal would be where the points lie if the examiners and I agree; the red line would be the maximum downgrade my students have ever seen historically.  80% of my students were outside the historical boundaries!  
 
 Needless to say, I am looking forward to seeing the comments from the Cat 2A EUR.
 
@@ -334,8 +391,6 @@ Note that these all work only if we assume all actors act in good faith. If the 
 
 I have a lot of sympathy for the IBO, having to pull a grade out from incomplete knowledge.  And so far, despite my grumbling about the IA examining, I think this is valid.
 
-And then, at the "scaled mark -> IB grade" process, it all falls apart.  The use of grade boundaries is inappropriate --- I think it is appalling --- and likely an oversight.  **The IBO is probably going to get sued over this.**
-
 The fact that the boundaries are [highly similar to the M19 boundaries](https://www.google.com/url?q=https://tinyurl.com/ya5xoyf9&sa=D&ust=1594876502323000&usg=AFQjCNGuReC5XkRurClRCvGXxr3i2e12rg) suggest that it is simply inherited (with unknown adjustments).  However, this skips over the point that the variations in grade boundaries is to adjust for difficulty differences **in the exam papers**, which do not exist in M20. 
 
 This year, the inputs are restricted to PG and IA, and are agnostic to subject, level, nor timezone.  However, the grade output is determined by the subject, level, and timezone.
@@ -351,6 +406,26 @@ But if PGs and IAs are changes with subject / levels / timezones, then there cou
 In the most extreme cases (illustrated for 61%), the same face-value % could have gotten a student either a 4 or a 7.
 
 Personally, as someone who teaches mostly Chem HL TZ2, I feel that my students were treated unfairly, and feel quite upset about it.
+
+::: tip Using Scaled Marks
+
+I thought that directly working with IB grades is better, but when I put myself in the shoes of someone who has to write and defend the code, I think I'd use Scaled Marks too. I can think of three reasons why Scaled Marks would be used:
+
+    1. Different components in different subjects have different "full marks" and different contributions. Working with a standard of full = 100 makes it easier to reason about.
+    2. There is a need to preserve a "high resolution" version for comparison with historical data
+    3. Grade boundaries can be shifted after the fitting exercise, so acts as a mechanism for correcting discrepancies at the end.
+
+Actually, putting myself in the IBO's shoes explains a lot of things. One of the greatest criticism is how there had been no communication before and after the grading period. This was interpreted as hubris / poor communication / secrecy etc, when there is more well-meaning interpretations. 
+
+    * **Before**. In the ideal world, we would discuss as a community about how the grades will be generated, and choose "the best method". In the real world, there are cultures where cheating is systemic, done with the condonement & participation of parents, teachers, and board. A thus-corrupted school, knowing the formula, would realize that there is nothing preventing them from giving 7s to every student (since there is no comparison of M19 and M20 PG being done). There would also be more pressure to generate IAs (wink wink) that are excellent (wink wink).
+    * **After**. I've on-off thought about these for years, and after spending two full days on one set of data, I still struggle to fully grasp what this one set of coefficients mean for my students. How could the IBO address the deluge of 10000 of complains, some of which are well-grounded (like the FM teachers here) and others are opportunistic?
+        * I have known many characters in the IBO for a number of years. I respect all of them, and believe they are well meaning with the wellness and fairness of the young people in their hearts. So why don't they fix the wrongs? Well, at this point, the grade mechanism is a rigid, crystallized, interlocked puzzle, where it all would fall apart unpredictably when you substitute another piece. In other words, if you don't even know what it is doing, how could you attempt to fix it?
+
+ This opaqueness is obvious to me since the beginning, and which is why elsewhere I wrote that the IBO is probably going to get dragged in a multi-year lawsuit (until someone drops it). It's going to drag on for a long time because (i) no one actually knows what is happening, and (ii) no one even knows how you can judge whether the mechanism is good or not. Should we accept macroscopic metrics, or must we look at individuals? Theoretically we would look at the individuals, but there we have no counterfactuals to compare against, so the case is uncertain.
+
+When this blows over, we'll have some awesome Nature of Science and Theory of Knowledge examples 😃
+
+:::
 
 ## Conclusion
 
@@ -437,13 +512,12 @@ The constants in the formula P, Q, R are specific to subject-level but may be th
 
 This is a more elegant model, where each coefficient bears a meaning.  For example, P reflects the similarity in nature between the subject’s IA and exams, and can be easily estimated from May 2020 data (find two students at the same school-subject with the same PG but very different IA scores and thus different scaled totals, and calculate the weight of the IA). Q is the average gap between grade boundaries. R aligns the formula’s scaled totals with the actual scaled totals.
 
-### "M19"
-
-"M19" here is a short-hand for "historical".  For large schools with high enrolment in a subject (which is our test cases), only M19 was used.  However, it seems that previous cohorts were also used for other schools.  DH guesses that as much previous data were pulled until there is a sample size of more than 30 students.  This would explain why large schools seem to be affected by 2019 only, whereas small schools seem to be affected by more years. 
-
-
-Before moving on, let me press upon you the fact that the fit is **perfect**, not just "on average", but with **zero** errors for any of the > 50 students.  The corollary is that no other data, such as M18, was used (in this case), and what data was used was done as a simple linear combination (so M20 and M19 do not interact).
 
 
 
 
+::: danger On historical average
+
+Actually, I'm not sure what it is in-line with; our average for M20 is -0.46 relative to M19.
+
+:::
