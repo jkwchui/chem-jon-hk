@@ -118,6 +118,8 @@ SM = (0.522 x 0.71) + (0.325 x 0.5) + 0.072
 
 Converting with the grade boundaries would give her a "4".
 
+![](/image/IB_M20/calculator.png =300x)
+
 To help advise re-marks, I've built a calculator for my students (and you!) to play with the possible outcomes [here](https://docs.google.com/spreadsheets/d/1IjzWcFD2Y7hUcHMo1fLquh2jzP3nbanrLpkNkXDLUi8/).  You may want to play with this to get an intuition for how this behaves as well.
 
 <Foldable>
@@ -125,8 +127,6 @@ To help advise re-marks, I've built a calculator for my students (and you!) to p
 ::: tip Should I re-mark?
 
 "I am a chem student disappointed with my grade.  Should I ask for a re-mark?"  There are three factors to consider: the likelihood of success, the practical impact on your future, and principle.
-
-![](/image/IB_M20/calculator.png =300x)
 
 * **Likelihood of success**.  If you are not my student, the specific numbers won't apply to you, *but your IA is probably still 32% of your Scaled Mark*.  Speak with your teacher, and see what your IA is likely to get as a **max**, then see if that is going to change your Scaled Mark.
   * For example, if your IA is currently 11, and your teacher thinks that it deserves 20, then there is a possibility that your scaled mark can go up by [(20-11)/24]x32% = 12%.  A 12% increase brings your scaled mark across a grade boundary, so it is meaningful to give it a try.
