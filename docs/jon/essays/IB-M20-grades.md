@@ -182,11 +182,18 @@ As the IBO scaled marks were generated analytically with no randomness, when a m
 
 <center>
 
-![](/image/IB_M20/model-comparison.png)
+@[vimeo](440975017)
 
 </center>
 
 On the contrary, when a model doesn't fit, the fit is imperfect on the individual level (even though the macroscopic average may be acceptable).  I used perfect fit as the criteria to reject alternative models.
+
+<center>
+
+![](/image/IB_M20/model-comparison.png)
+
+</center>
+
 
 ::: tip Valid but not unique
 
