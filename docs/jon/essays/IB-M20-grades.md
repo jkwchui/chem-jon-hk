@@ -154,7 +154,11 @@ DH and I used different investigative techniques.  I used non-linear fitting usi
 
 Since analyses were ran on students' data, I cannot publish the actual underlying data, but can give a general description of what was done.  The following video explains, in general, what non-linear fitting does, as well as the procedure for doing one (in the chemistry context).  Detailed instructions and a template for doing your own fitting is giving in a later section.
 
+<center>
+
 @[vimeo](187373491)
+
+</center>
 
 Conceptually, non-linear fitting tells Excel that SM = f(PG, IA), and proposes a specific form of this function but with coefficients unspecified.  
 
