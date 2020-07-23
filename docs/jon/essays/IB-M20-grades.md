@@ -170,7 +170,7 @@ As the IBO scaled marks were generated analytically with no randomness, when a m
 
 <center>
 
-![](/image/IB_M20/modeling.png =300x)
+![](/image/IB_M20/model-comparison.png)
 
 </center>
 
