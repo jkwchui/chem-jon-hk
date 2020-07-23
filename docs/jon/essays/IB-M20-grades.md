@@ -7,7 +7,7 @@ With the coronavirus pandemic causing worldwide disruption, the IBO made the dec
 
 Since the results were released on 6 July 2020, there had been lively discussions between students, teachers, parents, and schools.  Despite usually very [thoughtful](https://medium.com/@joelumsden/thoughts-on-the-ib-results-a-dive-into-the-numbers-this-year-75011ae2d1bf) and generally considerate of what is a tough time for everyone, most of the discussion was philophical hang-wringing, because "the algorithm" [remains unknown](https://www.ibo.org/news/news-about-the-ib/awarding-may-2020-results-further-information/).
 
-In the past week, DH and I have colloborated to reverse-engineer how the grades were calculated.  The general model works broadly for all subjects, with weighing that is specific to a school / subject / level combination.
+In the past week, DH and I have collaborated to reverse-engineer how the grades were calculated.  The general model works broadly for all subjects, with weighing that is specific to a school / subject / level combination.
 
 ::: tip Caveats
 
@@ -22,6 +22,14 @@ In the past week, DH and I have colloborated to reverse-engineer how the grades 
 * I want to do more illustrations and interactive explorations for this article, but they will take time and... may not be forth-coming.
 
 :::
+
+<Foldable>
+
+## Table of Contents
+
+[[toc]]
+
+</Foldable>
 
 <Foldable>
 
@@ -53,7 +61,7 @@ The M20 IB grades for **ANY** subject that has both coursework and exam componen
 
 To spell out the obvious, this would not apply to EE, ToK, or Group 6 subjects for which it is entirely externally assessed.
 
-It would also not apply to Further Maths, which would be 100% externally assessed with no coursework.
+It would also not apply to Further Maths, which is 100% externally assessed with no coursework.
 
 :::
 
@@ -68,7 +76,7 @@ The first step is the computation of the Scaled Mark.  This was done using a com
    * averaged PG
    * averaged IA mark
 
-Specifically, the Scaled Mark (SM) is calculated as
+Specifically, the Scaled Mark is calculated as
 
 <center>
 
@@ -183,6 +191,17 @@ On the contrary, when a model doesn't fit, the fit is imperfect on the individua
 ::: tip Valid but not unique
 
 Note that a perfect fit says that the equation *can* be used to predict the results, but it does not say on whether *other* models or combinations of coefficients is valid.  In other words, our empirical models guarantee a match but silent on uniqueness.
+
+As an example, if our fitting procedure gives an equation of
+
+* SM = (0.50 PG%) + (0.40 IA%) + (0.10),
+
+We could get a equally perfect fit with models
+
+* SM = 2 [(0.25 PG%) + (0.20 IA%) + (0.05)], or
+* SM = (0.50 PG%) + (0.40 IA%) + (0.07) + (0.03)
+
+These models, however, would suggest different interpretations.
 
 :::
 
