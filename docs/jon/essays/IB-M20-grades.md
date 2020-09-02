@@ -252,18 +252,6 @@ When doing the minimization, the target is `$K$5`, and you're trying to minimize
 
 If it goes well, the modelled values in col `G` would look exactly the same as the actual values in col `F`, and the diffs would be 0.  You can now look at `K2`-`K4` and extract the coeff x(PG)+y(IA)+z.
 
-::: tip Other methods
-
-Ferenc Beleznay have cooked up *several* other ways of fitting and visualizing, and generously shared his work with the world:
-
-* [GeoGebra applet](https://www.geogebra.org/m/fam7sbec)
-* [Google Sheets](https://docs.google.com/spreadsheets/d/1eq0PZkHuBmjCDOAL6l2jO-hi2thQDqrIRRjeGig5pz0/edit?usp=sharing), or
-* [Python Notebook](https://colab.research.google.com/drive/194Gpo0RZXr7JPRNnCj8IjwcErnDo773I?usp=sharing)
-
-If you are using the Google-based solutions, you should `File` -> `Make a Copy` to generate your modifiable version.  Please **do not** request Edit access.
-
-:::
-
 </Foldable>
 
 ## Evaluation

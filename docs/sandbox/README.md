@@ -2,7 +2,13 @@
 
 [[toc]]
 
-## Map
+## Timer
+
+
+
+## Task
+
+<!-- ## Map
 
 <ClientOnly>
 
@@ -12,7 +18,7 @@
 
 </MapTopo>
 
-</ClientOnly>
+</ClientOnly> -->
 
 ## Markdown features
 
@@ -71,12 +77,18 @@ H~2~O is water.
 :::: tabs cache-lifetime="10" :options="{ useUrlFragment: false }"
 
 ::: tab "Question" id="first-tab"
-Question content here
+
+<i class="el-icon-edit"></i>
+
+<vp-icon name="electron" />
+
 :::
 
 
 ::: tab Hint id="second-tab"
-Hint content here
+
+<Duration v-bind:time="65000" />
+
 :::
 
 ::: tab Solution
@@ -118,8 +130,8 @@ From Element UI.[^EUI]
 <i class="el-icon-edit"></i>
 
 SVG icons
-
-<vp-icon name="electron" />
+<!-- 
+<vp-icon name="electron" /> -->
 
 
 ### Buttons
@@ -282,7 +294,7 @@ graph LR
 
 ## Custom components
 
-<Duration time='60 min' />
+<Duration v-bind:time="65000" />
 <CompletionStatus v-bind:percentage=100 />
 <PublishDate date="2019-03-20T03:54:07Z" />
 

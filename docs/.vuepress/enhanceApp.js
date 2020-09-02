@@ -17,6 +17,7 @@ import ElementUI from 'element-ui'
 import './element-variables.scss'
 
 import VueTippy, { TippyComponent } from "vue-tippy";
+import vueAwesomeCountdown from 'vue-awesome-countdown'
 
 // import './mathJaxConfig.js'
 // import '../../node_modules/mathjax/MathJax.js'
@@ -35,8 +36,9 @@ export default ({
     // library.add(fas);
     // Vue.use(BootstrapVue);
     Vue.use(ElementUI);
-    Vue.use(require('vue-moment'));
-    Vue.use(VueTippy);
+    Vue.use(require('vue-moment'))
+    Vue.use(VueTippy)
+    Vue.use(vueAwesomeCountdown, 'vac')
     // Vue.use(plugin)
     Vue.prototype.$teacher = true; //global variable identifying teacher or not
     
