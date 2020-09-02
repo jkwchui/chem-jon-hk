@@ -1,12 +1,82 @@
 @import url("https://use.typekit.net/rfb7wlv.css");
 // @import url("../../node_modules/mapbox-gl/src/css/mapbox-gl.css");
-  
-/* theme color */
-$--color-primary: #f1c51b;
+
+/* Color
+-------------------------- */
+/// color|1|Brand Color|0
+$--color-primary:#f1c51b !default;
+/// color|1|Background Color|4
+$--color-white: #231f20 !default;
+/// color|1|Background Color|4
+$--color-black: #ffffff !default;
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default; /* 53a8ff */
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default; /* 66b1ff */
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default; /* 79bbff */
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default; /* 8cc5ff */
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default; /* a0cfff */
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default; /* b3d8ff */
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default; /* c6e2ff */
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default; /* d9ecff */
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default; /* ecf5ff */
+/// color|1|Functional Color|1
 $--color-success: #6dbe45 !default;
+/// color|1|Functional Color|1
 $--color-warning: #de6326 !default;
+/// color|1|Functional Color|1
 $--color-danger: #d62e27 !default;
+/// color|1|Functional Color|1
 $--color-info: #8d91a6 !default;
+
+$--color-success-light: mix($--color-white, $--color-success, 80%) !default;
+$--color-warning-light: mix($--color-white, $--color-warning, 80%) !default;
+$--color-danger-light: mix($--color-white, $--color-danger, 80%) !default;
+$--color-info-light: mix($--color-white, $--color-info, 80%) !default;
+
+$--color-success-lighter: mix($--color-white, $--color-success, 90%) !default;
+$--color-warning-lighter: mix($--color-white, $--color-warning, 90%) !default;
+$--color-danger-lighter: mix($--color-white, $--color-danger, 90%) !default;
+$--color-info-lighter: mix($--color-white, $--color-info, 90%) !default;
+/// color|1|Font Color|2
+$--color-text-primary: #E0E0E5 !default;
+/// color|1|Font Color|2
+$--color-text-regular: #BDBFCB !default;
+/// color|1|Font Color|2
+$--color-text-secondary: #8D91A6 !default;
+/// color|1|Font Color|2
+$--color-text-placeholder: #C0C4CC !default;
+/// color|1|Border Color|3
+$--border-color-base: #F1C51B !default;
+/// color|1|Border Color|3
+$--border-color-light: #A3842F !default;
+/// color|1|Border Color|3
+$--border-color-lighter: #746A4D !default;
+/// color|1|Border Color|3
+$--border-color-extra-light: #555147 !default;
+
+// Background
+/// color|1|Background Color|4
+$--background-color-base: #3B3F44 !default;
+
+/* Link
+-------------------------- */
+$--link-color: $--color-primary-light-2 !default;
+$--link-hover-color: $--color-primary !default;
+
+/* Border
+-------------------------- */
+$--border-width-base: 1px !default;
+$--border-style-base: solid !default;
+$--border-color-hover: $--color-text-placeholder !default;
+$--border-base: $--border-width-base $--border-style-base $--border-color-base !default;
+/// borderRadius|1|Radius|0
+$--border-radius-base: 4px !default;
+/// borderRadius|1|Radius|0
+$--border-radius-small: 2px !default;
+/// borderRadius|1|Radius|0
+$--border-radius-circle: 100% !default;
+/// borderRadius|1|Radius|0
+$--border-radius-zero: 0 !default;
+
 
 body {
   font-family: cronos-pro, sans-serif; 
@@ -17,7 +87,10 @@ p, li, ul {
   font-size: 19 px
 }
 
+
 /* icon font path, required */
 $--font-path: '~element-ui/lib/theme-chalk/fonts';
 
+// @import 'element-theme-dark'
 @import "~element-ui/packages/theme-chalk/src/index";
+// @import "./styles/element-dark/index.css"

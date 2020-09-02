@@ -14,7 +14,9 @@
 
 import ElementUI from 'element-ui'
 // import 'element-ui/lib/theme-chalk/index.css'
+// import 'element-theme-dark'
 import './element-variables.scss'
+
 
 import VueTippy, { TippyComponent } from "vue-tippy";
 import vueAwesomeCountdown from 'vue-awesome-countdown'
