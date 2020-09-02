@@ -11,13 +11,13 @@
             }"
             :disabled="vac.state === 'process' || vac.state === 'finished'"></el-button>
 
-          <el-button type="primary" icon="el-icon-refresh" size="mini"
+          <el-button type="info" icon="el-icon-refresh" size="mini"
             @click="() => {
               vac.startCountdown(true)
             }"
             :disabled="vac.state !== 'finished' && vac.state !== 'stopped'"></el-button>
 
-          <el-button type="warning" icon="el-icon-video-pause" size="mini"
+          <el-button type="primary" icon="el-icon-video-pause" size="mini"
             @click="() => {
               vac.pauseCountdown()
             }"

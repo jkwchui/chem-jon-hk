@@ -286,6 +286,8 @@ graph LR
 <CompletionStatus v-bind:percentage=100 />
 <PublishDate date="2019-03-20T03:54:07Z" />
 
+<Task />
+
 ## BabylonJS
 
 <!-- <BabylonTest /> -->
