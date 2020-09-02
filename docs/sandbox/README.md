@@ -4,6 +4,8 @@
 
 ## Timer
 
+
+
 ## Task
 
 <!-- ## Map
@@ -85,7 +87,7 @@ H~2~O is water.
 
 ::: tab Hint id="second-tab"
 
-<Duration time='60 min' />
+<Duration v-bind:time="65000" />
 
 :::
 
@@ -292,7 +294,7 @@ graph LR
 
 ## Custom components
 
-<Duration time='60 min' />
+<Duration v-bind:time="65000" />
 <CompletionStatus v-bind:percentage=100 />
 <PublishDate date="2019-03-20T03:54:07Z" />
 
