@@ -21,7 +21,9 @@ module.exports = {
       }
     }
   },
+  theme: 'default-prefers-color-scheme',
   themeConfig: {
+    defaultTheme: 'dark',
     docsDir: "docs",
     // repo: 'jkwchui/chem-jon-hk',
     nav: [

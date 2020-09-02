@@ -75,6 +75,7 @@
     "vue-tippy": "^4.7.0",
     "vue2vis": "0.0.16",
     "vuepress-plugin-smooth-scroll": "^0.0.3",
-    "vuepress-plugin-tabs": "^0.2.2"
+    "vuepress-plugin-tabs": "^0.2.2",
+    "vuepress-theme-default-prefers-color-scheme": "^1.1.0"
   }
 }
