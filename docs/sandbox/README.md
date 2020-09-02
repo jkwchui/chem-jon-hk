@@ -282,7 +282,7 @@ graph LR
 
 ## Custom components
 
-<Duration time='60 min' />
+<Duration v-bind:time='155000' />
 <CompletionStatus v-bind:percentage=100 />
 <PublishDate date="2019-03-20T03:54:07Z" />
 
