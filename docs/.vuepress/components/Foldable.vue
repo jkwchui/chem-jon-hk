@@ -1,5 +1,5 @@
 <template>
-  <fold class="my-foldable" height="20%" :minHeight="150" async>
+  <fold class="my-foldable" height="20%" :minHeight="150" async noMask>
     <!-- default slot -->
     <slot></slot>
 
@@ -14,7 +14,7 @@
            class="baidu-view-more my-foldable-button"
            :class="{ 'collapsed': collapsed }">
         <svg class="baidu-view-more-icon" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="20"
-             height="20" fill="#0064a6">
+             height="20" fill="#f1c51b">
           <path
             d="M512 0c-281.6 0-512 230.4-512 512s230.4 512 512 512 512-230.4 512-512-230.4-512-512-512z m0 938.666667c-234.666667 0-426.666667-192-426.666667-426.666667s192-426.666667 426.666667-426.666667 426.666667 192 426.666667 426.666667-192 426.666667-426.666667 426.666667z"
             p-id="3018"></path>
@@ -64,9 +64,9 @@ export default {
 // }
 
 .my-foldable-button {
-  background-color: #fff;
+  background-color: #333333;
   transition: background-color .1s ease-in-out;
-  color: #0064a6;
+  color: #f1c51b;
   padding: 0 8px;
   font-size: 14px;
   border-radius: 4px;

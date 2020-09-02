@@ -63,6 +63,7 @@
     "pdfjs-dist": "^2.0.943",
     "react": "^16.7.0",
     "vue": "^2.6.6",
+    "vue-awesome-countdown": "^1.1.2",
     "vue-csv-import": "^2.3.3",
     "vue-echarts": "^4.0.1",
     "vue-foldable": "^1.0.0",
@@ -77,6 +78,7 @@
     "vue-tippy": "^4.4.0",
     "vue2vis": "0.0.16",
     "vuepress-plugin-smooth-scroll": "^0.0.3",
-    "vuepress-plugin-tabs": "^0.2.2"
+    "vuepress-plugin-tabs": "^0.2.2",
+    "vuepress-theme-default-prefers-color-scheme": "^1.1.0"
   }
 }
