@@ -13,7 +13,6 @@
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "@goy/vuepress-plugin-svg-icons": "^4.2.1",
     "@vuepress/plugin-active-header-links": "^1.5.4",
     "@vuepress/plugin-back-to-top": "^1.5.4",
     "@vuepress/plugin-blog": "^1.0.0-alpha.47",

@@ -130,8 +130,8 @@ From Element UI.[^EUI]
 <i class="el-icon-edit"></i>
 
 SVG icons
-
-<vp-icon name="electron" />
+<!-- 
+<vp-icon name="electron" /> -->
 
 
 ### Buttons
