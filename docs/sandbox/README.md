@@ -2,9 +2,9 @@
 
 [[toc]]
 
-## Flip
+## Timer
 
-
+## Task
 
 <!-- ## Map
 
@@ -75,12 +75,18 @@ H~2~O is water.
 :::: tabs cache-lifetime="10" :options="{ useUrlFragment: false }"
 
 ::: tab "Question" id="first-tab"
-Question content here
+
+<i class="el-icon-edit"></i>
+
+<vp-icon name="electron" />
+
 :::
 
 
 ::: tab Hint id="second-tab"
-Hint content here
+
+<Duration time='60 min' />
+
 :::
 
 ::: tab Solution
