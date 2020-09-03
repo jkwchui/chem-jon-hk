@@ -245,17 +245,11 @@ module.exports = {
             ["./registry", "💰 Registry of interests"]
           ]
         },
-        /* {
-                     title: 'Essays',
-                     children: [
-                         ['./essays/about-website/', 'About website'],
-                     ],
-                 },*/
         {
-          title: "Guides",
+          title: 'Essays',
           children: [
-            ["./guides/", "Guides"]
-          ]
+                      ['./essays/IB-M20-grades', 'How IB M20 Grades were calculated'],
+                  ],
         },
         {
           title: "Anki",
@@ -364,8 +358,8 @@ module.exports = {
           height: 390
         },
         vimeo: {
-          width: 640,
-          height: 400
+          width: 740,
+          height: 600        
         },
         vine: {
           width: 600,
