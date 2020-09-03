@@ -1,3 +1,7 @@
+--- 
+sidebar: false 
+---
+
 # A Grand Sandbox
 
 [[toc]]
