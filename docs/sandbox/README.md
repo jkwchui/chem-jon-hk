@@ -292,13 +292,13 @@ graph LR
 <PublishDate date="2019-03-20T03:54:07Z" />
 
 <Task bkg="410948696"
-      :time="78">
+      :time="5">
 
   <template v-slot:title>
     Title of the puzzle
   </template>
 
-  <template v-slot:do>
+  <template v-slot:puzzle>
   
   A puzzle to solve in here.
   * a list
@@ -322,6 +322,8 @@ graph LR
   </template>
 
 </Task>
+
+<puzzle-template />
 
 ## BabylonJS
 

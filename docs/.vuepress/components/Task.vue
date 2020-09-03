@@ -9,11 +9,11 @@
   <center><iframe :src="this.bkgsrc" width="740" height="420" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
 
   <el-tabs type="border-card" tab-position="bottom">
-    <el-tab-pane label="Do">
-      <slot name="do" />
+    <el-tab-pane label="Puzzle">
+      <slot name="puzzle" />
       <div>
-        <Duration :time='this.time + " sec"' />
-        <Timer :time='this.time * 1000' />
+        <Duration :time='this.time + " min"' />
+        <Timer :time='this.time * 60 * 1000' />
       </div>
     </el-tab-pane>
     <el-tab-pane label="Help" v-if="this.hasHelp">
