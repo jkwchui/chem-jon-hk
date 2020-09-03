@@ -1,19 +1,27 @@
 <template>
 <div>
 
-  <h2>Title</h2>
+  <h2>
+    <slot name="title">
+    </slot>
+  </h2>
 
-  <center><iframe src="https://player.vimeo.com/video/449149492" width="740" height="420" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
+  <center><iframe :src="this.bkgsrc" width="740" height="420" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
 
   <el-tabs type="border-card" tab-position="bottom">
     <el-tab-pane label="Do">
-      Problem for solving
+      <slot name="do" />
       <div>
-        <Timer v-bind:time='555555' />
+        <Duration :time='this.time + " sec"' />
+        <Timer :time='this.time * 1000' />
       </div>
     </el-tab-pane>
-    <el-tab-pane label="Help">Hint</el-tab-pane>
-    <el-tab-pane label="Learn">Reflection</el-tab-pane>
+    <el-tab-pane label="Help" v-if="this.hasHelp">
+      <slot name="help" />
+    </el-tab-pane>
+    <el-tab-pane label="Reflect">
+      <slot name="reflect" />
+    </el-tab-pane>
   </el-tabs>
   
 </div>
@@ -25,6 +33,21 @@ export default {
     data() {
       return {
       };
+    },
+    props: {
+      bkg: String,
+      time: Number
+    },
+    computed: {
+      bkgsrc: function() {
+        return "https://player.vimeo.com/video/" + this.bkg
+      },
+      time_ms: function() {
+        return Number*1000
+      },
+      hasHelp: function() {
+        return this.$slots.help
+      }
     }
 }
 </script>

@@ -291,9 +291,37 @@ graph LR
 <CompletionStatus v-bind:percentage=100 />
 <PublishDate date="2019-03-20T03:54:07Z" />
 
-<Task />
+<Task bkg="410948696"
+      :time="78">
 
-<Task />
+  <template v-slot:title>
+    Title of the puzzle
+  </template>
+
+  <template v-slot:do>
+  
+  A puzzle to solve in here.
+  * a list
+  * written
+  * in markdown
+    * some sub list
+  
+  </template>
+
+  <template v-slot:help>
+
+  Have you *thought* about doing this in [multiple](https://www.multiple.com) bites?
+  
+  </template>
+
+  <template v-slot:reflect>
+
+  Check that your answer has blah.
+  @[vimeo](187373491)
+
+  </template>
+
+</Task>
 
 ## BabylonJS
 

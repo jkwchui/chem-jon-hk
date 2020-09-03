@@ -1,6 +1,6 @@
 <template>
   <!-- <div class="content"> -->
-    <el-button type="primary" icon="el-icon-time" size="small" round>
+    <el-button type="info" icon="el-icon-time" size="mini">
       {{ time }}
     </el-button>
   <!-- </div> -->

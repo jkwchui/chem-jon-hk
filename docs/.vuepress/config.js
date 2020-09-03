@@ -358,7 +358,7 @@ module.exports = {
           height: 390
         },
         vimeo: {
-          width: 740,
+          width: 720,
           height: 600        
         },
         vine: {
