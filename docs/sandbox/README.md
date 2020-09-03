@@ -286,7 +286,8 @@ graph LR
 
 ## Custom components
 
-<Duration v-bind:time='155000' />
+<Duration time='60 minutes' />
+<Timer v-bind:time='155000' />
 <CompletionStatus v-bind:percentage=100 />
 <PublishDate date="2019-03-20T03:54:07Z" />
 

@@ -1,24 +1,20 @@
 <template>
 <div>
-  <el-card class="box-card">
-    <el-row :gutter="10">
-    <el-col :span="11">
-      <div class="grid-content bg-purple">
-          <iframe src="https://player.vimeo.com/video/449149492" width="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+  <h2>Title</h2>
+
+  <center><iframe src="https://player.vimeo.com/video/449149492" width="740" height="420" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
+
+  <el-tabs type="border-card" tab-position="bottom">
+    <el-tab-pane label="Do">
+      Problem for solving
+      <div>
+        <Timer v-bind:time='555555' />
       </div>
-    </el-col>
-    <el-col :span="13">
-      <div class="grid-content bg-purple">
-        <el-card class="box-card">
-          <div v-for="o in 4" :key="o" class="text item">
-            {{'List item ' + o }}
-          </div>
-          <Duration v-bind:time="300000" />
-        </el-card>
-      </div>
-    </el-col>
-</el-row>
-  </el-card>
+    </el-tab-pane>
+    <el-tab-pane label="Help">Hint</el-tab-pane>
+    <el-tab-pane label="Learn">Reflection</el-tab-pane>
+  </el-tabs>
   
 </div>
 </template>
