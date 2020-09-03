@@ -11,7 +11,7 @@
 
     template(v-slot:puzzle='')
       p A puzzle to solve in here.
-      img(src="/image/IB_M20/subject-path.png")
+      //- img(src="/image/IB_M20/subject-path.png")
       ol 
         li a list
         li written
