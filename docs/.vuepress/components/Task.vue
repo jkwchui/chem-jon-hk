@@ -6,7 +6,7 @@
     </slot>
   </h2>
 
-  <center><iframe :src="this.bkgsrc" width="740" height="420" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
+  <center><Vimeo :id="this.bkg" /></center>
 
   <el-tabs type="border-card" tab-position="bottom">
     <el-tab-pane label="Puzzle">
@@ -39,12 +39,6 @@ export default {
       time: Number
     },
     computed: {
-      bkgsrc: function() {
-        return "https://player.vimeo.com/video/" + this.bkg
-      },
-      time_ms: function() {
-        return Number*1000
-      },
       hasHelp: function() {
         return this.$slots.help
       }

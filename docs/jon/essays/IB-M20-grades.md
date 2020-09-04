@@ -164,7 +164,7 @@ Since analyses were ran on students' data, I cannot publish the actual underlyin
 
 <center>
 
-@[vimeo](187373491)
+<Vimeo id="187373491" />
 
 </center>
 

@@ -45,7 +45,7 @@
       p #[span {{someValue * someMul}}]
       p Check that your answer has blah.
       center
-        iframe(src='https://player.vimeo.com/video/449149492' width='700' height='420' frameborder='0' allow='autoplay; fullscreen' allowfullscreen='')
+        Vimeo(id='449149492')
 
 </template>
 

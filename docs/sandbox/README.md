@@ -273,9 +273,9 @@ Bug: switch does not seem to toggle -->
 ## Flowcharts / Gantt charts
 
 ### via Vis.js
-
+<!-- 
 <vis-timeline />
-<vis-network />
+<vis-network /> -->
 
 ### via Mermaid.js
 
@@ -287,7 +287,7 @@ graph LR
 ## Custom components
 
 <Duration time='60 minutes' />
-<Timer v-bind:time='155000' />
+<Timer v-bind:time='10' />
 <CompletionStatus v-bind:percentage=100 />
 <PublishDate date="2019-03-20T03:54:07Z" />
 
@@ -317,7 +317,7 @@ graph LR
   <template v-slot:reflect>
 
   Check that your answer has blah.
-  @[vimeo](187373491)
+  <Vimeo id="187373491" />
 
   </template>
 

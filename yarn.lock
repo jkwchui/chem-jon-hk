@@ -1116,6 +1116,14 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
+"@vimeo/player@^2.10.0":
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/@vimeo/player/-/player-2.13.0.tgz#28f7e2eb69716b7f9a7d5046d14185a33add1e26"
+  integrity sha512-XUUVr87bW6DLnlxHtnYVcboSOJOE2TKSm7UoGdaql9h/K274BuRon57nKJxAPxCS7gRT0D4D3o/zK9HxYwUXYA==
+  dependencies:
+    native-promise-only "0.8.1"
+    weakmap-polyfill "2.0.1"
+
 "@vssue/api-github-v3@^1.1.2":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@vssue/api-github-v3/-/api-github-v3-1.4.0.tgz#ab944c7d96173c2716d333693a451d441b3ec66e"
@@ -7754,6 +7762,11 @@ nanomatch@^1.2.1, nanomatch@^1.2.9:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+native-promise-only@0.8.1:
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/native-promise-only/-/native-promise-only-0.8.1.tgz#20a318c30cb45f71fe7adfbf7b21c99c1472ef11"
+  integrity sha1-IKMYwwy0X3H+et+/eyHJnBRy7xE=
+
 negotiator@0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
@@ -11994,6 +12007,14 @@ vue-tippy@^4.7.0:
     humps "^2.0.1"
     tippy.js "^4.3.5"
 
+vue-vimeo-player@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/vue-vimeo-player/-/vue-vimeo-player-0.1.0.tgz#579edbed527487b31f2a2c552c8deffbcd988018"
+  integrity sha512-kozPRMBBJpIZ9SVXWwB9k6HomUmDl39+mmnjbfRLfZgI5q+Q2yCI3lzk3wJemvAbyXo44Xp75SIaNH0eWzGLSg==
+  dependencies:
+    "@vimeo/player" "^2.10.0"
+    object-assign "^4.1.1"
+
 vue2vis@0.0.18:
   version "0.0.18"
   resolved "https://registry.yarnpkg.com/vue2vis/-/vue2vis-0.0.18.tgz#3854c06263ae9a1a570c26254753f1a1c1231a12"
@@ -12152,6 +12173,11 @@ wcwidth@^1.0.0:
   integrity sha1-8LDc+RW8X/FSivrbLA4XtTLaL+g=
   dependencies:
     defaults "^1.0.3"
+
+weakmap-polyfill@2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/weakmap-polyfill/-/weakmap-polyfill-2.0.1.tgz#ff0278c7f75bb0c492fc3343257f3e87114d709a"
+  integrity sha512-Jy177Lvb1LCrPQDWJsXyyqf4eOhcdvQHFGoCqSv921kVF5i42MVbr4e2WEwetuTLBn1NX0IhPzTmMu0N3cURqQ==
 
 webidl-conversions@^4.0.2:
   version "4.0.2"
