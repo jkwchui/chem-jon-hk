@@ -164,7 +164,7 @@ Since analyses were ran on students' data, I cannot publish the actual underlyin
 
 <center>
 
-<Vimeo id="187373491" />
+<Vimeo vid="187373491" name="solver"/>
 
 </center>
 
@@ -182,7 +182,7 @@ As the IBO scaled marks were generated analytically with no randomness, when a m
 
 <center>
 
-@[vimeo](440975017)
+<Vimeo vid="440975017" name="geogebra"/>
 
 </center>
 
