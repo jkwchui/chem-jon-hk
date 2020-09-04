@@ -1,16 +1,17 @@
 <template>
 
 <vimeo-player 
-      ref="player" 
-      :options="{ responsive: true }"
-      :video-id="id">
+	ref="name" 
+	:options="{ responsive: true }"
+	:video-id="vid">
 </vimeo-player>
 
 </template>
 <script>
 export default {
     props: {
-        id: String
+		name: String,
+        vid: String
     },
 	data() {
 		return {
