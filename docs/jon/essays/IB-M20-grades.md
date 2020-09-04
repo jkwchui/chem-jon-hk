@@ -164,7 +164,7 @@ Since analyses were ran on students' data, I cannot publish the actual underlyin
 
 <center>
 
-<Vimeo vid="187373491" name="solver"/>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/187373491?color=f1c51b&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 </center>
 
@@ -182,7 +182,7 @@ As the IBO scaled marks were generated analytically with no randomness, when a m
 
 <center>
 
-<Vimeo vid="440975017" name="geogebra"/>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/440975017?color=f1c51b&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 </center>
 

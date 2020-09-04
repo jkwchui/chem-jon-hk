@@ -1,44 +1,26 @@
 <template>
 
-<vimeo-player 
-	ref="name" 
-	:options="{ responsive: true }"
-	:video-id="vid">
-</vimeo-player>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe :src="bkg_src" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
 
 </template>
 <script>
 export default {
     props: {
-		name: String,
         vid: String
     },
 	data() {
 		return {
-			playerReady: false
 		}
 	},
 	methods: {
-		onReady() {
-			this.playerReady = true
-		},
-		play () {
-			this.$refs.player.play()
-		},
-		pause () {
-			this.$refs.player.pause()
+	},
+	computed: {
+		bkg_src: function() {
+			return "https://player.vimeo.com/video/" + this.vid + "?color=f1c51b&byline=0&portrait=0"
 		}
 	}
 }
 </script>
 
 <style lang="scss">
-.vimeo {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  // max-height: 200px;
-  position: absolute;
-}
 </style> 
