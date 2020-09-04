@@ -44,8 +44,7 @@
       p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
       p #[span {{someValue * someMul}}]
       p Check that your answer has blah.
-      center
-        Vimeo(vid='449149492' name="sol")
+      Vimeo(vid='449149492' name="sol")
 
 </template>
 

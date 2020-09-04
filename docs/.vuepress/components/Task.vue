@@ -6,7 +6,7 @@
     </slot>
   </h2>
 
-  <center><Vimeo :vid="this.bkg" name="bkg"/></center>
+  <center><Vimeo :vid="this.bkg" :name="this.bkg"/></center>
 
   <el-tabs type="border-card" tab-position="bottom">
     <el-tab-pane label="Puzzle">
