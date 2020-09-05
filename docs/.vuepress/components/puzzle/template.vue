@@ -29,6 +29,7 @@
         li #[Difficulty(:stars="2")] 22 x 30
         li #[Difficulty(:stars="3")] 68 x 70
       p Can you do each of these within 10 seconds?
+      AnswerBox(correctAnswer = "apple")
 
     template(v-slot:help='')
       p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
