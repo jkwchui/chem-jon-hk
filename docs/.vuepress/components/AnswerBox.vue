@@ -36,7 +36,7 @@
 export default {
     components: { },
     props: {
-      correctAnswer: String
+      correctAnswers: Array
     },
     data () {
         return {
@@ -45,11 +45,11 @@ export default {
     },
     computed: {
       checkAnswer: function() {
-        if(this.input === this.correctAnswer)
-          return true
-        else if (this.input === '')
+        if (this.input === '')
           return null
-        else
+        else if(this.correctAnswers.includes(this.input.toLowerCase()))
+          return true
+        else 
           return false
       }
     }
