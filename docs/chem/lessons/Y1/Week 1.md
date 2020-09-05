@@ -28,7 +28,7 @@ Complete and submit the homework for each session before their due dates.
 
 ### Homework
 
-Complete this (AirTable) form.
+Complete [this form](https://airtable.com/shrZvFqT2cXIdPRG1) by **Sep 9 (Wed) 21:00**.  This should take no more than 25 minutes.
 
 ## Session 2: Time
 
