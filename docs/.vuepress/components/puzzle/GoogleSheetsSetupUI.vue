@@ -26,8 +26,10 @@
           AnswerBox(:correctAnswers = "['1337 H4X0R']")
 
     template(v-slot:help='')
-      p Search beyond the box of the instruction.
-      p If you did not #[i Make a Copy] you will not be able to edit the spreadsheet. Some parts will then be difficult or impossible to complete.
+      ul 
+        li Search.  Not everything is in the instruction.
+        li If you did not #[i Make a Copy] you will not be able to edit the spreadsheet. Some parts will then be difficult or impossible to complete.
+        li Is something hiding?
 
 </template>
 
