@@ -2,8 +2,23 @@
 
 ## Preparations
 
-Print this week's notes
-* quarantine should have received a copy+red/green pens
+Download and print this week's notes before continuing.
+
+::: tip Quarantine
+
+If you are in quarantine, I have prepared a care package for you.  The College driver should be bringing this to you on Monday by noon.  You will find the following inside the care package:
+  1. a copy of this week's notes
+  2. a red/green pen
+  3. post-it notes
+  4. snacks
+
+:::
+
+Start Session 1 in your first chem lesson, Session 2 on the second lesson, and Session 3 on the third lesson.  If there are two chem lessons on a day, use only one of them: choose the lesson that is convenient for you.
+
+If the activities within the session cannot be finished within one hour, complete the remainder at a time of your choosing.
+
+Complete and submit the homework for each session before their due dates.
 
 ## Session 1: Boxes
 

@@ -19,7 +19,7 @@
     <el-tab-pane label="Help" v-if="this.hasHelp">
       <slot name="help" />
     </el-tab-pane>
-    <el-tab-pane label="Reflect">
+    <el-tab-pane label="Reflect" v-if="this.hasReflect">
       <slot name="reflect" />
     </el-tab-pane>
   </el-tabs>
@@ -41,6 +41,9 @@ export default {
     computed: {
       hasHelp: function() {
         return this.$slots.help
+      },
+      hasReflect: function() {
+        return this.$slots.reflect
       }
     }
 }

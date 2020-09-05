@@ -3,48 +3,29 @@
 .puzzle
   task(
     bkg='410948696' 
-    :time='0.5'
+    :time='15'
     )
     
     template(v-slot:title='')
       | What You Will Learn
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
-      el-slider(
-        v-model="someValue"
-        :step="4"
-        show-stops
-        show-input
-      )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
+      p When you are ready to start the activity, start the timer by clicking the #[i(class="el-icon-video-play")] button.  This time is just a suggestion.  Do the same thing for all the other puzzle boxes.
+      ol 
+        li Think, and add short keywords to Table A.  Spend no more than 5 minutes on this.
+        li Click on the "Help" tab to see what what alumni thinks.  If these encounters with them created new thoughts in you, update your list.
+        li Add numbers next to each keyword to show the priority of each keyword.
+        li Re-write the list in Table B, placing the most important keyword on the top.  You are free to create your own categories.
 
     template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
-      el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
+      p This is what Memo (Venezuela) thinks.
+      Vimeo(vid='449149492' name="Memo")
+      p Read what Mert (Bosnia), Paul (Germany), Musab (Pakistan), and Pi (Myanmar) thinks in #[a(href="https://docs.google.com/document/d/13vQmf_9Xboex1HLLnhVPRx-xLBUX5AcS9EzoOlt7AXc/edit?usp=sharing") this Google Doc].
 
     template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='449149492' name="sol")
+      p Your list is unique to you.  What --- or who --- helped shaped these ways of thinking?
+      p You will re-visit this memory capsule at the end of your two years.  In that time, perhaps what is most interesting is not #[i whether] you have accomplished these goals, but if they still remain important to you, and if you have discovered other importance in these two years.
+      
 
 </template>
 

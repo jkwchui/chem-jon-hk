@@ -3,48 +3,31 @@
 .puzzle
   task(
     bkg='410948696' 
-    :time='0.5'
+    :time='10'
     )
     
     template(v-slot:title='')
       | Google Sheets Setup and Naming-of-Parts
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
-      el-slider(
-        v-model="someValue"
-        :step="4"
-        show-stops
-        show-input
-      )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
+      p Open #[a(href="https://docs.google.com/spreadsheets/d/1Zj4hbDGX75IMb4LOo3xv-7-f9WLXqZn679qcx_-c0Tc/edit?usp=sharing") this Google Sheet], and make your own editable copy (File, Make a Copy).  Then find the answers to the following puzzles.
+      ol 
+        li C4
+          AnswerBox(:correctAnswers = "['Trace']")
+        li Rainfall (in mm) on 2014.06.04
+          AnswerBox(:correctAnswers = "['20.2']")
+        li Sum of J2:J4
+          AnswerBox(:correctAnswers = "['46.6']")
+        li $AC$15
+          AnswerBox(:correctAnswers = "['Nice']")
+        li Average temperature in 1900
+          AnswerBox(:correctAnswers = "['22.0', '22']")
+        li Sheet3!B2
+          AnswerBox(:correctAnswers = "['1337 H4X0R']")
 
     template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
-      el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
-
-    template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='449149492' name="sol")
+      p Search beyond the box of the instruction.
+      p If you did not #[i Make a Copy] you will not be able to edit the spreadsheet. Some parts will then be difficult or impossible to complete.
 
 </template>
 
