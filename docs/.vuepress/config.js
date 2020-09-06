@@ -107,9 +107,9 @@ module.exports = {
           title: "Lessons",
           sidebarDepth: 2,
           children: [
-            ["./lessons/", "Overview"],
-            ["./lessons/Y1", "Year 1"],
-            ["./lessons/Y2", "Year 2"]
+            ["./lessons/", "About eLearning"],
+            ["./lessons/Y1/", "Year 1"],
+            ["./lessons/Y2/", "Year 2"]
           ]
         },
         {
