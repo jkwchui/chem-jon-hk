@@ -3,48 +3,20 @@
 .puzzle
   task(
     bkg='410948696' 
-    :time='0.5'
+    :time='8'
     )
     
     template(v-slot:title='')
       | Expert TODO lists
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
-      el-slider(
-        v-model="someValue"
-        :step="4"
-        show-stops
-        show-input
-      )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
-
-    template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
-      el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
+      p Your homework this week involves the Hong Kong rainfall data from this spreadsheet (which you have seen before).
+      p You need to use a color scale to visualize it, and add a "danger" color for when the rain was incredibly heavy.
+      p Then you need to identify the month with the most rainy days and heaviest rainfall.
+      p Your task here is #[strong NOT] to do the homework, but to break down the homework into a sensible TODO list.
 
     template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='449149492' name="sol")
+      p There is no correct answer here.  How much you need to break down a task depends on your familiarity with the task.  What you need to do is to reflect on the accuracy of your TODO list while you are using it.  You get better with experience.
 
 </template>
 

@@ -3,49 +3,43 @@
 .puzzle
   task(
     bkg='410948696' 
-    :time='0.5'
+    :time='5'
     )
     
     template(v-slot:title='')
       | Units: Conversions and Habits
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
+      p Convert #[span {{time}} {{unit}}] to seconds.
+      p Use the sliders below to create eight questions of increasing difficulty.
+
       el-slider(
-        v-model="someValue"
-        :step="4"
+        v-model="time"
+        :step="5"
         show-stops
         show-input
       )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
+      el-select(v-model='unit' 
+                placeholder='Select unit')
+        el-option(v-for='item in options' :key='item.value' :label='item.label' :value='item.value')
+
+      AnswerBox(:correctAnswers = "getSeconds")
+
+      p Aim to do each within 20 seconds.  You can use calculators to handle the arithmetic.
 
     template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
+      p If you get some wrong, it is probably because you skipped steps.
       el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
+        el-collapse-item(title="Essential Habit 1" name="1")
+          | Do this on paper.
+        el-collapse-item(title="Essential Habit 2" name="2")
+          | Break each conversion into steps.  Use a conversion factor to change hour to minutes, #[i then] convert minutes to seconds.  You trade speed for accuracy, and it is a good trade.  #[strong There is no prize for the first to be wrong.]
+        el-collapse-item(title="Essential Habit 3" name="3")
+          | Write out all units explicitly.  Cross out units.  What remains should be "sec".  If it is not, something is wrong with your set up.
 
     template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='449149492' name="sol")
-
+      p Good habits usually look trivial at the beginning.  However, they make hard things easy, and impossible things possible.
+      p 25% of you will forget about the value of good habit before it becomes a habit.  When you work in a group, and you notice your friends skipping steps, point it out to them gently but firmly.  Be one another's angels 😇.
 </template>
 
 <script>
@@ -55,10 +49,47 @@ export default {
   data () {
     return {
       activeHint: '0',
-      someValue: 10,
-      someMul: 20
+      time: 10,
+      unit: 'minutes',
+      options: [{
+          value: 'minutes',
+          label: 'minutes'
+        }, {
+          value: 'hours',
+          label: 'hours'
+        }, {
+          value: 'days',
+          label: 'days'
+        }, {
+          value: 'weeks',
+          label: 'weeks'
+        }, {
+          value: 'milliseconds',
+          label: 'milliseconds'
+        }]
     }
-  }
+  },
+  computed: {
+    getSeconds: function() {
+      switch(this.unit) {
+        case "minutes":
+          return [(this.time * 60).toString()]
+          break;
+        case "hours":
+          return [(this.time * 3600).toString()]
+          break;
+        case "days":
+          return [(this.time * 86400).toString()]
+          break;
+        case "weeks":
+          return [(this.time * 604800).toString()]
+          break;
+        case "milliseconds":
+          return [(this.time / 1000).toString()]
+          break;
+        }
+      }
+    }
 }
 </script>
 

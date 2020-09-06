@@ -3,48 +3,28 @@
 .puzzle
   task(
     bkg='410948696' 
-    :time='0.5'
+    :time='8'
     )
     
     template(v-slot:title='')
       | Using Colors
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
-      el-slider(
-        v-model="someValue"
-        :step="4"
-        show-stops
-        show-input
-      )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
+      p Try using #[i hatching] and #[i stippling] to create different intensities.
+      p Can you provide shading to make the red... box(?) in your notes look 3-dimensional?
 
     template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
-      el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
+      p If you have a hard time seeing this object, I have taken a picture of it for you:
+      p TODO IMAGE MODELING + RENDER
+      p Consider shadows.
 
     template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='449149492' name="sol")
+      p We used red for "alert" and green for "things are OK".  Why?
+      |
+      p If your answer is that these come from traffic light, then that just brings it one step back: why was red used for stop, and green for go?
+      p Is this just convention, or are we #[i wired] to feel a certain ways when we see particular colors?
+      |
+      p #[i If] perception of colors triggers feelings in us biologically, what prevents malicious actors to use colors to influence how we feel?
 
 </template>
 

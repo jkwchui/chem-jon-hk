@@ -3,48 +3,20 @@
 .puzzle
   task(
     bkg='410948696' 
-    :time='0.5'
+    :time='10'
     )
     
     template(v-slot:title='')
       | Google Sheets: Conditional Formatting
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
-      el-slider(
-        v-model="someValue"
-        :step="4"
-        show-stops
-        show-input
-      )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
-
-    template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
-      el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
+      p Open this Google Sheet and Make a Copy.
+      p Use conditional formatting to visualize the grades and identify if there are tests where students performed differently than their usual selves.
 
     template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='449149492' name="sol")
+      p Surprisingly, this usage of colors, even though they add meaning and makes interpretation easier, is rather heavily frowned upon.  This probably comes from #[i conventions] of print, where it used to be all black-and-white.
+      p When you try to conditionally color your tables for other teachers, they might ask you to take the color away: #[i "it's just not professional"].
+      p What should you do?  What would you do?  Why?
 
 </template>
 

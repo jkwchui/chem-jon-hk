@@ -3,48 +3,29 @@
 .puzzle
   task(
     bkg='410948696' 
-    :time='0.5'
+    :time='15'
     )
     
     template(v-slot:title='')
       | Google Sheets: Formula
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
-      el-slider(
-        v-model="someValue"
-        :step="4"
-        show-stops
-        show-input
-      )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
+      p #[Difficulty(:stars="2")] Here you will create your own Answer Checker for the previous puzzle.
+      ol 
+        li Create a new Google Sheet in an appropriate folder. Give it an appropriate name.
+        li Set column A to be the time input.
+        li Cell A2 will be the only numerical input;
+        li Write formula in A3:A6 so they reflect the value of A2.
+        li Set column B to be the units; type ms, ..., fs in B2:B6.
+        li Set column C to be the conversion.  Type the conversion factors in C2:C6.  Use scientific notation.
+        li Set column D to be the calculated result.
+        li Write the appropriate formula in D2, then auto-fill the rest.
+        li Use your own calculator to check your own answers.
+      p #[Difficulty(:stars="4")] Can you modify this to convert between *any* pair of units, for example, from fs to ns?
 
     template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
-      el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
-
-    template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='449149492' name="sol")
+      p Solution --- pause the video when you are unstuck, and try to get through as much as you can independently.
+      Vimeo(vid='449149492' name="solution")      
 
 </template>
 
