@@ -3,7 +3,7 @@
 .puzzle
   task(
     bkg='410948696' 
-    :time='20'
+    :time='15'
     )
     
     template(v-slot:title='')

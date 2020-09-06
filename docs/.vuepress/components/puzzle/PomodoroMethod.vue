@@ -2,49 +2,28 @@
 
 .puzzle
   task(
-    bkg='410948696' 
-    :time='0.5'
+    bkg='330911620' 
+    :time='8'
     )
     
     template(v-slot:title='')
-      | The Pomodoro Method
+      | The Pomodoro Method 🍅
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
-      el-slider(
-        v-model="someValue"
-        :step="4"
-        show-stops
-        show-input
-      )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
+      p The classic Pomodoro Method uses a kitchen timer, and concentrate work into 25 minutes, followed by 5 minutes of rest.  Then you repeat.
+      p Hey!  That's 30 minutes, and you have already created a 30 minute event in your calendar!  What a surprise.  Move the #[strong 🍅 Pomodoro 1: Chem] event to an hour that you are free.
+      p Rename the event to #[strong 🍅 Pomodoro 1: Chem Session 2 HW] to show what you will be doing.  To save time in the future, you may also want to add relevant links in the description of the event.
+      p Add a second Pomodoro immediately following the first one.  This creates a 1 hour block for doing the chem homework today (you will probably not need it).
+      p On your phone, install a timer app that supports the Pomodoro method.  I use one called #[a(href="https://apps.apple.com/us/app/multitimer-multiple-timers/id973421278") MultiTimer (iOS)].  You can always try something else later.
 
     template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
-      el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
+      p Demonstration
+      Vimeo(vid='449149492' name="sol")
 
     template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='449149492' name="sol")
+      p Optimal durations of work-rest will be different for different kinds of task, and your personal situation.  My routine focus time is 35 minute, but this goes down when I am stressed.
+      p Once I get going, I sometimes get in a flow.  In these rare, #[i glorious] occasions, I ignore the 🍅 and ride the flow.
+      p Write down your experiences and modificiations.  #[b You will forget.]  To forget is human.
 
 </template>
 
