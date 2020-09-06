@@ -14,7 +14,7 @@
       ol 
         li adding all 8 classes, and
         li de-activating your free blocks
-      p The list of Google Calendars are as follows:
+      p The list of class Google Calendars are as follows:
       ul
         li #[a(href="https://calendar.google.com/calendar?cid=Y19oMGs2bW83dDByOTRlYWVsOWplNTRmY2k4Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t") block A]
         li #[a(href="https://calendar.google.com/calendar?cid=Y19lYjlxbTgyMmI5cWE3ZnZ2MWJwNWs5bzVsa0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t") block B]
@@ -24,8 +24,15 @@
         li #[a(href="https://calendar.google.com/calendar?cid=Y192NDYyam4xbGM1NTg2aWM0ajFydGZ2ZmV1c0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t") block F]
         li #[a(href="https://calendar.google.com/calendar?cid=Y18xNjRnaTdycTEzN2Nia2JobDJpNXZmbGc2NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t") block G]
         li #[a(href="https://calendar.google.com/calendar?cid=Y19zMWhxYmxvOXN0NDZibXYwcDNvN3Z0N3M0a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t") block H]
-      p If the Director of Studies (Beta Chau) has already sent you the #[i Y1 Assessment Calendar] and #[i College Calendar], add them in now.
-      p Change the colors of the calendars.  Make sure each can be easily seen.
+      p Then there are general calendars:
+      ul
+        li #[a(href="https://calendar.google.com/calendar?cid=bHBjdXdjLmVkdS5oa19iZTU1cnJjcTRlZm1mZWUyazZsdjJwajNuNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t") College Calendar]
+        li #[a(href="https://calendar.google.com/calendar?cid=Y19ub2dmMTIyMmVkbnB0bjBucWJiOHFpb2Yya0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t") Assessment: all internal and IB assessments and deadlines]
+        li #[a(href="https://calendar.google.com/calendar?cid=bHBjdXdjLmVkdS5oa184aXRnc3Rvc2dvZHJpODU2aGVwZ2VqMmVha0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t") EOTC]
+        li #[a(href="https://calendar.google.com/calendar?cid=bHBjdXdjLmVkdS5oa191dWU4aGZrcG82bms4bzZiYmUzdGxwMTlrb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t") Wellbeing]
+        li #[a(href="https://calendar.google.com/calendar?cid=bHBjdXdjLmVkdS5oa19jYms2YWx0Ym0zNm5ndDIxYmdyOWhkdHBrZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t") University guidance]
+
+      p After adding them, change the colors of the calendars.  Make sure each can be easily seen.
       p Explore the four different calendar views (week, day, month, schedule).
       p How many block D slots are there in the whole year?  (The actual number of classes is about three-quarter this number.)
       AnswerBox(:correctAnswers = "['123']")

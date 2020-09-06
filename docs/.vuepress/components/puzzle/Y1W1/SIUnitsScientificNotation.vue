@@ -58,7 +58,7 @@ export default {
     return {
       activeHint: '0',
       time: 10,
-      unit: 'minutes',
+      unit: 'ms',
       options: [{
           value: 'ms',
           label: 'ms'
