@@ -39,7 +39,7 @@
       p Create an event called #[strong 🍅 Pomodoro 1: Chem] in your personal schedule.  Make it 30 minutes long.  This can be for any time; you will move it in the next Puzzle.
 
     template(v-slot:reflect='')
-      p Confession time 😯!  I use Google Calendars as a reference, but I #[i prefer] to do all my central planning on paper 📝.  Why would Jon do that?  (I mean, besides being old as the dinosaurs🦕?)  What are the pros and cons of using paper vs digital planners? 
+      p Confession time 😯!  I use Google Calendars as a reference, but I #[i prefer] to do all my central planning on paper 📝.  Why would Jon do that?  (I mean, besides being old as the dinosaurs🦕?)  What are the pros and cons of using paper vs digital planners?
 
 </template>
 

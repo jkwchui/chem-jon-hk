@@ -2,7 +2,7 @@
 
 ## Preparations
 
-Download and print this week's notes before continuing.
+Download and print [this week's notes](./resources/worksheets/Y1-week1-notes.pdf) before continuing.
 
 <Foldable>
 

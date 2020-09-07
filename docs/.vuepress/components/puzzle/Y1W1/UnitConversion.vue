@@ -38,6 +38,7 @@
           | Write out all units explicitly.  Cross out units.  What remains should be "sec".  If it is not, something is wrong with your set up.
 
     template(v-slot:reflect='')
+      p Sometimes we even do the calculations #[i without] the numbers, just with units, to make sure that the calculations would work out.  This is called a #[a(href="https://en.wikipedia.org/wiki/Dimensional_analysis") Dimensional Analysis].
       p Good habits usually look trivial at the beginning.  However, they make hard things easy, and impossible things possible.
       p 25% of you will forget about the value of good habit before it becomes a habit.  When you work in a group, and you notice your friends skipping steps, point it out to them gently but firmly.  Be one another's angels 😇.
 </template>

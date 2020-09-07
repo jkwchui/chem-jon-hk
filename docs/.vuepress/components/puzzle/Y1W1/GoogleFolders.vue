@@ -2,7 +2,7 @@
 
 .puzzle
   task(
-    bkg='410948696' 
+    bkg='455331895' 
     :time='15'
     )
     
@@ -22,10 +22,6 @@
       p The graduate's comments (previous puzzle) is contained in a folder named ___.
       AnswerBox(:correctAnswers = "['0']")
       p Install the #[a(href="https://support.google.com/drive/answer/7329379") Google Drive File Stream] application on your computer.  This synchronizes the Cloud and local content, and you can then access your Google Drive when you are offline.
-
-    template(v-slot:help='')
-      p Demonstration:
-      Vimeo(vid='449149492' name="GoogleDrive")
 
     template(v-slot:reflect='')
       p Are there other setup you can do now, so that your College life becomes more organized later?

@@ -10,7 +10,7 @@
       | Google Sheets: Formula
 
     template(v-slot:puzzle='')
-      p #[Difficulty(:stars="2")] Here you will create your own Answer Checker for the previous puzzle.
+      p Here you will create your own Answer Checker for the previous puzzle.
       ol 
         li Create a new Google Sheet in an appropriate folder. Give it an appropriate name.
         li Set column A to be the time input.
@@ -20,11 +20,12 @@
         li Set column C to be the conversion.  Type the conversion factors in C2:C6.  Use scientific notation.
         li Set column D to be the calculated result.
         li Write the appropriate formula in D2, then auto-fill the rest.
-        li Use your own calculator to check your own answers.
-      p #[Difficulty(:stars="4")] Can you modify this to convert between *any* pair of units, for example, from fs to ns?
+        li Use your newly-developed calculator to check your own answers.
+      hr
+      p Can you modify this to convert between any pair of units, for example, from fs to ns?
 
     template(v-slot:help='')
-      p Solution --- pause the video when you are unstuck, and try to get through as much as you can independently.
+      p Here is the solution --- pause the video when the video got your unstuck, and try to get through as much as you can independently.
       Vimeo(vid='449149492' name="solution")      
 
 </template>
