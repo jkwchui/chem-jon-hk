@@ -10,7 +10,7 @@
       | S.I. Units and the Scientific Notation
 
     template(v-slot:puzzle='')
-      p Do the eight problems in your notes.
+      p Invent and complete eight problems in your notes.
       p Convert #[span {{time}} {{unit}}] to seconds.
       p Use the sliders below to create your own questions.
 

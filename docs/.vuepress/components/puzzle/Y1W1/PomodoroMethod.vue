@@ -18,7 +18,7 @@
 
     template(v-slot:help='')
       p Demonstration
-      Vimeo(vid='449149492' name="sol")
+      Vimeo(vid='455639396' name="sol")
 
     template(v-slot:reflect='')
       p Optimal durations of work-rest will be different for different kinds of task, and your personal situation.  My routine focus time is 35 minute, but this goes down when I am stressed.
