@@ -2,12 +2,12 @@
 
 .puzzle
   task(
-    bkg='410948696' 
+    bkg='455647034' 
     :time='5'
     )
     
     template(v-slot:title='')
-      | S.I. Units and the Scientific Notation
+      | S.I. Prefix and the Scientific Notation
 
     template(v-slot:puzzle='')
       p Invent and complete eight problems in your notes.
