@@ -26,7 +26,8 @@
 
     template(v-slot:help='')
       p Here is the solution --- pause the video when the video got your unstuck, and try to get through as much as you can independently.
-      Vimeo(vid='455646478' name="solution")      
+      Vimeo(vid='455646478' name="solution")
+      p You can dissect #[a(href="https://docs.google.com/spreadsheets/d/1d0gDjIPP0s3mpzt7nEQRcYaFDcquf3IOW6aP4VB4K8c/edit?usp=sharing") the completed spreadsheet here].
 
 </template>
 

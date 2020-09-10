@@ -2,7 +2,7 @@
 
 .puzzle
   task(
-    bkg='410948696' 
+    bkg='456379867' 
     :time='8'
     )
     
@@ -15,8 +15,8 @@
 
     template(v-slot:help='')
       p If you have a hard time seeing this object, I have taken a picture of it for you:
-      p TODO IMAGE MODELING + RENDER
-      p Consider shadows.
+      img(src="/image/Y1W1/3D-red-box-render.png")
+      p There are 5 faces that you can see.  Which one (or two) is the darkest?  Assign numbers (mentally) to indicate their relative darkness.  You can then hatch or stipple in the increasing intensities like you had above.
 
     template(v-slot:reflect='')
       p We used red for "alert" and green for "things are OK".  Why?

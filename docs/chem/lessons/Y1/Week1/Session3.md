@@ -12,11 +12,18 @@ Hand in on ManageBac as two files: a screenshot and a PDF.  This is due Sunday S
 
 #### 1: Rainfall analysis
 
-Your homework this week involves the Hong Kong rainfall data from this spreadsheet (which you have seen before).
+Your homework this week involves working with the Hong Kong rainfall data.
 
-You need to use a color scale to visualize it, and add a "danger" color for when the rain was incredibly heavy.
+First, use a color scale to visualize it, and add a "danger" color for when the rain was *incredibly* heavy. (It's subjective.)
 
-Then you need to identify the month with the most rainy days and heaviest rainfall.  You may need to look up some additional spreadsheet formula.
+Second, for each month, calculate:
+
+1. The average rainfall,
+2. The number of rainy days, and
+3. The number of days with Trace amount of rain
+
+
+You will probably need to learn some new spreadsheet functions to **COUNT** things and **COUNT**-things-**IF**. (hint, hint)
 
 #### 2: Pomodoro Drawing
 

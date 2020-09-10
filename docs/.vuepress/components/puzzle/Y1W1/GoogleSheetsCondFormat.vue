@@ -2,7 +2,7 @@
 
 .puzzle
   task(
-    bkg='410948696' 
+    bkg='456381471' 
     :time='10'
     )
     
@@ -10,7 +10,7 @@
       | Google Sheets: Conditional Formatting
 
     template(v-slot:puzzle='')
-      p Open this Google Sheet and Make a Copy.
+      p Open #[a(href="https://docs.google.com/spreadsheets/d/1u2LVT1TsfAZGBrFl34LueRh0z11A1CNbgVXk2xc8jtU/edit?usp=sharing") this spreadsheet] and Make a Copy.
       p Use conditional formatting to visualize the grades and identify if there are tests where students performed differently than their usual selves.
 
     template(v-slot:reflect='')

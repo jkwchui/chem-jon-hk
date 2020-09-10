@@ -10,7 +10,10 @@
 
 No homework today! 🙃
 
-Before next session, however, you need to watch a video on getting physically organized, and *then* do some shopping at a stationary shop.  
+😡: But, but, my two Pomodoro 🍅 events...
+😂: We said *"you won't need it"*, no?
+
+Before next session, however, you need to watch a video on getting physically organized, and *then* do some shopping at a stationary shop.  Maybe you want to edit and make one 🍅 a shopping event instead?
 
 <Vimeo vid='288282144' name="StephanieAudreyStudySkills" />
 

@@ -2,7 +2,7 @@
 
 .puzzle
   task(
-    bkg='410948696' 
+    bkg='456389598' 
     :time='8'
     )
     
@@ -10,7 +10,7 @@
       | Expert TODO lists
 
     template(v-slot:puzzle='')
-      p Your homework this week involves the Hong Kong rainfall data from this spreadsheet (which you have seen before).
+      p Your homework this week will involve the Hong Kong rainfall data in a separate tab from #[a(href="https://docs.google.com/spreadsheets/d/1u2LVT1TsfAZGBrFl34LueRh0z11A1CNbgVXk2xc8jtU/edit?usp=sharing") the previous spreadsheet].
       p You need to use a color scale to visualize it, and add a "danger" color for when the rain was incredibly heavy.
       p Then you need to identify the month with the most rainy days and heaviest rainfall.
       p Your task here is #[strong NOT] to do the homework, but to break down the homework into a sensible TODO list.
