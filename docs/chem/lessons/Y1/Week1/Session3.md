@@ -20,7 +20,7 @@ Second, for each month, calculate:
 
 1. The average rainfall,
 2. The number of rainy days, and
-3. The number of days with Trace amount of rain
+3. The number of days with *Trace* amount of rain
 
 
 You will probably need to learn some new spreadsheet functions to **COUNT** things and **COUNT**-things-**IF**. (hint, hint)

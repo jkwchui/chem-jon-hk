@@ -7,7 +7,7 @@
     )
     
     template(v-slot:title='')
-      | Title of the puzzle
+      | Replacing Drawings with Symbols (Atoms / Atomic Ions)
 
     template(v-slot:puzzle='')
       p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?

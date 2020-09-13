@@ -6,7 +6,7 @@
     </slot>
   </h2>
 
-  <center><Vimeo :vid="this.bkg" :name="this.bkg"/></center>
+  <center><Vimeo :vid="this.background" :name="this.background"/></center>
 
   <el-tabs type="border-card" tab-position="bottom">
     <el-tab-pane label="Puzzle">
@@ -44,6 +44,11 @@ export default {
       },
       hasReflect: function() {
         return this.$slots.reflect
+      },
+      background: function() {
+        if (this.bkg === '')
+          return "457245328"
+        else return this.bkg
       }
     }
 }
