@@ -27,7 +27,7 @@
 
 ## Preparations
 
-1. Download and print [this week's notes](/resources/worksheets/).
+1. Download and print [this week's notes](/resources/worksheets/Y1-week2-notes.pdf).
 2. Watch *Lina Mnemonica* and remember some facts about Lina.
 3. Measure the time using your home-made pendulums (see video 🎬 below):
    1. for a 25 cm pendulum to swing back-and-forth 10 times.  Repeat this five times.

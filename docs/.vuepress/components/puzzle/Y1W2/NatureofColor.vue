@@ -10,14 +10,16 @@
       | What is Color?
 
     template(v-slot:puzzle='')
-      p This Toy shows the color for a particular wavelength.
-      el-slider(
-        v-model="wavelength"
-        :min="400"
-        :max="700"
-        show-input
-      )
-      el-color-picker(v-model="rgb")
+      //- p This Toy shows the color for a particular wavelength.
+      //- el-slider(
+      //-   v-model="wavelength"
+      //-   :min="400"
+      //-   :max="700"
+      //-   show-input
+      //- )
+      //- el-color-picker(v-model="rgb")
+
+      //- button(:style="{ 'background-color': {{rgb}} }")
       p Light of 680 nm is ___ (color).
         AnswerBox(:correctAnswers = "['red', 'crimson', 'scarlet', 'ruby', 'cherry', 'carmine']")
       p If you have the colored pens, use it for your notes.
