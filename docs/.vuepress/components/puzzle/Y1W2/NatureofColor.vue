@@ -53,10 +53,10 @@ export default {
     }
   },
   computed: {
-    rgb: function () {
-      const [r, g, b] = this.wl2rgb(this.wavelength)
-      return this.RGBToHex(Math.trunc(r*255), Math.trunc(g*255), Math.trunc(b*255))
-    }
+    // rgb: function () {
+    //   const [r, g, b] = this.wl2rgb(this.wavelength)
+    //   return this.RGBToHex(Math.trunc(r*255), Math.trunc(g*255), Math.trunc(b*255))
+    // }
   },
   methods: {
     // https://stackoverflow.com/questions/56820706/how-to-convert-from-color-wavelength-to-rgb-or-hsl
