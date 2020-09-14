@@ -1,6 +1,6 @@
 # Session 1: 
 
-<puzzle-Y1W2-NatureofColor />
+<!-- <puzzle-Y1W2-NatureofColor /> -->
 <puzzle-Y1W2-LengthConversion />
 
 Before moving on, let's review how objects' sizes can differ by orders of magnitude:
