@@ -1,5 +1,7 @@
 # Week 2
 
+<Vimeo :vid="457579090" />
+
 <Foldable>
 
 ::: tip What you learnt last week
@@ -32,7 +34,7 @@
 3. Measure the time using your home-made pendulums (see video 🎬 below):
    1. for a 25 cm pendulum to swing back-and-forth 10 times.  Repeat this five times.
    2. for a 50 cm pendulum to swing back-and-forth 10 times.  Repeat this five times.
-   3. Enter your measurements on [this spreadsheet](https://docs.google.com/spreadsheets/d/1o7_oGP9fY002_v_mhiKGJfM-EemJBUnvPJDxoIYF1yE/edit?usp=sharing). This must be completed before Wednesday.
+   3. Enter your measurements on [this spreadsheet](https://docs.google.com/spreadsheets/d/1o7_oGP9fY002_v_mhiKGJfM-EemJBUnvPJDxoIYF1yE/edit?usp=sharing). This must be completed before Tuesday.
 
 ### Lina Mnemonica
 
@@ -60,7 +62,7 @@
 
 ### Making pendulums
 
-<Vimeo :vid="457245328" />
+<Vimeo :vid="457579954" />
 
 
 Start Session 1 (*Colors*) in your first chem lesson, Session 2 (*Time*) on the second lesson, and Session 3 (*Boxes*) on the third lesson.  If there are two chem lessons on a day, use only one of them: choose the lesson that is convenient for you.

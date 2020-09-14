@@ -10,7 +10,7 @@
       | Drawing Atoms
 
     template(v-slot:puzzle='')
-      p With help from your Data Booklet, draw a helium (He), Neon (Ne), Neon isotope with 11 neutrons, and Argon (Ar) atom in your notes.  Use the cartoon notation, and the scale bar for reference; try using shading to show the three-dimensional nature of the electron cloud.
+      p With help from your Data Booklet, draw a helium (He; 2 protons 2 neutrons), Neon (Ne; 10 protons, 10 neutrons), Neon isotope with 11 neutrons, and Argon (Ar; 18 protons, 21 neutrons) atom in your notes.  Use the cartoon notation, and the scale bar for reference; try using shading to show the three-dimensional nature of the electron cloud.
 
     template(v-slot:help='')
       p Be careful about the difference between the radius and the diameter!
