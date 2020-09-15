@@ -13,19 +13,19 @@
       | <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/jjy-eqWM38g' frameborder='0' allowfullscreen></iframe></div>
 
     template(v-slot:puzzle='')
-      p This Toy shows the color for a particular wavelength, measured in nanometers.
-      el-slider(
-        v-model="wavelength"
-        :min="400"
-        :max="700"
-        :step="5"
-        show-input
-      )
+      //- p This Toy shows the color for a particular wavelength, measured in nanometers.
+      //- el-slider(
+      //-   v-model="wavelength"
+      //-   :min="400"
+      //-   :max="700"
+      //-   :step="5"
+      //-   show-input
+      //- )
 
-      el-button(
-        :style="myStyle"
-        round
-      )
+      //- el-button(
+      //-   :style="myStyle"
+      //-   round
+      //- )
 
       p Light of 680 nm is ___ (color).
         AnswerBox(:correctAnswers = "['red']")
