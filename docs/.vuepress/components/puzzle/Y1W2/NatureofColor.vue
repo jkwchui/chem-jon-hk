@@ -13,19 +13,6 @@
       | <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/jjy-eqWM38g' frameborder='0' allowfullscreen></iframe></div>
 
     template(v-slot:puzzle='')
-      //- p This Toy shows the color for a particular wavelength, measured in nanometers.
-      //- el-slider(
-      //-   v-model="wavelength"
-      //-   :min="400"
-      //-   :max="700"
-      //-   :step="5"
-      //-   show-input
-      //- )
-
-      //- el-button(
-      //-   :style="myStyle"
-      //-   round
-      //- )
 
       p Light of 680 nm is ___ (color).
         AnswerBox(:correctAnswers = "['red']")
@@ -42,9 +29,6 @@
       p If you are checking your color wheel against the internet, note that being radially symmetric, the color wheel could be rotated and still "works".
       p If you are checking your ordered line against the internet, make sure what you are comparing against is also in wavelength.  If you were looking at frequency  it would be opposite!
       p White and white is still white.
-
-    template(v-slot:reflect='')
-      p What about wavelengths longer than 700 nm, or shorter than 400 nm?
 
 </template>
 
@@ -303,14 +287,6 @@ export default {
       ]
     }
   },
-  computed: {
-    myStyle: function() {
-      var pair = this.lookup.filter(
-        (pair) => (pair.wl === this.wavelength)
-      )
-      return {'backgroundColor': pair[0].hex}
-    },
-  }
 }
 </script>
 
