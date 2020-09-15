@@ -75,8 +75,7 @@ Complete and submit the homework for each session before their due dates.
 
 <br />
 
-<a class="el-button el-button--warning el-button--disabled">🏗 Session 2: Time</a>
-
+<a href="./Session2" class="el-button el-button--success">Session 2: Time</a>
 <br />
 
 <a class="el-button el-button--warning el-button--disabled">🚧 Session 3: Boxes</a>
