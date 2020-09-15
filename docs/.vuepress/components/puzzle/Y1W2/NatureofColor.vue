@@ -13,7 +13,7 @@
       | <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/jjy-eqWM38g' frameborder='0' allowfullscreen></iframe></div>
 
     template(v-slot:puzzle='')
-      p This Toy shows the color for a particular wavelength, measured in nanometers.  (For those of you with some design experience, the hex color code is shown inside.)
+      p This Toy shows the color for a particular wavelength, measured in nanometers.  For those of you with some design experience, the hex color code is shown inside.
       el-slider(
         v-model="wavelength"
         :min="400"
@@ -21,15 +21,14 @@
         :step="5"
         show-input
       )
-      //- el-button(:style="backgroundColor:{{rgb}}")
 
       el-button(
         :style="myStyle"
         round
-      ) {{ rgb }}
+      ) {{ hex }}
 
       p Light of 680 nm is ___ (color).
-        AnswerBox(:correctAnswers = "['red', 'crimson', 'scarlet', 'ruby', 'cherry', 'carmine']")
+        AnswerBox(:correctAnswers = "['red']")
       
       hr
 
@@ -38,17 +37,14 @@
         li Arrange the colors in increasing wavelength
         li Add the colors in the color wheel, placing the complementary colors across each other.
       p Propose three ways different colors of emission can combine to "create" white light.  An example is shown.
-      //- img(src="/image/IB_M20/subject-path.png")
 
     template(v-slot:help='')
       p If you are checking your color wheel against the internet, note that being radially symmetric, the color wheel could be rotated and still "works".
-      p If you are checking your ordered line against the internet, make sure what you are comparing against is also in wavelength λ.  If you were looking at frequency (f, or ν) it would be opposite!
+      p If you are checking your ordered line against the internet, make sure what you are comparing against is also in wavelength.  If you were looking at frequency  it would be opposite!
       p White and white is still white.
 
     template(v-slot:reflect='')
-      p What about wavelengths longer than 700 nm, or shorter than 400 nm? 🧐
-      hr
-      p Some detergents that advertises as "#[a(href="https://hg.eu/uk/products/hg-whiter-than-white-special-detergent-for-white-wash") whiter than white]" contains a dye which absorbs invisible UV light, and emits blue-violet.  #[a(href="http://www.chemistry-blog.com/2012/08/23/whiter-than-white-how-does-it-work/") Why do they do this?]
+      p What about wavelengths longer than 700 nm, or shorter than 400 nm?
 
 </template>
 
@@ -58,9 +54,7 @@ export default {
   components: { },
   data () {
     return {
-      activeHint: '0',
       wavelength: 450,
-      someMul: 20,
       lookup: [
         {
           "wl": 400,
@@ -310,14 +304,14 @@ export default {
     }
   },
   computed: {
-    rgb: function () {
+    hex: function () {
       var pair = this.lookup.filter(
         (pair) => (pair.wl === this.wavelength)
       )
       return pair[0].hex
     },
     myStyle: function() {
-      return {'backgroundColor': this.rgb}
+      return {'backgroundColor': this.hex}
     },
   }
 }
