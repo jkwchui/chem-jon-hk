@@ -1,4 +1,4 @@
-# Session 2: 
+# Session 2: Time
 
 <puzzle-Y1W2-AnkiAddingDeck />
 <puzzle-Y1W2-GoogleSheetsHistogram />
@@ -6,6 +6,6 @@
 
 ### Homework
 
-Structure your daily routine so that there is always a time in the day that you study your Anki decks.  This will not work on the first attempt; improve iteratively.
+Structure your daily routine so that there is always a time in the day that you study your Anki decks.  This won't work on the first attempt. Aim to improve iteratively.
 
-There will be opportunities to show your diligent Anki'ing in the future.
+There are opportunities to show your diligent Anki'ing in the future.

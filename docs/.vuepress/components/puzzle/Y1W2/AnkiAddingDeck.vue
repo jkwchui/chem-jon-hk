@@ -2,7 +2,7 @@
 
 .puzzle
   task(
-    bkg='' 
+    bkg='458050792' 
     :time='10'
     )
     
@@ -13,6 +13,7 @@
       ol
         li Download Anki #[a(href="https://apps.ankiweb.net/") here], and install it.
         li Download the #[a(href="https://drive.google.com/file/d/1miQrtcMa1iJ5Zs9CoD0kzDjH0Ae_D_fR/view?usp=sharing") Atomic Structure 1 Anki deck here], and open it in Anki.
+        li In #[i Preferences], change to use the "V2 experimental scheduler".
         li Study the deck #[strong using your keyboard shortcuts].
 
     template(v-slot:reflect='')

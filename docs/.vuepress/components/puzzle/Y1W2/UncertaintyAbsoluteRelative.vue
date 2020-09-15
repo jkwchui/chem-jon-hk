@@ -2,7 +2,7 @@
 
 .puzzle
   task(
-    bkg='' 
+    bkg='458055066' 
     :time='15'
     )
     
@@ -27,6 +27,8 @@
 
       p The relative (percent) uncertainty is #[span {{main}}] ± ___%
       AnswerBox(:correctAnswers = "percent")
+
+      p Go back to look at the durations for the pendulum swings.  How should we report the time it takes for the 0.25 m pendulum to swing?  How did you come up with the interval?  What could be some reasons that the pendulum #[i didn't] all took the same time to swing?
 
     template(v-slot:help='')
       p #[span {{main}}] ± (#[span {{pm}}] / #[span {{main}}] x 100%)

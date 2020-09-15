@@ -1,4 +1,4 @@
-# Session 3: 
+# Session 3: Boxes
 
 <puzzle-Y1W2-PeriodicTableVocab />
 <puzzle-Y1W2-First20Elements />

@@ -1,4 +1,4 @@
-# Session 1: 
+# Session 1: Colors
 
 <puzzle-Y1W2-NatureofColor />
 <puzzle-Y1W2-LengthConversion />
