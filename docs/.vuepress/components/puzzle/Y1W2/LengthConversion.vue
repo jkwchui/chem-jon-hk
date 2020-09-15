@@ -89,10 +89,10 @@ export default {
           return [(this.length * 1000).toString()]
           break;
         case "cm":
-          return [(this.length * 1000000).toString()]
+          return [(this.length * 10000000).toString()]
           break;
         case "dm":
-          return [(this.length * 10000000).toString()]
+          return [(this.length * 100000000).toString()]
           break;
         }
       }

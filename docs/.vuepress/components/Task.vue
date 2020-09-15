@@ -6,7 +6,12 @@
     </slot>
   </h2>
 
-  <center><Vimeo :vid="this.background" :name="this.background"/></center>
+  <div>
+    <slot name="prepuzzle"></slot>
+    <center><Vimeo v-if="this.bkg != ''" :vid="this.background" :name="this.background"/></center>
+  </div>
+
+  
 
   <el-tabs type="border-card" tab-position="bottom">
     <el-tab-pane label="Puzzle">
