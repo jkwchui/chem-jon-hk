@@ -16,7 +16,7 @@
       p How many neutrons are in #[sup 11]B?
       AnswerBox(:correctAnswers = "['6']")
 
-      p How many neutrons are in #[sup 11]#[sub 5]B#[sup 2+]?
+      p How many electrons are in #[sup 11]#[sub 5]B#[sup 2+]?
       AnswerBox(:correctAnswers = "['3']")
 
       p In #[sup 127]#[sub 53]X#[sup -], element X is ___.

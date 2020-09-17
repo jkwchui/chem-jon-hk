@@ -8,7 +8,7 @@
 
 * Textbook exercise questions from pages 58-66 (Ex 1--6)
   1. Do them on paper. Show working!
-  1. Mark your answers against the key.  Mark them with red (error) and green (correct) pens.  If you didn't understand something / got something wrong, write a little note explaining what happened.  Sum the score to keep yourself honest.
+  1. Mark your answers [against the key](https://drive.google.com/drive/folders/178GjJ2Zwp3oAMIltR3xvX3TJ6x5R8N-A?usp=sharing).  Mark them with red (error) and green (correct) pens.  If you didn't understand something / got something wrong, write a little note explaining what happened.  Sum the score to keep yourself honest.
 
 * [Uncertainty questions](https://drive.google.com/file/d/1UL6QcND1S7LaYpIA4SHkmT5ygw0vtUsF/view?usp=sharing) (Q8, 9)
   1. Download and print the question paper
