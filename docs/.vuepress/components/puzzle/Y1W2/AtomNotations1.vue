@@ -2,50 +2,25 @@
 
 .puzzle
   task(
-    bkg='' 
-    :time='15'
+    bkg='458813769'
+    :time='5'
     )
     
     template(v-slot:title='')
       | Replacing Drawings with Symbols (Atoms / Atomic Ions)
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
-      el-slider(
-        v-model="someValue"
-        :step="4"
-        show-stops
-        show-input
-      )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
-      AnswerBox(:correctAnswers = "['apple', 'apples']")
+      p How many protons are in #[strong B]?
+      AnswerBox(:correctAnswers = "['5']")
 
-    template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
-      el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
+      p How many neutrons are in #[sup 11]B?
+      AnswerBox(:correctAnswers = "['6']")
 
-    template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='457245328' name="sol")
+      p How many neutrons are in #[sup 11]#[sub 5]B#[sup 2+]?
+      AnswerBox(:correctAnswers = "['3']")
+
+      p In #[sup 127]#[sub 53]X#[sup -], element X is ___.
+      AnswerBox(:correctAnswers = "['i', 'iodine']")
 
 </template>
 

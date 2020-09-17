@@ -71,14 +71,11 @@ If the activities within the session cannot be finished within one hour, complet
 
 Complete and submit the homework for each session before their due dates.
 
-<a href="./Session1" class="el-button el-button--success">Session 1: Colors</a>
+<a href="./Session1" class="el-button el-button--success">Session 1: Colors 🌈</a>
 
-<br />
+<a href="./Session2" class="el-button el-button--success">Session 2: Time ⏱</a>
 
-<a href="./Session2" class="el-button el-button--success">Session 2: Time</a>
-<br />
-
-<a class="el-button el-button--warning el-button--disabled">🚧 Session 3: Boxes</a>
+<a href="./Session3" class="el-button el-button--success">Session 3: Boxes 📦</a>
 
 ## Class Collage
 

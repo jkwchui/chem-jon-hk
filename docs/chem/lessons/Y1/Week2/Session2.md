@@ -1,4 +1,4 @@
-# Session 2: Time
+# Session 2: Time ⏱
 
 <puzzle-Y1W2-AnkiAddingDeck />
 <puzzle-Y1W2-GoogleSheetsHistogram />

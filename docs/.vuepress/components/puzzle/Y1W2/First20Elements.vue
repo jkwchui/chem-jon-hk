@@ -10,6 +10,8 @@
       | Learning the First 20 Elements
 
     template(v-slot:puzzle='')
+      p Scroll until you cannot see the video.  List the Group 1 elements, separating each with a space (e.g., 'A B C').
+      AnswerBox(:correctAnswers = "['h li na k rb cs fr']")
       p Invent something personally meaningful to help you memorize the first two rows.
 
     template(v-slot:help='')

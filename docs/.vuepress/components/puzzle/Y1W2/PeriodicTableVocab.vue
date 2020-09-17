@@ -3,14 +3,14 @@
 .puzzle
   task(
     bkg='458786733'
-    :time='15'
+    :time='10'
     )
     
     template(v-slot:title='')
       | The Periodic Table
 
     template(v-slot:puzzle='')
-      p Download and install the Periodic Table anki deck.
+      p Download and install the Periodic Table anki deck.  You can find it in #[i chem student view / Anki / IB Chemistry / vocab / by topic].
 
     template(v-slot:help='')
       Vimeo(vid='457245328' name="sol")
