@@ -1,9 +1,20 @@
 # Session Physical: Modus operanti 🛠
 
-<puzzle-template />
-<puzzle-template />
-<puzzle-template />
+*Modus operanti* is Latin for "mode of operation", in other words, *how things work*.
 
-### Homework
+## How classes works
 
-Complete  by **(Wed) 21:00**.  This should take no more than *n** minutes.
+So, how do classes work?  We will play through this with a Kahoot in teams.  If you are off-campus, try this in your own time.
+
+## Activity..??
+
+## Resources Distribution
+
+We will distribute the following:
+
+* textbook,
+* study guide,
+* Data Booklet, and
+* Syllabus roadmap
+
+If you are off-campus, collect these when you return.

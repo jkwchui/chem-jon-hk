@@ -1,8 +1,8 @@
 # Session Digital: Volumes 💨
 
-<puzzle-template />
-<puzzle-template />
-<puzzle-template />
+<puzzle-Y1W3-Molecules3Din2D />
+<puzzle-Y1W3-MolecularFormula />
+<puzzle-Y1W3-VolumeCalculations />
 
 ### Homework
 

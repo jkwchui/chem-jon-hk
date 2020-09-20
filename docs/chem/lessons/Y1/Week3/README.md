@@ -47,11 +47,11 @@ In these two years I will try to develop you as a whole person.  I do this by co
 
 In the last two weeks we have been plotting different graphs and drawing different imageries.  In other words, looking broadly at visualizing data with color, time, or boxes.  Our first optional session is visualizing music 🎼 as colored 🌈 boxes 📦 in time ⏱.
 
-<a href="./SessionO" class="el-button el-button--warning">Session Optional: 🎼 as 🌈 📦 ⏱</a>
+<a href="./SessionO" class="el-button el-button--success">Session Optional: 🎼 as 🌈 📦 ⏱</a>
 
 ### Physical session
 
-If you are on-campus, join us in the lab (A/204) at the following times:
+If you are on-campus, **bring your chem binder** and join us in the lab (A/204) at the following times:
 
 * **B**: Thu Sep 24 10:00-11:00
 * **D**: Wed Sep 23 10:00-11:00

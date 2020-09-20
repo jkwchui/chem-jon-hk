@@ -7,10 +7,10 @@
     )
     
     template(v-slot:title='')
-      | Title of the puzzle
+      | Volume Calculations
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
+      p Convert these to dm#[sup 3].  What is #[span {{someValue}}] x #[span {{someMul}}]?
       //- img(src="/image/IB_M20/subject-path.png")
       el-slider(
         v-model="someValue"
@@ -30,6 +30,8 @@
         li #[Difficulty(:stars="3")] 68 x 70
       p Can you do each of these within 10 seconds?
       AnswerBox(:correctAnswers = "['apple', 'apples']")
+
+      p If we pretend that a water molecule is spherical, its diameter is about 2.75 Å.  Estimate the maximal number of water molecules that can pack into a 1 dm#[sup 3] volume.
 
     template(v-slot:help='')
       p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
