@@ -6,7 +6,7 @@
 
 So, how do classes work?  We will play through this with a Kahoot in teams.  If you are off-campus, try this in your own time.
 
-## Activity..??
+## Make-One-of-These
 
 ## Resources Distribution
 

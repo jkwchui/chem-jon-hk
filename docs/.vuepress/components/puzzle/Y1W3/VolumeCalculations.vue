@@ -3,52 +3,63 @@
 .puzzle
   task(
     bkg='' 
-    :time='15'
+    :time='10'
     )
     
     template(v-slot:title='')
-      | Volume Calculations
+      | Unit Conversions: Volumes
 
     template(v-slot:puzzle='')
-      p Convert these to dm#[sup 3].  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
-      el-slider(
-        v-model="someValue"
-        :step="4"
-        show-stops
-        show-input
-      )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
-      AnswerBox(:correctAnswers = "['apple', 'apples']")
+      p Convert #[span {{volume1}} {{unit1}}]#[sup 3] to nm#[sup 3].
+      p Use the sliders below to create four questions of increasing difficulty.
 
-      p If we pretend that a water molecule is spherical, its diameter is about 2.75 Å.  Estimate the maximal number of water molecules that can pack into a 1 dm#[sup 3] volume.
+      el-slider(
+        v-model="volume1"
+        :step="5"
+        :max="1000"
+        show-input
+      )
+      el-select(v-model='unit1' 
+                placeholder='Select unit')
+        el-option(v-for='item in options1' :key='item.value' :label='item.label' :value='item.value')
+
+      AnswerBox(:correctAnswers = "getnm")
+
+      p Convert #[span {{volume2}} {{unit2}}]#[sup 3] to dm#[sup 3].
+      p Use the sliders below to create four questions of increasing difficulty.
+
+      el-slider(
+        v-model="volume2"
+        :step="5"
+        :max="1000"
+        show-input
+      )
+      el-select(v-model='unit2' 
+                placeholder='Select unit')
+        el-option(v-for='item in options2' :key='item.value' :label='item.label' :value='item.value')
+
+      AnswerBox(:correctAnswers = "getdm")
+
+      hr
+
+      p If we approximate a water molecule as a sphere, its diameter would be 2.75 Å.  What is its volume?
+      AnswerBox(:correctAnswers = "['']")
+
+      p How many water molecules can fit into 1 dm#[sup 3]?
+      AnswerBox(:correctAnswers = "['']")
 
     template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
+      p Once again, with feelings: #[strong if you get some wrong, it is probably because you skipped steps.]
       el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
+        el-collapse-item(title="Essential Habit 1" name="1")
+          | Do this on paper.
+        el-collapse-item(title="Essential Habit 2" name="2")
+          | If necessary, break each conversion into steps.  Use a conversion factor to change to intermediate units.  You trade speed for accuracy, and it is a good trade.  #[strong There is no prize for the first to be wrong.]
+        el-collapse-item(title="Essential Habit 3" name="3")
+          | Write out all units and factor-of-ten explicitly.  Cross out units.  What remains should be "nm".  If it is not, something is wrong with your set up.
 
     template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='457245328' name="sol")
-
+      p It is quite inconvenient to refer to such large number of objects.  Nowhere else in life do we ever need 10#[sup 20+].  I wonder if there is a way to simplify that? 🧐
 </template>
 
 <script>
@@ -58,8 +69,60 @@ export default {
   data () {
     return {
       activeHint: '0',
-      someValue: 10,
-      someMul: 20
+      volume1: 100,
+      volume2: 100,
+      unit1: 'nm',
+      unit2: 'dm',
+      options1: [{
+          value: 'Å',
+          label: 'Å'
+        }, 
+        {
+          value: 'nm',
+          label: 'nm'
+        },
+        {
+          value: 'μm',
+          label: 'μm'
+      }],
+      options2: [{
+          value: 'cm',
+          label: 'cm'
+        }, {
+          value: 'dm',
+          label: 'dm'
+        }, {
+          value: 'm',
+          label: 'm'
+      }]
+    }
+  },
+  computed: {
+    getnm: function() {
+      switch(this.unit1) {
+        case "Å":
+          return [(this.volume1 / 1000).toString()]
+          break;
+        case "nm":
+          return [(this.volume1 * 1).toString()]
+          break;
+        case "μm":
+          return [(this.volume1 * 1000000000).toString()]
+          break;
+        }
+    },
+    getdm: function() {
+      switch(this.unit2) {
+        case "cm":
+          return [(this.volume2 / 1000).toString()]
+          break;
+        case "dm":
+          return [(this.volume2 * 1).toString()]
+          break;
+        case "m":
+          return [(this.volume2 * 1000).toString()]
+          break;
+        }
     }
   }
 }

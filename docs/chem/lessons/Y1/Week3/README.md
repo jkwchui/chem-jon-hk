@@ -58,7 +58,7 @@ If you are on-campus, **bring your chem binder** and join us in the lab (A/204) 
 * **E**: Tue Sep 22 10:00-11:00
 * **G**: Fri Sep 25 10:00-11:00
 
-If you are **NOT** on campus, part of this lesson is packaged as the following link.
+If you are **NOT** on campus, part of this lesson is packaged as the following link.  This will happen *after* our first session on Tuesday.
 
 <a href="./SessionP" class="el-button el-button--warning">Session Physical: Modus operanti 🛠</a>
 
