@@ -50,7 +50,7 @@ If you are on-campus, **bring your chem binder** and join us in the lab (A/204).
 
 If you are **NOT** on campus, part of this lesson is packaged as the following link.  This will happen *after* our first session on Tuesday.
 
-<a href="./SessionP" class="el-button el-button--warning">Session Physical: Modus operanti 🛠</a>
+<a href="./SessionP" class="el-button el-button--success">Session Physical: Modus operanti 🛠</a>
 
 ### Optional session
 

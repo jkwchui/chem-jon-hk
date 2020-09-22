@@ -2,11 +2,11 @@
 
 *Modus operanti* is Latin for "mode of operation", in other words, *how things work*.
 
-## How classes works
-
-So, how do classes work?  We will play through this with a Kahoot in teams.  If you are off-campus, try this in your own time.
+<puzzle-Y1W3-ChemClass />
 
 ## Make-One-of-These
+
+In this activity we played with different kinds of physical #[i molecular models].  There is no 
 
 ## Resources Distribution
 
