@@ -64,7 +64,7 @@ In the last two weeks we have been plotting different graphs and drawing differe
 
 This last session is similar to what you have done in the past weeks.  If you are on-campus, do this in your *other* chemistry lesson.
 
-<a href="./SessionD" class="el-button el-button--warning">Session Digital: Volume 💨</a>
+<a href="./SessionD" class="el-button el-button--success">Session Digital: Volume 💨</a>
 
 ## Class Collage
 

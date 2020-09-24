@@ -2,8 +2,8 @@
 
 .puzzle
   task(
-    bkg='' 
-    :time='10'
+    bkg='461280224' 
+    :time='15'
     )
     
     template(v-slot:title='')
@@ -42,6 +42,7 @@
 
       hr
 
+      p Use your graphical calculator for the next parts.
       p If we approximate a water molecule as a sphere, its diameter would be 2.75 Å.  What is its volume?
       AnswerBox(:correctAnswers = "['']")
 
