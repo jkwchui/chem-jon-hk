@@ -39,9 +39,6 @@
           | A huge amount of resources are available in both the Google Folder and the website.  (We cannot put interactive toys in the Google Drive.)  Explore.
           | Please #[strong do not share] material from the Google Folder.  There are materials that were paid for by the College, and would be a copyright violation if we pass access to others.
 
-    template(v-slot:reflect='')
-      p 323
-
 </template>
 
 <script>

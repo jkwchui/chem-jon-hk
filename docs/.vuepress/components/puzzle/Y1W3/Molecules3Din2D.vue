@@ -2,7 +2,7 @@
 
 .puzzle
   task(
-    bkg='' 
+    bkg='461216770' 
     :time='15'
     )
     
@@ -48,26 +48,10 @@
 
     template(v-slot:help='')
       p Note that these are #[strong possible] answers --- you may have rotated your structural formula and have one that #[i looks] different.
-      el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Ethane" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Isopropanol" name="2")
-          | 20 = 10 x 2.
-        el-collapse-item(title="cadaverine" name="3")
-          | 20 = 10 x 2.
-        el-collapse-item(title="benzene" name="4")
-          | 20 = 10 x 2.
-        el-collapse-item(title="aspirin" name="5")
-          | 20 = 10 x 2.
-        el-collapse-item(title="sexithiophene" name="6")
-          | 20 = 10 x 2.
-        el-collapse-item(title="cubane" name="7")
-          | 20 = 10 x 2.
-        el-collapse-item(title="caffeine" name="8")
-          | 20 = 10 x 2.
+      Vimeo(vid='461220489' name="solution")
 
     template(v-slot:reflect='')
-      p C, C, C... seriously --- such "C"s!  Suppose successful simplifications... #[i si?] 🧐
+      p The software used in the intro video is called #[a(href="https://www.samson-connect.net/") SAMSON (Software for Adaptive Modeling and Simulation Of Nanosystems)], and is a kind of #[i molecular modeling] tool.  You will learn to operate these in the future.
 
 </template>
 
