@@ -2,7 +2,7 @@
 
 .puzzle
   task(
-    bkg='' 
+    bkg='462536536' 
     :time='15'
     )
     
