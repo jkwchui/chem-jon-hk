@@ -11,7 +11,7 @@
 
     template(v-slot:puzzle='')
       p It's difficult for me to set interactive puzzles for you, because there is no simple way for you to enter scientific notations, and you are not fluent enough with sig figs to get them right.  
-      p To work around this, use the "E" notation: enter "5.55 x 10#[3]" as "5.55e3", and keep #[strong three] sig fig for your answers.
+      p To work around this, use the "E" notation: enter 5.55 x 10#[sup 3] as 5.55e3, and keep #[strong three] sig fig for your answers.
 
       p How many neon atoms are in #[strong 0.500 mol of Ne atoms]?
       AnswerBox(:correctAnswers = "['3.01e23']")
@@ -36,7 +36,7 @@
 
     template(v-slot:help='')
       p One molecule can contain more than one atom, and one atom can contain more than one sub-atomic particle.
-      p Unless specified, assume the most common isotope.
+      p Unless specified, assume the most common isotope.  #[sup 2]H is also called #[i deuterium], with the symbol D.  This isotope gets its own symbol because it has so many important uses.
 
 </template>
 
