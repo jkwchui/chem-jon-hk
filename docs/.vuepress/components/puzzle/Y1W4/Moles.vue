@@ -10,42 +10,33 @@
       | Moles as a Unit for Counting
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
-      el-slider(
-        v-model="someValue"
-        :step="4"
-        show-stops
-        show-input
-      )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
-      AnswerBox(:correctAnswers = "['apple', 'apples']")
+      p It's difficult for me to set interactive puzzles for you, because there is no simple way for you to enter scientific notations, and you are not fluent enough with sig figs to get them right.  
+      p To work around this, use the "E" notation: enter "5.55 x 10#[3]" as "5.55e3", and keep #[strong three] sig fig for your answers.
+
+      p How many neon atoms are in #[strong 0.500 mol of Ne atoms]?
+      AnswerBox(:correctAnswers = "['3.01e23']")
+
+      p How many neon atoms are in #[strong 1000 mol of Ne atoms]?
+      AnswerBox(:correctAnswers = "['6.02e26']")
+
+      p How many wheels are in #[strong 0.5 dozens of bicycles]?
+      AnswerBox(:correctAnswers = "['12']")
+
+      p How many hydrogen atoms are in #[strong 0.500 mol of water molecules]?
+      AnswerBox(:correctAnswers = "['6.02e23']")
+
+      p How many neutrons are in 0.500 mol #[sup 2]H?
+      AnswerBox(:correctAnswers = "['3.01e23']")
+
+      p What is the alternative symbol for #[sup 2]H?
+      AnswerBox(:correctAnswers = "['d']")
+
+      p How many neutrons are in 0.500 mol H#[sub 2]?
+      AnswerBox(:correctAnswers = "['0']")
 
     template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
-      el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
-
-    template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='457245328' name="sol")
+      p One molecule can contain more than one atom, and one atom can contain more than one sub-atomic particle.
+      p Unless specified, assume the most common isotope.
 
 </template>
 
