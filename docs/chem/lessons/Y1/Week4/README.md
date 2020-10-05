@@ -41,7 +41,7 @@ If you cannot be on-campus, part of the session explaining signficant figures is
 
 The other session is independent of the lab session.  Despite numbered as 2, it can be done either before or after the physical session.
 
-<a href="./Session2" class="el-button el-button--warning">Session 2: Mass ⚖️</a>
+<a href="./Session2" class="el-button el-button--success">Session 2: Mass ⚖️</a>
 
 ## Class Collage
 
