@@ -10,42 +10,22 @@
       | Drawing Diagrams in Miro
 
     template(v-slot:puzzle='')
-      p Solve these without a calculator.  What is #[span {{someValue}}] x #[span {{someMul}}]?
-      //- img(src="/image/IB_M20/subject-path.png")
-      el-slider(
-        v-model="someValue"
-        :step="4"
-        show-stops
-        show-input
-      )
-      el-slider(
-        v-model="someMul"
-        :step="10"
-        show-stops
-        show-input
-      )
-      ul 
-        li #[Difficulty(:stars="1")] 10 x 20
-        li #[Difficulty(:stars="2")] 22 x 30
-        li #[Difficulty(:stars="3")] 68 x 70
-      p Can you do each of these within 10 seconds?
-      AnswerBox(:correctAnswers = "['apple', 'apples']")
+      p Consider signing up for an educational license for #[a(href="https://www.miro.com") Miro].  We will use this as a collaboration tool in the future.
+      ol 
+        li Sketch the diagrams on paper; then
+        li Convert it into a Miro drawing.  Use either the class drawing, or create your own board.
 
     template(v-slot:help='')
-      p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
-      el-collapse(v-model="activeHint" accordion)
-        el-collapse-item(title="Step 1" name="1")
-          | Try multiplying in two steps.
-        el-collapse-item(title="Step 2" name="2")
-          | 20 = 10 x 2.
+      p Consider going through your 4 weeks' notes and annotating all of this on your Miro board.
+      p You can bring a half-A4 page crib sheet for your first test (H-20).  Start thinking about how you can use the page!
 
     template(v-slot:reflect='')
-      p #[span {{someValue}}] x #[span {{someMul}}] 
-      p #[span {{someValue}}] x 10 x #[span {{someMul / 10}}]
-      p #[span {{someValue * 10}}] x #[span {{someMul / 10}}]
-      p #[span {{someValue * someMul}}]
-      p Check that your answer has blah.
-      Vimeo(vid='457245328' name="sol")
+      p Most people say they hate group work.  I'd argue working in a group requires
+      ol
+        li #[strong Skills] that they have never learnt, and
+        li #[strong Tools] that they have never had
+      
+      p #[i Anyone] would "hate cooking" if they are asked to invent it from stone age conditions.  We will try to build the skills and get the tools before sending you in the deep end.
 
 </template>
 
