@@ -10,6 +10,8 @@
       | From Full Structural Formula to Skeletal Structural Formula
 
     template(v-slot:puzzle='')
+      p The other way of "compressing" the full structural formula is the #[strong condensed] structural formula.  In a condensed structural formula you write out the formula as a string, e.g., CH#[sub 3]CH#[sub 2]CHOHCH#[sub 3].
+      p While we often condense #[i part] of the structure like a -CH#[sub 3] or -OH fragment, we don't usually use it in full because it is not capable of showing cyclic structures.
       p Try the examples in your notes.
 
 </template>

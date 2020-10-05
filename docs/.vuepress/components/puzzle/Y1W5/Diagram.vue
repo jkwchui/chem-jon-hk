@@ -20,6 +20,8 @@
       p You can bring a half-A4 page crib sheet for your first test (H-20).  Start thinking about how you can use the page!
 
     template(v-slot:reflect='')
+      p You may find it surprising that I referred to a structural formula (either kind) as having similar information content as that of a 3-dimensional representation.  "What about the lengths and angles?"  It turns out that many aspects of those are very predictable: you will learn about them as #[strong VSEPR] and #[strong bond lengths] in the future.
+      hr
       p Most people say they hate group work.  I'd argue working in a group requires
       ol
         li #[strong Skills] that they have never learnt, and
