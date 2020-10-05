@@ -14,6 +14,9 @@
       p While we often condense #[i part] of the structure like a -CH#[sub 3] or -OH fragment, we don't usually use it in full because it is not capable of showing cyclic structures.
       p Try the examples in your notes.
 
+    template(v-slot:help='')
+      img(src="/image/Y1W5/Y1-W5-S1_F2S_soln.png")
+
 </template>
 
 <script>

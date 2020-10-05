@@ -12,6 +12,9 @@
     template(v-slot:puzzle='')
       p Try the examples in your notes.
 
+    template(v-slot:help='')
+      img(src="/image/Y1W5/Y1-W5-S1_S2F_soln.png")
+
 </template>
 
 <script>
