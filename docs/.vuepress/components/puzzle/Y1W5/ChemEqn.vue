@@ -3,14 +3,14 @@
 .puzzle
   task(
     bkg='465289975' 
-    :time='15'
+    :time='45'
     )
     
     template(v-slot:title='')
       | Chemical Equations
 
     template(v-slot:puzzle='')
-      p Try the worksheet (Part 1 only), and check your answers here (<- hmm.  Where is my PDF?)
+      p Try the worksheet (#[a(href="/resources/worksheets/1-balancing_chemical_equations.pdf") Part 1 only]), and check your answers here (<- hmm.  Where is my PDF?)
 
     template(v-slot:help='')
       p 
