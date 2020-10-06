@@ -43,6 +43,8 @@ Complete and submit the homework for each session before their due dates.
 
 <a href="./Session1" class="el-button el-button--success">Session 1: Pictures 🖼</a>
 
+<a href="./Session2" class="el-button el-button--success">Session 2: Equations</a>
+
 ## Class Collage
 
 In this section I will post a selection of the homework your class submitted.  Check back next week!
