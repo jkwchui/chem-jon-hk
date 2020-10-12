@@ -12,13 +12,9 @@
     template(v-slot:puzzle='')
       p Try the questions in the PDF worksheet titled #[strong Molar Mass calculations].  You can download a copy #[a(href="/resources/worksheets/1-mole_mass_calculations.pdf") here].
 
-    //- template(v-slot:help='')
-    //-   p Have you #[b thought] about doing this in #[a(href="https://www.google.com") multiple] bites?
-    //-   el-collapse(v-model="activeHint" accordion)
-    //-     el-collapse-item(title="Step 1" name="1")
-    //-       | Try multiplying in two steps.
-    //-     el-collapse-item(title="Step 2" name="2")
-    //-       | 20 = 10 x 2.
+    template(v-slot:help='')
+      p Check your answers against the solution #[a(href="/resources/worksheets/1-mole_mass_calculations_solution.pdf") here].  
+      p Note an error in answer to 4c.  The coefficient to oxygen should be 3/2.
 
     //- template(v-slot:reflect='')
     //-   p #[span {{someValue}}] x #[span {{someMul}}] 

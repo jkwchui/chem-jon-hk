@@ -45,6 +45,8 @@ Complete and submit the homework for each session before their due dates.
 
 <a href="./Session2" class="el-button el-button--success">Session 2: Equations</a>
 
+<a href="./SessionLab" class="el-button el-button--success">Session Lab: Quiz and Measurements</a>
+
 ## Class Collage
 
 In this section I will post a selection of the homework your class submitted.  Check back next week!
