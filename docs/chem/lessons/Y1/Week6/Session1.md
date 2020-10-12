@@ -8,7 +8,7 @@ In the previous weeks you have interacted with chemical structures, but with not
 2. the selection have all been examples of "*small molecules*",
 3. you have only seen a single copy, when real world molecules exist as a dynamic population
 
-In two sessions this week we will use [AtomSmith](https://www.atomsmith.co) to overcome some of these limits.  Click on the following button, then follow the instructions in the printed notes to 
+In two sessions this week we will use [AtomSmith](https://www.atomsmith.co) to overcome some of these limits.  Click on the following button, then login using your LPCUWC Google account.  Instructions are in the printed notes; follow to 
 
 1. complete the *Measuring Models of Molecules* and
 2. complete the *Exploring Molecules in Your World 2* experiences

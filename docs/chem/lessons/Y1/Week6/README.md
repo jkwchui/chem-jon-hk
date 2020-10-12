@@ -33,7 +33,7 @@ On Thu and Fri, I will be in the lab (A/204) during morning class time:
 
 You can come ask questions and we can do whatever chemistry (extra practice, outside syllabus material) you want to do and learn.  I will also start up a Teams meeting for those who is not yet on-campus.
 
-The only homework for submission this week is the lab report, due for **Sunday 21:00**.  Suggested 
+The only homework for submission this week is the lab report, due for **Sunday 21:00**.
 
 <a href="./Session1" class="el-button el-button--success">Session 1: Structures </a>
 
