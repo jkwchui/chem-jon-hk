@@ -37,7 +37,7 @@ The only homework for submission this week is the lab report, due for **Sunday 2
 
 <a href="./Session1" class="el-button el-button--success">Session 1: Structures </a>
 
-<!-- <a href="./Session2" class="el-button el-button--success">Session 2: Equations</a> -->
+<a href="./Session2" class="el-button el-button--success">Session 2: Many Many</a>
 
 ## Upcoming test
 
