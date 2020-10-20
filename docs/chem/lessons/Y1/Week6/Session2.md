@@ -14,7 +14,7 @@ Until now you have learnt separate parts of a larger puzzle w.r.t. both chemistr
    1. significant figures (implicit), or
    2. uncertainties (explicit)
 
-Today you will learn to:
+Today you will learn to: 
 
 1. see and graph speeds of many particles, and
 2. calculate the uncertainty from repeated measurements
@@ -128,6 +128,12 @@ These are skills you will use for writing up the lab report.
 ::: tip Solutions
 
 Check the `solution` tab for a completed attempt.
+
+:::
+
+::: danger Integrating the session
+
+Is it possible to describe the distribution of molecular speeds / kinetic energies using what you learnt in the uncertainty section?  Why or why not?  Think about the *assumptions* made in our uncertainty calculations, and examine the energy distributions from AtomSmith carefully.  You may need an extended simulation.
 
 :::
 

@@ -17,10 +17,13 @@ This week's notes [can be downloaded here](/resources/worksheets/Y1-week5-notes.
 ::: tip What you learnt last week
 
 <center>
-
-|  Skills   |   Maths   |   Shapes  |  Others  |
-|:---------:|:---------:|:---------:|:--------:|
-|           |           |           |          |
+|          Skills          |                            Maths                            |      Chem/Shapes      |             Others             |
+|:------------------------:|:-----------------------------------------------------------:|:---------------------:|:------------------------------:|
+| Using volumetric pipette |                      Counting Sig Figs                      |   Isotopes notation   | Naming chemistry lab equipment |
+|      Using syringe       |    Using Avogadro number to convert moles and particles     |  Isotopes properties  |                                |
+|      Using burette       | Calculating atomic masses (natural abundance and otherwise) | Deuterium and Tritium |                                |
+|    Using micropipette    |           Calculating molar mass from atomic mass           |                       |                                |
+|  Using Pasteur pipette   |   Distinguishing between relative and "normal" molar mass   |                       |                                |
 
 </center>
 
