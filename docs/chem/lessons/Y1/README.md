@@ -23,3 +23,7 @@
 ## Week 6
 
 [Week 6](./Week6/)
+
+## Week 7
+
+[Week 7](./Week7/)
