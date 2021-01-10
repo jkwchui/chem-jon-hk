@@ -1,10 +1,10 @@
-# Week XXX
+# Week 15
 
 ## Preparations
 
 If you are on-campus, pick up the notes before the class.
 
-If you are at home, download and print [this week's notes](/resources/worksheets/Y1-weekXXX-notes.pdf) before continuing.
+If you are at home, download and print [this week's notes](/resources/worksheets/Y1-week15-notes.pdf) before continuing.
 
 <Foldable>
 

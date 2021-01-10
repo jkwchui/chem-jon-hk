@@ -1,10 +1,10 @@
-# Week XXX
+# Week 17
 
 ## Preparations
 
 If you are on-campus, pick up the notes before the class.
 
-If you are at home, download and print [this week's notes](/resources/worksheets/Y1-weekXXX-notes.pdf) before continuing.
+If you are at home, download and print [this week's notes](/resources/worksheets/Y1-week17-notes.pdf) before continuing.
 
 <Foldable>
 
@@ -33,6 +33,27 @@ There *is* homework this week.  Complete and submit the homework on ManageBac by
 <a href="./Session2" class="el-button el-button--danger">Session 2: </a>
 
 <a href="./Session3" class="el-button el-button--danger">Session 3: </a>
+
+## Upcoming test (next week)
+
+* **Date**: 
+* **Time**: 
+* **Location**: 
+* **Scope**: 
+* **Format**: the test will be 60 min and [40], split into:
+  1. [15] multiple choice
+  2. [25] short questions (like the quiz)
+* **What to bring**:
+  1. Data Booklet,
+  2. Calculator,
+  3. A hand-written sheet of A5 size.  (That is, half an A4.)
+  4. A print-out of your Anki stats that includes:
+     1. Review count bar chart, and
+     2. Card types pie chart
+
+A [+1] bonus is available for each of:
+1. 15 or more days Anki streak (30+ reviews), and
+2. minimum of 150 mature and 300 young+learn cards
 
 <!-- ## Class Collage
 

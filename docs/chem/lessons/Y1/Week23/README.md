@@ -1,10 +1,10 @@
-# Week XXX
+# Week 23
 
 ## Preparations
 
 If you are on-campus, pick up the notes before the class.
 
-If you are at home, download and print [this week's notes](/resources/worksheets/Y1-weekXXX-notes.pdf) before continuing.
+If you are at home, download and print [this week's notes](/resources/worksheets/Y1-week23-notes.pdf) before continuing.
 
 <Foldable>
 
@@ -26,7 +26,7 @@ There are **three** sessions this week.  A Teams meeting is scheduled for each c
 
 If the activities within the session cannot be finished within one hour, complete the remainder at a time of your choosing.
 
-There *is* homework this week.  Complete and submit the homework on ManageBac by Sunday 9 pm.
+Lab draft is due this week.  Complete and submit the PDF on ManageBac by Sunday 9 pm.
 
 <a href="./Session1" class="el-button el-button--danger">Session 1: </a>
 

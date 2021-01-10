@@ -2,23 +2,7 @@
 
 ## Preparations
 
-Download and print [this week's notes](/resources/worksheets/) before continuing.
-
-<Foldable>
-
-::: tip What you learnt last week
-
-<center>
-
-|  Skills   |   Maths   |   Shapes  |  Others  |
-|:---------:|:---------:|:---------:|:--------:|
-|           |           |           |          |
-
-</center>
-
-:::
-
-</Foldable>
+Download and print [this week's notes](/resources/worksheets/Y1-week6-notes.pdf) before continuing.
 
 There are only two sessions this week.  This should free up time for you to prepare for your test next week (see below) as well as complete the Precision of Glassware lab write-up.
 
